@@ -1,0 +1,10 @@
+<div class="container"> 
+	<h1><mat-icon>settings</mat-icon> {{title}}</h1><hr/>
+	<label>{{choix}}</label>
+	<form [formGroup]="form">
+		<input type='file' id='fileinput' (change)="onFileChange($event)" (change)="handleFileSelect($event.target.files)" (change)="loadFile() || onSubmit()" #fileInput>
+		<output id="list"></output>
+		<button type="button" class="btn btn-light" [disabled]="form.invalid" (click)="clearFile()"><mat-icon>redo</mat-icon>{{changer}}</button>
+	</form>
+	<pre id="contenu1"></pre>
+</div>

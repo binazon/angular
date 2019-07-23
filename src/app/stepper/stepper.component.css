@@ -1,0 +1,269 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.container{
+   margin-top : 25px;
+   font-size : 20pt;
+   width : 102%;
+}
+
+
+.transition, p, ul li i:before, ul li i:after {
+  transition: all 0.25s ease-in-out;
+}
+
+.flipIn, ul li {
+  animation: flipdown 0.25s ease both;
+}
+
+.no-select, h2 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (max-width: 550px) {
+  body {
+    box-sizing: border-box;
+    transform: translate(0, 0);
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    left: 0;
+  }
+}
+h1, h2 {
+  color: #ff6873;
+}
+h1 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family : arial;
+  color : black;
+  margin : 30px 0px 0px 5%;
+}
+h2 {
+  font-size: 26px;
+  font-weight : bold;
+  line-height: 34px;
+  letter-spacing: 1px;
+  display: block;
+  background-color: #fefffa;
+  cursor: pointer;
+  font-family: arial;
+  color : black;
+  width : 75%;
+}
+
+p {
+  color: black;
+  font-size: 12pt;
+  line-height: 26px;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+  font-family:arial;
+}
+
+ul {
+  list-style: none;
+  perspective: 900;
+  margin : 0px 0px 0px -15px;
+}
+ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #dce7eb;
+  border-top: 1px solid #dce7eb;
+}
+ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin : 30px 15px 0px 0px;
+  right: 0;
+}
+ul li i:before, ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #ff6873;
+  width: 3px;
+  height: 9px;
+}
+ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 75%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  font-size : 25pt;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+.form-group{
+  margin : 30px 0px 15px 10%;
+}
+.flat a, .flat a:after {
+	background: white;
+	color: black;
+	transition: all 0.5s;
+}
+.flat a:before {
+	background: white;
+	box-shadow: 0 0 0 1px #ccc;
+}
+.flat a:hover, .flat a.active, 
+.flat a:hover:after, .flat a.active:after{
+	background: #9EEB62;
+}
+button{
+  font-size : 12pt;
+  margin : 15px 0px 0px 5px;
+}
+.text-center{
+   float : right;
+   margin : 10px 5% 0px 0px;
+}
+.text-button{
+  margin : -42px 0px 0px 31%;
+}
+.text-add{
+ margin : -25px 0px 25px 47%;
+}
+div{
+   font-size : 12pt;
+}
+
+.container1{
+   width : 100%;
+   border : grey solid 6px;
+   margin : 10px 0px 10px 0%;
+   padding : 0px 0px 10px 0px
+}
+.btn11{
+   float : right;
+   margin : 10px .3% 0px 0px;
+}
+.btn12{
+   float : right;
+   margin : 10px 3% 0px 0px;
+}
+
+.search-heroId {
+  width: 700px;
+  padding-bottom: 50px;
+  margin:auto;
+}
+.search-hero {
+  float : left;
+  width: 50%;
+  padding-bottom: 50px;
+  margin:25px 0px 0px 2%;
+}
+
+.form-control {
+  box-shadow: 0 10px 40px 0 #B0C1D9;
+}
+.form-control::placeholder  {
+  font-family: FontAwesome;
+  font-size : 14pt;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.version-info {
+  font-size: 8pt;
+  float: right;
+}
+
+mat-form-field{
+  float : left; 
+  margin : 10px 0px 0px 30px;
+  width : 28%;
+}
+form{
+   margin : 80px 0px 0px 170px;
+}
+
+@keyframes flipdown {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}
+

@@ -1,0 +1,121 @@
+<!--<div class="container">
+    <h2>Welcome to {{ title }}!</h2>
+    <div class="well well-lg">
+        <button type="button" class="btn btn-primary" (click)="modalAlert()">Modal Alert</button>
+        <button type="button" class="btn btn-primary" (click)="modalConfirm()">Modal Confirm</button>
+        <button type="button" class="btn btn-primary" (click)="modalOpen()">Modal Open</button>
+    </div>
+</div>-->
+
+<!--<button type="button" class="btn btn-primary" (click)="openModal(template)">Create template modal</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Modal</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    This is a modal.
+  </div>
+</ng-template>-->
+
+
+<div class="container">
+<mat-horizontal-stepper [linear]="true" #stepper>
+  <mat-step>
+      <ng-template matStepLabel>Parsing offerAndOption</ng-template>
+      <!--code template1-->
+      <div class="container1">
+	<h1><mat-icon>settings</mat-icon> Début de la configuration</h1><hr/>
+	<div class="search-heroId">
+	  <mat-form-field>
+  	    <mat-label>Rechercher par options</mat-label>
+  	    <mat-select (selectionChange)="open($event)">
+    	      <mat-option *ngFor="let type of optionType" [value]="type">
+      	        {{type}}
+    	      </mat-option>
+  	    </mat-select>
+	  </mat-form-field>
+	  <div class="search-hero">
+      	    <input class="form-control" type="text" name="search" [(ngModel)]=searchText autocomplete="off" placeholder="&#61442;  {{chercher}}">
+	  </div>
+	</div>
+	<form [formGroup]="form">
+	  <div class="form-group">
+	    <input type="file" id="fileinput" (change)="onFileChange($event)" (change)="onSubmit()" #fileInput>
+	    <div class="text-button">
+	      <button type="button" class="btn btn-sm btn-light" [disabled]="form.invalid" (click)="clearFile()">
+	        <mat-icon>redo</mat-icon>changer de fichier
+	      </button>
+	    </div>
+	  </div>
+	</form>
+	<div class="text-add">
+		<button type="button" class="btn btn-sm btn-primary" (click)="ajouterOffre()"><mat-icon>add_circle</mat-icon>Ajouter une offre</button>
+	</div>
+	<ul *ngFor="let data of objs?.listOffer?.offer | filter:searchText">
+	  <li>
+	    <input type="checkbox" checked>
+	    <i></i>
+	    <div class="text-center">
+            	<button class="btn btn-danger btn-sm" (click)="deleteOffre(data)"><mat-icon>delete</mat-icon>Delete</button>
+            	<button class="btn btn-warning btn-sm" (click)="updateOffre(data)"><mat-icon>create</mat-icon>Update</button>
+            </div>
+	    <h2>
+		commercialName:[{{data['@attributes'].commercialName}}] , alias:[{{data['@attributes'].alias}}]
+	    </h2>
+	    <div *ngIf="data.option.length==undefined; then login else logout"></div>
+	    <ng-template #login>
+		<p>
+		  <a>
+		    <button mat-button matStepperNext>	
+		      <!--routerLink="/reportConfig/{{data['@attributes'].alias+'_'+data.option['@attributes'].cpltAlias}}"-->
+		      label:[{{data.option['@attributes'].label}}] ,
+		      cptAlias:[{{data.option['@attributes'].cpltAlias}}] ,
+		      type:[{{data.option['@attributes'].type}}]
+  	  	    </button>
+		  </a>
+            	  <button class="btn12 btn-warning btn-sm" (click)="updateOffre(data)"><mat-icon>create</mat-icon></button>
+            	  <button class="btn11 btn-danger btn-sm" (click)="deleteOffre(data)"><mat-icon>delete</mat-icon></button>
+		</p>
+	    </ng-template>
+	    <ng-template #logout>
+		<p *ngFor="let data1 of data?.option | filter:searchText1">
+		  <a>
+		    <button mat-button matStepperNext>
+		      <!--routerLink="/reportConfig/{{data['@attributes'].alias+'_'+data1['@attributes'].cpltAlias}}"-->
+		      label:[{{data1['@attributes'].label}}] ,
+		      cptAlias:[{{data1['@attributes'].cpltAlias}}] ,
+		      type:[{{data1['@attributes'].type}}]
+		    </button>
+		  </a>
+            	  <button class="btn12 btn-warning btn-sm" (click)="updateOffre(data)"><mat-icon>create</mat-icon></button>
+		  <button class="btn11 btn-danger btn-sm" (click)="deleteOffre(data)"><mat-icon>delete</mat-icon></button>
+		</p>
+	    </ng-template>
+	  </li>
+	</ul>
+      </div>
+      <!--fin code1-->
+  </mat-step>
+
+  <mat-step>
+      <ng-template matStepLabel>Parsing reportConfig</ng-template>
+      <!--<app-report-config>part2 config</app-report-config>-->
+  </mat-step>
+  <mat-step>
+      <ng-template matStepLabel>Parsing report</ng-template>
+
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Confirmer</ng-template>
+    Vous avez terminé.
+    <div>
+      <button mat-button matStepperPrevious>Précédent</button>
+      <button mat-button (click)="stepper.reset()">Redémarrer</button>
+    </div>
+  </mat-step>
+</mat-horizontal-stepper>
+</div>

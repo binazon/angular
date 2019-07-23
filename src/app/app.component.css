@@ -1,0 +1,33 @@
+button {
+  text-align: center;
+  display: inline-block;
+  margin-right : .3%;
+}
+
+p {
+  font-family: Arial;
+  size: 12pt;
+}
+.container{
+  margin-left : auto;
+  margin-right : auto;
+  width : 100%;
+  margin-top : 25px;
+  margin-bottom : 25px;
+}
+
+.col-sm-6{
+  margin-left : auto;
+  margin-right : auto;
+  width : 100%;
+  margin-top : 25px;
+}
+
+.row{
+  margin-top : 25px;
+}
+
+pre{
+  width : auto;
+  height : auto;
+}

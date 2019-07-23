@@ -1,0 +1,14 @@
+<h1>{{title}}</h1><hr/>
+<form class=form-group #monForm=ngForm>
+	<input type='file' id='fileinput' name="files[]" accept='.xml' #fileInput>
+	<table id="tab">
+		<td>
+			*Offre :<br/>Nom commercial : <input type="text" name="nom" class=form-control required/>Alias : <input type="text" name="alias" class=form-control required/>
+		</td>
+  		<tr id="cloner">
+			<label>*Option :<br/>Label : <input type="text" name="label" class=form-control required/>Complément alias : <input type="text" name="cpltalias" class=form-control required/>Type : <input type="text" name="type" class=form-control required/></label>
+  		</tr>
+	</table>
+	<button type="submit" class="btn btn-primary btn-block" (click)="ajouteOption();">Ajouter une option</button>
+	<button type="submit" class="btn btn-primary btn-block" [disabled] = !monForm.valid>Completer le fichier de configuration</button>
+</form>

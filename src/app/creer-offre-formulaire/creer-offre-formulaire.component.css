@@ -1,0 +1,40 @@
+form {
+	margin-top : 20px;
+	background-color:#FAFAFA;
+	padding:10px;
+	width:auto;
+	margin-left : 2%;
+}
+label{
+	margin-left : 100px;
+	width: 87%;
+}
+input {
+	width : 95%;
+}
+table {
+	float:  center;
+	border: medium solid green;
+	width: auto;
+	padding-left: 10%;
+	margin:10px 0px 20px 25%;
+}
+td {
+	border: thin solid green;
+	width: 50%;
+	padding-bottom: 15px;
+	padding-left: 6%;
+}
+tr{
+	border: thin solid green;
+	width: 50%;
+	padding-bottom: 15px;
+	padding-left: 6%;
+}
+h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color : blue;
+	font-weight: bold;
+	margin-top : 10px;
+}
