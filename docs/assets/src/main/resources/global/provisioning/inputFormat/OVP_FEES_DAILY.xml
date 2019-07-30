@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>duration</columnName>
+        <alias>duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[consumed duration]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>fees_amount</columnName>
+        <alias>fees_amount</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[type of fees]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>monthlyPlan</columnName>
+        <alias>monthlyPlan</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[monthly plan of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

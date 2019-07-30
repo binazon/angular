@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_621_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_621_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_OVP_NO_SHOW_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_621.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_623_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_623_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_OVP_TOP20_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_623.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_625_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_625_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_OVP_USAGE_THIRTEENMONTHS_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_625.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_626_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_626_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_OVP_P2P_MP_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_626.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_643_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_643_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_OVP_MEETING_THIRTEENMONTHS_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_637.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Number of the period, on 4 digits (ex: 0019).
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>element</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+- Always empty for the AFDB_BTIC-NETWORK* files
+- Site identifier for the AFDB_BTIC-SITES* files
+- GU identifier for the AFDB_BTIC-GU* files
+- Identifier of Contact Center for the AFDB_BTIC-CC* files
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>averageNumberOfConcurrentCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Average number of concurrent calls during the elementary period. 
+The simultaneity is estimated per second. 
+The calls taken into account are the calls which have started during the day (of this period).
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>maxNumberOfConcurrentCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Maximum number of concurrent calls during the elementary period.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>1</columnName>
+        <alias>sepid</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Identification of the Call Server platform.
+Example: PAR1
+Utile aux stats globales/SEP
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>2</columnName>
+        <alias>numordre</alias>
+        <dataFormat>bigint</dataFormat>
+        <comments><![CDATA[ticket serial number
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>3</columnName>
+        <alias>version</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[ticket version
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>4</columnName>
+        <alias>cdrstatus</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[CDR status: 
+0 = Normal CDR
+1 = CDR Closed after a switchover
+2 = Ghost CDR
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>5</columnName>
+        <alias>vpnid</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Calling VPNID if identified else 
+Called VPNID  (eg offnet to ip onnet call) if identified
+else empty
+- If the invocation side is H323 then VPNIDH323 is used for both calling VPNID and called VPNID
+- If the invocation side is SIGTRAN then VPNIDSIGTRAN is used for both calling VPNID and called VPNID
+- If the invocation side is SIP then VPNIDSIP is used for both calling VPNID and called VPNID
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>6</columnName>
+        <alias>indx</alias>
+        <dataFormat>text</dataFormat>
+        <comments><![CDATA[CID (Network Index)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>7</columnName>
+        <alias>icar</alias>
+        <dataFormat>timestamp</dataFormat>
+        <comments><![CDATA[call beginning time (Universal Time)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>8</columnName>
+        <alias>duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Call duration, in seconds.Peut être vide ou > 72000, dans ce cas considéré=0 pour les stats
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>9</columnName>
+        <alias>tacc</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[access type
+- "1": Dedicated Access or Call Center  
+- "2": Switched Access
+- "3": Calling Card
+- "4": Technical support
+- "5": Colisee originated
+- "6": DT VPN originated
+- "7": RPVI originated
+- "8": Transgroup originated
+- "9": VPN premiere originated
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>10</columnName>
+        <alias>cde</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[originating customers site or access switch
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>11</columnName>
+        <alias>norig</alias>
+        <dataFormat>varchar(28)</dataFormat>
+        <comments><![CDATA[CLI as CC + NSN + EXT or provided by the network.
+(CC: Country Code, NSN: National Significant Number, EXT: extension of a terminal within a site)
+Permet de déterminer la Zone Téléphonique Origine. Uniformisé pour enrichir le CDR (CDR Requestor)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>12</columnName>
+        <alias>cli</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+- if the upstream access is IP_PSTN, CLI field is filled with the CLI provided by the Call Collector module (after digit manipulations may have occurred). 
+- else CLI taken as is from the setup message/ intial DP message, for SIP it corresponds to the user part of the From header received in the first INVITE message
+- else empty if not present  in the incoming network information 
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>13</columnName>
+        <alias>origipaddr</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Origin IP address of the gateway + port. This is the H323 Loopback IP address of the router or the Off-Net Gateway.
+Format: xxx.xxx.xxx.xxx:xxxxx
+The port number will always be on 5 digits
+Utilie pour les stats globale par équipement si maintenu
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>14</columnName>
+        <alias>is_oct</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[The call uses the OCT feature. Filled for all the CDR following an OCT. 
+This flag is propagated on the conversation created by the OCT interaction until a final non san destination is connected or if a NIVR or NCM interaction occurs. boolean 0/1
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>15</columnName>
+        <alias>cgsiteid</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[calling "GK site ID". 
+Database identifier of the calling VPN site if identified
+0 else
+Utilise aux stats pour identifier le Site source
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>16</columnName>
+        <alias>voice menu id</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Voice menu id used in the last NIVR interaction of the call. It is filled for the CDR having the SAN NIVR or NCM+NIVR interaction as destination
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>17</columnName>
+        <alias>blapplied</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[1 if Outgoing Screening feature (Black List or Forbidden type of calls) has been applied 0 else
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>18</columnName>
+        <alias>wlapplied</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[1 if Outgoing Whitelist feature has been applied 0 else.
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>19</columnName>
+        <alias>orig service support</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[service support
+- "0": voice
+- "2": 64 kbits 
+- "3" : audio
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>20</columnName>
+        <alias>deco</alias>
+        <dataFormat>varchar(21)</dataFormat>
+        <comments><![CDATA[Dialed Number without VPNid.
+Example: 3131000
+Permet d'identifier la Zone Téléphonique Destination, si le champ CALLEDPUBLICNUMBER est vide
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>21</columnName>
+        <alias>empty21</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>22</columnName>
+        <alias>empty22</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>23</columnName>
+        <alias>empty23</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>24</columnName>
+        <alias>empty24</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>25</columnName>
+        <alias>cdflexnb1</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[set to 1 if flexible numbering feature has been applied on CalledPN else set to 0
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>26</columnName>
+        <alias>cgflexnb1</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[set to 1 if flexible numbering feature has been applied on CallingPN else set to 0
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>27</columnName>
+        <alias>cdsiteid</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[called "GK site ID". 
+Database identifier of the called VPN site if identified
+0 else
+Utilise aux stats pour identifier le Site destination
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>28</columnName>
+        <alias>dummy28</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>29</columnName>
+        <alias>ispartnervpn</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Set to 1 if  the called VPNid is not the same as  the calling VPNid  but  called VPNid is configuered as a Partner of the Calling VPNid
+Else always set to 0
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>30</columnName>
+        <alias>cgsitetype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[N = Normal site 
+M = the site is of type SA mobile fleet
+Or empty
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>31</columnName>
+        <alias>cdsitetype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[N = Normal site 
+M = the site is of type SA mobile fleet
+Or empty 
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>32</columnName>
+        <alias>calledisbtgdom</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[If the Called number is identified as a SAN then : 
+set to 1 if the flag isbtgdom is activated else set to 0
+If the Called number is not identified as a SAN then, set to 1 if : the number belong to a range translation with the flag btgdom activated or the number belong to a full translation with the flag btgdom activated
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>33</columnName>
+        <alias>dummy33</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>34</columnName>
+        <alias>dummy34</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>35</columnName>
+        <alias>dummy35</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>36</columnName>
+        <alias>dummy36</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>37</columnName>
+        <alias>callingvpnidh323</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Calling VPNID for H323 network linked to CALLING VPNCODE if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>38</columnName>
+        <alias>callingvpnidsigtran</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Called VPNID for SIGTRAN network linked to CALLING VPNCODE if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>39</columnName>
+        <alias>callingvpnidsip</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Calling VPNID for SIP network linked to CALLING VPNCODE  if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>40</columnName>
+        <alias>calledvpnidh323</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Called VPNID for H323 network linked to CALLED VPNCODE if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>41</columnName>
+        <alias>calledvpnidsigtran</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Called VPNID for SIGTRAN network linked to CALLED VPNCODE if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>42</columnName>
+        <alias>calledvpnidsip</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Called VPNID for SIP network linked to CALLED VPNCODE if any else empty. The length depends on what is configured on service side
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>43</columnName>
+        <alias>dummy43</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>44</columnName>
+        <alias>dummy44</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>45</columnName>
+        <alias>invocationside</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[One word within : 
+- CCS 
+- SIGTRAN
+- SIP
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>46</columnName>
+        <alias>sannumbertype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Filled only when called party is a technical number.
+  21 = SAN Shared cost
+  22 = SAN Revenue Shared (Premium)
+  23 = SAN Domestic Toll Free Number (DTFN)
+  24 = SAN International Toll Free Service (ITFS)
+  25 = SAN PSTN
+  26 = SAN Universal Toll Free Number (UIFN)
+  27 = SAN Private
+Those values come directly from the service and may change if a service evolution request it.
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>47</columnName>
+        <alias>callingvpncode</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Calling VPNCODE if identified. 
+Permet de définir si le CDR est inter-VPN (CALLINGVPNCODE=CALLEDVPNCODE)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>48</columnName>
+        <alias>calledvpncode</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Called VPNCODE if identified.
+Permet de définir si le CDR est inter-VPN (CALLINGVPNCODE=CALLEDVPNCODE)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>49</columnName>
+        <alias>callingidsan</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Internal Id_san value if the considered calling party is  a technical number linked to a SAN else use 0 (this field is not padded with zeros)
+Utile aux stas pour identifier le SAN appelant
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>50</columnName>
+        <alias>callingsitecc</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Country code of the calling site if identified else from service analysis if found.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>51</columnName>
+        <alias>nivr interaction</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0=No, 1=Yes
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>52</columnName>
+        <alias>ncm vm interaction</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0=No, 1=Yes
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>53</columnName>
+        <alias>ncm cua interaction</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0=No, 1=Yes
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>54</columnName>
+        <alias>authorization code</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[PINCODE used either for VPN Remote Access or for offnet authorization.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>55</columnName>
+        <alias>orig upstream access type</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0 = UNKNOWN
+1 = IP_DIRECT
+2 = IP_GVPN
+3 = IP_PSTN
+7 = IP_BILATERAL
+8 = IP_NEO
+9 = IP_MAINTENANCE
+21 = TDM_CCS
+23 = TDM_PSTN
+24 = TDM_SA
+27 = TDM_BILATERAL
+28 = TDM_DA
+29 = TDM_MAINTENANCE
+31 = SIP_DIRECT
+32 = SIP_BILATERAL
+33 = SIP_IP_NEO 
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>56</columnName>
+        <alias>orig opm id</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[OPM id configured for the upstream equipment used Built from IMMS left padded on 2 digits and OPM leftpadded on 3 digits eg :
+imms = 1 and  opm  = 25 then OPMID=01025
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>57</columnName>
+        <alias>orig t1t7</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[T1T7 identified for the received network called party number. Trunk ID OPM source
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>58</columnName>
+        <alias>orig received number</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[First received called number of the call Without identified network prefixes. Technical Number du SAN source (ZZ calls)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>59</columnName>
+        <alias>orig received number public formated</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[First called number of the call  CCNSN considered by the service(either received from the network or translated by the service)
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>60</columnName>
+        <alias>orig call attempt time</alias>
+        <dataFormat>timestamp</dataFormat>
+        <comments><![CDATA[Time on service instance creation.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>61</columnName>
+        <alias>downstream access type</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Down stream access tried for connecting the call
+0 = UNKNOWN
+1 = IP_DIRECT
+2 = IP_GVPN
+4 = IP_SA
+7 = IP_BILATERAL
+24 = TDM_SA
+25 = BCR_ACCESS
+27 = TDM_BILATERAL
+28 = TDM_DA
+41 = TDM_TO_VOIP
+42 = VOIP_TO_TDM
+43 = TDM_LOOP
+44 = RIMSS
+51 = SIP_DIRECT 
+52 = SIP_BILATERAL
+53 = TDM_IP_TO_SIP
+54= SIP_TO_IP
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>62</columnName>
+        <alias>downstream equipment type</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Down stream equipment tried for connecting the call See §?4.4  for possible values
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>63</columnName>
+        <alias>downstream opm id</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[OPM id configured for the downstream equipment used (if available)
+Built from IMMS left padded on 2 digits and OPM leftpadded on 3 digits eg :
+imms = 1 and  opm  = 25 then OPMID=01025
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>64</columnName>
+        <alias>dest bcr type</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[String coming out from BCRSS provisioning like "Standard",  "premium" ,"64k" ...
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>65</columnName>
+        <alias>bcr destination name</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Destination selected by the BCR routing algorithm; empty if not used
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>66</columnName>
+        <alias>callednbtype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0 = Not Yet Known
+256  = ONNET_VPN
+640  = COLLECTED_IP_INCOMING_OFFNET
+641  = COLLECTED_IP_SA_PRIV
+642  = COLLECTED_IP_SA_PUB
+643  = COLLECTED_IP_SAN
+576  = COLLECTED_TDM_INCOMING_OFFNET
+577  = COLLECTED_TDM_SA
+1152 = SAN_CC_STANDARD
+1153 = SAN_CC_ACCUEIL
+1154 = SAN_CC_AUDIO_CONF
+1088 = SAN_RA_MODE_A
+1089 = SAN_RA_MODE_B
+1090 = SAN_RA_MODE_C
+1056 = SAN_MSA
+2048 = OFFNET_STANDARD (used if subtype not known)
+2049 = OFFNET_MOBILE
+2050 = OFFNET_EXPENSIVE
+2051 = OFFNET_EMERGENCY
+2052 = OFFNET_SHORT NUMBER
+For VON, real translated type is used
+This value is computed by the service  and depends on  where the call flow has stopped
+Those values come directly from the service and may change if a service evolution requests it. 
+Utile aux règles pour la conservation du CDR pour les stat/SAN
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>67</columnName>
+        <alias>calledisvon</alias>
+        <dataFormat>boolean</dataFormat>
+        <comments><![CDATA[Boolean to indicate if the Called Number before translation was a virtual on net.
+Utile aux règles pour la conservation du CDR pour la définition des sites techniques
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>68</columnName>
+        <alias>sanservicetype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Filled only when called party is a technical number.
+    1152 = SAN_CC_STANDARD
+    1153 = SAN_CC_ACCUEIL
+    1154 = SAN_CC_AUDIO_CONF
+    1088 = SAN_RA_MODE_A
+    1089 = SAN_RA_MODE_B
+    1090 = SAN_RA_MODE_C
+    1056 = SAN_MSA
+Those values come directly from the service and may change if a service evolution request it.
+Utile aux règles pour la conservation du CDR pour la définition des sites techniques    
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>69</columnName>
+        <alias>deta</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[call setting up duration
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>70</columnName>
+        <alias>dson</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[call ring duration, ASCII coded
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>71</columnName>
+        <alias>destipaddr</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+Destination IP address of the gateway + port number. This is the H323 Loopback IP address of the router or Off-Net Gateway.
+Format: xxx.xxx.xxx.xxx:xxxxx
+The port number will always be on 5 digits.
+Utilie pour les stats globale par équipement si maintenu
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>72</columnName>
+        <alias>dummy72</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>73</columnName>
+        <alias>autocutoff</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0= default value
+1= Call released by the service after max allowed duration if autocutoff feature was activated
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>74</columnName>
+        <alias>inef</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Inefficiency interpreted by the GK. When the Net Centrex disconnection cause is not indicated, the GK redefines it.
+Empty for efficient call (including Switchover cdr and ghost cdr). Any call having duration but ghost calls are considered as efficient.
+Example : 021
+Utile aux règles pour classifier l'appel
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>75</columnName>
+        <alias>disc</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Disconnect cause.
+Q.850 release cause or internal event identifier.
+Utile aux règles pour classifier l'appel
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>76</columnName>
+        <alias>callid</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[H323 call identifier (Unique by Call and SEP).
+Example: a2896bb4a51531015047512136061175
+Utile aux règles pour le dédoublonnage
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>77</columnName>
+        <alias>dummy77</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>78</columnName>
+        <alias>cdrcalltype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Call type.
+Format: OT-G (Originating Site, Terminating Site, outgoing Gateway)
+Utilisé dans les règles pour déterminer :
+- si le CDR est upstream/downstream de Contact Center
+- si le CDR doit être conservé pour les stat/site et pour les stats/SAN
+- pour la détermination du Subset
+- pour la détermination de la direction
+- pour le dédoublonnage des CDR
+- pour lé détermination des sites techniques
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>79</columnName>
+        <alias>offnetroutingsite</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Only used in case of Offnet Calls routed via a local site. 0 in the other cases.
+Database identifier of the VPN used to route the call.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>80</columnName>
+        <alias>altdestapplied</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+0 = no alternate destination applied
+1 = alternate destination applied
+2 = Backup (indicate that the service will be looking for backup. (means that the calling is a SAN)      
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>81</columnName>
+        <alias>ivrterminated</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[0 = The 'terminating on IVR' mechanism was not triggered
+1 = The call terminates to IVR
+2 = The call failed to terminate on an IVR.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>82</columnName>
+        <alias>ivrmsg</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[CCS IVR only: Filled with the dialogue number being played by the IVR. (Called PN as configured in IVR dialogue screen)
+Let empty when no terminating to IVR.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>83</columnName>
+        <alias>ivraddr</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[For CCS IVR only IP address of the IVR  + port
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>84</columnName>
+        <alias>ivrreplacedcli</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Filled with the new CLI if the termination on IVR requires replacing the CLI else empty.
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>85</columnName>
+        <alias>text_1</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Configured per site and per "numbering range" :
+if the private party number match a numbering range and  if the range property "CDR text" is available and not empty : filled with this value, else
+filled with the Calling Site "CDR text" field
+empty if no calling site has been identified
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>86</columnName>
+        <alias>text_2</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Configured per site and per "numbering range" :
+if the Called party number match a numbering range and  if the range property "CDR text” is available and not empty : filled with this value, else
+filled with the Called Site "CDR text" field
+empty if no called site has been identified
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>87</columnName>
+        <alias>altdestcause</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+U = Unconditional event
+B = Busy event
+A = NoAnswer event
+R = Unreachable event
+O = OCT
+Empty
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>88</columnName>
+        <alias>dtoapplied</alias>
+        <dataFormat>boolean</dataFormat>
+        <comments><![CDATA[
+0 = No DTO applied to reach Final destination
+1 = DTO applied to reach Final destination (even if DTO failed)
+Utilisé dans les règles pour déterminer :
+- le subset
+- la direction
+- la détermination des sites techniques
+- la conservation des stats/site
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>89</columnName>
+        <alias>calledsitecc</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Country code of the called site (if called site is known else empty)
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>90</columnName>
+        <alias>calledprefix</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Filled with the prefix which has been added to the called number sent to the network (Trunk ID destinatation), else empty
+Normalement commence par 04
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>91</columnName>
+        <alias>calledpublicnumber</alias>
+        <dataFormat>varchar(28)</dataFormat>
+        <comments><![CDATA[Called number in public format (CC+NSN+EXT) (if translation is possible, else empty)
+Note: for calls using a Bilateral GW, it is mandatory
+Permet d'identifier la Zone Téléphonique Destination, si le champ CALLEDPUBLICNUMBER est vide
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>92</columnName>
+        <alias>collectedcalltype</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Always  set to 0 but for UP : IP_PSTN access
+It is filled with a  property linked to the collected number:
+   0 = UNKNOWN 
+   640 = COLLECTED_IP_INCOMING_OFFNET 
+   641 = COLLECTED_IP_SA_PRIV 
+   642 = COLLECTED_IP_SA_PUB 
+   643 = COLLECTED_IP_SAN 
+   576 = COLLECTED_TDM_INCOMING_OFFNET 
+   577 = COLLECTED_TDM_SA
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>93</columnName>
+        <alias>pubndi</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[The default public calling site number, if this one is known
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>94</columnName>
+        <alias>calledndi</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[The default public called number, if this one is known
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>95</columnName>
+        <alias>calledidsan</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Internal Id_san value if the considered called party is a technical number linked to a SAN else use 0 (this field is not padded with zeros)
+Utile aus stas pour identifier le SAN appelant
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>96</columnName>
+        <alias>term_text</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Configured per  terminal which is the destination of the call: 20 char allowed
+Or Filled with the SAN CDR text property if destination of the call is identified as a SAN
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>97</columnName>
+        <alias>alternatecounter</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[Incremented by one each time a new record is generated (so primary destination always contains 0), an offset of 10 is added linked to the conversation the record belongs to
+Utilisé dans les règles pour déterminer :
+- les sites techniques
+- la conservation du CDR pour les stats/SAN
+        ]]></comments>
+        <type>File</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>98</columnName>
+        <alias>origreceivednetworknumber</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>99</columnName>
+        <alias>sentcallednetworknumber</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>100</columnName>
+        <alias>empty</alias>
+        <dataFormat>varchar</dataFormat>
+        <comments><![CDATA[
+        ]]></comments>
+        <type>PostgreSQL</type>
+    </inputColumn>
+</listInputColumn>

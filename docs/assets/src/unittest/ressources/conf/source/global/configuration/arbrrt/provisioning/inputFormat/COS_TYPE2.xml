@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId - ID of the logical connection, parent of the COS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>num_cos</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of the COS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_duration_total</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>NumberOfSamples</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>GreenBytesCOS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Green bytes
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>RedBytesCOS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Red bytes
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>KeptRedBytesCOS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Kept red bytes
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>RejectedRedBytesCOS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Rejected red bytes
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>GreenFlowCOS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Green flow
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>RedFlowCOS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Red flow
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>KeptRedFlowCOS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Kept red flow
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>RejectedRedFlowCOS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Rejected red flow
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

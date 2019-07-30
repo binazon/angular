@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal concerned by meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>meetingkey</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[id of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>distance_saved</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[distance saved due to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>nb_terminal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of terminals in the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[duration of the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+       <inputColumn suppress="true">
+        <columnName>nb_3g</columnName>
+        <alias>nb_3g</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of 3g sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_audio</columnName>
+        <alias>nb_audio</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of audio sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_internet</columnName>
+        <alias>nb_internet</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of internet sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_ipvpn</columnName>
+        <alias>nb_ipvpn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of ipvpn sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_isdn</columnName>
+        <alias>nb_isdn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of isdn sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_scopia</columnName>
+        <alias>nb_scopia</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of scopia sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_tpbridge</columnName>
+        <alias>nb_tpbridge</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of tpbridge sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>nb_visioroom</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of rooms for vios]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>nb_scopia</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of scopia sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>nb_3g</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of 3g sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>nb_audio</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of audio sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>nb_isdn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of isdn sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>nb_otheraccess</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of tpbridge sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>nb_noovp</columnName>
+        <alias>nb_noovp</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[nb of non-ovp sessions connected to the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

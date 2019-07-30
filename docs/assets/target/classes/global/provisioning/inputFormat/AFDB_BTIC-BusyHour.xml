@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>element</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+-	Always empty in “AFDB_BTIC-NETWORK_*-BusyHour.txt“.
+-	Site Identifier in “AFDB_BTIC-SITES_*-BusyHour.txt“.
+-	GU Identifier in “AFDB_BTIC-GU_*-BusyHour.txt“.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>maxNumberOfOccupiedChannelsDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+-Max number of channels simultaneously occupied during the busy hour.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>durationOfTheMaxOccupancyDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Duration of the max occupancy during the busy hour.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>numberOfChannelsInServiceDuringTheBusyDay</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Max number of channels which can be used during the busy day. 
+The value 0 means that this indicator is undetermined.
+Always equal to 0 in BTIC reporting expect for the BTIC-SIP sites report. 
+In that case, the number of channels can be the number of equipped channels defined in the file BTIC-SIP_SITES.txt. 
+If no value is defined, the default value is 0.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>busyDay</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Day of the busy hour.
+The format of this field is YYYY-MM-DD (example of value: “2008-01-14”).
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>busyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+The first time where the peak of traffic of the day lasts such a long time during an hour.
+The format of this field is hh:mm:ss (example of value: “16:04:55”).
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>trafficCarriedDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Traffic carried during the busy hour, in “centum call seconds” (CCS). It is the total amount of traffic (in seconds) divided by 100.
+1 CCS is equal to 100 call*second (ex: the traffic carried by 2 calls of 51 seconds is equal to 1.02 CCS). 
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>upgradeChannels</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Number of channels to add in order to avoid any blocking of call during the busy hour. 
+Except for the BTIC-SIP sites reports (when an equipped channels value is defined for the site), 
+this field is not significant if numberOfChannelsInServiceDuringTheBusyDay is equal to 0.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>blockingFactor</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Probability (in %) that a new call be blocked during the busy hour because of the channels occupancy. 
+This indicator is also known as the GoS (Grade of Service).
+This field is not significant if numberOfChannelsInServiceDuringTheBusyDay is equal to 0.
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

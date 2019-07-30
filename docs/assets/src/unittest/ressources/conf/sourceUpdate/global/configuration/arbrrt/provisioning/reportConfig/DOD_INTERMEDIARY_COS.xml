@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_173" type="DB" reportVersion="V1_0" reportRefId="REPORT_157" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <reportOutput>
+            <type>DB</type>
+            <format>h2</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dodIntermediaryCos.h2.db</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_157.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

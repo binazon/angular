@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listOffer>
+    <offer commercialName="BIV-SIP Internet" alias="BIV-SIP-DATA">
+        <option label="Business Internet Voix / Office" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY" type="BATCH"/>
+    </offer>
+    <offer commercialName="Business Together" alias="BT IPBX">
+        <option label="Business Together" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Business Together" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY" type="BATCH"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+    </offer>
+    <offer commercialName="Business Talk &amp; Contact Center" alias="BTG-hkh">
+        <option label="CDR Download" cpltAlias="CDR_DOWNLOAD" type="DOCUMENT"/>
+        <option label="Business Talk and Contact Center" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="my BT&amp;CC solution" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Intermediary_afterCollect" cpltAlias="INTERMEDIARY_1" type="BATCH"/>
+        <option label="Intermediary_afterIntermediary1" cpltAlias="INTERMEDIARY_2" type="BATCH"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+        <option label="OneTruth monthly" cpltAlias="ONETRUTH-MONTHLY" type="BATCH"/>
+    </offer>
+    <offer commercialName="Business Talk IP" alias="BTG-hkh-France">
+   		<option label="CDR Download" cpltAlias="CDR_DOWNLOAD" type="DOCUMENT"/>
+   		<option label="CDR Download Dedicated" cpltAlias="CDR_DOWNLOAD_DEDICATED" type="BATCH"/>
+        <option label="Business Talk IP" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="ma solution BTIP" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Intermediary_afterCollect" cpltAlias="INTERMEDIARY_1" type="BATCH"/>
+        <option label="Intermediary_afterIntermediary1" cpltAlias="INTERMEDIARY_2" type="BATCH"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+        <option label="ORA monthly" cpltAlias="ORA-MONTHLY" type="BATCH"/>
+        <option label="ORA daily" cpltAlias="ORA-DAILY" type="BATCH"/>        
+    </offer>
+    <offer commercialName="BTIC H323" alias="BTIC-H323">
+        <option label="BTIC (H323)" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+    </offer>
+    <offer commercialName="BTIC SIP" alias="BTIC-SIP">
+        <option label="BTIC (SIP)" cpltAlias="23042019" type="DOCUMENT"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+        <option label="ORA monthly" cpltAlias="ORA-MONTHLY" type="BATCH"/>
+        <option label="ORA daily" cpltAlias="ORA-DAILY" type="BATCH"/>
+    </offer>
+    <offer commercialName="Control Dashboard" alias="CDB">
+        <option label="CDB CSV file" cpltAlias="CSV" type="BATCH"/>
+    </offer>
+    <offer commercialName="COLLECT" alias="COLLECT">
+        <option label="Gksmp collect and extend" cpltAlias="GKSMP_EXTENDED" type="BATCH"/>
+        <option label="IP Accounting collect" cpltAlias="IPACCOUNTING" type="BATCH"/>
+        <option label="NetFlow collect" cpltAlias="NETFLOW" type="BATCH"/>
+        <option label="PAI collect" cpltAlias="PAI" type="BATCH"/>
+        <option label="Pcsnmp collect" cpltAlias="PCSNMP" type="BATCH"/>
+        <option label="Peakflow collect" cpltAlias="PEAKFLOW" type="BATCH"/>
+        <option label="OVP Meetings collect" cpltAlias="OVP_MEETINGS" type="BATCH"/>
+        <option label="OVP Meeting Paticipants collect" cpltAlias="OVP_MEETING_PARTICIPANTS" type="BATCH"/>
+        <option label="OVP Cdr collect" cpltAlias="OVP_CDR" type="BATCH"/>
+        <option label="Wade collect" cpltAlias="WADE" type="BATCH"/>
+        <option label="CCASP collect" cpltAlias="CCASP" type="BATCH"/>
+    </offer>
+    <offer commercialName="DATA-RE" alias="DATA-RE">
+        <option label="Data" cpltAlias="CUMO" type="DOCUMENT"/>
+		<option label="Daily data" cpltAlias="CUMO_DAILY" type="DOCUMENT"/>
+        <option label="ma solution data" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY" type="BATCH"/>
+        <option label="Intermediary_0" cpltAlias="INTERMEDIARY_0" type="BATCH"/>
+        <option label="Intermediary_mockup" cpltAlias="INTERMEDIARY_MOCKUP" type="BATCH"/>
+        <option label="Intermediary_monthly" cpltAlias="INTERMEDIARY_MONTHLY" type="BATCH"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+        <option label="Daily reporting" cpltAlias="ORA-DAILY" type="BATCH"/>
+        <option label="Monthly reporting" cpltAlias="ORA-MONTHLY" type="BATCH"/>
+        <option label="Raw reporting" cpltAlias="RAWEXPORT" type="BATCH"/>
+    </offer>
+    <offer commercialName="DATA-SUP" alias="DATA-SUP">
+        <option label="PAI" cpltAlias="PAI" type="BATCH"/>
+    </offer>
+    <offer commercialName="DDOS" alias="DDOS_SI">
+        <option label="DDoS_SI" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_OVP_INTERMEDIARY" alias="IMAGE_OVP">
+        <option label="Open Videopresence Flexible Express Intermediary computation" cpltAlias="INTERMEDIARY" type="BATCH"/>
+    </offer>
+    <offer commercialName="IMAGE_OVP_READY" alias="IMAGE_OVP_READY">
+        <option label="Open Videopresence Ready" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Open Videopresence Ready Intermediary computation" cpltAlias="INTERMEDIARY" type="BATCH"/>
+    </offer>
+    <offer commercialName="IMAGE_TP" alias="IMAGE_TP">
+        <option label="Open Videopresence Management" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Management" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_TPAAS" alias="IMAGE_TPAAS">
+        <option label="Open Videopresence Flexible Premium" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Flexible Premium" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    
+    <offer commercialName="IMAGE_OVPFP" alias="IMAGE_OVPFP">
+        <option label="Open Videopresence Flexible Premium New" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Flexible Premium New" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_OVPFP_MARKET" alias="IMAGE_OVPFP_MARKET">
+        <option label="OVP Flexible Premium Market usage" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="OVP Flexible Premium Market Intermediary computation" cpltAlias="INTERMEDIARY_DAILY" type="BATCH"/>
+    </offer>
+    <offer commercialName="IMAGE_OVPCO" alias="IMAGE_OVPCO">
+        <option label="Open Videopresence Community New" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Community New" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_TPCOMMUNITY" alias="IMAGE_TPCOMMUNITY">
+        <option label="Open Videopresence Community" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Community" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_OVP" alias="IMAGE_TPOVP">
+        <option label="Open Videopresence Flexible Express" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="Open Videopresence Flexible Express" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Open Videopresence Flexible Express SCCV" cpltAlias="SCCV_CSV" type="DOCUMENT"/>
+        <!-- should be batch -->
+    </offer>
+    <offer commercialName="IPER" alias="IPER">
+        <option label="IPER" cpltAlias="BB_DOWNLOADABLE_REPORTS" type="DOCUMENT"/>
+        <option label="Backbone H-probe" cpltAlias="BB-H_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Backbone Internet H-probe" cpltAlias="BB-H_INTERNET_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="BB H-probe Batch SMART XNMS" cpltAlias="BB-H_SMART_XNMS_INTERMEDIARY" type="BATCH"/>
+        <option label="IPER H-probe" cpltAlias="BB-H_DOWNLOADABLE_REPORTS" type="DOCUMENT"/>
+        <option label="Backbone" cpltAlias="BB_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Backbone Internet" cpltAlias="BB_INTERNET_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="BB Batch SMART XNMS" cpltAlias="BB_SMART_XNMS_INTERMEDIARY" type="BATCH"/>
+        <option label="End-to-End batch" cpltAlias="E2E_BATCH" type="BATCH"/>
+        <option label="Customer End-to-End batch for document" cpltAlias="E2E_BATCH_CUSTOMER_EXCEL" type="DOCUMENT"/>
+        <option label="Customer End-to-End batch for document - SITA" cpltAlias="E2E_BATCH_CUSTOMER_SITA" type="DOCUMENT"/>
+        <option label="Customer End-to-End batch" cpltAlias="E2E_BATCH_CUSTOMER" type="BATCH"/>        
+        <option label="End-to-End" cpltAlias="E2E_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="End-to-End Intermediary" cpltAlias="E2E_INTERMEDIARY" type="BATCH"/>
+        <option label="End-to-End Intermediary Daily for weekly trends" cpltAlias="E2E_INTERMEDIARY_WEEKLY_FOR_IPCM_TREND" type="BATCH"/>       
+        <option label="End-to-End Intermediary Daily" cpltAlias="E2E_INTERMEDIARY_DAILY" type="BATCH"/>
+        <option label="Intermediary for the first of month" cpltAlias="E2E_INTERMEDIARY_FIRST_OF_MONTH" type="BATCH"/>
+        <option label="End-to-End batch for target reports " cpltAlias="E2E_BATCH_TARGET" type="BATCH"/>
+        <option label="Intermediary monthly" cpltAlias="E2E_INTERMEDIARY_MONTHLY" type="BATCH"/>
+        <option label="Intermediary_mockup" cpltAlias="INTERMEDIARY_MOCKUP" type="BATCH"/>
+        <option label="QoS router performance" cpltAlias="E2E_ROUTER_PERF_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="IP bandwidth utilization" cpltAlias="E2E_IP_BANDWIDTH_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="managed LAN and IEL reporting" cpltAlias="E2E_MANAGED_LAN_AND_IEL_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Tunnel performance" cpltAlias="E2E_TUNNEL_PERF_INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Business VPN Galerie" cpltAlias="E2E_GALLERY_INTERACTIVE" type="INTERACTIVE"/>
+		<option label="ORA monthly" cpltAlias="ORA-MONTHLY" type="BATCH"/>
+        <option label="UBB Intermediary Daily" cpltAlias="UBB_INTERMEDIARY_DAILY" type="BATCH"/>
+        <option label="UBB batch for customer" cpltAlias="UBB_BATCH_CUSTOMER" type="BATCH"/>
+        <option label="Customer End-to-End batch for IP BW Utilization download" cpltAlias="E2E_IP_BANDWIDTH_DOWNLOADABLE" type="DOCUMENT"/>
+        <option label="IP bandwidth utilization batch for document" cpltAlias="OSM_IPBU" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="IPER-BB" alias="IPER-BB">
+        <option label="IBNF" cpltAlias="BB_BATCH" type="DOCUMENT"/>
+        <option label="Backbone Intermediary" cpltAlias="BB_INTERMEDIARY" type="BATCH"/>
+        <option label="Backbone Intermediary for H-Probes" cpltAlias="H_INTERMEDIARY" type="BATCH"/>
+        <option label="IBNF H-probe" cpltAlias="H_BATCH" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="IPER_DATA" alias="IPER_DATA">
+    	<option label="IPER data" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    	<option label="Intermediary" cpltAlias="INTERMEDIARY" type="BATCH"/>
+    	<option label="Intermediary_monthly" cpltAlias="INTERMEDIARY_MONTHLY" type="BATCH"/>
+    	<option label="Data" cpltAlias="BATCH" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="OPENFLOW" alias="OPENFLOW">
+        <option label="OpenFlow" cpltAlias="DOWNLOADABLE_REPORTS" type="DOCUMENT"/>
+        <option label="OpenFlow Ip Accounting" cpltAlias="IP_ACCOUNTING_DOC" type="BATCH"/>
+        <option label="OpenFlow NetFlow" cpltAlias="NETFLOW_DOC" type="BATCH"/>
+    </offer>
+    <offer commercialName="B2GaaS" alias="UCaaS">
+        <option label="B2GaaS" cpltAlias="DOC" type="DOCUMENT"/>
+        <option label="B2GaaS OSM" cpltAlias="OSM_OCTAV" type="DOCUMENT"/>
+        <option label="Tarzan" cpltAlias="TARZAN" type="BATCH"/>
+        <option label="SBC ARKADIN" cpltAlias="SBC_ARKADIN" type="DOCUMENT"/>
+        <option label="B2GaaS OSM AREAS" cpltAlias="OSM_AREAS" type="DOCUMENT"/>
+        <option label="B2GaaS OSM CAMAIEU" cpltAlias="OSM_CAMAIEU" type="DOCUMENT"/>
+        <option label="B2GaaS OSM CLARINS" cpltAlias="OSM_CLARINS" type="DOCUMENT"/>
+        <option label="B2GaaS OSM DANONE DEF" cpltAlias="OSM_DANONE_DEF" type="DOCUMENT"/>
+        <option label="B2GaaS OSM DANONE CUEAC" cpltAlias="OSM_DANONE_CUEAC" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="N° Contact IP" alias="SVA-IP">
+    	<option label="CDR Download" cpltAlias="CDR_DOWNLOAD" type="DOCUMENT"/>
+        <option label="N° Contact IP" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+        <option label="Détails des communications par Numéro de Contact IP" cpltAlias="COMM_DETAILS_BY_IP_CONTACT_NUMBERS" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="Technical Offer on GKVPN" alias="GKVPN">
+        <option label="CDR Download" cpltAlias="CDR_DOWNLOAD" type="DOCUMENT"/>
+    </offer>
+    <offer commercialName="CCASP" alias="CCASP">
+        <option label="CCASP Batch Monthly" cpltAlias="BATCH-MONTHLY" type="BATCH"/>
+    </offer>    
+    <offer commercialName="OSM FDJ IP" alias="OSM_FDJ_IP">
+        <option label="Mes stats PE" cpltAlias="INTERACTIVE" type="INTERACTIVE"/>
+    </offer>
+    
+</listOffer>

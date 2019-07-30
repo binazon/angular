@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, in seconds
+				
+				]]></comments>
+        <type>PERIOD</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DurationSamplingPeriod</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Real time of the significant samples
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>EntityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>HEADER1</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DownSpeed</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Speed 1
+				
+				]]></comments>
+        <type>DATA_SPEED</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>NbBytesIn </alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No. of bytes In
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>NbBytesOut</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No. of bytes Out
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>NbCollisions</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Collisions no.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>NbErrorsIn</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No. of errors In
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>NbtramesUnicastIn</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Nb trames "Unicast" In (ifInUCastPkts)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>NbtramesMulticastIn</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Nb trames Multicast/Broadcast In (ifInNUCastPkts)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>NbFramesDeviatedIn</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No of frames deviated In
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>NbErrorsOut</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No. of errors Out
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>NbtramesUnicastOut</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Nb trames "Unicast" Out (ifOutUCastPkts)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>NbtramesMulticastOut</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Nb trames Multicast/Broadcast Out (ifOutNUCastPkts)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>NbFramesDeviatedOut</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				No of frames deviated Out
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>UpSpeed</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Empty or UpSpeed
+				
+				]]></comments>
+        <type>DATA_SPEED</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>IfOperStatus</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IfOperStatus
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>IfAdminStatus</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IfAdminStatus
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>ActiveWirelessClients</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				ActiveWirelessClients
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>AssStatsAssociated</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsAssociated
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>AssStatsAuthenticated</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsAuthenticated
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>AssStatsRoamedIn</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsRoamedIn
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>AssStatsRoamedAway</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsRoamedAway
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>AssStatsDisassociated</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsDisassociated
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>AssStatsDesauthenticated</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				AssStatsDesauthenticated
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>IfDuplexStatus</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IfDuplexStatus
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>IgnoredPkts</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IgnoredPkts
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>CRCErrorPkts</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				CRCErrorPkts
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>Giants</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Giants
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c28</columnName>
+        <alias>Runts</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Runts
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>LastStatusChangeDate</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ifLastChange
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

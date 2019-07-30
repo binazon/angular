@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphExportConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <parentEdgeDefinitions>
+        <parentEdgeBinding parentEntityType="EQUIPMENT" childEntityType="PHYSICALCONNECTION" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="PHYSICALCONNECTION" childEntityType="LOGICALCONNECTION" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="PHYSICALCONNECTION" childEntityType="COS" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="LOGICALCONNECTION" childEntityType="COS" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="GKVPN" childEntityType="GKSITE" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="GKVPN" childEntityType="GKSAN" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="GKVPN" childEntityType="GKTRUNK" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="GKVPN" childEntityType="GKSHAREDCALLLIMITER" edgeType="IS_PARENT"/>
+        <parentEdgeBinding parentEntityType="GKVPN" childEntityType="GKRECEPTIONNUMBER" edgeType="IS_PARENT"/>
+    </parentEdgeDefinitions>
+    <linkEdgeDefinitions>
+        <linkEdgeBinding sourceEntityType="SITE" destinationEntityType="EQUIPMENT" role="SITE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>
+        <linkEdgeBinding sourceEntityType="SHADOW_SITE" destinationEntityType="PATH" role="ORIGIN" parameterRule="*" edgeType="HAS_PATH_ORIGIN"/>
+        <linkEdgeBinding sourceEntityType="SHADOW_SITE" destinationEntityType="PATH" role="END" parameterRule="*" edgeType="HAS_PATH_END"/>  
+        <linkEdgeBinding sourceEntityType="POP_SITE" destinationEntityType="PATH" role="ORIGIN" parameterRule="*" edgeType="HAS_PATH_ORIGIN"/>
+        <linkEdgeBinding sourceEntityType="POP_SITE" destinationEntityType="PATH" role="END" parameterRule="*" edgeType="HAS_PATH_END"/>  
+        <linkEdgeBinding sourceEntityType="TOPO_SITE" destinationEntityType="PATH" role="ORIGIN" parameterRule="*" edgeType="HAS_PATH_ORIGIN"/>
+        <linkEdgeBinding sourceEntityType="TOPO_SITE" destinationEntityType="PATH" role="END" parameterRule="*" edgeType="HAS_PATH_END"/>
+        <linkEdgeBinding sourceEntityType="SHADOW_SITE" destinationEntityType="EQUIPMENT" role="SITE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="POP_SITE" destinationEntityType="EQUIPMENT" role="SITE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="TOPO_SITE" destinationEntityType="EQUIPMENT" role="SITE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="LOGICALCONNECTION" role="VPN" parameterRule="*" edgeType="HAS_LOGICALCONNECTION"/>  
+        <linkEdgeBinding sourceEntityType="ZONE" destinationEntityType="EQUIPMENT" role="ZONE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="IPBXZONE" destinationEntityType="EQUIPMENT" role="IPBXZONE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="IPBXZONE" destinationEntityType="PHONEENTITY" role="IPBXZONE" parameterRule="*" edgeType="HAS_PHONE_ENTITY"/>  
+        <linkEdgeBinding sourceEntityType="EQUIPMENT" destinationEntityType="EQUIPMENT" role="ASSOCIATED_DEVICE" parameterRule="*" edgeType="IS_LINKED_TO_EQUIPMENT"/>  
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ORIGINFDN" parameterRule="*" edgeType="HAS_EQUIPMENT_ORIGINFDN"/>   
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ORIGINFDN" parameterRule="*" edgeType="HAS_PHYSICALCONNECTION_ORIGINFDN"/>  
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ORIGINFDN" parameterRule="*" edgeType="HAS_LOGICALCONNECTION_ORIGINFDN"/> 
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ENDFDN" parameterRule="*" edgeType="HAS_EQUIPMENT_ENDFDN"/>   
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ENDFDN" parameterRule="*" edgeType="HAS_PHYSICALCONNECTION_ENDFDN"/>   
+        <linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ENDFDN" parameterRule="*" edgeType="HAS_LOGICALCONNECTION_ENDFDN"/>  
+        <linkEdgeBinding sourceEntityType="GKSBC" destinationEntityType="GKSITE" role="NOMINAL" parameterRule="*" edgeType="HAS_SITE_NOMINAL"/>  
+        <linkEdgeBinding sourceEntityType="GKSBC" destinationEntityType="GKSITE" role="BACKUP" parameterRule="*" edgeType="HAS_SITE_BACKUP"/>
+        <linkEdgeBinding sourceEntityType="PATH" destinationEntityType="MEASURE" role="MEASURE" parameterRule="*" edgeType="HAS_MEASURE"/>
+        <linkEdgeBinding sourceEntityType="COUNTRY" destinationEntityType="CITY" role="COUNTRY" parameterRule="*" edgeType="HAS_CITY"/>
+        <linkEdgeBinding sourceEntityType="COUNTRY_ALPHA3" destinationEntityType="EQUIPMENT" role="COUNTRY_ALPHA3" parameterRule="*" edgeType="HAS_EQUIPMENT"/>
+        <linkEdgeBinding sourceEntityType="CITY" destinationEntityType="SITE" role="CITY" parameterRule="*" edgeType="HAS_SITE"/>
+        <linkEdgeBinding sourceEntityType="SITE" destinationEntityType="TERMINAL" role="SITE" parameterRule="*" edgeType="HAS_TERMINAL"/>
+		<linkEdgeBinding sourceEntityType="VIDEO_ENTITY" destinationEntityType="TERMINAL" role="VIDEO_ENTITY" parameterRule="*" edgeType="HAS_TERMINAL"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="MEASURE" role="MEASURE" parameterRule="*" edgeType="HAS_MEASURE"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="PATH" role="PATH" parameterRule="*" edgeType="HAS_PATH"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="SITE" role="SITE" parameterRule="*" edgeType="HAS_SITE"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="EQUIPMENT" role="EQUIPMENT" parameterRule="*" edgeType="HAS_EQUIPMENT"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="TOPO_SITE" role="SITE" parameterRule="*" edgeType="HAS_SITE"/>
+        <linkEdgeBinding sourceEntityType="VPN" destinationEntityType="POP_SITE" role="SITE" parameterRule="*" edgeType="HAS_SITE"/>
+        <linkEdgeBinding sourceEntityType="GKSHAREDCALLLIMITER" destinationEntityType="GKSITE" role="CALLLIMITER" parameterRule="*" edgeType="HAS_GKSITE"/>
+        <linkEdgeBinding sourceEntityType="GKSHAREDCALLLIMITER" destinationEntityType="GKSAN" role="CALLLIMITER" parameterRule="*" edgeType="HAS_SAN"/>
+        <linkEdgeBinding sourceEntityType="GKSHAREDCALLLIMITER" destinationEntityType="GKTRUNK" role="CALLLIMITER" parameterRule="*" edgeType="HAS_TRUNK"/>
+        <linkEdgeBinding sourceEntityType="CLOUD_SERVICE" destinationEntityType="EQUIPMENT" role="CLOUD_SERVICE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>
+        <linkEdgeBinding sourceEntityType="CLOUD_SERVICE" destinationEntityType="PHYSICALCONNECTION" role="CLOUD_SERVICE" parameterRule="*" edgeType="HAS_PHYSICALCONNECTION"/>
+        <linkEdgeBinding sourceEntityType="CLOUD_SERVICE" destinationEntityType="LOGICALCONNECTION" role="CLOUD_SERVICE" parameterRule="*" edgeType="HAS_LOGICALCONNECTION"/>	
+		<linkEdgeBinding sourceEntityType="GRP_CLOUD_SERVICES" destinationEntityType="GRP_CLOUD_ACCESS" role="BIGPLAYER" parameterRule="*" edgeType="GRP_CLOUD_SERVICE"/>
+		<linkEdgeBinding sourceEntityType="GRP_CLOUD_ACCESS" destinationEntityType="LOGICALCONNECTION" role="BIGPLAYER" parameterRule="*" edgeType="GRP_CLOUD_ACCESS"/>
+    </linkEdgeDefinitions>
+</graphExportConfiguration>

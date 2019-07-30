@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listPKFALESource>
+    <PKFALESource>
+        <source name="RAEI" class="PKFALESource" pollingPeriod="300" origin="ALL" timezone="GMT"/>
+        <retentionTime>7</retentionTime>
+        <authority host="10.57.91.140" port="443"/>
+        <api_key>8pfvmhAso787yUMl</api_key>
+        <filter>sev:high mo:RAEI_CLT_</filter>
+        <limit>20</limit> 
+    </PKFALESource>
+</listPKFALESource>

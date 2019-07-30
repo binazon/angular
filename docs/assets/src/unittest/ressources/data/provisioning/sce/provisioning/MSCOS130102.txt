@@ -1,0 +1,2 @@
+##v1.0##
+#family,reference,subtype,domain,cosType

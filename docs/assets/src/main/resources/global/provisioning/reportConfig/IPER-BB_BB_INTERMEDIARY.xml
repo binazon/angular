@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_800" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_800" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_BACKBONE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_800.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_805" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_805" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PATH_AVAIL_BACKBONE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_805.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_826" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_826" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_BACKBONE_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_826.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_828" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_828" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PATH_AVAIL_BACKBONE_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_828.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

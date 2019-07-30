@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_314" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_299" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/CORRELATION_RESULT_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_302.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

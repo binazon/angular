@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodTotal
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>number_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number_period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>traffic_loadrate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				traffic_loadrate_reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>traffic_loadrate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				traffic_loadrate_emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>last_lineSpeed_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				last_lineSpeed_reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>last_lineSpeed_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				last_lineSpeed_emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>speed_change_timestamp</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				speed_change_timestamp
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

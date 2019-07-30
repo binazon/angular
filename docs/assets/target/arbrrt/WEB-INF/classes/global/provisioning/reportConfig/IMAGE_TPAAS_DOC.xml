@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_614_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_614_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_NOSHOW_REPORT_1_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_614.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_615_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_615_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_SCHEDULEDVSUNSCHEDULED_REPORT_1_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_615.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_616_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_616_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_TOPSCHEDULER_REPORT_1_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_616.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_618_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_618_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_USAGE_REPORT_1_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_618_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_618_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_618_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_USAGE_REPORT_2_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_618_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_619_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_619_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_TPASS_P2PVSMULTIPOINTS_REPORT_1_{START_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_619.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

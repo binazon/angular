@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listOffer>
+    <offer commercialName="DATA-RE" alias="DATA-RE">
+        <option label="Test" cpltAlias="TEST"/>
+    </offer>
+</listOffer>

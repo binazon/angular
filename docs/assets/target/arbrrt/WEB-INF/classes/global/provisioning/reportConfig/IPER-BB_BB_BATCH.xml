@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_819" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_819" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/backbone/performance/openstat_backbone_path_performance_1.0_usa_m{START_YYYY}{START_MM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_819.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

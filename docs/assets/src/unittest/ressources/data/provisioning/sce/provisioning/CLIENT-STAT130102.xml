@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<clientList>
+<client>
+    <DU>
+      <DUname>RHODIA</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>RHODIA</code>
+    <label>RHODIA</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 10 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>AREVA</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>AREVA</code>
+    <label>AREVA</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 2 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>ANDROS</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>ANDROS</code>
+    <label>ANDROS</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 3 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <code>TAC</code>
+    <label>TAC</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status>S</status>
+    <statServerGroup>GROUPE 4 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>ATAC</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>ATAC</code>
+    <label>ATAC</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 4 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>TOP_OFFICE</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>TOP_OFFICE</code>
+    <label>TOP_OFFICE</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 4 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>AAF</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>DATA-RE</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>AAF</code>
+    <label>AAF</label>
+    <customerCode/>
+    <origin>PAPYRUS</origin>
+    <type/>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup>GROUPE 5 TPC</statServerGroup>
+    <statServerProcess>0</statServerProcess>
+  </client>
+<client>
+    <DU>
+      <DUname>673765T</DUname>
+    </DU>
+    <serviceType>
+      <serviceTypeLabel>BTG-hkh</serviceTypeLabel>
+      <is3G>NO</is3G>
+    </serviceType>
+    <code>673765T</code>
+    <label>VEOLIA TRANSPORT(Transpac)</label>
+    <customerCode>673765</customerCode>
+    <origin>GK</origin>
+    <type>CUSTOMER</type>
+    <statServerType>NAS</statServerType>
+    <status/>
+    <statServerGroup/>
+    <statServerProcess>0</statServerProcess>
+  </client>
+</clientList>

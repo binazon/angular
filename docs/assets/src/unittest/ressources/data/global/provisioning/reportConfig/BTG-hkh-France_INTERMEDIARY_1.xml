@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_402" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_402" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/VariationCallsBySitesMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_401.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_404" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_404" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/UsageCallsBySitesMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_414" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_415" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/VariationCallsByVpnsMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_404.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_416" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_417" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/UsageCallsByVpnsMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_406.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_426" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_418" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/VariationCallsBySansMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_407.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_428" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_420" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/UsageCallsBySansMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_409.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

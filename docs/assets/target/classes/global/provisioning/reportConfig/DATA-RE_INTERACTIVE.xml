@@ -1,0 +1,3308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_206" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_206" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_FLOW_SWITCH_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_273.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_211_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_211_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CORE"/>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_239.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_213_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_213_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_240.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_223" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_223" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_239.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_224" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_224" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_240.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_225" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_225" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_SWITCH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_241.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_226" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_226" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_253.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_228" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_227" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_254.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_229" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_228" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_255.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_230" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_229" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_PORT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_278.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_231" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_230" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_SWITCH_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_279.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_232" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_231" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_PORT_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_280.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_233" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_232" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_ATM"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_234" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_233" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_DIMCVP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_235_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_234_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_NCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_235" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_234" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_ATMXDSL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_236" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_235" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_272.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1315_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1315_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_237" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_236" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_259.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_238" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_237" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO_LAP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_259.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_239" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_238" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_RADIO"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_258.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_240" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_239" computeScope="PARENT" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT|SWITCH"/>
+            <paramType alias="SWITCH_VLAN|SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="STATUS_PORT_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_285.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_241" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_240" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_239.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_242" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_241" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_240.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_243" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_242" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_253.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_245" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_243" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_RADIO"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_258.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_246" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_244" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_PORT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_278.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_247_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_247" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_200.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_247_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_247_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_200.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_247_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_247_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_200.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_247" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_245" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_254.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_248" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_246" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_255.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_250" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_248" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_PORT_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_281.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_251" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_249" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_PORT_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_280.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_252" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_250" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_SWITCH_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_279.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_253" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_251" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_259.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_254" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_252" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO_LAP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_259.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_255" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_253" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_ATM"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_256" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_254" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_DIMCVP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_257_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_255_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_NCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_257" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_255" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_ATMXDSL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_258" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_256" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_272.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1315_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1315_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_267_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_270" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ERROR_PORT_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_281.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_268_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_273_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPCPUSWITCH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_244.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_268" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_273" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPCPUROUTER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_244.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_274_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_205" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SLOT_CPU_MEM_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_240.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_274" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_204" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CORE"/>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SLOT_CPU_CPU_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_239.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_276" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_288.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_281" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_281" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_282" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_274" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_SWITCH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_241.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_283_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_377_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_269.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_283_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_377_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_269.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_283" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_377" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_269.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_293_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_283_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_293.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_293_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_283_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_293.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_293" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_283" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_293.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_294" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_279" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_296.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_295_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_280_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_PC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_299.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_295" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_280" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_299.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_297" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_282" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_298" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_284" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_CONNECTIVITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_299" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_285" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLOW_CONNECTIVITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_271.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_300" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_286" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_296.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_301" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_287" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_299.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_302" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_287_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_PC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_299.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_305" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_290" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE3"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_308.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_306" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_291" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE3"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_309.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_307" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_292" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE3"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_308.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_308" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_293" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE3"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_309.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_311" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_296" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE2"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_291.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_312" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_297" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE2"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_291.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_313" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_298" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RTD_SLA_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_314.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_314" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_361" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="JITTER_SLA_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_322.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_317_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_302_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLR_SLA_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_317_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_302_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="EMITTED_PLR_SLA_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_313_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_317" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_302" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PLR_SLA_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_318" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_303" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMEMROUTER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_245.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_319" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_304" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMEMSWITCH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_245.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPGLOBAL_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_316.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPGLOBAL_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_316.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPFLOW_ATMXDSL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_315.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPFLOW_DIMCVP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_315.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_5" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPFLOW_ATM"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_315.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_6" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_6" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPFLOW_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_315.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_7" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_7" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPFLOW_CONNECTIVITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_315.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_320_8" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_305_8" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPGLOBAL_PORT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_316.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_321_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_370_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMULTICRITERIA_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_216.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_321_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_370_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMULTICRITERIA_PORT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_216.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_321" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_370" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMULTICRITERIA_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_216.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_322_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_322_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_322" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_327" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_312" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RTD_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_323.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_328" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_313" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="JITTER_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_324.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_329_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_314_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_329_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_314_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="EMITTED_PLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_329" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_314" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_330" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_315" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RTD_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_323.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_331" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_316" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="JITTER_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_324.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_332_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_317_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="FLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_332_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_317_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="EMITTED_PLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_332" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_317" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PLR_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_325.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_334" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_319" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_330.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_335" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_320" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_330.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_336" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_321" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PARC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_332.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_340" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_325" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_DROPPED_COLOURED"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_336.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_341" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_326" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_DROPPED_COLOURED"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_336.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_342" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_327" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ROUTER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_343" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_328" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_344-1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_329_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SLOT_CPU"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_344" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_329" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_345" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_330" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_346" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_331" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_347" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_332" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH_PORT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_348" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_333" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_RADIO"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_349_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_349_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_349_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_349_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_349" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_334" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_RADIO_LAP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_350" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_335" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DIMCVP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_351" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_336" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ATM"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_352" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_337" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ATMXDSL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_353" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_338" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_VLAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_354" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_339" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_355" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_340" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_NCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_356" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_341" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_CONNECTIVITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_357_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_374" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DATA_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_339_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_357_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_379" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DATA_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_339.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_357" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_342" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DATA_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_339_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_358_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_343_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_LIRT_GALRE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_340.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_358" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_343" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_LIRT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_340.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_359_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_375" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_331.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_359" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_344" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_341.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_360_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_360_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_360" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_307_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_318.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_361" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_346" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPCPUAPPLISERVER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_244.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_362" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_347" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPMEMAPPLISERVER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_245.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_363" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_348" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_APPLISERVER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_364" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_329_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CORE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_CORE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_338.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_365" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_357" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE" suppress="true"/>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_365_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_357_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_365_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_357_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_366" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_358_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_366_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_358_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_367" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_358_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_367_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_358_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE" suppress="true"/>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_2_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359_2_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_3_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_359_3_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_4_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_380_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_368_5_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_372_2_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_369" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_372_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_370" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_372_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_372" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_380" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_202.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_374_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_386" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_343.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_374" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_381" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_343.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_374_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_386_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_343.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_374_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_381_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_343.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_387" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_387_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375_2_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_385_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375_3_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_387_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_385" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_375_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_385_GRP" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_344_GRP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_376" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_360" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOPLOADRATE_LOGICALCONNECT"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_357.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_377" type="INTERACTIVE" reportVersion="V1_0" reportRefId="VS_REPORT_VOLUMETRY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VS_VOLUMETRY_YEAR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>VS</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/VS_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_378" type="INTERACTIVE" reportVersion="V1_0" reportRefId="VS_REPORT_VOLUMETRY_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VS_VOLUMETRY_DAY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>VS</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/VS_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_379" type="INTERACTIVE" reportVersion="V1_0" reportRefId="VS_REPORT_VOLUMETRY_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VS_VOLUMETRY_MONTH"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>VS</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/VS_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_380" type="INTERACTIVE" reportVersion="V1_0" reportRefId="VS_REPORT_TOP_ACCESS" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VS_TOP_ACCESS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>VS</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/VS_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_381" type="INTERACTIVE" reportVersion="V1_0" reportRefId="VS_REPORT_TOP_MEASURE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VS_TOP_MEASURE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>VS</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/VS_5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_382_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_362_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_GALRE_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_382_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_383" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_270.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_382_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_384" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_270.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_382" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_362" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_382" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_382" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COS_PER_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_270.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_383" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_363" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_384_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_364_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_GALRE_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_384" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_364" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_385" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_365" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_363.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_386_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_366_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_GALRE_WITH_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_365.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_386" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_366" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITH_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_365.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_387" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_367" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_LIRT_WITH_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_365.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_388" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_368" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_RTD_WITHOUT_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_366.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_389" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_369" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_RTD_WITH_SLA"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_367.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1313_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1313_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1313_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1313_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TRAFFIC_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1313.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1314_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1314_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUME_DETAIL_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1314.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1314_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1314_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUME_DETAIL_ACCESS_INTERFACE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1314.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_999" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_999" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRPCON"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_999.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1306" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1306" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1307" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1307" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1308" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1308" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1309" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1309" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_SITE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1310" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1310" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1311" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1311" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1312" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_1312" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_COSBE_PER_ZONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_1306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>element</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Identifier of element concerned by this line of statistics.
+- Name of "IPBX zone" if the file provide statistics on "IPBX zones".
+- SARE reference if the element is a device (IPBX, "voice gateway", "media gateway", "third party server"). Example: "TL4US.X.VGDLS".
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>maxNumberOfOccupiedChannelsDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Max number of channels simultaneously occupied during the busy hour. 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>durationOfTheMaxOccupancyDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Duration of the max occupancy during the busy hour.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>reservedField1</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Reserved field
+Note: By symmetry with what is done for other statistics, could be used later to store the max number of channels which can be used during the busy day.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>busyDay</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Day of the first peak of occupied channels.
+The format of this field is YYYY-MM-DD (example of value: "2008-01-14").
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>busyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Hour of the (first) peak of occupied channels.
+The format of this field is hh:mm:ss (example of value: "16:04:55").
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>trafficCarriedDuringTheBusyHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Traffic carried during the busy hour, in "centum call seconds" (CCS). It is the total amount of traffic (in seconds) divided by 100.
+1 CCS is equal to 100 call*second (ex: the traffic carried by 2 calls of 51 seconds is equal to 1.02 CCS). 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>reservedField2</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Reserved field 
+Note: By symmetry with what is done for other statistics, could be used later to store the number of channels to add in order to avoid any blocking of call during the busy hour.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>reservedField3</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Reserved field 
+Note: By symmetry with what is done for other statistics, could be used later to store the probability (in %) that a new call be blocked during the busy hour because of the channels occupancy. This indicator is also known as the GoS (Grade of Service).
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

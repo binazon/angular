@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ENTITYID
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				PARENTID
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				DATE
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>numberBreachIn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of Breaches in
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>durationBreachIn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				duration of Breaches in
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>numberBreachOut</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of Breaches out
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>durationBreachOut</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				duration of Breaches out
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>LoadRateIn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				IP Bandwidth load rate in
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>numberPeriodIn</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of significant samples in
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>LoadRateOut</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				IP Bandwidth load rate out
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>numberPeriodOut</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of significant samples out
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>LoadRateIn_values</alias>
+        <dataFormat>VARCHAR(4000)</dataFormat>
+        <comments><![CDATA[
+				IP Bandwidth load rate in values
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>LoadRateOut_values</alias>
+        <dataFormat>VARCHAR(4000)</dataFormat>
+        <comments><![CDATA[
+				IP Bandwidth load rate out values
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

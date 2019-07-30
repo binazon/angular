@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<measures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <measure COSId="0">
+    <MeasureCOSName>Internet</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="1">
+  	<MeasureCOSName>D3</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="2">
+ 	<MeasureCOSName>D2</MeasureCOSName>
+ 	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="3">
+  	<MeasureCOSName>D1</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="4">
+  	<MeasureCOSName>RT_VI</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="5">
+    <MeasureCOSName>RT_VO</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="32">
+    <MeasureCOSName>Standard</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="40">
+    <MeasureCOSName>D3</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="72">
+  	<MeasureCOSName>D2</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="96">
+  	<MeasureCOSName>Premium</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="104">
+  	<MeasureCOSName>D1</MeasureCOSName>
+  	<MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+    <measure COSId="128">
+  <MeasureCOSName>Premium</MeasureCOSName>
+  <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+    <measure COSId="136">
+    <MeasureCOSName>RT_VI</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="160">
+    <MeasureCOSName>Multimedia</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="184">
+    <MeasureCOSName>RT_VO</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="A">
+    <MeasureCOSName>Data</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="B">
+    <MeasureCOSName>Critical</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="C">
+    <MeasureCOSName>Rt-Video</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="S">
+    <MeasureCOSName>San</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="V">
+    <MeasureCOSName>Voice</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="6">
+    <MeasureCOSName>Data</MeasureCOSName>
+    <MeasureSLAClass>Data</MeasureSLAClass>
+  </measure>
+  <measure COSId="7">
+    <MeasureCOSName>Voix CES</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>  
+  <measure COSId="8">
+    <MeasureCOSName>Voix/IP</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+  <measure COSId="9">
+    <MeasureCOSName>Video</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>  
+  <measure COSId="10">
+    <MeasureCOSName>SAN</MeasureCOSName>
+    <MeasureSLAClass>Voice</MeasureSLAClass>
+  </measure>
+ </measures>

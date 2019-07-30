@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId - ID of the logical connection, parent of the COS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_duration_total</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_emission_bytes</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of emmitted bytes				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_reception_bytes</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of received bytes				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_emission_dropped_bytes</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of dropped bytes in emission				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_reception_dropped_bytes</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of dropped bytes in reception				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>number_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of samples
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

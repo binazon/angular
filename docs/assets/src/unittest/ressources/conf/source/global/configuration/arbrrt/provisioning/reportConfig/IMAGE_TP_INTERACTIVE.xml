@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_600" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_600" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_600.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_601" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_601_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_601.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_601" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_601" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_601.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_602" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_602" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_602.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_603" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_603_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_603.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_603" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_603" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_603.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_604" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_604_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_604.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_604" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_604" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_604.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_605" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_605_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_605.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_605" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_605" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_605.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_606" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_606_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_606.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_606" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_606" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_606.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_607" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_607_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_607.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_607" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_607" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_607.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_608" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_608_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_608.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_608" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_608" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_608.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_609" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_609_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_609.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_609" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_609" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_609.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_610" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_610_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_610.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_610" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_610" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_610.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_611" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_611_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_611.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_611" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_611" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_611.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_612" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_612_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_612.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_612" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_612" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_612.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_613" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_613_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_613.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_613" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_613" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_613.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

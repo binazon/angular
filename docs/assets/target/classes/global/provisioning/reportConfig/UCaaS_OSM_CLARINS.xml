@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_1_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_H_STD.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_2_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_D_STD.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_3_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_H_HLPDSK.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_4_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_D_HLPDSK.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_5_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_HLPDSK_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_CLARINS_6" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_CLARINS_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_CLARINS_OUTPUT_REPORT_6_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_CLARINS_STD_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_INTERMEDIARY" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERMEDIARY" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVPFP_MARKET</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_OVPFP_MARKET_GLOBAL.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

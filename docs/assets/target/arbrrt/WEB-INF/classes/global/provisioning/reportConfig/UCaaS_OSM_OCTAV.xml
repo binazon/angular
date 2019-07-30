@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_OCTAV_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_OSM_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_OSM_OUTPUT_REPORT_1_{START_YYMMDD}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_OCTAV.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_OCTAV_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_OSM_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_OSM_OUTPUT_REPORT_2_{START_YYMMDD}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_OCTAV_DET.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

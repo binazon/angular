@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_400" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_400" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSBC"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>INTERMEDIARY_COMPUTATIONS/{STATGROUP_DATA_FOLDER}/{START_YYMM}/QOS_Metrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_400.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

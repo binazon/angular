@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[EntityId]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Parent]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[Date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>INOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Equipment traffic - load in package/s]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>OUTOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Equipment traffic - Failure in Buffer allocations]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>DROPOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Equipment traffic - Non-routed IP frames]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_890" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_921" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NETWORK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK1_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_920.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_891" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_915" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK3_CPU_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_910.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_892" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_918" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK2_BANDWIDTH_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_915.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_893" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_920" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK4_DROPPED_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_919.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

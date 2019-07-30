@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_470" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_470" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_RETURNED_FOR_SAN</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_430.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_479" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_479" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGECALLS_FOR_SAN_SVAIP</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_469.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- Start IP 02322 -->
+    <reportConfig alias="REPORTCONFIG_469_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_469_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGECALLS_FOR_SAN_SVAIP_FIXE_MOBILE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_469_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- End IP 02322 -->
+    <reportConfig alias="REPORTCONFIG_404_3_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_404_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_BY_SITES_BY_VPNS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_404_3.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_481" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_481" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGECALLS_FOR_SVAIP_ACHT</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_471.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_483" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_483" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGECALLS_FOR_SVAIP_REROUTING</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_473.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- IP02266 -->
+    <reportConfig alias="REPORTCONFIG_483_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_483_1" computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="GKSAN"/>
+		</listParamType>
+		<listIndicator/>
+		<reportOutput>
+			<type>CASSANDRA</type>
+			<format>DAY_HOURLY</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix>USAGECALLS_FOR_SVAIP_ORIGIN_REROUTING</locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/REPORT_473_1.xml</uri>
+		</reportOutput>
+		<criteria type="default" value="DI"/>
+	</reportConfig>
+    <!-- Fin FIP02266 -->
+    <reportConfig alias="REPORTCONFIG_485" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_485" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKRECEPTIONNUMBER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGECALLS_FOR_NR_SVAIP</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_475.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>    
+    <reportConfig alias="REPORTCONFIG_466" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_USAGE_CALLS_BY_TECH_TYPE_BY_BTIP_VPN" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_BY_TECH_TYPE_BY_BTIP_VPN</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_404.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_468" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_USAGE_CALLS_BY_SERVICE_BY_BTIP_VPN" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_BY_SERVICE_BY_BTIP_VPN</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_415.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+	<!--     RECOVERY -->
+    <reportConfig alias="REPORTCONFIG_466" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_USAGE_CALLS_BY_TECH_TYPE_BY_BTIP_VPN_RECOVERY" computeScope="ENTITY" optional="false"  suppress="true">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_BY_TECH_TYPE_BY_BTIP_VPN</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_404.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_468" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_USAGE_CALLS_BY_SERVICE_BY_BTIP_VPN_RECOVERY" computeScope="ENTITY" optional="false"  suppress="true">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>USAGE_CALLS_BY_SERVICE_BY_BTIP_VPN</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_415.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

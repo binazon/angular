@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>duration</columnName>
+        <alias>duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[duration of the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal concerned by meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>meetingkey</columnName>
+        <alias>meetingkey</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[id of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_booked_terminals</columnName>
+        <alias>nb_booked_terminals</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of booked terminals for the meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>organizer</columnName>
+        <alias>organizer</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[organizer of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>status</columnName>
+        <alias>status</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[status of the meeting (completed, uncompleted, undefined)]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>subject</columnName>
+        <alias>subject</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[title of meeting]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

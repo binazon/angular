@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="EXTENDED_CCASP_PEAK_PORT_USAGE" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CCASP_PEAK_PORT_USAGE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/CCASP_PEAK_PORT_USAGE_DAILY.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig> 
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="EXTENDED_CCASP_TELEPHONY_CDR" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA_CCASP_TELEPHONY_CDR</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CCASP_MEETING_PARTICIPANT</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/CCASP_TELEPHONY_CDR_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>    
+</listReportConfig>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityLinkList>
+	<entityLink type="ASSOCIATED_DEVICE" filename="EQUIPMENTS-ASSOCIATED-DEVICES" hasHeader="true" >
+		<sourceColumnName>DEVICE_FDN</sourceColumnName>
+		<roleColumnName>TYPE</roleColumnName>
+		<destinationColumnName>ASSOCIATED_DEVICE</destinationColumnName>
+	</entityLink>
+</entityLinkList>

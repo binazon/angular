@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listCriteria>
+    <criteria type="default" value="DI"/>
+    <criteria type="default" value="customerCode"/>
+    <criteria type="international" value="customerCode"/>
+    <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+</listCriteria>

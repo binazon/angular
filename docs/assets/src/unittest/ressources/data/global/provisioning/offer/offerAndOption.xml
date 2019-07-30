@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listOffer>
+    <offer commercialName="BIV-SIP Internet" alias="BIV-SIP-DATA">
+        <option label="BIV-SIP Internet" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY"/>
+    </offer>
+    <offer commercialName="Business Together" alias="BT IPBX">
+        <option label="Business Together" cpltAlias="DOC"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="Business Talk &amp; Contact Center" alias="BTG-hkh">
+        <option label="Business Talk and Contact Center" cpltAlias="DOC"/>
+        <option label="Business Talk &amp; Contact Center" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary_afterCollect" cpltAlias="INTERMEDIARY_1"/>
+        <option label="Intermediary_afterIntermediary1" cpltAlias="INTERMEDIARY_2"/>
+        <option label="Intermediary_QOS" cpltAlias="INTERMEDIARY_3"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="Business Talk IP" alias="BTG-hkh-France">
+        <option label="Business Talk IP" cpltAlias="DOC"/>
+        <option label="Business Talk IP" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary_afterCollect" cpltAlias="INTERMEDIARY_1"/>
+        <option label="Intermediary_afterIntermediary1" cpltAlias="INTERMEDIARY_2"/>
+        <option label="Intermediary_QOS" cpltAlias="INTERMEDIARY_3"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="BTIC H323" alias="BTIC-H323">
+        <option label="BTIC (H323)" cpltAlias="DOC"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="BTIC SIP" alias="BTIC-SIP">
+        <option label="BTIC (SIP)" cpltAlias="DOC"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="BVPN Galerie" alias="BVPN-GALERIE">
+        <option label="BVPN Galerie" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY"/>
+        <option label="Intermediary_0" cpltAlias="INTERMEDIARY_0"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="DATA-RE" alias="DATA-RE">
+        <option label="Réseau" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY"/>
+        <option label="Intermediary_0" cpltAlias="INTERMEDIARY_0"/>
+        <option label="Intermediary_mockup" cpltAlias="INTERMEDIARY_MOCKUP"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+    <offer commercialName="Dashboard Of Dashboard" alias="DOD">
+        <option label="Dashboard Of Dashboard" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary computation for COS" cpltAlias="INTERMEDIARY_COS"/>
+        <option label="Intermediary computation for Equipment" cpltAlias="INTERMEDIARY_EQUIPMENT"/>
+        <option label="Intermediary computation for Logical Connection" cpltAlias="INTERMEDIARY_LOGICALCONNECTION"/>
+        <option label="Intermediary computation for Measure" cpltAlias="INTERMEDIARY_MEASURE"/>
+        <option label="Intermediary computation for Physical Connection" cpltAlias="INTERMEDIARY_PHYSICALCONNECTION"/>
+    </offer>
+    <offer commercialName="IMAGE_TP" alias="IMAGE_TP">
+        <option label="TelePresence" cpltAlias="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_TPAAS" alias="IMAGE_TPAAS">
+        <option label="TPaaS" cpltAlias="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="IMAGE_TPCOMMUNITY" alias="IMAGE_TPCOMMUNITY">
+        <option label="TP Community" cpltAlias="INTERACTIVE"/>
+    </offer>
+    <offer commercialName="B2GaaS" alias="UCaaS">
+        <option label="B2GaaS" cpltAlias="DOC"/>
+        <option label="Tarzan" cpltAlias="TARZAN"/>
+    </offer>
+</listOffer>

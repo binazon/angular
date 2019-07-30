@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>   
+    
+    <reportConfig alias="REPORTCONFIG_671" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_671" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPCO_INVENTORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_671.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     <reportConfig alias="REPORTCONFIG_672" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_672" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPCO_ROOMUSAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_672.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     
+   
+</listReportConfig>

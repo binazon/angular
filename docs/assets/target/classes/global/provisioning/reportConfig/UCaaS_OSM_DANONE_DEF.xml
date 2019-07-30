@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_1_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_7" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_2_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_0.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_3_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_GRPHOR_POLCOO.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_8" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_4_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_AGT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_9" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_5_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_HORCOO.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_6" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_6_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_GRPHOR_POL1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_7" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_10" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_7_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_AGT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_8" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_11" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_8_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_HORPOL1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_9" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_9_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_GRPHOR_POL2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_10" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_12" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_10_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_AGT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_11" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_13" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_11_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_HORPOL2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_12" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_12_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_GRPHOR_POL3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_13" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_14" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_13_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_AGT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_14" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_15" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_14_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_HORPOL3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_15" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_15_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_GRPHOR_POLPREV.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_16" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_16" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_16_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_AGT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_DANONEDEF_17" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_DANONEDEF_17" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_DANONEDEF_OUTPUT_REPORT_17_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_HORPREV.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

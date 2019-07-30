@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+	<!-- GLOBAL USAGE : day, month and 13 months -->
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_GLOBAL" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_GLOBAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_GLOBAL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_GLOBAL_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_GLOBAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_GLOBAL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_GLOBAL_MONTH" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_GLOBAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_GLOBAL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_GLOBAL_THIRTEEN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_GLOBAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_GLOBAL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	
+	<!-- CUSTOMER USAGE : day, month and 13 months -->
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL_PER_CUSTOMER" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_PER_CUSTOMER" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_PER_CUSTOMER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_PER_CUSTOMER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL_PER_CUSTOMER" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_PER_CUSTOMER_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_PER_CUSTOMER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_PER_CUSTOMER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL_PER_CUSTOMER" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_PER_CUSTOMER_MONTH" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_PER_CUSTOMER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_PER_CUSTOMER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_GLOBAL_PER_CUSTOMER" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_PER_CUSTOMER_THIRTEEN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_PER_CUSTOMER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_PER_CUSTOMER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+	<!-- USAGE 8H : day, month and 13 months -->
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE8H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE8H" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_8H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE8H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE8H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE8H_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_8H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE8H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE8H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE8H_MONTH" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_8H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE8H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE8H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE8H_THIRTEEN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_8H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE8H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+	<!-- USAGE 10H : day, month and 13 months -->
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE10H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE10H" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_10H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE10H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE10H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE10H_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_10H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE10H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE10H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE10H_MONTH" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_10H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE10H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OVPFP_MARKET_USAGE10H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_OVPFP_MARKET_INTERACTIVE_USAGE10H_THIRTEEN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPFP_MARKET_USAGE_10H"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_OVPFP_MARKET_USAGE10H.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

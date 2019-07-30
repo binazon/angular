@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ENTITYID
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				DATE
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>numberPeriod</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of polling period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sumLoadRateReception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the loadRateReception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>lastLineSpeedReception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Last line speed reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sumLoadRateEmission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the loadRateEmission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>lastLineSpeedEmission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Last line speed emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_W_AVAIL" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_W_AVAIL" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_W_AVAIL_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_W_AVAIL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_M_AVAIL" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_M_AVAIL" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_M_AVAIL_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_M_AVAIL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_W_RTD" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_W_RTD" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_W_RTD_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_W_RTD.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_M_RTD" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_M_RTD" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_M_RTD_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_M_RTD.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_W_JITTER" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_W_JITTER" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_W_JITTER_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_W_JITTER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_M_JITTER" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_M_JITTER" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_M_JITTER_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_M_JITTER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_W_PLR" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_W_PLR" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_W_PLR_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_W_PLR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_831_M_PLR" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_831_M_PLR" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_831_M_PLR_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_831_M_PLR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+</listReportConfig>

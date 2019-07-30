@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_ARKADIN_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_ARKADIN_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_ARKADIN_OUTPUT_REPORT_1_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_ARKADIN_STATIC.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_ARKADIN_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_ARKADIN_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_ARKADIN_OUTPUT_REPORT_2_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_ARKADIN_SYN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_ARKADIN_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_ARKADIN_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_ARKADIN_OUTPUT_REPORT_3_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_ARKADIN_DET.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_OSM_ARKADIN_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_UCAAS_ARKADIN_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_UCAAS_ARKADIN_OUTPUT_REPORT_4_{END_YYMM}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_996_ARKADIN_DISPATCH.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

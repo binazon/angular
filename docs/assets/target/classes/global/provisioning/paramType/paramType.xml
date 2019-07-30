@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listParamType>
+    <paramType alias="ACCESS" entityType="PHYSICALCONNECTION" entitySubtype="ACCESS" parentType="*" parentSubtype="*"/>
+    <paramType alias="ACCESS_CLOUD" entityType="PHYSICALCONNECTION" entitySubtype="ACCESS_CLOUD" parentType="*" parentSubtype="*"/>
+    <paramType alias="ACCESS_UMTS" entityType="PHYSICALCONNECTION" entitySubtype="ACCESS_UMTS" parentType="*" parentSubtype="*"/>
+    <paramType alias="ACCESS_VOICE" entityType="PHYSICALCONNECTION" entitySubtype="ACCESS_VOICE" parentType="*" parentSubtype="*"/>    
+    <paramType alias="ACTRUNK" entityType="PHYSICALCONNECTION" entitySubtype="ACTRUNK" parentType="*" parentSubtype="*"/>
+    <paramType alias="ACTRUNKG" entityType="PHYSICALCONNECTION" entitySubtype="ACTRUNKG" parentType="*" parentSubtype="*"/>
+    <paramType alias="ANALOG-GATEWAY" entityType="EQUIPMENT" entitySubtype="ANALOG-GATEWAY" parentType="*" parentSubtype="*"/>
+    <paramType alias="APPLI-SERVER-AC" entityType="EQUIPMENT" entitySubtype="APPLI-SERVER-AC" parentType="*" parentSubtype="*"/>
+    <paramType alias="APPLI-SERVER" entityType="EQUIPMENT" entitySubtype="APPLI-SERVER" parentType="*" parentSubtype="*"/>
+    <paramType alias="ATM" entityType="LOGICALCONNECTION" entitySubtype="ATM" parentType="*" parentSubtype="*"/>
+    <paramType alias="ATMXDSL" entityType="LOGICALCONNECTION" entitySubtype="ATMXDSL" parentType="*" parentSubtype="*"/>
+    <paramType alias="CALL_CENTER_NB" entityType="GKSAN" entitySubtype="CALL_CENTER_NB" parentType="*" parentSubtype="*"/>
+    <paramType alias="CITY" entityType="CITY" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="CLOUD_SERVICE" entityType="CLOUD_SERVICE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="CONNECTIVITY" entityType="LOGICALCONNECTION" entitySubtype="CONNECTIVITY" parentType="*" parentSubtype="*"/>
+    <paramType alias="CONTINUITY_NB" entityType="GKSAN" entitySubtype="CONTINUITY_NB" parentType="*" parentSubtype="*"/>
+    <paramType alias="CORE" entityType="PHYSICALCONNECTION" entitySubtype="CORE" parentType="*" parentSubtype="*"/>
+    <paramType alias="COS" entityType="COS" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM1" entityType="COS" entitySubtype="COSNUM1" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM1|ACCESS" entityType="COS" entitySubtype="COSNUM1" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM2" entityType="COS" entitySubtype="COSNUM2" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM2|ACCESS" entityType="COS" entitySubtype="COSNUM2" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM3" entityType="COS" entitySubtype="COSNUM3" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM3|ACCESS" entityType="COS" entitySubtype="COSNUM3" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM4" entityType="COS" entitySubtype="COSNUM4" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM4|ACCESS" entityType="COS" entitySubtype="COSNUM4" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM5" entityType="COS" entitySubtype="COSNUM5" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM5|ACCESS" entityType="COS" entitySubtype="COSNUM5" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM6" entityType="COS" entitySubtype="COSNUM6" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM6|ACCESS" entityType="COS" entitySubtype="COSNUM6" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSNUM9" entityType="COS" entitySubtype="COSNUM9" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSNUM9|ACCESS" entityType="COS" entitySubtype="COSNUM9" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSTYPE0" entityType="COS" entitySubtype="COSTYPE0" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSTYPE0|ACCESS" entityType="COS" entitySubtype="COSTYPE0" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="COSTYPE0|ATM" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="ATM"/>
+    <paramType alias="COSTYPE0|ATMXDSL" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="ATMXDSL"/>
+    <paramType alias="COSTYPE0|DIMCVP" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="DIMCVP"/>
+    <paramType alias="COSTYPE0|LOGICALCONNECT" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="LOGICALCONNECT"/>
+    <paramType alias="COSTYPE0|LOGICALCONNECTION" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="*"/>
+    <paramType alias="COSTYPE0|VLAN" entityType="COS" entitySubtype="COSTYPE0" parentType="LOGICALCONNECTION" parentSubtype="VLAN"/>
+    <paramType alias="COSTYPE2" entityType="COS" entitySubtype="COSTYPE2" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSTYPE2|NCONNECT" entityType="COS" entitySubtype="COSTYPE2" parentType="LOGICALCONNECTION" parentSubtype="NCONNECT"/>
+    <paramType alias="COSTYPE3" entityType="COS" entitySubtype="COSTYPE3" parentType="*" parentSubtype="*"/>
+    <paramType alias="COSTYPE3|CONNECTIVITY" entityType="COS" entitySubtype="COSTYPE3" parentType="LOGICALCONNECTION" parentSubtype="CONNECTIVITY"/>
+    <paramType alias="COSTYPE3|LOGICALCONNECTION" entityType="COS" entitySubtype="COSTYPE3" parentType="LOGICALCONNECTION" parentSubtype="*"/>
+    <paramType alias="COUNTRY" entityType="COUNTRY" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="COUNTRY_ALPHA3" entityType="COUNTRY_ALPHA3" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="DATA_SITE" entityType="SITE" entitySubtype="DATA_SITE" parentType="*" parentSubtype="*"/>
+    <paramType alias="DATA_SITE_CLOUD" entityType="SITE" entitySubtype="DATA_SITE_CLOUD" parentType="*" parentSubtype="*"/>
+    <paramType alias="DATA_VPN" entityType="VPN" entitySubtype="DATA_VPN" parentType="*" parentSubtype="*"/>
+    <paramType alias="DATA_ZONE" entityType="ZONE" entitySubtype="DATA_ZONE" parentType="*" parentSubtype="*"/>
+    <paramType alias="DATA_ZONE_CLOUD" entityType="ZONE" entitySubtype="DATA_ZONE_CLOUD" parentType="*" parentSubtype="*"/>
+    <paramType alias="DIMCVP" entityType="LOGICALCONNECTION" entitySubtype="DIMCVP" parentType="*" parentSubtype="*"/>
+    <paramType alias="DSP" entityType="PHYSICALCONNECTION" entitySubtype="DSP" parentType="*" parentSubtype="*"/>
+    <paramType alias="EQUIPMENT" entityType="EQUIPMENT" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="EQUIPMENT_CLOUD" entityType="EQUIPMENT" entitySubtype="EQUIPMENT_CLOUD" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKRECEPTIONNUMBER" entityType="GKRECEPTIONNUMBER" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKSAN" entityType="GKSAN" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKSHAREDCALLLIMITER" entityType="GKSHAREDCALLLIMITER" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKSITE" entityType="GKSITE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKTRUNK" entityType="GKTRUNK" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GKVPN" entityType="GKVPN" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GRPCON" entityType="PHYSICALCONNECTION" entitySubtype="GRPCON" parentType="*" parentSubtype="*"/>
+    <paramType alias="GRP_CLOUD_ACCESS" entityType="GRP_CLOUD_ACCESS" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="GRP_CLOUD_SERVICES" entityType="GRP_CLOUD_SERVICES" entitySubtype="*" parentType="*" parentSubtype="*"/>    
+    <paramType alias="H323" entityType="SITE" entitySubtype="H323" parentType="*" parentSubtype="*"/>
+    <paramType alias="H_PATH" entityType="H_PATH" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="H_MEASURE" entityType="H_MEASURE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="INTERFACE" entityType="PHYSICALCONNECTION" entitySubtype="INTERFACE" parentType="*" parentSubtype="*"/>
+    <paramType alias="INTERFACE_UMTS" entityType="PHYSICALCONNECTION" entitySubtype="INTERFACE_UMTS" parentType="*" parentSubtype="*"/>
+    <paramType alias="INTERFACE_VOICE" entityType="PHYSICALCONNECTION" entitySubtype="INTERFACE_VOICE" parentType="*" parentSubtype="*"/>
+    <paramType alias="INTERFACE|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="INTERFACE" parentType="EQUIPMENT" parentSubtype="IPT-SERVER"/>
+    <paramType alias="INTERFACE|MEDIA-GATEWAY" entityType="PHYSICALCONNECTION" entitySubtype="INTERFACE" parentType="EQUIPMENT" parentSubtype="MEDIA-GATEWAY"/>
+    <paramType alias="IPBXZONE" entityType="IPBXZONE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="IPT-SERVER" entityType="EQUIPMENT" entitySubtype="IPT-SERVER" parentType="*" parentSubtype="*"/>
+    <paramType alias="LIRT" entityType="MEASURE" entitySubtype="LIRT" parentType="*" parentSubtype="*"/>
+    <paramType alias="LIRT_GALRE" entityType="MEASURE" entitySubtype="LIRT_GALRE" parentType="*" parentSubtype="*"/>
+    <paramType alias="LOGICALCONNECT" entityType="LOGICALCONNECTION" entitySubtype="LOGICALCONNECT" parentType="*" parentSubtype="*"/>
+    <paramType alias="LOGICALCONNECTION" entityType="LOGICALCONNECTION" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="LOGICALCONNECTION_CLOUD" entityType="LOGICALCONNECTION" entitySubtype="LOGICALCONNECTION_CLOUD" parentType="*" parentSubtype="*"/>
+    <paramType alias="LOGICALCONNECT|ACCESS" entityType="LOGICALCONNECTION" entitySubtype="LOGICALCONNECT" parentType="PHYSICALCONNECTION" parentSubtype="ACCESS"/>
+    <paramType alias="MANAGED_OBJECT" entityType="MANAGED_OBJECT" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="MEASURE" entityType="MEASURE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="MEDIA-GATEWAY" entityType="EQUIPMENT" entitySubtype="MEDIA-GATEWAY" parentType="*" parentSubtype="*"/>
+    <paramType alias="NCONNECT" entityType="LOGICALCONNECTION" entitySubtype="NCONNECT" parentType="*" parentSubtype="*"/>
+    <paramType alias="NETWORK" entityType="*" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="ONE_WAY_H_MEASURE" entityType="ONE_WAY_H_MEASURE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="PATH" entityType="PATH" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="PHONEENTITY_TP" entityType="PHONEENTITY" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="PHONEENTITY|IPBXZONE" entityType="PHONEENTITY" entitySubtype="*" parentType="IPBXZONE" parentSubtype="*"/>
+    <paramType alias="PHONEENTITY" entityType="PHONEENTITY" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="PHYSICALCONNECTION" entityType="PHYSICALCONNECTION" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="PHYSICALCONNECTION|ANALOG-GATEWAY" entityType="PHYSICALCONNECTION" entitySubtype="*" parentType="EQUIPMENT" parentSubtype="ANALOG-GATEWAY"/>
+    <paramType alias="PHYSICALCONNECTION|ROUTER" entityType="PHYSICALCONNECTION" entitySubtype="*" parentType="EQUIPMENT" parentSubtype="ROUTER"/>
+    <paramType alias="RADIO" entityType="PHYSICALCONNECTION" entitySubtype="RADIO" parentType="*" parentSubtype="*"/>
+    <paramType alias="RADIO_LAP" entityType="PHYSICALCONNECTION" entitySubtype="RADIO_LAP" parentType="*" parentSubtype="*"/>
+    <paramType alias="RECEPTION_NB" entityType="GKSAN" entitySubtype="RECEPTION_NB" parentType="*" parentSubtype="*"/>
+    <paramType alias="ROUTER" entityType="EQUIPMENT" entitySubtype="ROUTER" parentType="*" parentSubtype="*"/>
+    <paramType alias="SHADOW_SITE" entityType="SHADOW_SITE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="SIP" entityType="SITE" entitySubtype="SIP" parentType="*" parentSubtype="*"/>
+    <paramType alias="SIP_SITE" entityType="SIP_SITE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="SITE" entityType="SITE" entitySubtype="*" parentType="*" parentSubtype="*"/>  
+    <paramType alias="ENTITY" entityType="VIDEO_ENTITY" entitySubtype="*" parentType="*" parentSubtype="*"/>    
+    <paramType alias="SLOT_CPU" entityType="PHYSICALCONNECTION" entitySubtype="SLOT_CPU" parentType="*" parentSubtype="*"/>
+    <paramType alias="SVAIP" entityType="GKSAN" entitySubtype="SVAIP" parentType="*" parentSubtype="*"/>
+    <paramType alias="SWITCH" entityType="EQUIPMENT" entitySubtype="SWITCH" parentType="*" parentSubtype="*"/>
+    <paramType alias="SWITCH_AP" entityType="EQUIPMENT" entitySubtype="SWITCH_AP" parentType="*" parentSubtype="*"/>
+    <paramType alias="SWITCH_PORT" entityType="PHYSICALCONNECTION" entitySubtype="SWITCH_PORT" parentType="*" parentSubtype="*"/>
+    <paramType alias="SWITCH_PORT|SWITCH" entityType="PHYSICALCONNECTION" entitySubtype="SWITCH_PORT" parentType="EQUIPMENT" parentSubtype="SWITCH"/>
+    <paramType alias="SWITCH_VLAN" entityType="PHYSICALCONNECTION" entitySubtype="SWITCH_VLAN" parentType="*" parentSubtype="*"/>
+    <paramType alias="SWITCH_VLAN|SWITCH" entityType="PHYSICALCONNECTION" entitySubtype="SWITCH_VLAN" parentType="EQUIPMENT" parentSubtype="SWITCH"/>
+    <paramType alias="TERMINAL" entityType="TERMINAL" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="TOPO_SITE" entityType="TOPO_SITE" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="UNIQUE_NB" entityType="GKSAN" entitySubtype="UNIQUE_NB" parentType="*" parentSubtype="*"/>
+    <paramType alias="VIDEO_SITE" entityType="SITE" entitySubtype="VIDEO_SITE" parentType="*" parentSubtype="*"/>
+    <paramType alias="VIDEO_ENTITY" entityType="VIDEO_ENTITY" entitySubtype="*" parentType="*" parentSubtype="*"/>    
+    <paramType alias="VLAN" entityType="LOGICALCONNECTION" entitySubtype="VLAN" parentType="*" parentSubtype="*"/>
+    <paramType alias="VPN" entityType="VPN" entitySubtype="*" parentType="*" parentSubtype="*"/>  
+    <paramType alias="VIRTUALROOM" entityType="VIRTUALROOM" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="CCASP_CUSTOMER" entityType="CCASP_CUSTOMER" entitySubtype="*" parentType="*" parentSubtype="*"/>
+    <paramType alias="VOICE-GATEWAY" entityType="EQUIPMENT" entitySubtype="VOICE-GATEWAY" parentType="*" parentSubtype="*"/>
+    
+    <!--     USED in "BT IPBX_DOC.xml" but replaced by NEW -->
+    <paramType alias="CMG|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="CMG" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="CMS|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="CMS" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="IPTHWCNF|APPLI-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="IPTHWCNF" parentType="EQUIPMENT" parentSubtype="APPLI-SERVER" suppress="true"/>
+    <paramType alias="IPTSERV|APPLI-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="IPTSERV" parentType="EQUIPMENT" parentSubtype="APPLI-SERVER" suppress="true"/>
+    <paramType alias="TRUNK|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="TRUNK" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="PHYSICALCONNECTION|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="*" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+	<!--     NOT USED : suppress="true" -->
+    <paramType alias="IPTHWCNF|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="IPTHWCNF" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="IPTSERV|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="IPTSERV" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVCTI|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVCTI" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVGW|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVGW" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVH323|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVH323" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVIPPH|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVIPPH" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVMD|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVMD" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+    <paramType alias="DEVVM|IPT-SERVER" entityType="PHYSICALCONNECTION" entitySubtype="DEVVM" parentType="EQUIPMENT" parentSubtype="IPT-SERVER" suppress="true"/>
+	<!--     NEW  -->
+	<paramType alias="CMG" entityType="PHYSICALCONNECTION" entitySubtype="CMG" parentType="*" parentSubtype="*"/>
+    <paramType alias="CMS" entityType="PHYSICALCONNECTION" entitySubtype="CMS" parentType="*" parentSubtype="*"/>
+    <paramType alias="DEVCTI" entityType="PHYSICALCONNECTION" entitySubtype="DEVCTI" parentType="*" parentSubtype="*"/>
+    <paramType alias="DEVGW" entityType="PHYSICALCONNECTION" entitySubtype="DEVGW" parentType="*" parentSubtype="*"/>
+    <paramType alias="DEVH323" entityType="PHYSICALCONNECTION" entitySubtype="DEVH323" parentType="*" parentSubtype="*"/>
+    <paramType alias="IPPHONE" entityType="PHYSICALCONNECTION" entitySubtype="IPPHONE" parentType="*" parentSubtype="*"/>
+    <paramType alias="DEVMD" entityType="PHYSICALCONNECTION" entitySubtype="DEVMD" parentType="*" parentSubtype="*"/>
+    <paramType alias="DEVVM" entityType="PHYSICALCONNECTION" entitySubtype="DEVVM" parentType="*" parentSubtype="*"/>
+    <paramType alias="IPTHWCNF" entityType="PHYSICALCONNECTION" entitySubtype="IPTHWCNF" parentType="*" parentSubtype="*"/>
+    <paramType alias="IPTSERV" entityType="PHYSICALCONNECTION" entitySubtype="IPTSERV" parentType="*" parentSubtype="*"/>
+    <paramType alias="MGR" entityType="PHYSICALCONNECTION" entitySubtype="MGR" parentType="*" parentSubtype="*"/>
+    <paramType alias="MODULE" entityType="PHYSICALCONNECTION" entitySubtype="MODULE" parentType="*" parentSubtype="*"/>
+    <paramType alias="TRUNK" entityType="PHYSICALCONNECTION" entitySubtype="TRUNK" parentType="*" parentSubtype="*"/>
+</listParamType>
+

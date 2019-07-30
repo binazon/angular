@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_BTCC_ONETRUTH_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_BT_ONETRUTH_ONNET_SITE_TO_SITE"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_Onnet_Site_to_Site_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_BT_ONETRUTH_SITE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_BTCC_ONETRUTH_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_BT_ONETRUTH_OFFNET_OUTBOUND"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_Offnet_Outbound_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_BT_ONETRUTH_SITE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_BTCC_ONETRUTH_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_BT_ONETRUTH_OFFNET_INBOUND"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_Offnet_Inbound_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_BT_ONETRUTH_SITE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_BTCC_ONETRUTH_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_BT_ONETRUTH_SAN_UPSTREAM"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_SAN_Upstream_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_BT_ONETRUTH_SAN_UPSTREAM.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_BTCC_ONETRUTH_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_BT_ONETRUTH_SAN_DOWNSTREAM"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_SAN_Downstream_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_BT_ONETRUTH_SAN_DOWNSTREAM.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_620_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_620_1" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_620.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_620" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_620" computeScope="REPORTING_GROUP">
+        <listParamType>
+            <paramType alias="PHONEENTITY_TP"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_620.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

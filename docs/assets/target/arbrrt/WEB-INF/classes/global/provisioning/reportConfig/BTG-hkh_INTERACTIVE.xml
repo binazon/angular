@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_430" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_425" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_SAN_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_436.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_431" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_425_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_SITE_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_436.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_432" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_425_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_VPN_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_436.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_433" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_426" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_USAGE_SAN_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_437.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_434" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_434" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_USAGE_SITE_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_422.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_435" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_435" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_USAGE_VPN_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_422.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_436" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_425_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_TRUNK_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_436.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_437" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_437" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_USAGE_TRUNK_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_422.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_438" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_425_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_SHAREDCALLLIMITER_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_436.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_439" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_439" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_USAGE_SHAREDCALLLIMITER_BTCC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_422.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_451" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_401" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="GKSBC"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="QOS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_400.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_455" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_423" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOAD_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_420.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_456" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_424" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOAD_VARIATION"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_435.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_458_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_408_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VARIATION_USAGE_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_416_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_458_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_408_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VARIATION_USAGE_SAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_416_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_458" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_408" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VARIATION_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_416.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_460_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_411_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHESIS_OF_USAGE_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_402_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_460_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_410" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHESIS_OF_USAGE_SAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_408.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_460" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_411" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHESIS_OF_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_402.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_461_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_412_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TECHNICAL_USAGE_VPN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_403_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_461" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_412" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TECHNICAL_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_462_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_405_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ORIGIN_DESTINATION_USAGE_SAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_417_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_462" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_405" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+            <paramType alias="GKSITE"/>
+            <paramType alias="GKTRUNK"/>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ORIGIN_DESTINATION_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_417.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_463" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_414" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ORIGIN_DESTINATION_ONNET_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_414.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_467" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_443" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CONTACT_CENTER_USAGE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_423.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_468" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_444" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CONTACT_CENTER_VARIATION"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_424.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_469" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_445" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SAN_SOURCE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_425.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_472" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_446" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RECEPTION_NUMBERS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_426.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_473" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_447" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CONTACT_CENTER_HOURLY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_427.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_474" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_448" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="CONTACT_CENTER_DAILY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_428.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_475" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_467" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SAN_RECEPTION_SITES"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_418.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_476" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_468" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SAN_RECEPTION_NUMBERS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_419.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

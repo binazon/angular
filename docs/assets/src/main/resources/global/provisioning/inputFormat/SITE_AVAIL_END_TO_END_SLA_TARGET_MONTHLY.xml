@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>ParentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>businessHourUtilization</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				businessHourUtilization
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>useBusinessHourForSiteAvailSLA</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				useBusinessHourForSiteAvailSLA
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>    
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>businessHour</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>AVAILABILITY_FORMULA</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				AVAILABILITY_FORMULA				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>AVAILABILITY_COMMITTEDTARGET</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				AVAILABILITY_COMMITTEDTARGET				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>AVAILABILITY_COMMITTEDPERCENTAGE</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				AVAILABILITY_COMMITTEDPERCENTAGE			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

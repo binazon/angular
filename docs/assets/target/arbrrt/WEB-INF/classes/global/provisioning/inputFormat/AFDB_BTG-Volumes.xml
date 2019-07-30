@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>siteId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Site Identifier.
+This field can be used to select the aggregations by sub-customer.
+This identifier must be used to retrieve the site name provided in configuration (this allows to immediately take into account a renaming of site).
+Example: 1934.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>element</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Description for customer statistics:
+Element concerned by these aggregations. 
+This field can be empty (which means that the aggregations are concerning the whole site), or contain a value. Depending on the context, this value can be a name (ex: name of OPM), an identifier (ex: destination siteId).
+Description for global statistics (and for all the BTG meta-customers):
+This field is always empty (no site to site statistics)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>direction</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Direction of traffic, used only to describe the traffic by site (files *SiteVolumes.txt). This field can be empty (to represent any direction). The others possible values are "In" (Incoming traffic) or "Out" (Outgoing traffic).
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>subset</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Description for customer statistics:
+Subset of traffic identified by an "AFDB call type" (ex: "offNet"). 
+This field can be empty. In this case, the aggregations are concerning the total traffic (always provided if we have measurements for this period)
+When the AFDB configuration doesn't allow identifying a traffic subset, the default value of this field is the GK CDR call type.
+Description for global statistics (and for all the BTG meta-customers):
+This field is always empty (no distinction of traffic subset)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>telephonyZone</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Description for customer statistics:
+Name of telephony zone (ex: "CHINA-GUANGDONG"). This field can be empty (which means that the aggregation is done without distinction of telephony zone).
+Description for global statistics (and for all the BTG meta-customers):
+This field is always empty (no distinction of telephony zone).
+
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>prefix</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Prefix of phone number. This field can be empty
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>numberOfCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of calls
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>durationOfCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Duration of phone calls
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>numberOfSuccessfulCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls that resulted in communication between the caller and the called party.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>numberOfAcceptedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls said to be "accepted" (called party busy, called party does not answer, ...)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>numberOfRejectedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of rejected phone calls.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>numberOfFailedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls that have failed.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

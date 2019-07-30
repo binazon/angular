@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_338" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_323" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ACCESS_TRAFFIC_INTERNET"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_334.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_339" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_324" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="ACCESS_TRAFFIC_INTERNET"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_334.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

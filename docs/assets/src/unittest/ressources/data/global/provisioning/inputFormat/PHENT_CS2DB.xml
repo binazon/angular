@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>PhoneEntitiesType</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				TYPE_SITE ("site", "departement",  "special numbers", "others")
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>NumberOfConnected</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Connected to the end of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>NumberOfAdded</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Added during the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>NumberOfDeleted</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Deleted during the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

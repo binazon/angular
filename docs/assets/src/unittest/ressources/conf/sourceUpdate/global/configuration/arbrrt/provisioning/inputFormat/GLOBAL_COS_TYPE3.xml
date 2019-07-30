@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the samples durations
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>number_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_bytes_drop</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Sum of the drop bytes for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_bytes_coloured</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Sum of the coloured bytes for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_bytes_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Sum of the bytes in reception for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_bytes_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Sum of the bytes in emission for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_flow_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the flows in reception for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>sum_flow_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the flows in emission for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>max_flow_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the flows in reception for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>max_flow_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the flows in emission for the current CoS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

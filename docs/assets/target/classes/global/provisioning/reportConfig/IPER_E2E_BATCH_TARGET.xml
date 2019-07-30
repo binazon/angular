@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+     <reportConfig alias="REPORTCONFIG_927" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_950" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_SA_Target_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_950.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	 <reportConfig alias="REPORTCONFIG_930" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_939" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_PA_Target_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_945.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_935" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_955" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_PP_Target_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_955.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

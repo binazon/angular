@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_total_duration_sampling_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration for all samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_RTT</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the RTT
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_squared_RTT</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared RTT
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_number_of_RTT</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the number of the RTT
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>max_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>date_max_RTD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>duration_max_RTD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>min_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>date_min_RTD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>duration_min_RTD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>RTD_values</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>max_real_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>date_max_real_RTD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>duration_max_real_RTD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>min_real_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>date_min_real_RTD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>duration_min_real_RTD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>sum_number_of_RTT_minus_N</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the number of RTT minus N
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>sum_jitter_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the jitter SD
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>max_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>date_max_jitter_SD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>duration_max_jitter_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>min_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>date_min_jitter_SD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>duration_min_jitter_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c28</columnName>
+        <alias>sum_squared_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum squared jitter SD
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>jitter_SD_values</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c30</columnName>
+        <alias>sum_jitter_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the jitter DS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>max_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c32</columnName>
+        <alias>date_max_jitter_DS</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c33</columnName>
+        <alias>duration_max_jitter_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c34</columnName>
+        <alias>min_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c35</columnName>
+        <alias>date_min_jitter_DS</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c36</columnName>
+        <alias>duration_min_jitter_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c37</columnName>
+        <alias>sum_squared_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum squared jitter DS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>jitter_DS_values</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c39</columnName>
+        <alias>sum_packet_total</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the total packets
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c40</columnName>
+        <alias>max_PLR_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c41</columnName>
+        <alias>date_max_PLR_SD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c42</columnName>
+        <alias>duration_max_PLR_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c43</columnName>
+        <alias>min_PLR_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c44</columnName>
+        <alias>date_min_PLR_SD</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c45</columnName>
+        <alias>duration_min_PLR_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c46</columnName>
+        <alias>sum_packet_loss_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the packet loss SD
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c47</columnName>
+        <alias>PLR_SD_values</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c48</columnName>
+        <alias>max_PLR_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c49</columnName>
+        <alias>date_max_PLR_DS</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the max of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c50</columnName>
+        <alias>duration_max_PLR_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the max of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c51</columnName>
+        <alias>min_PLR_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c52</columnName>
+        <alias>date_min_PLR_DS</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date of the min of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c53</columnName>
+        <alias>duration_min_PLR_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Duration of the min of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c54</columnName>
+        <alias>sum_packet_loss_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the packet loss DS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c55</columnName>
+        <alias>PLR_DS_values</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

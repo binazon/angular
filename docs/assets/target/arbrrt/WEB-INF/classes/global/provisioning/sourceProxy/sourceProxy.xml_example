@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listSourceProxy>
+<!--     <inputSource sourceName="sourceNameV5" sourceClass="CuCmV5Source"> -->
+<!--         <sourceProxy index="1" uri="https://www.yahoo.com"/> -->
+<!--         <sourceProxy index="2" uri="https://www.yahoo.fr"/> -->
+<!--     </inputSource> -->
+<!--     <inputSource sourceName="sourceName" sourceClass="GKSMPSource"> -->
+<!--         <sourceProxy index="1" uri="http://www.google.com"/> -->
+<!--         <sourceProxy index="2" uri="https://www.yahoo.fr"/> -->
+<!--         <sourceProxy index="3" uri="http://www.google.fr"/> -->
+<!--         <sourceProxy index="4" uri="https://www.yahoo.com"/> -->
+<!--     </inputSource> -->
+</listSourceProxy>

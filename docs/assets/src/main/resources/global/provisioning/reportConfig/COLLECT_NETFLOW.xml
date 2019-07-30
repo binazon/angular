@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="EXTENDED_NETFLOW" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA_OPENFLOW</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/NETFLOW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

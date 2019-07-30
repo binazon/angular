@@ -1,0 +1,18 @@
+# Remove version directory
+rm -rf %{execPath}/%{delivery}
+
+# Remove signature file
+rm -f %{signaturePath}/PA-%{PlatonBASICAT}-SIOSRRT-RD%{delivery}.SIG
+
+# Remove application directory if no more version installed
+# We check signature for this
+
+if [ -d %{signaturePath} ]; then
+    # the directory exists
+    if [ "$(ls -A %{signaturePath})" ]; then
+    	echo "Still other version(s) for this application, global application directory is not removed."
+    else
+    	echo "No more version for this application, global application directory has been removed."
+    	rm -rf %{execPath}
+    fi
+fi

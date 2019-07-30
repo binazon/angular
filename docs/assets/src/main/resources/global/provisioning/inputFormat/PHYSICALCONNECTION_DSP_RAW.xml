@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DURATIONSAMPLINGPERIOD</columnName>
+        <alias>DURATIONSAMPLINGPERIOD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>NUMBERFREECHANNELS</columnName>
+        <alias>NUMBERFREECHANNELS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>NUMBEROCCUPIEDCHANNELS</columnName>
+        <alias>NUMBEROCCUPIEDCHANNELS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_832" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_832" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ONE_WAY_H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>H_PATH_AVAIL</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_832.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_833" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_833" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ONE_WAY_H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>H_MEASURE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_833.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_842" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_842" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ONE_WAY_H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>H_PATH_AVAIL_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_842.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_843" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_843" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ONE_WAY_H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>H_MEASURE_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_843.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

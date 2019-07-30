@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>CONCURRENTCALLS</columnName>
+        <alias>CONCURRENTCALLS</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[Concurent calls]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[Date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DURATION</columnName>
+        <alias>DURATION</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[Duration]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ENTITYID]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

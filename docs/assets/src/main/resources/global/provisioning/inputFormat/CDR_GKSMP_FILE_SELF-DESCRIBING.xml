@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ALTERNATECOUNTER</columnName>
+        <alias>ALTERNATECOUNTER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Incremented by one each time a new record is generated (so primary destination always contains 0), an offset of 10 is added linked to the conversation the record belongs to
+Utilisé dans les règles pour déterminer :
+- les sites techniques
+- la conservation du CDR pour les stats/SAN
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ALTDESTAPPLIED</columnName>
+        <alias>ALTDESTAPPLIED</alias>
+        <dataFormat>TINYINT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ALTDESTCAUSE</columnName>
+        <alias>ALTDESTCAUSE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDIDSAN</columnName>
+        <alias>CALLEDIDSAN</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Internal Id_san value if the considered called party is a technical number linked to a SAN else use 0 (this field is not padded with zeros)
+Utile aus stas pour identifier le SAN appelant
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDISVON</columnName>
+        <alias>CALLEDISVON</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[Boolean to indicate if the Called Number before translation was a virtual on net.
+Utile aux règles pour la conservation du CDR pour la définition des sites techniques
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDNBTYPE</columnName>
+        <alias>CALLEDNBTYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[0 = Not Yet Known
+256  = ONNET_VPN
+640  = COLLECTED_IP_INCOMING_OFFNET
+641  = COLLECTED_IP_SA_PRIV
+642  = COLLECTED_IP_SA_PUB
+643  = COLLECTED_IP_SAN
+576  = COLLECTED_TDM_INCOMING_OFFNET
+577  = COLLECTED_TDM_SA
+1152 = SAN_CC_STANDARD
+1153 = SAN_CC_ACCUEIL
+1154 = SAN_CC_AUDIO_CONF
+1088 = SAN_RA_MODE_A
+1089 = SAN_RA_MODE_B
+1090 = SAN_RA_MODE_C
+1056 = SAN_MSA
+2048 = OFFNET_STANDARD (used if subtype not known)
+2049 = OFFNET_MOBILE
+2050 = OFFNET_EXPENSIVE
+2051 = OFFNET_EMERGENCY
+2052 = OFFNET_SHORT NUMBER
+For VON, real translated type is used
+This value is computed by the service  and depends on  where the call flow has stopped
+Those values come directly from the service and may change if a service evolution requests it. 
+Utile aux règles pour la conservation du CDR pour les stat/SAN
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDPREFIX</columnName>
+        <alias>CALLEDPREFIX</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Filled with the prefix which has been added to the called number sent to the network (Trunk ID destinatation), else empty
+Normalement commence par 04
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDPUBLICNUMBER</columnName>
+        <alias>CALLEDPUBLICNUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Called number in public format (CC+NSN+EXT) (if translation is possible, else empty)
+Note: for calls using a Bilateral GW, it is mandatory
+Permet d'identifier la Zone Téléphonique Destination, si le champ CALLEDPUBLICNUMBER est vide
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLEDVPNCODE</columnName>
+        <alias>CALLEDVPNCODE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Called VPNCODE if identified.
+Permet de définir si le CDR est inter-VPN (CALLINGVPNCODE=CALLEDVPNCODE)
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLID</columnName>
+        <alias>CALLID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[H323 call identifier (Unique by Call and SEP).
+Example: a2896bb4a51531015047512136061175
+Utile aux règles pour le dédoublonnage
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLINGIDSAN</columnName>
+        <alias>CALLINGIDSAN</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Internal Id_san value if the considered calling party is  a technical number linked to a SAN else use 0 (this field is not padded with zeros)
+Utile aux stas pour identifier le SAN appelant
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLINGVPNCODE</columnName>
+        <alias>CALLINGVPNCODE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Calling VPNCODE if identified. 
+Permet de définir si le CDR est inter-VPN (CALLINGVPNCODE=CALLEDVPNCODE)
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CDRCALLTYPE</columnName>
+        <alias>CDRCALLTYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Call type.
+Format: OT-G (Originating Site, Terminating Site, outgoing Gateway)
+Utilisé dans les règles pour déterminer :
+- si le CDR est upstream/downstream de Contact Center
+- si le CDR doit être conservé pour les stat/site et pour les stats/SAN
+- pour la détermination du Subset
+- pour la détermination de la direction
+- pour le dédoublonnage des CDR
+- pour lé détermination des sites techniques
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CDSITEID</columnName>
+        <alias>CDSITEID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[called "GK site ID". 
+Database identifier of the called VPN site if identified
+0 else
+Utilise aux stats pour identifier le Site destination
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CGSITEID</columnName>
+        <alias>CGSITEID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[calling "GK site ID". 
+Database identifier of the calling VPN site if identified
+0 else
+Utilise aux stats pour identifier le Site source
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CLI</columnName>
+        <alias>CLI</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+- if the upstream access is IP_PSTN, CLI field is filled with the CLI provided by the Call Collector module (after digit manipulations may have occurred). 
+- else CLI taken as is from the setup message/ intial DP message, for SIP it corresponds to the user part of the From header received in the first INVITE message
+- else empty if not present  in the incoming network information 
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DECO</columnName>
+        <alias>DECO</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Dialed Number without VPNid.
+Example: 3131000
+Permet d'identifier la Zone Téléphonique Destination, si le champ CALLEDPUBLICNUMBER est vide
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DESTIPADDR</columnName>
+        <alias>DESTIPADDR</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+Destination IP address of the gateway + port number. This is the H323 Loopback IP address of the router or Off-Net Gateway.
+Format: xxx.xxx.xxx.xxx:xxxxx
+The port number will always be on 5 digits.
+Utilie pour les stats globale par équipement si maintenu
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DISC</columnName>
+        <alias>DISC</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Disconnect cause.
+Q.850 release cause or internal event identifier.
+Utile aux règles pour classifier l'appel
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DTOAPPLIED</columnName>
+        <alias>DTOAPPLIED</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+0 = No DTO applied to reach Final destination
+1 = DTO applied to reach Final destination (even if DTO failed)
+Utilisé dans les règles pour déterminer :
+- le subset
+- la direction
+- la détermination des sites techniques
+- la conservation des stats/site
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DURATION</columnName>
+        <alias>DURATION</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Call duration, in seconds.Peut être vide ou > 72000, dans ce cas considéré=0 pour les stats]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ICAR</columnName>
+        <alias>ICAR</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[call beginning time (Universal Time)]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>INEF</columnName>
+        <alias>INEF</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Inefficiency interpreted by the GK. When the Net Centrex disconnection cause is not indicated, the GK redefines it.
+Empty for efficient call (including Switchover cdr and ghost cdr). Any call having duration but ghost calls are considered as efficient.
+Example : 021
+Utile aux règles pour classifier l'appel
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>INVOCATIONSIDE</columnName>
+        <alias>INVOCATIONSIDE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[One word within : 
+- CCS 
+- SIGTRAN
+- SIP
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>IS_OCT</columnName>
+        <alias>IS_OCT</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[The call uses the OCT feature. Filled for all the CDR following an OCT. 
+This flag is propagated on the conversation created by the OCT interaction until a final non san destination is connected or if a NIVR or NCM interaction occurs. boolean 0/1
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>LINE_NUMBER</columnName>
+        <alias>LINE_NUMBER</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Line number of the original collected GKSMP file]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>NIVR INTERACTION</columnName>
+        <alias>NIVR_INTERACTION</alias>
+        <dataFormat>TINYINT</dataFormat>
+        <comments><![CDATA[0=No, 1=Yes, 2=??]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>NORIG</columnName>
+        <alias>CALLING_NUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[CLI as CC + NSN + EXT or provided by the network.
+(CC: Country Code, NSN: National Significant Number, EXT: extension of a terminal within a site)
+Permet de déterminer la Zone Téléphonique Origine. Uniformisé pour enrichir le CDR (CDR Requestor)
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ORIG RECEIVED NUMBER</columnName>
+        <alias>ORIG_RECEIVED_NUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[First received called number of the call Without identified network prefixes. Technical Number du SAN source (ZZ calls)]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ORIG T1T7</columnName>
+        <alias>ORIG_T1T7</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[T1T7 identified for the received network called party number. Trunk ID OPM source]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ORIGIPADDR</columnName>
+        <alias>ORIGIPADDR</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Origin IP address of the gateway + port. This is the H323 Loopback IP address of the router or the Off-Net Gateway.
+Format: xxx.xxx.xxx.xxx:xxxxx
+The port number will always be on 5 digits
+Utilie pour les stats globale par équipement si maintenu
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SANSERVICETYPE</columnName>
+        <alias>SANSERVICETYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Filled only when called party is a technical number.
+    1152 = SAN_CC_STANDARD
+    1153 = SAN_CC_ACCUEIL
+    1154 = SAN_CC_AUDIO_CONF
+    1088 = SAN_RA_MODE_A
+    1089 = SAN_RA_MODE_B
+    1090 = SAN_RA_MODE_C
+    1056 = SAN_MSA
+Those values come directly from the service and may change if a service evolution request it.
+Utile aux règles pour la conservation du CDR pour la définition des sites techniques    
+        ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SEPID</columnName>
+        <alias>SEPID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Identification of the Call Server platform.
+Example: PAR1
+Utile aux stats globales/SEP]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>GEOGRAPHIC ORIGIN</columnName>
+        <alias>GEOGRAPHIC_ORIGIN</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Geographic origin.
+Example: 55430-55-FRA-0
+- Exemple de valeur : 00000-107-RUS-1, 55430-55-FRA-0, 
+- Valeur possible pour Level 4 (4ème emplacement) :  0 = France, 1 = International
+- Valeur possible pour Level 3 (3ème emplacement) : pays (ne pas utiliser)
+- Valeur possible pour Level 2 (2ème emplacement) : numéro de département (à utiliser seulement si level 4 = 0)
+- Valeur possible pour Level 1 (1er emplacement) : code postal (ne pas utiliser)]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn> 
+    <inputColumn>
+        <columnName>DSON FDN</columnName>
+        <alias>DSON_FDN</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Ring Time.
+        in milliseconds]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn> 
+    <inputColumn>
+        <columnName>DETA FDN</columnName>
+        <alias>DETA_FDN</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[Ring Time.
+        in milliseconds]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn> 
+        <inputColumn>
+        <columnName>CALLED NR VPN CODE</columnName>
+        <alias>CALLED_NR_VPN_CODE</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+        Vpn ID]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn>  
+         <inputColumn>
+        <columnName>CALLED ID NR</columnName>
+        <alias>CALLED_ID_NR</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+        NR ID]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn>
+    <!-- IP02262 : nouveau champ SUU -->
+    <inputColumn>
+        <columnName>SUU</columnName>
+        <alias>SUU</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Unique identifier for TU (Ticket Unifie, SAMU).
+Example: xxx
+Utile aux calculs d'agregation des calculs cote TU (specifique SAMU)]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn>
+    <!-- IP02290 : Prise en compte du champ PAI -->
+    <inputColumn>
+        <columnName>PAI</columnName>
+        <alias>PAI</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Numéro applelant ....
+Example: 33666xxxxxx
+Utile aux rapport Communication details IP Contact Numbers]]></comments>
+        <type>DATA</type>
+        <defaultValue></defaultValue>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_200" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_260" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_CPU_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_235.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_201" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_260-1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="CORE"/>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SLOT_CPU_CPU_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_235.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_202" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_202" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORTVLAN_LOADRATE_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_274.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_203" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_203" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORT_VLAN_STATUS_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_284.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_204" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_261_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SLOT_CPU"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SLOT_CPU_MEM_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_236.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_205" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_268" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+            <paramType alias="NCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>LOGICALCONNECTION_FLOW_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_265.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_261" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_259" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_COS_TYPE3_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_304.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_263" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_261" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_MEM_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_236.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_264" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_262" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_DISKUSAGE_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_237.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_265_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>INTERFACE_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_265_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>ACCESS_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_3" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_265_3" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>RADIO_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_4" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_265_4" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>RADIO_LAP_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_5" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_265_5" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>ACCESS_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_263" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_238.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_266_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_266_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>INTERFACE_ERROR_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_252.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_266_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_266_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>ACCESS_ERROR_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_252.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_267" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_267" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_WIFI_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_251.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_269" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_269" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+            <paramType alias="NCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>LOGICALCONNECTION_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_266.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_271" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_271" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORTVLAN_OBSERVEDFLOW_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_275.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_272" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_272" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORTVLAN_TRAFFIC_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_276.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_273" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_272_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORTVLAN_ERROR_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_277.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_304" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_289" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_TYPE3_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_305.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_309" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_294" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM1"/>
+            <paramType alias="COSNUM2"/>
+            <paramType alias="COSNUM3"/>
+            <paramType alias="COSNUM4"/>
+            <paramType alias="COSNUM5"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_TYPE2_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_289.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_315" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_300" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_PERFORMANCE_SLA_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_303.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_325" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_310" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_320.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_326" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_277_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_TYPE0_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_294.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_332" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_278_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_COS_TYPE0_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_295.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_333" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_309" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_DATA_INDIC_LOGICAL_CONNECT_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_339.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

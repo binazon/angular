@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_175" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_159" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="MEASURE"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_159.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_176" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_160" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="MEASURE"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_177" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_161" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_161.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_178" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_162" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_162.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_179" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_163" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_163.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_180" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_164" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="MEASURE"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_164.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_181" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_165" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_165.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_182" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_166" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_166.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_183" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_167" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_167.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_184" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_168" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_168.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_185" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_169" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="MEASURE"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_169.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_186" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_170" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_170.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_187" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_171" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="MEASURE"/>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_171.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_188" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_172" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>DYNAMIC</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dod.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_172.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

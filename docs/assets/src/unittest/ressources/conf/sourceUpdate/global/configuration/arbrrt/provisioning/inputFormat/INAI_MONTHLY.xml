@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, [0..23] for daily and [1..31] for Monthly
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>EntityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>HEADER1</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ObjectType</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Type of the object
+				
+				]]></comments>
+        <type>HEADER2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>RealTime</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Real time of the significant samples
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>OutSpeed</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Reference outgoing speed
+				
+				]]></comments>
+        <type>HEADER2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>InSpeed</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Incoming reference speed (identical to the first exception, case of asymmetrical bandwidths)
+				
+				]]></comments>
+        <type>HEADER2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c74</columnName>
+        <alias>NbOctetsE</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of Octets Sent
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c76</columnName>
+        <alias>MinDebitE</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Minimum Sent load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c77</columnName>
+        <alias>THMinDebitE</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of minimum Sent load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c78</columnName>
+        <alias>MaxDebitE</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Maximum sent load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c79</columnName>
+        <alias>THMaxDebitE</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of maximum Sent load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c104</columnName>
+        <alias>NbOctetsR</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of Octets recieved
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c106</columnName>
+        <alias>MinDebitR</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Minimum Recieved load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c107</columnName>
+        <alias>THMinDebitR</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of Minimum Recieved load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c108</columnName>
+        <alias>MaxDebitR</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Maximum Recieved load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c109</columnName>
+        <alias>THMaxDebitR</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of Maximum Recieved load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c165</columnName>
+        <alias>NbSamplesAvailability</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of samples available during the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c166</columnName>
+        <alias>MinAvailability</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				0 or 1
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c167</columnName>
+        <alias>THMinAvailability</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of minimum Availability
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c168</columnName>
+        <alias>MaxAvailability</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				0 or 1
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c169</columnName>
+        <alias>THMaxAvailability</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of maximum Availability
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c170</columnName>
+        <alias>NbValidSamples</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of valid examples during the hour
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_827" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_827" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PATH_AVAIL_END_TO_END_SLA_DAILY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_827.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_901" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_901" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_END_TO_END_SLA_DAILY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_901.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_912" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_912" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SITE_AVAIL_END_TO_END_SLA_DAILY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_912.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_971" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_971" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PORTVLAN_TRAFFIC_E2E_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_971.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

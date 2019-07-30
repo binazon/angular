@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		EntityId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		PARENTID
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+		DATE
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_bytes_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Sum of bytes in reception
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_bytes_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Sum of bytes in emission
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_frames_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Sum of frames in reception
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_frames_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Sum of frame in emission
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

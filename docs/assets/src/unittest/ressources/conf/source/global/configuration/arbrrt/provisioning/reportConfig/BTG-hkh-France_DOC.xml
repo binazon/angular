@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_192" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_173" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BTIP_ALL_OUTPUT_REPORT_173.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_173.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_193" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_174" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BTIP_ALL_OUTPUT_REPORT_174.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_174.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_194" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_175" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BTIP_ALL_OUTPUT_REPORT_175.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_175.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

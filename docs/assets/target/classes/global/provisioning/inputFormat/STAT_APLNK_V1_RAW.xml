@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of switch AP]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[start time of the AP on the controller]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>durationsamplingperiod</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[duration of the sample]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>controllername</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[controller name]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>ipaddress</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ip address of the AP]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>mode</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[AP mode]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

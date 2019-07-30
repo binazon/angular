@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		EntityId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		ParentId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+		DATE
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>DurationSamplingPeriod</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+		Real time of the significant samples
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>NbBytesReceived</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				No of bytes received by the client (DMYR)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>NbBytesEmitted</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				No of bytes emitted by the client (DMYE)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

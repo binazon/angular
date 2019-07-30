@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportingGroupList>
+	<reportingGroup label="GlobalEquipment" origin="ALL" source="OPENREPORT" reportingGroupRef="GlobalEquipment" type="AUTOMATIC">
+		<dataLocation>GlobalEquipment</dataLocation>
+		<groupingCriteria>entityTypes</groupingCriteria>
+		<groupingValue>equipment</groupingValue>
+		<offerOptionList>
+			<offerOption alias="DOD_INTERMEDIARY_EQUIPMENT"/>
+		</offerOptionList>
+	</reportingGroup>
+	<reportingGroup label="GlobalPhysicalConnection" origin="ALL" source="OPENREPORT" reportingGroupRef="GlobalPhysicalConnection" type="AUTOMATIC">
+		<dataLocation>GlobalPhysicalConnection</dataLocation>
+		<groupingCriteria>entityTypes</groupingCriteria>
+		<groupingValue>physicalConnection</groupingValue>
+		<offerOptionList>
+			<offerOption alias="DOD_INTERMEDIARY_PHYSICALCONNECTION"/>
+		</offerOptionList>
+	</reportingGroup>
+	<reportingGroup label="GlobalLogicalConnection" origin="ALL" source="OPENREPORT" reportingGroupRef="GlobalLogicalConnection" type="AUTOMATIC">
+		<dataLocation>GlobalLogicalConnection</dataLocation>
+		<groupingCriteria>entityTypes</groupingCriteria>
+		<groupingValue>logicalConnection</groupingValue>
+		<offerOptionList>
+			<offerOption alias="DOD_INTERMEDIARY_LOGICALCONNECTION"/>
+		</offerOptionList>
+	</reportingGroup>
+	<reportingGroup label="GlobalMeasure" origin="ALL" source="OPENREPORT" reportingGroupRef="GlobalMeasure" type="AUTOMATIC">
+		<dataLocation>GlobalMeasure</dataLocation>
+		<groupingCriteria>entityTypes</groupingCriteria>
+		<groupingValue>measure</groupingValue>
+		<offerOptionList>
+			<offerOption alias="DOD_INTERMEDIARY_MEASURE"/>
+		</offerOptionList>
+	</reportingGroup>
+	<reportingGroup label="GlobalCos" origin="ALL" source="OPENREPORT" reportingGroupRef="GlobalCos" type="AUTOMATIC">
+		<dataLocation>GlobalCos</dataLocation>
+		<groupingCriteria>entityTypes</groupingCriteria>
+		<groupingValue>cos</groupingValue>
+		<offerOptionList>
+			<offerOption alias="DOD_INTERMEDIARY_COS"/>
+		</offerOptionList>
+	</reportingGroup>
+</reportingGroupList>

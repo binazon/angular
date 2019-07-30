@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>EntityId</columnName>
+		<alias>EntityId</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			EntityId
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>ParentId</columnName>
+		<alias>ParentId</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			ParentId
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>Date</columnName>
+		<alias>Date</alias>
+		<dataFormat>TIMESTAMP</dataFormat>
+		<comments><![CDATA[
+			DATE
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>DurationSamplingPeriod</columnName>
+		<alias>DurationSamplingPeriod</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[
+			Real time of the significant samples
+		]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>IncomingEstablishedCalls</columnName>
+		<alias>IncomingEstablishedCalls</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>OutgoingEstablishedCalls</columnName>
+		<alias>OutgoingEstablishedCalls</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+</listInputColumn>

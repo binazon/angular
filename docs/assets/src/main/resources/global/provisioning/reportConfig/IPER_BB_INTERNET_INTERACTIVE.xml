@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_802_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_802" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RTD_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_802.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_803_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_803" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="JITTER_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_803.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_804_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_804" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PLR_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_804.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_807_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_807" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAIL_PATH_AVAIL_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_807.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_812_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_812" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DETAIL_PATH_AVAIL_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_807.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_814_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_814" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="RTD_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_802.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_815_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_815" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="JITTER_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_803.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_816_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_816" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="PLR_LIRT_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_804.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_820" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_820" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_PERF_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_820.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_821" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_821" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_PERF_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_820.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_822" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_822" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_PERF_SLA_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_811.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_823" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_823" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_AVAIL_SLA_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_808.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_824" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_824" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_AVAIL_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_806.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_825" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_825" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SHADOW_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_PATH_AVAIL_BACKBONE"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_806.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

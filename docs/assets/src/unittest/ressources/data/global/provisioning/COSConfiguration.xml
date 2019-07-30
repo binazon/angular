@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  When a new cos is defined, add this subtype in the file -->
+<!--  TypeSubtypeConfiguration in the part COS -->
+<cosList>
+ 	<cos type="0">
+		<cosObject id="1">
+			<name>Voice</name>
+		</cosObject>
+		<cosObject id="2">
+			<name>Video</name>
+		</cosObject>
+		<cosObject id="3">
+			<name>D1</name>
+		</cosObject>
+		<cosObject id="4">
+			<name>D2</name>
+		</cosObject>
+		<cosObject id="5">
+			<name>D3</name>
+		</cosObject>
+		<cosObject id="6">
+			<name>Other</name>
+		</cosObject>
+	</cos>
+	<cos type="1">
+		<cosObject id="4">
+			<name>D2</name>
+		</cosObject>
+	</cos>
+	<cos type="2">
+		<cosObject id="1">
+			<name>A</name>
+		</cosObject>
+		<cosObject id="2">
+			<name>B</name>
+		</cosObject>
+		<cosObject id="3">
+			<name>C</name>
+		</cosObject>
+		<cosObject id="4">
+			<name>V</name>
+		</cosObject>
+		<cosObject id="5">
+			<name>S</name>
+		</cosObject>
+	</cos>
+	<cos type="3">
+		<cosObject id="1">
+			<name>DATA</name>
+		</cosObject>
+		<cosObject id="2">
+			<name>VOICE CES</name>
+		</cosObject>
+		<cosObject id="3">
+			<name>VOICE/IP</name>
+		</cosObject>
+		<cosObject id="4">
+			<name>VIDEO</name>
+		</cosObject>
+		<cosObject id="5">
+			<name>SAN</name>
+		</cosObject>
+	</cos>
+	<cos type="4">
+		<cosObject id="1">
+			<name>RT</name>
+		</cosObject>
+		<cosObject id="6">
+			<name>Other</name>
+		</cosObject>
+		<cosObject id="7">
+			<name>DATA</name>
+		</cosObject>
+	</cos>
+</cosList>
+
+  
+  
+   
+  

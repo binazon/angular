@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>0</columnName>
+		<alias>REPORTINGGROUPREF</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Reporting group ref
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>1</columnName>
+		<alias>PAI</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		PAI value
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+</listInputColumn>

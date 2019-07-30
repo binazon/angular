@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>0</columnName>
+		<alias>COL0</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>1</columnName>
+		<alias>COL1</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>2</columnName>
+		<alias>COL2</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+
+	<inputColumn>
+		<columnName>3</columnName>
+		<alias>COL3</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[
+			Real time of the significant samples
+		]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>4</columnName>
+		<alias>COL4</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>5</columnName>
+		<alias>COL5</alias>
+		<dataFormat>int</dataFormat>
+		<comments><![CDATA[]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+</listInputColumn>

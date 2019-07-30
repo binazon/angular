@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ENTITYID
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				PARENTID
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				DATE
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>pollingDuration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>CPU_number_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of polling
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>CPU_sum</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the CPU value
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>CPU_max</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Max value of the CPU
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>CPU_max_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sampleduration when the Max value of the CPU is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>CPU_max_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				timestamp when the Max value of the CPU is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>CPU_min</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Min value of the CPU
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>CPU_min_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sampleduration when the Min value of the CPU is reached
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>CPU_min_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				timestamp when the Min value of the CPU is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>CPU_loadrate_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of CPU loadrate
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

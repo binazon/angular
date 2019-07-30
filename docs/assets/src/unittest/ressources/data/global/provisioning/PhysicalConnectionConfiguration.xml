@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  When a new type is defined, add this subtype in the file -->
+<!--  TypeSubtypeConfiguration in the part PHYSICALCONNECT -->
+<physicalConnections>
+  <physicalConnection sareType="ELAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="EMAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA_ATM">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA_E1">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA_E3">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA_ISDN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LA_IV">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LA_RNIS">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LA_UMTS">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_ATM">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_E1">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_E3">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_IV">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_LAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_MAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_ISDN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LB_SWLAN">
+    <type>INTERFACE</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LB_UMTS">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LD">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_ATM">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_RNIS">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_E1">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_E3">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LD_IV">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_ISDN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LD_LAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LD_MAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LD_SWLAN">
+    <type>INTERFACE</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LD_UMTS">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LO_ATM">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LR">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_ATM">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_E1">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_E3">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_ISDN">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LR_IV">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LR_LAN">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_MAN">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LR_RNIS">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LR_SWLAN">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LR_UMTS">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="LRCPAHD">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LRI">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LST">
+    <type>ACCESS</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="LV_LAN">
+    <type>SWITCH_VLAN</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="MAN">
+    <type>INTERFACE</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="RACC">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_ADSL">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_ATM">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_IV">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_RNIS">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_RTC">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="RACC_T">
+    <type>ACCESS</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="SWLAN">
+    <type>INTERFACE</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="NRADIO">
+    <type>RADIO</type>
+    <sens>SAME</sens>
+  </physicalConnection>
+  <physicalConnection sareType="NVRADIO">
+    <type>RADIO</type>
+    <sens>SAME</sens>
+  </physicalConnection>  
+  <physicalConnection sareType="RADIO">
+    <type>RADIO</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <physicalConnection sareType="VRADIO">
+    <type>RADIO</type>
+    <sens>OPPOSITE</sens>
+  </physicalConnection>
+  <listCommercialTypes>
+  <commercialType>BIE*</commercialType>
+  <commercialType>VPO*</commercialType>
+  <commercialType>BIA*</commercialType>
+  <commercialType>ZVAD</commercialType>
+  <commercialType>ZIAT</commercialType>
+</listCommercialTypes>
+</physicalConnections>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_FDJ_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_FDJ_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OSM_FDJ_PE_STAT_GRP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_FDJ_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_FDJ_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_FDJ_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OSM_FDJ_PE_STAT_DDC"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_FDJ_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

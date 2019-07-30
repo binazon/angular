@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_200" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_260" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/EQUIPMENT_CPU_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_235.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_202" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_202" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PORTVLAN_LOADRATE_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_274.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_203" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_203" computeScope="PARENT">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PORT_VLAN_STATUS_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_284.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_205" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_268" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/LOGICALCONNECTION_FLOW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_265.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_261" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_259" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/GLOBAL_COS_TYPE3_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_304.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_263" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_261" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/EQUIPMENT_MEM_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_236.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_264" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_262" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/EQUIPMENT_DISKUSAGE_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_237.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_1" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_265_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/INTERFACE_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_2" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_265_2" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/ACCESS_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_3" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_265_3" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/RADIO_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265_4" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_265_4" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/RADIO_LAP_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_250.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_265" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_263" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/EQUIPMENT_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_238.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_266_1" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_266_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/INTERFACE_ERROR_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_252.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_266_2" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_266_2" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/ACCESS_ERROR_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_252.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_267" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_267" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO"/>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PHYSICALCONNECTION_WIFI_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_251.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_269" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_269" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/LOGICALCONNECTION_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_266.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_271" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_271" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PORTVLAN_OBSERVEDFLOW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_275.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_272" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_272" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PORTVLAN_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_276.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_273" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_272_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/PORTVLAN_ERROR_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_277.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_275" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_275" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/GLOBAL_TRAFFIC_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_286.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_304" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_289" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/COS_TYPE3_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_305.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_309" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_294" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/COS_TYPE2_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_289.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_315" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_300" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/MEASURE_PERFORMANCE_SLA_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_303.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_321" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_306" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/SITE_COS_TYPE0_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_317.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_325" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_310" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/MEASURE_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_320.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

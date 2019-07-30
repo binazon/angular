@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Total duration of the samples in the period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>numberOfSamples</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>max_deviatedPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max deviated packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>max_deviatedPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the deviated packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>max_deviatedPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the deviated packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_deviatedPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the deviated packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_squarred_deviatedPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred deviated packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>max_deviatedPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max deviated packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>max_deviatedPacketsRate_emission_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the deviated packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>max_deviatedPacketsRate_emission_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the deviated packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>sum_deviatedPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the deviated packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>sum_squarred_deviatedPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred deviated packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>max_errorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>max_errorPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>max_errorPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>sum_errorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>sum_NbErrors_reception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Quantity of the errors in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>sum_squarred_errorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>max_errorPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max error packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>max_errorPacketsRate_emission_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the error packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>max_errorPacketsRate_emission_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the error packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>sum_errorPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the error packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>sum_NbErrors_emission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Quantity of the errors in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>sum_squarred_errorPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred error packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>max_ignoredPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max ignored packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c28</columnName>
+        <alias>max_ignoredPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the ignored packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>max_ignoredPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the ignored packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c30</columnName>
+        <alias>sum_ignoredPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the ignored packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>sum_squarred_ignoredPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred ignored packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c32</columnName>
+        <alias>max_CRCErrorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max CRC error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c33</columnName>
+        <alias>max_CRCErrorPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the CRC error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c34</columnName>
+        <alias>max_CRCErrorPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the CRC error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c35</columnName>
+        <alias>sum_CRCErrorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the CRC error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c36</columnName>
+        <alias>sum_squarred_CRCErrorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred CRC error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c37</columnName>
+        <alias>max_giantsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max giants rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>max_giantsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the giants rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c39</columnName>
+        <alias>max_giantsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the giants rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c40</columnName>
+        <alias>sum_giantsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the giants rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c41</columnName>
+        <alias>sum_squarred_giantsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred giants rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c42</columnName>
+        <alias>max_runtsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max runts rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c43</columnName>
+        <alias>max_runtsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the runts rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c44</columnName>
+        <alias>max_runtsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the runts rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c45</columnName>
+        <alias>sum_runtsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the runts rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c46</columnName>
+        <alias>sum_squarred_runtsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred runts rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c47</columnName>
+        <alias>max_collisionsRate</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max collisions rate 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c48</columnName>
+        <alias>max_collisionsRate_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the collisions rate is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c49</columnName>
+        <alias>max_collisionsRate_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the collisions rate is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c50</columnName>
+        <alias>sum_collisionsRate</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the collisions rate 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c51</columnName>
+        <alias>sum_squarred_collisionsRate</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squarred collisions rate 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c52</columnName>
+        <alias>min_deviatedPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min deviated packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c53</columnName>
+        <alias>min_deviatedPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the deviated packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c54</columnName>
+        <alias>min_deviatedPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the deviated packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c55</columnName>
+        <alias>deviatedPacketsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of deviatedPacketsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c56</columnName>
+        <alias>min_deviatedPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min deviated packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c57</columnName>
+        <alias>min_deviatedPacketsRate_emission_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the deviated packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c58</columnName>
+        <alias>min_deviatedPacketsRate_emission_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the deviated packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c59</columnName>
+        <alias>deviatedPacketsRate_emission_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of deviatedPacketsRate_emission
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c60</columnName>
+        <alias>min_errorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c61</columnName>
+        <alias>min_errorPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c62</columnName>
+        <alias>min_errorPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c63</columnName>
+        <alias>errorPacketsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of errorPacketsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c64</columnName>
+        <alias>min_errorPacketsRate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min error packets rate in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c65</columnName>
+        <alias>min_errorPacketsRate_emission_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the error packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c66</columnName>
+        <alias>min_errorPacketsRate_emission_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the error packets rate in emission is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c67</columnName>
+        <alias>errorPacketsRate_emission_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of errorPacketsRate_emission
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c68</columnName>
+        <alias>min_ignoredPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min ignored packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c69</columnName>
+        <alias>min_ignoredPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the ignored packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c70</columnName>
+        <alias>min_ignoredPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the ignored packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c71</columnName>
+        <alias>ignoredPacketsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of ignoredPacketsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c72</columnName>
+        <alias>min_CRCErrorPacketsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min CRC error packets rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c73</columnName>
+        <alias>min_CRCErrorPacketsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the CRC error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c74</columnName>
+        <alias>min_CRCErrorPacketsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the CRC error packets rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c75</columnName>
+        <alias>CRCErrorPacketsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of CRCErrorPacketsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c76</columnName>
+        <alias>min_giantsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min giants rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c77</columnName>
+        <alias>min_giantsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the giants rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c78</columnName>
+        <alias>min_giantsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the giants rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c79</columnName>
+        <alias>giantsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of giantsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c80</columnName>
+        <alias>min_runtsRate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min runts rate in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c81</columnName>
+        <alias>min_runtsRate_reception_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the runts rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c82</columnName>
+        <alias>min_runtsRate_reception_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the runts rate in reception is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c83</columnName>
+        <alias>runtsRate_reception_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of runtsRate_reception
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c84</columnName>
+        <alias>min_collisionsRate</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				min collisions rate 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c85</columnName>
+        <alias>min_collisionsRate_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the min value of the collisions rate is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c86</columnName>
+        <alias>min_collisionsRate_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the min value of the collisions rate is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c87</columnName>
+        <alias>collisionsRate_values</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				values of collisionsRate
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

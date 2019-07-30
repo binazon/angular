@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_403" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_403" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CONCURRENT_CALLS_BY_SITES</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_415" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_416" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CONCURRENT_CALLS_BY_VPNS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_427" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_419" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CONCURRENT_CALLS_BY_SANS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_442" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_442" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKTRUNK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CONCURRENT_CALLS_BY_TRUNKS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_477_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_419_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSHAREDCALLLIMITER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CONCURRENT_CALLS_BY_SCLS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_403.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>    
+</listReportConfig>

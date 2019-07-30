@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, [0..23] for daily and [1..31] for Monthly
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>Duration</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration, In seconds
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>NbOfEltUsedForSum</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of element used for sum, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>g3trunkgrpType</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				g3trunkgrpType, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>g3trunkgrpName</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				g3trunkgrpName, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>g3trunkgrpNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				g3trunkgrpNumber, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>SumOfg3trunksumOutSrv</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Sum of g3trunksumOutSrv, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>SumOfg3pktrunksumGroupSize</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Sum of g3pktrunksumGroupSize, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>MinAvailRatio</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Min availability ratio, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>MaxAvailRatio</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Max availability ratio, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>MinDateAvailRatio</alias>
+        <dataFormat>Date</dataFormat>
+        <comments><![CDATA[
+				Min date availability ratio, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>MaxDateAvailRatio</alias>
+        <dataFormat>Date</dataFormat>
+        <comments><![CDATA[
+				Max date availability ratio, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

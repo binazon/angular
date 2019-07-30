@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>threshold</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>thresholdType</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>speed_change_timestamp</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				speed_change_timestamp
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodTotal
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>numberPeriodFlowReception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				numberPeriodFlowReception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sumDurationPeriodFlowReception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodFlowReception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sumFlowReceptionSquaredThreshold</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sumFlowReceptionSquaredThreshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>sumFlowReception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sumFlowReception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>numberPeriodFlowEmission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				numberPeriodFlowEmission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>sumDurationPeriodFlowEmission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodFlowEmission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>sumFlowEmissionSquaredThreshold</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sumFlowEmissionSquaredThreshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>sumFlowEmission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sumFlowEmission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

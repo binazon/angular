@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listWADESource>
+	<WADESource>
+        <source name="WADE" class="WADESource" pollingPeriod="900" origin="EQUANT"/>
+        <retentionTime>6</retentionTime>
+        <authority userName="" userPassword="" host="" port="22"/>
+        <sourceDirectory>directory</sourceDirectory>
+        <pattern>hprobedata-*.csv.gz</pattern>
+        <publicKey></publicKey>
+        <privateKey></privateKey>
+        <passPhrase></passPhrase>
+    </WADESource>
+</listWADESource>

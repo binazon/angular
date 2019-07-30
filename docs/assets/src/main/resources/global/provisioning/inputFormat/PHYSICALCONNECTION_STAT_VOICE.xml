@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>0</columnName>
+        <alias>COL0</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>1</columnName>
+        <alias>COL1</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>2</columnName>
+        <alias>COL2</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[secondes]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>3</columnName>
+        <alias>COL3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[samplingdurationperiod]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>4</columnName>
+        <alias>COL4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[totalCalls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>5</columnName>
+        <alias>COL5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Total connected calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>6</columnName>
+        <alias>COL6</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Total refused calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>7</columnName>
+        <alias>COL7</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Total errored calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>8</columnName>
+        <alias>COL8</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Total blocked calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>9</columnName>
+        <alias>COL9</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Egress calls attempts]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>10</columnName>
+        <alias>COL10</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Egress calls accepted]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>11</columnName>
+        <alias>COL11</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Egress calls completed]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>12</columnName>
+        <alias>COL12</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Egress calls rejected]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>13</columnName>
+        <alias>COL13</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Egress blocked calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>14</columnName>
+        <alias>COL14</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Ingress calls attempts]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>15</columnName>
+        <alias>COL15</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Ingress calls accepted]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>16</columnName>
+        <alias>COL16</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Ingress calls completed]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>17</columnName>
+        <alias>COL17</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Ingress calls rejected]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>18</columnName>
+        <alias>COL18</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[Ingress blocked calls]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>19</columnName>
+        <alias>COL19</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[Busy Hour Call Attempts]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>20</columnName>
+        <alias>COL20</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[Busy Hour Call Completion]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

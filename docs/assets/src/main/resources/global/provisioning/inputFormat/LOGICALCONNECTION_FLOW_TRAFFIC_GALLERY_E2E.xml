@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>sumDurationPeriodTotal</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodTotal
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>number_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number_period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_bytes_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of the bytes in reception for the period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_bytes_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum of the bytes in emission for the period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>last_lineSpeed_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				last value on the period of the linespeed in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>last_lineSpeed_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				last value on the period of the linespeed in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_loadrate_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the load rate in reception for the period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_loadrate_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the load rate in emission for the period
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

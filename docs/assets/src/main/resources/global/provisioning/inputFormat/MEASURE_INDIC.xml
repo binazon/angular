@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_total_duration_sampling_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration for all samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>number_of_samples</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_delays</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_squared_delays</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_received_packets</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the received packets
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>max_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>max_RTD_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the RTD is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>max_RTD_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the RTD is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>min_RTD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Min of the RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>min_RTD_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Min value of the RTD is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>sum_duration_RTD_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the RTD values are over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>RTD_threshold_crossing_start_A</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the begin of the hour
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>RTD_threshold_crossing_nb_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of the threshold crossings
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>RTD_threshold_crossing_end_A</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the end of the hour
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>sum_duration_RTD_over_threshold_B</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the RTD values are over the threshold B
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>RTD_threshold_crossing_start_B</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the begin of the hour
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>RTD_threshold_crossing_nb_B</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of the threshold crossings
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>RTD_threshold_crossing_end_B</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the end of the hour
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>sum_duration_RTD_over_threshold_T3</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the RTD values are over the threshold T3 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>sum_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the Jitters (Source -> Destination)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>sum_squared_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared Jitters (Source -> Destination)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>max_jitter_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the Jitters (Source -> Destination)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>max_jitter_SD_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the Jitters (Source -> Destination) is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>max_jitter_SD_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the Jitters (Source -> Destination) is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>sum_duration_jitter_SD_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the Jitter (Source -> Destination) is over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c28</columnName>
+        <alias>sum_duration_jitter_SD_over_threshold_B</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the Jitter (Source -> Destination) is over the threshold B
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>sum_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the Jitters (Destination -> Source)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c30</columnName>
+        <alias>sum_squared_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared Jitters (Destination -> Source)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>max_jitter_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Max of the Jitters (Destination -> Source)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c32</columnName>
+        <alias>max_jitter_DS_timestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Timsetamp when the Max value of the Jitters (Destination -> Source) is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c33</columnName>
+        <alias>max_jitter_DS_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sample duration when the Max value of the Jitters (Destination -> Source) is reached
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c34</columnName>
+        <alias>sum_duration_jitter_DS_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the Jitter (Destination -> Source) is over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c35</columnName>
+        <alias>sum_duration_jitter_DS_over_threshold_B</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the Jitter (Destination -> Source) is over the threshold B
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c36</columnName>
+        <alias>sum_PLR</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the PLR values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c37</columnName>
+        <alias>sum_duration_PLR_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the PLR is over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>sum_PLR_SD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>c39</columnName>
+        <alias>sum_PLR_DS</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c40</columnName>
+        <alias>sum_duration_PLR_SD_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the PLR_SD is over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c41</columnName>
+        <alias>sum_duration_PLR_DS_over_threshold_A</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the duration for which the PLR_DS is over the threshold A
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

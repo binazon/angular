@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, [0..23] for daily and [1..31] for Monthly
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DurOfAllPollPrd</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration of all polling periods, In seconds
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>SvcName</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Service name, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>InstState</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Installation State, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>SvcState</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Service State, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>DurOfUpState</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration of Up Status, In seconds
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>hrSWInstalledType</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				hrSWInstalledType, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>hrSWInstalledDate</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				hrSWInstalledDate, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

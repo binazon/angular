@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>0</columnName>
+        <alias>PARTNERACCOUNTNO</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				CCA SP Port Subscription account id
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>    
+    <inputColumn>
+        <columnName>1</columnName>
+        <alias>PARTNERNAME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Name of CCA SP Partner
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>2</columnName>
+        <alias>CUSTOMERACCOUNTNO</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Account id of the end customer
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>3</columnName>
+        <alias>CUSTOMERACCOUNTNAME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Name of the end customer
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>4</columnName>
+        <alias>OFFERCODE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Internal offer code
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>5</columnName>
+        <alias>SERVICETYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Service type
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>6</columnName>
+        <alias>SERVICEMODEL</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Service model
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>7</columnName>
+        <alias>SKUID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				SKU ID for the ports offer
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>8</columnName>
+        <alias>SKULABEL</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Description of SKU
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>9</columnName>
+        <alias>MONTH_YEAR</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Month and year of peak port usage(ex: NOV-2017)
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>10</columnName>
+        <alias>PEAKTIME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Date and time of peak port usage. Format : mm/dd/yyyy HH:MM:SS AM (ex: 17-11-2017 09:05:57 PM)
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>11</columnName>
+        <alias>PEAKPORTS</alias>
+        <dataFormat>INTEGER</dataFormat>
+        <comments><![CDATA[
+				Number of port used during peak port usage for the given site
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

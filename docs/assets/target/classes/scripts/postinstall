@@ -1,0 +1,111 @@
+#############
+#  Methods  #
+#############
+
+glassfish_status(){
+	APPLI_STATE=`%{productShellPath}/glassfish.sh supervision`
+	if [ $APPLI_STATE == "KO" ];  then
+		%{productShellPath}/glassfish.sh start
+	else
+		echo "Glassfish is already running"
+	fi
+}
+
+configuration_selection(){
+
+	echo "                                                     "
+	echo "====================================================="
+	echo "To install package for a specific plateform,"
+	echo "set the following environment variable before"
+	echo "installing the rpm archive:"
+	echo " - PLATEFORM (possible value: PROD, LOCAL, INT, ATOS, DEV or TF)"
+	echo "   -> Default value is: PROD"
+	echo "For example for integration:"
+	echo "   export PLATEFORM=INT"
+	echo "====================================================="	
+
+	TMP_PLATEFORM_VALUE="PROD"
+	if [ -n "${PLATEFORM:+x}" ]; then
+		TMP_PLATEFORM_VALUE=$PLATEFORM
+	fi
+	
+	TMP_PLATEFORM_LABEL="Production"
+	if [ "$TMP_PLATEFORM_VALUE" = "LOCAL" ]; then
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices.xml %{execPath}/%{delivery}/resources/configuration/defaultservices-prod.xml 
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices-local.xml %{execPath}/%{delivery}/resources/configuration/defaultservices.xml 
+		mv %{execPath}/%{delivery}/resources/properties/application.properties %{execPath}/%{delivery}/resources/properties/application-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/application-local.properties %{execPath}/%{delivery}/resources/properties/application.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount.properties %{execPath}/%{delivery}/resources/properties/mount-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount-local.properties %{execPath}/%{delivery}/resources/properties/mount.properties 
+		TMP_PLATEFORM_LABEL="Localhost"
+	elif [ "$TMP_PLATEFORM_VALUE" = "INT" ]; then
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices.xml %{execPath}/%{delivery}/resources/configuration/defaultservices-prod.xml 
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices-plt-int.xml %{execPath}/%{delivery}/resources/configuration/defaultservices.xml 
+		mv %{execPath}/%{delivery}/resources/properties/application.properties %{execPath}/%{delivery}/resources/properties/application-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/application-plt-int.properties %{execPath}/%{delivery}/resources/properties/application.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount.properties %{execPath}/%{delivery}/resources/properties/mount-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount-plt-int.properties %{execPath}/%{delivery}/resources/properties/mount.properties 
+		TMP_PLATEFORM_LABEL="Integration"
+	elif [ "$TMP_PLATEFORM_VALUE" = "TF" ]; then
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices.xml %{execPath}/%{delivery}/resources/configuration/defaultservices-prod.xml 
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices-plt-tf.xml %{execPath}/%{delivery}/resources/configuration/defaultservices.xml 
+		mv %{execPath}/%{delivery}/resources/properties/application.properties %{execPath}/%{delivery}/resources/properties/application-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/application-plt-tf.properties %{execPath}/%{delivery}/resources/properties/application.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount.properties %{execPath}/%{delivery}/resources/properties/mount-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount-plt-tf.properties %{execPath}/%{delivery}/resources/properties/mount.properties 
+		TMP_PLATEFORM_LABEL="Functional test"
+	elif [ "$TMP_PLATEFORM_VALUE" = "DEV" ]; then
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices.xml %{execPath}/%{delivery}/resources/configuration/defaultservices-prod.xml 
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices-plt-dev.xml %{execPath}/%{delivery}/resources/configuration/defaultservices.xml 
+		mv %{execPath}/%{delivery}/resources/properties/application.properties %{execPath}/%{delivery}/resources/properties/application-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/application-plt-dev.properties %{execPath}/%{delivery}/resources/properties/application.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount.properties %{execPath}/%{delivery}/resources/properties/mount-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount-plt-dev.properties %{execPath}/%{delivery}/resources/properties/mount.properties 
+		TMP_PLATEFORM_LABEL="Development"
+	elif [ "$TMP_PLATEFORM_VALUE" = "ATOS" ]; then
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices.xml %{execPath}/%{delivery}/resources/configuration/defaultservices-prod.xml 
+		mv %{execPath}/%{delivery}/resources/configuration/defaultservices-plt-atos.xml %{execPath}/%{delivery}/resources/configuration/defaultservices.xml 
+		mv %{execPath}/%{delivery}/resources/properties/application.properties %{execPath}/%{delivery}/resources/properties/application-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/application-plt-atos.properties %{execPath}/%{delivery}/resources/properties/application.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount.properties %{execPath}/%{delivery}/resources/properties/mount-prod.properties 
+		mv %{execPath}/%{delivery}/resources/properties/mount-plt-atos.properties %{execPath}/%{delivery}/resources/properties/mount.properties 
+		TMP_PLATEFORM_LABEL="Atos"
+	fi
+
+	echo "                                                     "
+	echo "*****************************************************"
+	echo "                                                     "
+	echo "        Installation for $TMP_PLATEFORM_LABEL ($TMP_PLATEFORM_VALUE)"
+	echo "                                                     "
+	echo "*****************************************************"
+}
+
+###############
+#  Execution  #
+###############
+
+# Create the symlink to the opsh dir
+mkdir -p %{shellPath}
+FILES=`cd %{execPath}/%{delivery}/opsh; ls -c1`
+for shl in $FILES
+do
+        rm -f %{shellPath}/$shl
+        ln -s %{execPath}/%{delivery}/opsh/$shl %{shellPath}/$shl
+done
+
+# Create signature file
+mkdir -p %{signaturePath}
+touch %{signaturePath}/PA-%{PlatonBASICAT}-SIOSRRT-RD%{delivery}.SIG
+
+# Create version file
+echo %{delivery} > %{execPath}/%{delivery}/resources/version
+
+# Be sure to own all files
+chown -R %{username}:%{groupname} %{execPath}
+
+# Targeted plateform for installation
+configuration_selection
+
+# Deploy war 
+glassfish_status
+%{productShellPath}/glassfish.sh deploy %{PlatonID}:%{delivery} %{warFile}

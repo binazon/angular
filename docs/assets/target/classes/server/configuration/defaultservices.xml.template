@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serviceRoot cron="">
+	<services>
+		<service serviceName="updateSourceProxyState" path="rs/teleconfiguration/{sourceClass}/{sourceName}/state" scheduling="fixed" method="POST" requestMediaType="application/xml">
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getAllReportingGroupKeys" path="rs/reportingGroup/keys" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.GetReportingGroupsKeysTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getEntityInventoryForGroup" path="rs/inventoryFile/entity/{origin}/{reportingGroupRef}" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/octet-stream">
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getReportInventoryForGroup" path="rs/inventoryFile/report/{origin}/{reportingGroupRef}" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/octet-stream">
+			<servers>
+		    	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+		    </servers>
+	    </service>
+		<service serviceName="getReportTemplateInventoryForGroup" path="rs/inventoryFile/report/template/{origin}/{reportingGroupRef}" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/octet-stream">
+			<servers>
+				<server host="${refreport_main}" port="8080" appName="arbrrt" />
+			</servers>
+		</service>
+		<service serviceName="getAllParamTypes" path="rs/paramType" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.ParamTypeTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getBookmark" path="rs/bookmark/{favoriteId}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.rest.GetBookmarkTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getBookmarkDirectReport" path="rs/bookmarkDirectReport/{label}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.rest.GetBookmarkDirectReportTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>	
+		<service serviceName="getHyperlink" path="rs/hyperlink/{label}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.rest.GetHyperlinkTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>	
+		<service serviceName="getExternalIndicator" path="rs/externalIndicator/{label}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.rest.ExternalIndicatorTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="buildStaticInteractiveReport" path="rs/report/buildStaticInteractiveReport" scheduling="circular" method="POST" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.report.data.ReportData"/>
+			</responses>
+			<servers>
+				<server host="${openreport_live_1}" port="8080" appName="arbopr" />
+				${xml_comment_in}<server host="${openreport_live_2}" port="8080" appName="arbopr" />${xml_comment_out}
+			</servers>
+		</service>
+		<service serviceName="buildVSReport" path="rs/report/buildVSReport" scheduling="circular" method="POST" requestMediaType="application/xml" responseMediaType="application/json">
+			<servers>
+				<server host="${openreport_live_1}" port="8080" appName="arbopr" />
+				${xml_comment_in}<server host="${openreport_live_2}" port="8080" appName="arbopr" />${xml_comment_out}
+			</servers>
+		</service>
+		<service serviceName="aggregateReport" path="rs/report/aggregate" scheduling="circular" method="POST" requestMediaType="application/xml" responseMediaType="application/octet-stream">
+			<servers>
+				<server host="${openreport_live_1}" port="8080" appName="arbopr" />
+				${xml_comment_in}<server host="${openreport_live_2}" port="8080" appName="arbopr" />${xml_comment_out}
+			</servers>
+		</service>
+		<service serviceName="buildTemplateStreamInteractiveReport" path="rs/report/buildTemplateStreamInteractiveReport" scheduling="circular" method="POST" requestMediaType="application/xml" responseMediaType="application/octet-stream">
+			<servers>
+				<server host="${openreport_live_1}" port="8080" appName="arbopr" />
+				${xml_comment_in}<server host="${openreport_live_2}" port="8080" appName="arbopr" />${xml_comment_out}
+			</servers>
+		</service>
+		<service serviceName="getReportPatterns" path="rs/report/patterns" scheduling="fixed" method="POST" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.GetPatternTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getAllReportConfigsByOfferOption" path="rs/offerOption/{optionAlias}/reportConfigs" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.GetBatchReportOptimizedTOList"/>
+			</responses>
+			<servers>
+				<server host="${refreport_main}" port="8080" appName="arbrrt" />
+			</servers>
+		</service>
+		<service serviceName="getAllInputSourcesConfiguration" path="rs/sourceClass/{sourceClass}/inputSources" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.report.InputSourceConfigurationTOList"/>
+			</responses>
+			<servers>
+				<server host="${refreport_main}" port="8080" appName="arbrrt" />
+			</servers>
+		</service>
+	    <service serviceName="getAllInputSources" path="rs/sourceClass/{sourceClass}/inputSourcesWithProxies" scheduling="fixed" method="GET" requestMediaType="application/xml">
+	        <responses>
+	            <response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.report.InputSourceParameterList"/>
+	        </responses>
+	        <servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+	    </service>
+		<service serviceName="getInputSourceDefinition" path="rs/sourceClass/{sourceClass}/{sourceName}/definition" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.report.SourceDefinition"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getInputSource" path="rs/teleconfiguration/{sourceClass}/{sourceName}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.report.InputSourceTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getAllBatchReportsByOfferOption" path="rs/offerOption/{optionAlias}/batchReports" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>    
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.GetBatchReportOptimizedTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getUserIdBySUI" path="rs/user/sui/{SUID}" scheduling="fixed" method="GET" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.rest.GetUserIdBySUITO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrua" />
+	        </servers>
+		</service>
+		<service serviceName="reportinggroupamount" path="rs/reportingGroup/amount" scheduling="fixed" method="POST" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.refreport.model.external.inventory.GetAmountOfReportingGroupTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="updateusertoreportinggroup" path="rs/user/reportingGroup" scheduling="fixed" requestMediaType="application/xml" responseMediaType="application/xml" method="POST">
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="createstatuser" path="rs/user" method="PUT" scheduling="fixed" requestMediaType="application/xml" responseMediaType="application/xml">
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="createStatBookmark" path="rs/bookmark" method="POST" scheduling="fixed" requestMediaType="application/xml" responseMediaType="application/json">
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getReportingGroupPartitionStatusForEntityType" path="rs/partitions/groupsForEntityType" scheduling="fixed" method="POST" requestMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.ReportingGroupPartitionStatusTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getHierarchyByEntity" path="rs/inventoryGraph/hierarchy/entity" scheduling="fixed" method="POST" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.inventory.ResultEntityNodeTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getReportInput" path="rs/reportInput/{granularity}/{sourcetimeunit}/{reportinputref}" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.report.ReportInputLocationAndFormatTO"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getAllFilters" path="rs/filter" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.FilterTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+		<service serviceName="getReportingGroupsForOfferOption" path="rs/offerOption/{optionAlias}/reportingGroups/all" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/xml">
+			<responses>
+				<response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.ReportingGroupLocationTOList"/>
+			</responses>
+			<servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+		</service>
+	    <service serviceName="getReportingGroupsByOfferOption" path="rs/reportingGroup/{origin}/offerOption" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/xml">
+	        <responses>
+	            <response httpCode="200" javaType="com.orange.srs.statcommon.model.TO.PerimetersByCredentialTOList"/>
+	        </responses>
+	        <servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+	    </service>
+	    <service serviceName="getAllOfferOptions" path="rs/offerOption" scheduling="fixed" method="GET" requestMediaType="application/xml" responseMediaType="application/xml">
+	        <responses>
+	            <response httpCode="200" javaType="com.orange.srs.refreport.model.external.OfferOptionTOList"/>
+	        </responses>
+	        <servers>
+	        	<server host="${refreport_main}" port="8080" appName="arbrrt" />
+	        </servers>
+	    </service>
+	</services>
+	<broadcast/>
+</serviceRoot>

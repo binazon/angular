@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_848_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_848_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_1_raw_loadrate" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_848_1_raw_loadrate" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_848_1_raw_loadrate.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_1_raw_flow" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_848_1_raw_flow" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_848_1_raw_flow.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_848" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_raw_loadrate" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_848_raw_loadrate" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_848_1_raw_loadrate.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_raw_flow" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_848_raw_flow" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_848_1_raw_flow.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_849" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_849" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COS_SYNTHETIC_CONNECTION_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_849.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_849_raw_global_cos" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_849_raw_global_cos" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COS_SYNTHETIC_CONNECTION_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_849_raw_global_cos.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_849_raw_detail_by_cos" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_849_raw_detail_by_cos" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COS_SYNTHETIC_CONNECTION_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_849_raw_detail_by_cos.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_850" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_873" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COS_SYNTHETIC_CONNECTION_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_849.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_861_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_863" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+            <paramType alias="COSNUM1"/>
+            <paramType alias="COSNUM2"/>
+            <paramType alias="COSNUM3"/>
+            <paramType alias="COSNUM4"/>
+            <paramType alias="COSNUM5"/>
+            <paramType alias="COSNUM9"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_DETAIL_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_860.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_861" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_861" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+            <paramType alias="COSNUM1"/>
+            <paramType alias="COSNUM2"/>
+            <paramType alias="COSNUM3"/>
+            <paramType alias="COSNUM4"/>
+            <paramType alias="COSNUM5"/>
+            <paramType alias="COSNUM9"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_DETAIL_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_860.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_861_raw_detailed_bandwidth" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_861_raw_detailed_bandwidth" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+            <paramType alias="COSNUM1"/>
+            <paramType alias="COSNUM2"/>
+            <paramType alias="COSNUM3"/>
+            <paramType alias="COSNUM4"/>
+            <paramType alias="COSNUM5"/>
+            <paramType alias="COSNUM9"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="COSTYPE0_DETAIL_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_861_raw_detailed_bandwidth.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_866_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_869_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_866" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_869" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IP_BW_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_850_IBR_R" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_850_IBR_R" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_IBR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_850_IBR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_850_IBR_H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_850_IBR_H" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_IBR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_850_IBR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_IBR_R" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_848_IBR_R" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IBR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848_IBR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_848_IBR_H" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_848_IBR_H" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_IBR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_848_IBR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

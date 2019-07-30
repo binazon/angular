@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>connected_terminal_label</columnName>
+        <alias>connected_terminal_label</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[terminal connected with the terminal represented by entityid]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>duration_sessions</columnName>
+        <alias>duration_sessions</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[total duration of video sessions]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_sessions</columnName>
+        <alias>nb_sessions</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[total number of video sessions]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+</listInputColumn>

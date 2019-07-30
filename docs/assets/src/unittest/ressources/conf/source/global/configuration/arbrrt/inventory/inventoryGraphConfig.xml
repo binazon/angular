@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphExportConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<parentEdgeDefinitions>
+		<parentEdgeBinding parentEntityType="EQUIPMENT" childEntityType="PHYSICALCONNECTION" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="PHYSICALCONNECTION" childEntityType="LOGICALCONNECTION" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="PHYSICALCONNECTION" childEntityType="COS" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="LOGICALCONNECTION" childEntityType="COS" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="GKSAN" childEntityType="SAN" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="VPN" childEntityType="SITE" edgeType="IS_PARENT"/>
+		<parentEdgeBinding parentEntityType="VPN" childEntityType="SAN" edgeType="IS_PARENT"/>
+	</parentEdgeDefinitions>
+	<linkEdgeDefinitions>
+		<linkEdgeBinding sourceEntityType="SITE" destinationEntityType="EQUIPMENT" role="SITE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="SITE" destinationEntityType="MEASURE" role="SITE" parameterRule="*" edgeType="HAS_MEASURE"/>  
+		<linkEdgeBinding sourceEntityType="ZONE" destinationEntityType="EQUIPMENT" role="ZONE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="IPBXZONE" destinationEntityType="EQUIPMENT" role="IPBXZONE" parameterRule="*" edgeType="HAS_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="IPBXZONE" destinationEntityType="PHONEENTITY" role="IPBXZONE" parameterRule="*" edgeType="HAS_PHONE_ENTITY"/>  
+		<linkEdgeBinding sourceEntityType="EQUIPMENT" destinationEntityType="EQUIPMENT" role="ASSOCIATED_DEVICE" parameterRule="*" edgeType="IS_LINKED_TO_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ORIGINFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ORIGINFDN" parameterRule="EMPTY" edgeType="HAS_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ORIGINFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_PHYSICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ORIGINFDN" parameterRule="EMPTY" edgeType="HAS_PHYSICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ORIGINFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_LOGICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ORIGINFDN" parameterRule="EMPTY" edgeType="HAS_LOGICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ENDFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="EQUIPMENT" role="ENDFDN" parameterRule="EMPTY" edgeType="HAS_EQUIPMENT"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ENDFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_PHYSICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="PHYSICALCONNECTION" role="ENDFDN" parameterRule="EMPTY" edgeType="HAS_PHYSICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ENDFDN" parameterRule="NOT_EMPTY" edgeType="HAS_FOR_ORIGIN_LOGICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="MEASURE" destinationEntityType="LOGICALCONNECTION" role="ENDFDN" parameterRule="EMPTY" edgeType="HAS_LOGICALCONNECTION"/>  
+		<linkEdgeBinding sourceEntityType="SBC" destinationEntityType="SITE" role="NOMINAL" parameterRule="*" edgeType="HAS_SITE"/>  
+		<linkEdgeBinding sourceEntityType="SBC" destinationEntityType="SITE" role="BACKUP" parameterRule="*" edgeType="HAS_SITE"/>  		
+	</linkEdgeDefinitions>
+</graphExportConfiguration>

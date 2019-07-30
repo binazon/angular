@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_866" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_866" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_PPR_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_861.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_883" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_875" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_CPU_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_863.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_884" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_876" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_Memory_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_876.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_885_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_877_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+        	<paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_LAN_Load_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_878.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_885_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_877_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_LAN_Load_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_878.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_885" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_877" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_WAN_Load_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_878.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_885_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_877_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_WAN_Load_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_878.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_887_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_879_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+        	<paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_LAN_avail_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_880.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_887" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_879" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_RPR_WAN_avail_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_880.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_888" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_909" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SAR_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_866.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_889" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_910" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_PAR_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_867.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_890" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_883" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_CPU_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_899.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_891" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_884" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_Memory_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_922.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_892" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_888" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_Load_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_893" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_888_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_Load_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_894" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_888_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_Load_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_895" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_888_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_Load_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_896" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_898" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_Traffic_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_925.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_897" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_924" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_IP_buffer_fail_no_route_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_926.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_898" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_925" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_Errors_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_927.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_899" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_926" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_Errors_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_928.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_900" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_925_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_Errors_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_927.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_901" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_926_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_Errors_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_928.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_902" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_927" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_Status_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_929.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_903" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_927_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_Status_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_929.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_904" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_928_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_global_NU_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_930.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_905" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_928" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_global_NU_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_930.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_906" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_929" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_PORT_global_NU_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_930.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_907" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_929_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SPR_SWITCH_VLAN_global_NU_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_930.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM1"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS1_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM2"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS2_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM3"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS3_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM4"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS4_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM5"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS5_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_908_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_930_5" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM9"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_IN_COS9_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_936.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM1"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS1_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM2"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS2_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM3"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS3_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM4"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS4_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM5"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS5_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_909_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_931_5" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM9"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_OUT_COS9_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_939.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_912" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_933" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_global_traffic_COS_{END_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_942.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_913" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_934" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_global_traffic_{END_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_943.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+       <reportConfig alias="REPORTCONFIG_925" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_948" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_SA_Achievement_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_948.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     <reportConfig alias="REPORTCONFIG_926" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_949" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_SA_SLA_global_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_949.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_928" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_938" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_PA_SLA_global_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_944.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	
+	   <reportConfig alias="REPORTCONFIG_929" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_937" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_PA_Achievement_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_932.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	<reportConfig alias="REPORTCONFIG_931" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_951" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_GLOBAL_IN_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_951.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	<reportConfig alias="REPORTCONFIG_932" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_953" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_BUR_bandwidth_Utilization_GLOBAL_OUT_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_953.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     <reportConfig alias="REPORTCONFIG_933" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_947" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_PP_Achievement_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_947.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_934" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_954" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_eCSDBSmart_PP_SLA_global_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_954.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

@@ -1,0 +1,3839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReport>
+    <report>
+        <refId>REPORT_1</refId>
+        <label>Traffic_on_IPPBX_zones_shared_devices_on_Customer_Network - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_1.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_2</refId>
+        <label>Traffic_on_IPPBX_zones_shared_devices_on_Customer_Network - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_1.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_3</refId>
+        <label>Traffic_on_IPPBX_zones_shared_devices_on_Customer_Network - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_1.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_4</refId>
+        <label>Statistics_on_Zone_IPPBX - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_5</refId>
+        <label>Statistics_on_Zone_IPPBX - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_6</refId>
+        <label>Statistics_on_Zone_IPPBX - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_7</refId>
+        <label>Statistics_on_Zone_IPPBX - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_8</refId>
+        <label>Statistics_on_Zone_IPPBX - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_9</refId>
+        <label>Statistics_on_Zone_IPPBX - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_10</refId>
+        <label>Statistics_on_Zone_IPPBX - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_11</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_12</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_13</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_14</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_15</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_16</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_17</refId>
+        <label>Statistics_on_Cisco_Call_Manager - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_18</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_19</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_20</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_21</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_22</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_23</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_24</refId>
+        <label>Statistics_on_Cisco_Media_Gateway - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_25</refId>
+        <label>Statistics_on_Avaya_Media_Server - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_26</refId>
+        <label>Statistics_on_Avaya_Media_Server - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_27</refId>
+        <label>Statistics_on_Avaya_Media_Server - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_28</refId>
+        <label>Statistics_on_Avaya_Media_Server - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_29</refId>
+        <label>Statistics_on_Avaya_Media_Server - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_30</refId>
+        <label>Statistics_on_Avaya_Media_Server - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_31</refId>
+        <label>Statistics_on_Avaya_Media_Server - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_32</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_33</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_34</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_35</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_36</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_37</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_38</refId>
+        <label>Statistics_on_Avaya_Media_Gateway - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_39</refId>
+        <label>Statistics_on_Third_Party_Server - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_40</refId>
+        <label>Statistics_on_Third_Party_Server - Total_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_41</refId>
+        <label>Statistics_on_Third_Party_Server - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_42</refId>
+        <label>Statistics_on_Third_Party_Server - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_43</refId>
+        <label>Statistics_on_Third_Party_Server - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_44</refId>
+        <label>Statistics_on_Third_Party_Server - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_45</refId>
+        <label>Statistics_on_Third_Party_Server - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_46</refId>
+        <label>QoS_on_IPPBX_Zone - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_47</refId>
+        <label>QoS_on_IPPBX_Zone - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_48</refId>
+        <label>QoS_on_IPPBX_Zone - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_49</refId>
+        <label>QoS_on_IPPBX_Zone - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_50</refId>
+        <label>QoS_on_IPPBX_Zone - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_51</refId>
+        <label>QoS_on_Cisco_Call_Manager - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_52</refId>
+        <label>QoS_on_Cisco_Call_Manager - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_53</refId>
+        <label>QoS_on_Cisco_Call_Manager - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_54</refId>
+        <label>QoS_on_Cisco_Call_Manager - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_55</refId>
+        <label>QoS_on_Cisco_Call_Manager - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_56</refId>
+        <label>BusyDay_BusyHour_on_IPPBX_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_4.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_57</refId>
+        <label>BusyDay_BusyHour_on_Cisco_Call_Manager</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_9.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_58</refId>
+        <label>BusyDay_BusyHour_on_Cisco_Media_Gateway</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_9.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_59</refId>
+        <label>BusyDay_BusyHour_on_Cisco_Media_Gateway</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_9.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_60</refId>
+        <label>BusyDay_BusyHour_on_Avaya_Media_Server</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_9.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_61</refId>
+        <label>BusyDay_BusyHour_on_Third_Party_Server</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_9.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_62</refId>
+        <label>Off_Net_traffic_on_IPPBX_Zone - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_63</refId>
+        <label>Off_Net_traffic_on_IPPBX_Zone - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_64</refId>
+        <label>Off_Net_traffic_on_Cisco_Call_Manager - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_65</refId>
+        <label>Off_Net_traffic_on_Cisco_Call_Manager - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_66</refId>
+        <label>Off_Net_traffic_on_Cisco_Media_Gateway - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_67</refId>
+        <label>Off_Net_traffic_on_Cisco_Media_Gateway - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_68</refId>
+        <label>Off_Net_traffic_on_Cisco_Voice_Gateway - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_69</refId>
+        <label>Off_Net_traffic_on_Cisco_Voice_Gateway - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_70</refId>
+        <label>Off_Net_traffic_on_Avaya_Media_Server - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_71</refId>
+        <label>Off_Net_traffic_on_Avaya_Media_Server - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_72</refId>
+        <label>Off_Net_traffic_on_Third_Party_Server - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_73</refId>
+        <label>Off_Net_traffic_on_Third_Party_Server - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_74</refId>
+        <label>Off_Net_traffic_on_Phone_Entity - Off_Net_to_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_75</refId>
+        <label>Off_Net_traffic_on_Phone_Entity - Off_Net_from_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_5.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_76</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - On_Net_to_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_77</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - On_Net_from_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_78</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - Off_Net_to_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_79</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - Off_Net_from_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_80</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - On_Net_Off_Net_to_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_81</refId>
+        <label>Special_Numbers_on_IPPBX_Zone - On_Net_Off_Net_from_special_numbers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_6.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_82</refId>
+        <label>Tops_on_IPPBX_Zone - On_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_83</refId>
+        <label>Tops_on_IPPBX_Zone - On_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_84</refId>
+        <label>Tops_on_IPPBX_Zone - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_85</refId>
+        <label>Tops_on_IPPBX_Zone - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_86</refId>
+        <label>Tops_on_Cisco_Call_Manager - On_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_87</refId>
+        <label>Tops_on_Cisco_Call_Manager - On_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_88</refId>
+        <label>Tops_on_Cisco_Call_Manager - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_89</refId>
+        <label>Tops_on_Cisco_Call_Manager - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_90</refId>
+        <label>Tops_on_Phone_Entity - On_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_91</refId>
+        <label>Tops_on_Phone_Entity - On_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_92</refId>
+        <label>Tops_on_Phone_Entity - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_93</refId>
+        <label>Tops_on_Phone_Entity - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_7.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_94</refId>
+        <label>By_devices_and_shared_devices_on_IPPBX_Zone - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_8.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_95</refId>
+        <label>By_devices_and_shared_devices_on_IPPBX_Zone - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_8.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_96</refId>
+        <label>By_devices_and_shared_devices_on_IPPBX_Zone - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_8.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_97</refId>
+        <label>Voice_Usage_per_Trunk_on_Avaya_Media_Server - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_10.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_98</refId>
+        <label>Voice_Usage_per_Trunk_on_Avaya_Media_Server - Off_Net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_10.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_99</refId>
+        <label>Voice_Usage_per_Trunk_on_Avaya_Media_Server - Off_Net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_10.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_100</refId>
+        <label>Traffic_Summary_and_On-Net_on_Phone_Entity - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_11.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_101</refId>
+        <label>Traffic_Summary_on_Phone_Entity - On_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_11.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_102</refId>
+        <label>Traffic_Summary_on_Phone_Entity - On_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_11.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_103</refId>
+        <label>Traffic_Summary_on_Phone_Entity - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_11.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_104</refId>
+        <label>Traffic_Summary_on_Phone_Entity - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_11.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_105</refId>
+        <label>Traffic_Summary_on_Phone_Entity - Total_Traffic_From_Site_To_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_12.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_106</refId>
+        <label>Traffic_Matrix_on_Phone_Entity - Total</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_13.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_117</refId>
+        <label>Technical_Inventory - Technical_Inventory_At_Customer_Level</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_15.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_118</refId>
+        <label>Technical_Inventory - Technical_Inventory_Of_IPPBX_Zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_16.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_119</refId>
+        <label>Health_On_Cisco_Call_Manager - Cisco_IPT_Global_Info</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_17.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_120</refId>
+        <label>Health_On_Cisco_Call_Manager - Services</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_18.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_121</refId>
+        <label>Health_On_Third_Party_Server - Services</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_18.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_122</refId>
+        <label>Health_On_Cisco_Call_Manager - Voice_gateway</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_19.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_123</refId>
+        <label>Health_On_Cisco_Call_Manager - Analog_Gateway</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_20.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_124</refId>
+        <label>Health_On_Cisco_Call_Manager - H323</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_20.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_125</refId>
+        <label>Health_On_Cisco_Call_Manager - Voice_Mail</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_20.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_126</refId>
+        <label>Health_On_Cisco_Call_Manager - Hardware</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_21.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_127</refId>
+        <label>Health_On_Third_Party_Server - Hardware</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_21.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_128</refId>
+        <label>Cisco_Voice_Gateway - DSP</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_23.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_129</refId>
+        <label>Avaya_Media_Server - Avaya_Specific_Inventory - Information_On_Module</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_24.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_130</refId>
+        <label>Avaya_Media_Gateway - Avaya_Specific_Inventory - Information_On_Module</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_25.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_131</refId>
+        <label>Avaya_Media_Server - Avaya_Specific_Inventory - Information_On_Connected_Media_Gateways</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_26.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_132</refId>
+        <label>Avaya_Media_Server - Avaya_Specific_Inventory - Information_On_Connected_Media_Servers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_26.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_133</refId>
+        <label>Avaya_Media_Server - Avaya_Specific_Inventory - Information_On_Trunk</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_26.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_134</refId>
+        <label>Health_On_Cisco_Call_Manager - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_135</refId>
+        <label>Health_On_Cisco_Media_Gateway - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_136</refId>
+        <label>Health_On_Cisco_Voice_Gateway - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_137</refId>
+        <label>Health_On_Avaya_Media_Server - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_138</refId>
+        <label>Health_On_Avaya_Media_Gateway - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_139</refId>
+        <label>Health_On_Third_Party_Server - Device Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_27.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_140</refId>
+        <label>Health_On_Cisco_Call_Manager - Component Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_28.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_141</refId>
+        <label>Health_On_Cisco_Media_Gateway - Component Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_28.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_142</refId>
+        <label>Health_On_Cisco_Voice_Gateway - Component Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_28.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_143</refId>
+        <label>Health_On_Avaya_Media_Server - Component Heath</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_28.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_144</refId>
+        <label>Btip - Network_executive_summary - TARZAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_29.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_145</refId>
+        <label>Btip - Site_executive_summary</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_30.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_146</refId>
+        <label>Btip - Network_executive_summary</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_31.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_147</refId>
+        <label>Bt ipbx - Traffic on customer - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_32.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_148</refId>
+        <label>Bt ipbx - Traffic per ipbx zone and shared device by day - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_33.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_149</refId>
+        <label>Bt ipbx - Simultaneous calls per ipbx zone by day - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_34.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_150</refId>
+        <label>Bt ipbx - Outgoing calls per destination - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_35.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_151</refId>
+        <label>Bt ipbx - Incoming calls per hours - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_36.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_152</refId>
+        <label>QoS_on_IPPBX_Zone - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_153</refId>
+        <label>Bt ipbx - Traffic per ipbx zone and shared device - Tarzan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_2.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_154</refId>
+        <label>Equipment - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_37.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_155</refId>
+        <label>Interface - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_38.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_156</refId>
+        <label>Measure - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_39.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_157</refId>
+        <label>COS - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_40.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_158</refId>
+        <label>COS - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_41.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_159</refId>
+        <label>Network Object - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_42.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_160</refId>
+        <label>Network Default Objects - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_43.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_161</refId>
+        <label>Default speeds - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_44.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_162</refId>
+        <label>Updated speeds - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_45.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_163</refId>
+        <label>Load Rate - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_46.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_164</refId>
+        <label>Snmp problem - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_47.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_165</refId>
+        <label>Default Lirt - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_48.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_166</refId>
+        <label>Errors and discards - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_49.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_167</refId>
+        <label>Router OK PhysicalConnection NOK - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_50.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_168</refId>
+        <label>Errors and discards detail - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_51.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_169</refId>
+        <label>Snmp problem detail - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_52.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_170</refId>
+        <label>Load Rate detail - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_53.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_171</refId>
+        <label>Network Default Objects Detail - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_54.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_172</refId>
+        <label>Default Lirt Detail - Dod</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_55.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="INTERACTIVE_INDICATOR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_173</refId>
+        <label>Btip - Site_executive_summary</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_56.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_174</refId>
+        <label>Btip - Top_outgoing_calls_on_sites</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_57.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_175</refId>
+        <label>Btip - Top_ingoing_calls_on_sites</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_58.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_176</refId>
+        <label>Btip - DSP Usage on Avaya media server</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_59.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_177</refId>
+        <label>Btip - DSP Usage on Avaya media gateway</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_59.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_202</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan load rate</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_274.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_203</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan status</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_284.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_207</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_router</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_242.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_208</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_256.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_209</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_access</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_256.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_210</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_switch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_243.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_211</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_portForSwitch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_282.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_212</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_vlanForSwitch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_283.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_213</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_297.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_214</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_globalvolume</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_297.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_215</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_globalvolumebyaccess</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_261.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_216</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_zone</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_297.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_218</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_radio</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_260.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_219</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_AtmXdsl</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_267.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_220</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_DimCvp</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_267.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_221</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_AtmVlanCnx</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_267.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_222</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_logicalConnection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_267.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_223</refId>
+        <label>Data-re - CPU loadrate on equipment</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_239.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_224</refId>
+        <label>Data-re - Memory loadrate on equipment</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_240.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_225</refId>
+        <label>Data-re - Traffic on switch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_241.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TRAFFIC_SWITCH"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_226</refId>
+        <label>Data-re - Load rate on access/interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_253.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_ACCESS_INTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_227</refId>
+        <label>Data-re - Error on interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_254.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="ERROR_INTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_228</refId>
+        <label>Data-re - Error on access</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_255.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="ERROR_ACCESS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_229</refId>
+        <label>Data-re - Load rate on port</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_278.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_PORT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_230</refId>
+        <label>Data-re - Observed flow on vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_279.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_SWITCH_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_231</refId>
+        <label>Data-re - Traffic on port/vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_280.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TRAFFIC_PORT_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_232</refId>
+        <label>Data-re - Observed flow on atm</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_271.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_ATM"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_233</refId>
+        <label>Data-re - Observed flow on dimcvp</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_271.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_DIMCVP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_234</refId>
+        <label>Data-re - Observed flow on atmxdsl</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_271.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_ATMXDSL"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_235</refId>
+        <label>Data-re - Observed flow on logicalconnect</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_272.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_236</refId>
+        <label>Data-re - Number of active customers on radio</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_259.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_237</refId>
+        <label>Data-re - Number of active customers on radio_lap</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_259.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO_LAP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_238</refId>
+        <label>Data-re - Loadrate on Radio</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_258.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_RADIO"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_239</refId>
+        <label>Data-re - Status on port / vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_285.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="STATUS_PORT_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_240</refId>
+        <label>Data-re - CPU raw</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_217.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="CPU"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_241</refId>
+        <label>Data-re - Memory raw</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_218.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="MEMORY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_242</refId>
+        <label>Data-re - Load rate on access/interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_221.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_ACCESS_INTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_243</refId>
+        <label>Data-re - Loadrate on Radio</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_222.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_RADIO"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_244</refId>
+        <label>Data-re - Load rate on port</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_223.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="LOADRATE_PORT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_245</refId>
+        <label>Data-re - Error on interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_224.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="ERROR_INTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_246</refId>
+        <label>Data-re - Error on access</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_225.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="ERROR_ACCESS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_248</refId>
+        <label>Data-re - Error on port / vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_226.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="ERROR_PORT_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_249</refId>
+        <label>Data-re - Traffic on port/vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_228.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="TRAFFIC_PORT_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_250</refId>
+        <label>Data-re - Observed flow on vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_229.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_SWITCH_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_251</refId>
+        <label>Data-re - Number of active customers on radio</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_230.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_252</refId>
+        <label>Data-re - Number of active customers on radio_lap</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_230.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="NB_CUSTOMERS_RADIO_LAP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_253</refId>
+        <label>Data-re - Observed flow on atm</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_231.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_ATM"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_254</refId>
+        <label>Data-re - Observed flow on dimcvp</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_231.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_DIMCVP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_255</refId>
+        <label>Data-re - Observed flow on atmxdsl</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_231.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_ATMXDSL"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_256</refId>
+        <label>Data-re - Observed flow on logicalconnect</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_232.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_258</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_dataloadRate</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_234.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_259</refId>
+        <label>Data-re - h2 intermediary file for COS type 3</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_304.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_260</refId>
+        <label>Data-re - h2 intermediary file for CPU equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_235.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_261</refId>
+        <label>Data-re - h2 intermediary file for MEM equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_236.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_262</refId>
+        <label>Data-re - h2 intermediary file for DISK USAGE equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_237.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_263</refId>
+        <label>Data-re - h2 intermediary file for TRAFFIC equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_238.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_264</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cosmanethernet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_306.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_265_1</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_265_2</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_265_3</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_265_4</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_266_1</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_252.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_266_2</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_252.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_267</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_251.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_268</refId>
+        <label>Data-re - h2 intermediary file for logical connection: FLOW</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_265.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_269</refId>
+        <label>Data-re - h2 intermediary file for logical connection: TRAFFIC</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_266.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_270</refId>
+        <label>Data-re - Error on port / vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_281.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="ERROR_PORT_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_271</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan observed flow</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_275.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_272</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_276.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_272_1</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan error</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_277.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_273</refId>
+        <label>Top CPU</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_244.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPCPUROUTER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_273_1</refId>
+        <label>Top CPU switch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_244.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPCPUSWITCH"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_274</refId>
+        <label>Data-re - Traffic on switch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_286.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="TRAFFIC_SWITCH"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_275</refId>
+        <label>Data-re - h2 intermediary file for global traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_287.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_276</refId>
+        <label>Data-re - global traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_288.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_276_1</refId>
+        <label>Data-re - global traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_288.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_PER_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_277</refId>
+        <label>Data-re - h2 intermediary file for COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_294.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_278</refId>
+        <label>Data-re - h2 intermediary file for COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_295.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_279</refId>
+        <label>COS TYPE 0</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_296.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_280</refId>
+        <label>COS TYPE 0 - Graphe de synthèse</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_299.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LC"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_280_1</refId>
+        <label>COS TYPE 0 - Graphe de synthèse</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_299.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_PC"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_281</refId>
+        <label>Data-re - Observed flow on vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_271.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_282</refId>
+        <label>Data-re - Observed flow on vlan</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_231.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_284</refId>
+        <label>Data-re - Observed flow on connectivity</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_271.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="FLOW_CONNECTIVITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_285</refId>
+        <label>Data-re - Observed flow on connectivity</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_231.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="FLOW_CONNECTIVITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_286</refId>
+        <label>COS TYPE 0</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_300.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_287</refId>
+        <label>COS TYPE 0 - Graphe de synthèse</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_301.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LC"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_287_1</refId>
+        <label>COS TYPE 0 - Graphe de synthèse</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_301.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_PC"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_288</refId>
+        <label>Data-re - Tarzan report: openstat_datare_globalvolumebyaccessbycos</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_312.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_289</refId>
+        <label>Data-re - h2 intermediary file for COS type 3 (thresholds)</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_305.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_290</refId>
+        <label>Data-re - synthetic view of COS type 3 on connectivity</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_308.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE3"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_291</refId>
+        <label>Data-re - view of COS type 3</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_309.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE3"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_292</refId>
+        <label>Data-re - synthetic view of COS type 3 on connectivity</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_310.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE3"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_293</refId>
+        <label>Data-re - view of COS type 3</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_311.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE3"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_294</refId>
+        <label>Data-re - h2 intermediary file for cosbe</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_289.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_295</refId>
+        <label>Data-re - Tarzan report: cosbe</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_290.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_296</refId>
+        <label>COS TYPE 2 - Synthetic view</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_291.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE2"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_297</refId>
+        <label>COS TYPE 2 - Synthetic view</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_292.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE2"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_298</refId>
+        <label>RTD on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_314.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="RTD_SLA_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_299</refId>
+        <label>Data-re - h2 intermediary file for Correlation computation on measures</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_302.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_300</refId>
+        <label>Data-re - h2 intermediary file for RTD, Jitter, PLR on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_303.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_301</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_rtd</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_307.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_302</refId>
+        <label>PLR on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_313.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="PLR_SLA_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_303</refId>
+        <label>Top Memory on Router</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_245.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPMEMROUTER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_304</refId>
+        <label>Top Memory on switch</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_245.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPMEMSWITCH"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_1</refId>
+        <label>Top loadrate on interface</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_316.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPLOADRATEINTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_2</refId>
+        <label>Top loadrate on access</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_316.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPLOADRATEACCESS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_3</refId>
+        <label>Top Flow on ATMXDSL</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_315.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPFLOW_ATMXDSL"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_4</refId>
+        <label>Top Flow on DIMCVP</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_315.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPFLOW_DIMCVP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_5</refId>
+        <label>Top Flow on ATM</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_315.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPFLOW_ATM"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_6</refId>
+        <label>Top Flow on VLAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_315.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPFLOW_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_305_7</refId>
+        <label>Top Flow on CONNECTIVITY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_315.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPFLOW_CONNECTIVITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_306</refId>
+        <label>Data-re - h2 intermediary file for SITE COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_317.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_307</refId>
+        <label>Global Site COS Type 0</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_318.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_307_1</refId>
+        <label>Global Site COS Type 0</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_318.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_308</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_globalvolumebycos</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_319.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_310</refId>
+        <label>Data-re - h2 intermediary file for Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_320.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_311</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_chrono</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_321.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_312</refId>
+        <label>Data-re - RTD on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_323.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="RTD_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_313</refId>
+        <label>Data-re - Jitter on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_324.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="JITTER_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_314</refId>
+        <label>Data-re - PLR on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_325.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="PLR_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_315</refId>
+        <label>Data-re - RTD on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_326.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="RTD_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_316</refId>
+        <label>Data-re - Jitter on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_327.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="JITTER_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_317</refId>
+        <label>Data-re - PLR on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_328.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="PLR_MEASURE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_318</refId>
+        <label>Data-re - Tarzan report: openstat_datare_cs_cos</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_329.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_319</refId>
+        <label>COS TYPE 0 - Graphe de synthèse (LOGICALCONNECT)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_330.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_320</refId>
+        <label>COS TYPE 0 - Graphe de synthèse (LOGICALCONNECT)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_331.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_SYNTHETIC_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_321</refId>
+        <label>Parc</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_332.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="PARC"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_322</refId>
+        <label>BIV-SIP-DATA - h2 intermediary file for COS type 4</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_333.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_323</refId>
+        <label>COS TYPE 4 - Graphe de synthèse (LOGICALCONNECT)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_334.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE4"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_324</refId>
+        <label>COS TYPE 4 - Graphe de synthèse (LOGICALCONNECT)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_335.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="SYNTHETIC_COSTYPE4"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_325</refId>
+        <label>COS TYPE 0 DROPPED COLOURED</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_336.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_DROPPED_COLOURED"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_326</refId>
+        <label>COS TYPE 0 DROPPED COLOURED</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_337.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="COSTYPE0_DROPPED_COLOURED"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_327</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ROUTER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_328</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_329</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ACCESS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_330</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_INTERFACE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_331</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_332</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_SWITCH_PORT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_333</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_RADIO"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_334</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_RADIO_LAP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_335</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DIMCVP"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_336</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ATM"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_337</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_ATMXDSL"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_338</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_VLAN"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_339</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_340</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_NCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_341</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_CONNECTIVITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_342</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_DATA_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_343</refId>
+        <label>Detailed network</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_338.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="DETAILED_NETWORK_LIRT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_344</refId>
+        <label>Data-re - Global volumetry</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_341.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_345</refId>
+        <label>BVPN-GALERIE - h2 intermediary file for global volumetry</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_342.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_346</refId>
+        <label>BVPN-GALERIE - Tarzan report: openstat_bvpngalerie_cs_site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_343.xml</computeUri>
+        <reportTimeUnit>THIRTEEN_MONTHS</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_347</refId>
+        <label>BVPN-GALERIE - global volumetry per site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_344.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>MONTHLY</granularity>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_CLOUD_PER_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_348</refId>
+        <label>BVPN-GALERIE - volumetry per site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_345.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="VOLUMETRY_CLOUD_PER_SITE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_349</refId>
+        <label>BVPN-GALERIE - h2 intermediary file for measure</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_346.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_350</refId>
+        <label>BVPN-GALERIE - Tarzan report: openstat_bvpngalerie_cs_chrono</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_347.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_351</refId>
+        <label>BVPN-GALERIE - RTD on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_348.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="RTD_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_352</refId>
+        <label>BVPN-GALERIE - PLR on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_349.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="PLR_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_353</refId>
+        <label>BVPN-GALERIE - RTD on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_350.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="RTD_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_354</refId>
+        <label>BVPN-GALERIE - PLR on Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_351.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="PLR_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_355</refId>
+        <label>BVPN-GALERIE - h2 intermediary file for Correlation computation on measures</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/STAT_352.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_356</refId>
+        <label>BVPN-GALERIE - h2 intermediary file for measure with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_353.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_357</refId>
+        <label>BVPN-GALERIE - Tarzan report: openstat_bvpngalerie_cs_rtd</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_354.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_358</refId>
+        <label>BVPN-GALERIE - RTD on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_355.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="RTD_SLA_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_359</refId>
+        <label>BVPN-GALERIE - PLR on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_356.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator>
+            <indicator id="PLR_SLA_LIRT_GALRE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_360</refId>
+        <label>Top LoadRate LogicalConnect</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_357.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TOPLOADRATE_LOGICALCONNECT"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_400</refId>
+        <label>BTIP - QOS - GKSBC - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_400.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_401</refId>
+        <label>BTIP - QOS - GKSBC</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_401.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="QOS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_402</refId>
+        <label>BTIP - VARIATION CALLS - GKSITE - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_402.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_403</refId>
+        <label>BTIP - CONCURRENT CALLS - GKSITE - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_403.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_404</refId>
+        <label>BTIP - USAGE CALLS - GKSITE - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_404.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_406</refId>
+        <label>BTIP - Load Synthesis - GKSITE</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_406.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="LOAD_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_407</refId>
+        <label>BTIP - Load Variation - GKSITE</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_407.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="LOAD_VARIATION"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_408</refId>
+        <label>BTIP - Busy Day Busy Hour - GKSITE</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_408.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="BUSY_DAY_BUSY_HOUR"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_409</refId>
+        <label>BTIP - Variation Usage - GKSITE - GKVPN - GKSAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_409.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="VARIATION_USAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_411</refId>
+        <label>BTIP - Synthesis Usage - GKSITE - GKVPN - GKSAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_411.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="SYNTHESIS_OF_USAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_412</refId>
+        <label>BTIP - technical Usage - GKSITE - GKVPN - GKSAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_412.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="TECHNICAL_USAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_413</refId>
+        <label>BTIP - Geographic area Usage - GKSITE - GKVPN - GKSAN</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_413.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator>
+            <indicator id="ORIGIN_DESTINATION_USAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_415</refId>
+        <label>BTIP - VARIATION CALLS - GKVPN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_402.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_416</refId>
+        <label>BTIP - CONCURRENT CALLS - GKVPN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_403.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_417</refId>
+        <label>BTIP - USAGE CALLS - GKVPN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_404.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_418</refId>
+        <label>BTIP - VARIATION CALLS - GKSAN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_402.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_419</refId>
+        <label>BTIP - CONCURRENT CALLS - GKSAN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_403.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_420</refId>
+        <label>BTIP - USAGE CALLS - GKSAN - INTERMEDIARY</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_404.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_450</refId>
+        <label>B2GaaS - Traffic_by_Hour</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_450.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_451</refId>
+        <label>B2GaaS - Traffic_Duration_by_Hour</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_452.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_454</refId>
+        <label>B2GaaS - Voice Mail : Busy Day</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_454.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_455</refId>
+        <label>B2GaaS - Gateway : Busy Day</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_455.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_456</refId>
+        <label>B2GaaS - Top Incoming Outgoing Calls</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_456.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_460</refId>
+        <label>B2GaaS - TOP20 des numeros composes en appel sortant</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_460.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_461</refId>
+        <label>B2GaaS - Top20 des durees d appels sortant sur la periode</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_461.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_462</refId>
+        <label>B2GaaS - Repartition des durees des appels Voice Mail par tranche horaire</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_462.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_463</refId>
+        <label>B2GaaS - Statistiques Voice Mail</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_463.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_464</refId>
+        <label>B2GaaS - Connection  IPPhones</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_464.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_500</refId>
+        <label>BTIC SIP - Synthese des appels sur le reseau</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_500.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_501</refId>
+        <label>BTIC SIP - Synthese des appels par site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_501.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_502</refId>
+        <label>BTIC SIP - TOP sur les numeros les plus appeles</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_502.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_503</refId>
+        <label>BTIC SIP - Synthese des appels par GU</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_503.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_510</refId>
+        <label>BTIC H323 - Synthese des appels sur le reseau</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_500.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_511</refId>
+        <label>BTIC H323 - Synthese des appels par site</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_501.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_512</refId>
+        <label>BTIC H323 - TOP sur les numeros les plus appeles</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_502.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_513</refId>
+        <label>BTIC H323 - Synthese des appels par GU</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_503.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_600</refId>
+        <label>Video - MeetingList</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_600.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_MEETINGLIST"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_601</refId>
+        <label>Video - Scheduler</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_601.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_601_1</refId>
+        <label>Video - Scheduler</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_601.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_602</refId>
+        <label>Video - Room Connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_602.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_ROOMCONNECTION"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_603</refId>
+        <label>Video - CUCM No Show</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_603.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_CUCMNOSHOW"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_603_1</refId>
+        <label>Video - CUCM No Show</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_603.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_CUCMNOSHOW"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_604</refId>
+        <label>Video - Room Usage</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_604.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_ROOMUSAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_604_1</refId>
+        <label>Video - Room Usage</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_604.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_ROOMUSAGE"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_605</refId>
+        <label>Video - Community</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_605.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_COMMUNITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_605_1</refId>
+        <label>Video - Community</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_605.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_COMMUNITY"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_606</refId>
+        <label>Video - P2P vs Multipoints</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_606.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_P2PVSMULTIPOINTS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_606_1</refId>
+        <label>Video - P2P vs Multipoints</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_606.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_P2PVSMULTIPOINTS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_607</refId>
+        <label>Video - TopTalkers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_607.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_TOPTALKERS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_607_1</refId>
+        <label>Video - TopTalkers</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_607.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_TOPTALKERS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_608</refId>
+        <label>Video - Scheduled vs unscheduled</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_608.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULEDVSUNSCHEDULED"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_608_1</refId>
+        <label>Video - Scheduled vs unscheduled</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_608.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULEDVSUNSCHEDULED"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_609</refId>
+        <label>Video - Room Usage Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_609.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_609_1</refId>
+        <label>Video - Room Usage Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_609.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_610</refId>
+        <label>Video - CUCM No Show Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_610.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_CUCMNOSHOW_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_610_1</refId>
+        <label>Video - CUCM No Show Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_610.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_CUCMNOSHOW_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_611</refId>
+        <label>Video - Community Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_611.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_COMMUNITY_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_611_1</refId>
+        <label>Video - Community Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_611.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_COMMUNITY_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_612</refId>
+        <label>Video - P2P vs Multipoints Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_612.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_P2PVSMULTIPOINTS_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_612_1</refId>
+        <label>Video - P2P vs Multipoints Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_612.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_P2PVSMULTIPOINTS_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_613</refId>
+        <label>Video - Scheduled vs unscheduled Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_613.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULEDVSUNSCHEDULED_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_613_1</refId>
+        <label>Video - Scheduled vs unscheduled Synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_613.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TP_SCHEDULEDVSUNSCHEDULED_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_614</refId>
+        <label>TPAAS Video - CUCM No show synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_614.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_CUCMNOSHOW_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_614_1</refId>
+        <label>TPAAS Video - CUCM No show synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_614.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_CUCMNOSHOW_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_615</refId>
+        <label>TPAAS Video - Scheduled vs unscheduled</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_615.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_SCHEDULEDVSUNSCHEDULED_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_615_1</refId>
+        <label>TPAAS Video - Scheduled vs unscheduled</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_615.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_SCHEDULEDVSUNSCHEDULED_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_616</refId>
+        <label>TPAAS Video - Scheduler</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_616.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_SCHEDULER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_616_1</refId>
+        <label>TPAAS Video - Scheduler</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_616.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_SCHEDULER"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_617</refId>
+        <label>TPAAS Video - Meeting list</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_617.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_MEETINGLIST"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_617_1</refId>
+        <label>TPAAS Video - Meeting list</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_617.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_MEETINGLIST"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_618</refId>
+        <label>TPAAS Video - Room usage synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_618.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_618_1</refId>
+        <label>TPAAS Video - Room usage synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_618.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_619</refId>
+        <label>TPAAS Video - P2P vs Multipoint synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_619.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_P2PVSMULTIPOINTS_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_619_1</refId>
+        <label>TPAAS Video - P2P vs Multipoint synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_619.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPAAS_P2PVSMULTIPOINTS_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_620</refId>
+        <label>TPCommunity Video - Community synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_620.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPCOM_COMMUNITY_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_620_1</refId>
+        <label>TPCommunity Video - Community synthesis</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_620.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator>
+            <indicator id="TPCOM_COMMUNITY_SYNTHESIS"/>
+        </listIndicator>
+    </report>
+    <report>
+        <refId>REPORT_999</refId>
+        <label>Fake report for adding GRPCON</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_999.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_46</refId>
+        <label>QoS_on_IPPBX_Zone - CSM - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_47</refId>
+        <label>QoS_on_IPPBX_Zone - CSM - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_48</refId>
+        <label>QoS_on_IPPBX_Zone - CSM - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_49</refId>
+        <label>QoS_on_IPPBX_Zone - CSM - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_50</refId>
+        <label>QoS_on_IPPBX_Zone - CSM - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_51</refId>
+        <label>QoS_on_Cisco_Call_Manager - CSM - Internal_On_net</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_52</refId>
+        <label>QoS_on_Cisco_Call_Manager - CSM - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_53</refId>
+        <label>QoS_on_Cisco_Call_Manager - CSM - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_54</refId>
+        <label>QoS_on_Cisco_Call_Manager - CSM - Incoming_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_55</refId>
+        <label>QoS_on_Cisco_Call_Manager - CSM - Outgoing_OffNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_3.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_107</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G711  - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_108</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G711 - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_109</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G711 - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_110</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G711 - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_111</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G711 - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_112</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G729 - On_Net_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_113</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G729 - Off_net_Incoming_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_114</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G729 - Off_net_Outgoing_traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_115</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G729 - Outgoing_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_CSM_116</refId>
+        <label>Intersite_Qos_on_Phone_Entity - CSM - G729 - Incoming_External_OnNet</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/STAT_14.xml</computeUri>
+        <reportTimeUnit>MONTH</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_COS</refId>
+        <label>BOUCHON - STAT DU JOUR - COS</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_COS.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_EQUIPMENT</refId>
+        <label>BOUCHON - STAT DU JOUR - EQUIPMENT</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_EQUIPMENT.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_LOGICALCONNECTION</refId>
+        <label>BOUCHON - STAT DU JOUR - LOGICALCONNECTION</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_LOGICALCONNECTION.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_MEASURE</refId>
+        <label>BOUCHON - STAT DU JOUR - MEASURE</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_MEASURE.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_PHYSICALCONNECTION</refId>
+        <label>BOUCHON - STAT DU JOUR - PHYSICALCONNECTION</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_PHYSICALCONNECTION.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>REPORT_MOCKUP_RADIO</refId>
+        <label>BOUCHON - STAT DU JOUR - RADIO</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/MOCKUP_STAT_RADIO.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>RAW</granularity>
+        <listIndicator/>
+    </report>
+</listReport>

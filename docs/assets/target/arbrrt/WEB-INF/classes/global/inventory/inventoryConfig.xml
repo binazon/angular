@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventoryTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/inventoryConfig.xsd">
+	<inventoryVersion>19</inventoryVersion>
+	<openStatVersion>G21R01C00</openStatVersion>
+	<reportingGroupTable>
+		<attribute name="EQUIPMENT_CPU_T1" type="INTEGER" default="1"/>
+		<attribute name="EQUIPMENT_CPU_T2" type="INTEGER" default="50"/>
+		<attribute name="EQUIPMENT_MEMORY_T1" type="INTEGER" default="1"/>
+		<attribute name="EQUIPMENT_MEMORY_T2" type="INTEGER" default="50"/>
+		<attribute name="PHYSICAL_CONNECTION_WAN_T1" type="INTEGER" default="1"/>
+		<attribute name="PHYSICAL_CONNECTION_WAN_T2" type="INTEGER" default="75"/>
+		<attribute name="PHYSICAL_CONNECTION_LAN_T1" type="INTEGER" default="1"/>
+		<attribute name="PHYSICAL_CONNECTION_LAN_T2" type="INTEGER" default="75"/>
+		<attribute name="PHYSICAL_CONNECTION_CPU_T1" type="INTEGER" default="1"/>
+		<attribute name="PHYSICAL_CONNECTION_CPU_T2" type="INTEGER" default="50"/>
+		<attribute name="PHYSICAL_CONNECTION_MEM_T1" type="INTEGER" default="1"/>
+		<attribute name="PHYSICAL_CONNECTION_MEM_T2" type="INTEGER" default="50"/>
+		<attribute name="ATMXDSL_T1" type="DOUBLE" default="1"/>
+		<attribute name="ATMXDSL_T2" type="DOUBLE" default="100"/>
+		<attribute name="ATMVLAN_T1" type="DOUBLE" default="1"/>
+		<attribute name="ATMVLAN_T2" type="DOUBLE" default="75"/>
+		<attribute name="DIMCVP_T1" type="DOUBLE" default="1"/>
+		<attribute name="DIMCVP_T2" type="DOUBLE" default="75"/>
+		<attribute name="LOGICALCONNECT_T1" type="INTEGER"/>
+		<attribute name="LOGICALCONNECT_T2" type="INTEGER"/>
+		<attribute name="NCONNECT_T1" type="INTEGER" default="5"/>
+		<attribute name="NCONNECT_T2" type="INTEGER" default="75"/>
+		<attribute name="NCONNECT_T3" type="INTEGER" default="0"/>
+		<attribute name="COS1_T1" type="INTEGER" default="1"/>
+		<attribute name="COS1_T2" type="INTEGER" default="50"/>
+		<attribute name="COS2_T1" type="INTEGER" default="1"/>
+		<attribute name="COS2_T2" type="INTEGER" default="50"/>
+		<attribute name="COS3_T1" type="INTEGER" default="1"/>
+		<attribute name="COS3_T2" type="INTEGER" default="60"/>
+		<attribute name="COS4_T1" type="INTEGER" default="1"/>
+		<attribute name="COS4_T2" type="INTEGER" default="30"/>
+		<attribute name="COS5_T1" type="INTEGER" default="1"/>
+		<attribute name="COS5_T2" type="INTEGER" default="10"/>
+		<attribute name="COS6_T1" type="INTEGER" default="1"/>
+		<attribute name="COS6_T2" type="INTEGER" default="50"/>
+		<attribute name="OriginAccessLoadRateHighThreshold" type="INTEGER"/>
+		<attribute name="OriginAccessLoadRateLowThreshold" type="INTEGER"/>
+		<attribute name="OriginAccessLoadRateBetweenLowHighThreshold" type="INTEGER"/>
+		<attribute name="DestAccessLoadRateHighThreshold" type="INTEGER"/>
+		<attribute name="DestAccessLoadRateLowThreshold" type="INTEGER"/>
+		<attribute name="DestAccessLoadRateBetweenLowHighThreshold" type="INTEGER"/>
+		<attribute name="VoiceRTDDest" type="INTEGER"/>
+		<attribute name="VoiceRTDOrig" type="INTEGER"/>
+		<attribute name="OriginLogicalConnectionLoadRateBeyondHighSpeedHighThreshold" type="INTEGER" default="70"/>
+		<attribute name="OriginLogicalConnectionLoadRateBeneathLowSpeedHighThreshold" type="INTEGER" default="30"/>
+		<attribute name="OriginLogicalConnectionLoadRateBetweenLowSpeedAndHighSpeedHighThreshold" type="INTEGER" default="50"/>
+		<attribute name="DestLogicalConnectionLoadRateBeyondHighSpeedHighThreshold" type="INTEGER" default="70"/>
+		<attribute name="DestLogicalConnectionLoadRateBeneathLowSpeedHighThreshold" type="INTEGER" default="30"/>
+		<attribute name="DestLogicalConnectionLoadRateBetweenLowSpeedAndHighSpeedHighThreshold" type="INTEGER" default="50"/>
+		<attribute name="VoiceDestLogicalConnectionLoadRateHighThreshold" type="INTEGER" default="100"/>
+		<attribute name="VoiceOrigLogicalConnectionLoadRateHighThreshold" type="INTEGER" default="100"/>
+		<attribute name="SlaLogicalConnectionLowSpeedThreshold" type="BIGINT" default="1000"/>
+		<attribute name="SlaLogicalConnectionHighSpeedThreshold" type="BIGINT" default="10000"/>		
+		<attribute name="OriginLogicalConnectionLoadRateEmissionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="OriginLogicalConnectionLoadRateReceptionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="OriginVoiceCoSLoadRateEmissionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="OriginVoiceCoSLoadRateReceptionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="EndLogicalConnectionLoadRateEmissionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="EndLogicalConnectionLoadRateReceptionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="EndVoiceCoSLoadRateEmissionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="EndVoiceCoSLoadRateReceptionThresholdJitter2" type="INTEGER" default="90"/>
+		<attribute name="OriginLogicalConnectionLoadRateEmissionThresholdJitter3" type="INTEGER" default="90"/>
+		<attribute name="OriginLogicalConnectionLoadRateReceptionThresholdJitter3" type="INTEGER" default="90"/>
+		<attribute name="EndLogicalConnectionLoadRateEmissionThresholdJitter3" type="INTEGER" default="90"/>
+		<attribute name="EndLogicalConnectionLoadRateReceptionThresholdJitter3" type="INTEGER" default="90"/>
+		<attribute name="OriginPhysicalConnectionLoadRateEmissionAndReceptionThresholdJitter4" type="INTEGER" default="100"/>
+		<attribute name="Global_Volumetry_Choice" type="INTEGER" default="4"/>
+		<attribute name="TimeSlotStartMeeting" type="INTEGER"/>
+		<attribute name="TimeZoneCTSman"/>
+		<attribute name="VersionCTSman"/>
+		<attribute name="Co2CarCoef" type="DOUBLE"/>
+		<attribute name="CarThreshold" type="INTEGER"/>
+		<attribute name="Co2RailCoef" type="DOUBLE"/>
+		<attribute name="RailThreshold" type="INTEGER"/>
+		<attribute name="Co2AirShortCoef" type="DOUBLE"/>
+		<attribute name="AirShortThreshold" type="INTEGER"/>
+		<attribute name="Co2AirLongCoef" type="DOUBLE"/>
+		<attribute name="CdrMinDuration" type="INTEGER"/>
+		<attribute name="CdrMaxDuration" type="INTEGER"/>
+		<attribute name="ANSWER_RATIO"/>
+		<attribute name="NETWORK_EFFICIENCY_RATIO"/>
+		<attribute name="BLOCKING_FACTOR"/>
+		<attribute name="SlaSpeedLowThreshold" type="BIGINT"/>
+		<attribute name="SlaSpeedHighThreshold" type="BIGINT"/>
+		<attribute name="NB_DAYS_INACTIVE" type="INTEGER" default="14"/>
+		<attribute name="NB_DAYS_OBSOLETE" type="INTEGER" default="31"/>
+		<attribute name="DISPLAY_ALL_COS_BB" type="BOOLEAN" default="false"/>
+		<attribute name="VOICE_EQUIPMENT_CPU_T1" type="INTEGER" default="0"/>
+		<attribute name="VOICE_EQUIPMENT_CPU_T2" type="INTEGER" default="50"/>
+		<attribute name="VOICE_EQUIPMENT_MEMORY_T1" type="INTEGER" default="0"/>
+		<attribute name="VOICE_EQUIPMENT_MEMORY_T2" type="INTEGER" default="50"/>
+		<attribute name="VOICE_EQUIPMENT_DISK_T1" type="INTEGER" default="0"/>
+		<attribute name="VOICE_EQUIPMENT_DISK_T2" type="INTEGER" default="50"/>
+		<attribute name="VOICE_CROSSING_DURATION" type="INTEGER" default="30"/>
+		<attribute name="VOICE_INTERFACE_FAILURE_RATE_T1" type="INTEGER" default="1"/>
+		<attribute name="VOICE_INTERFACE_FAILURE_RATE_T2" type="INTEGER" default="3"/>
+		<attribute name="LANGUAGE" default="English"/>
+        <attribute name="capacity_management_site_capacity_threshold" type="INTEGER" default="50"/>
+	</reportingGroupTable>
+	<reportingEntityTable type="EQUIPMENT">
+		<attribute name="domain" />
+		<attribute name="manufacturer" />
+		<attribute name="voice_role" />
+		<attribute name="release" />
+		<attribute name="type" />
+		<attribute name="isShared" type="BOOLEAN" />
+		<attribute name="isUbb" type="BOOLEAN" default="false" />
+		<attribute name="sareType" />
+		<attribute name="address" />
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<attribute name="commercialReference" />
+		<attribute name="hasStatData" type="BOOLEAN" />
+		<attribute name="hasStatController" type="BOOLEAN" />
+		<attribute name="cosType" />
+		<attribute name="NETWORK" />
+		<attribute name="cityName" />
+		<attribute name="countryCode"/>
+        <attribute name="countryId"/>
+		<attribute name="countryName"/>
+		<attribute name="cpu_max_threshold_path_perf" />
+		<attribute name="customerCode" />
+		<attribute name="customerName" />
+		<attribute name="hardware"/>
+		<attribute name="IPDSLServiceType"/>
+		<attribute name="IPDSLCarrierName"/>
+		<attribute name="IPDSLOfferName"/>
+		<attribute name="technicalSite"/>
+		<attribute name="comment" type="VARCHAR(200)"/>
+		<attribute name="orchestre_label" />
+        <attribute name="region" default=""/>
+		<listAttribute name="addresses">
+			<parameter name="type"/>
+			<parameter name="value"/>
+		</listAttribute>
+		<link name="COUNTRY_ALPHA3" type="single"/>
+		<link name="IPBXZONE" type="single"/>
+		<link name="SITE" type="single"/>
+		<link name="TOPO_SITE" type="single"/>
+		<link name="POP_SITE" type="single"/>
+		<link name="ZONE" type="single"/>
+		<link name="VPN" type="single"/>
+		<filter name="ANALOG-GATEWAY"/>
+		<filter name="APPLI-SERVER-AC"/>
+		<filter name="APPLI-SERVER"/>
+		<filter name="EQUIPMENT_CLOUD"/>
+		<filter name="IPT-SERVER"/>
+		<filter name="MEDIA-GATEWAY"/>
+		<filter name="ROUTER"/>
+		<filter name="SWITCH"/>
+		<filter name="SWITCH_AP"/>
+		<filter name="VOICE-GATEWAY"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="PHYSICALCONNECTION">
+		<attribute name="domain" />
+		<attribute name="sareType" />
+		<attribute name="way" />
+		<attribute name="comment" type="VARCHAR(200)"/>
+		<attribute name="listIPaddress"/>
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<attribute name="hasStatData" type="BOOLEAN" />
+		<attribute name="hasStatDsp" type="BOOLEAN" />
+		<attribute name="hasStatVoice" type="BOOLEAN" />
+        <attribute name="hasCos" type="BOOLEAN" />
+        <attribute name="hasCosDifferentFromSilver" type="BOOLEAN" />
+		<attribute name="cosType" />
+		<attribute name="USE_CIAL_BANDWIDTH" type="BOOLEAN" />
+		<attribute name="CIAL_TAIL_CIRCUIT_BANDWIDTH_UP" type="BIGINT" />
+		<attribute name="CIAL_TAIL_CIRCUIT_BANDWIDTH_DOWN" type="BIGINT" />
+		<attribute name="CIAL_TAIL_CIRCUIT_BANDWIDTH_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="COS_GLOBAL_BANDWIDTH_IN_ATTRIBUTE" type="BIGINT" />
+		<attribute name="COS_GLOBAL_BANDWIDTH_OUT_ATTRIBUTE" type="BIGINT" />
+		<attribute name="deviceRole" />
+		<attribute name="interfaceRole" />
+		<attribute name="interfaceType" />
+		<attribute name="load_rate_in_threshold_path_perf" />
+		<attribute name="load_rate_out_threshold_path_perf" />
+		<attribute name="cialAccessTypeNetwork"/>
+		<attribute name="protocol" />
+		<attribute name="soldBandwidth" type="BIGINT" />
+		<attribute name="commercialServiceName"/>
+		<attribute name="giniName"/>
+		<attribute name="hasCosUpdateDate" type="TIMESTAMP" default="2017-03-28"/>
+		<attribute name="isHybridConnection" type="BOOLEAN" default="false" />
+		<attribute name="hasReports_Using_Bwd" type="BOOLEAN" default="true" />
+		<attribute name="hasReports_No_Bwd" type="BOOLEAN" default="false" />
+		<attribute name="hasHybridLogicalConnections" type="BOOLEAN" default="false" />
+		<attribute name="orchestre_label" />
+		<attribute name="cloudGateway" />
+		<link name="EQUIPMENT" type="parent"/>
+		<filter name="ACCESS"/>
+		<filter name="ACCESS_CLOUD"/>
+		<filter name="ACCESS_UMTS"/>
+		<filter name="ACCESS_VOICE"/>		
+		<filter name="ACTRUNK"/>
+		<filter name="ACTRUNKG"/>
+		<filter name="CORE"/>
+		<filter name="DSP"/>
+		<filter name="GRPCON"/>
+		<filter name="INTERFACE"/>
+		<filter name="INTERFACE_CLOUD"/>
+		<filter name="INTERFACE_UMTS"/>
+		<filter name="INTERFACE_VOICE"/>
+		<filter name="RADIO"/>
+		<filter name="RADIO_LAP"/>
+		<filter name="SLOT_CPU"/>
+		<filter name="SWITCH_PORT"/>
+		<filter name="SWITCH_VLAN"/>
+		<filter name="CMG"/>
+		<filter name="CMS"/>
+		<filter name="DEVCTI"/>
+		<filter name="DEVGW"/>
+		<filter name="DEVH323"/>
+		<filter name="IPPHONE"/>
+		<filter name="DEVMD"/>
+		<filter name="DEVVM"/>
+		<filter name="IPTHWCNF"/>
+		<filter name="IPTSERV"/>
+		<filter name="MGR"/>
+		<filter name="MODULE"/>
+		<filter name="TRUNK"/>		
+	</reportingEntityTable>
+	<reportingEntityTable type="LOGICALCONNECTION">
+		<attribute name="domain" />
+		<attribute name="sareType" />
+		<attribute name="AVG_BWD_IN" type="BIGINT" />
+		<attribute name="MAX_BWD_IN" type="BIGINT" />
+		<attribute name="AVG_BWD_OUT" type="BIGINT" />
+		<attribute name="MAX_BWD_OUT" type="BIGINT" />
+		<attribute name="AVG_BWD_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="MAX_BWD_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="CIAL_IP_BANDWIDTH_UP" type="BIGINT" />
+		<attribute name="CIAL_IP_BANDWIDTH_DOWN" type="BIGINT" />
+		<attribute name="CIAL_IP_BANDWIDTH_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="CIAL_INTRANET_BWD" type="BIGINT" />
+		<attribute name="CIAL_INTRANET_BWD_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="connectionNumber" />
+		<attribute name="serviceLabel" />
+		<attribute name="X121Address" />
+		<attribute name="cosType" />
+        <attribute name="hasCos" type="BOOLEAN" />
+        <attribute name="hasCosDifferentFromSilver" type="BOOLEAN" />
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<attribute name="COS_GLOBAL_BANDWIDTH_IN_ATTRIBUTE" type="BIGINT" />
+		<attribute name="COS_GLOBAL_BANDWIDTH_OUT_ATTRIBUTE" type="BIGINT" />
+		<attribute name="NBSUBVPN" />
+		<attribute name="VOICE_THROUGHPUT" type="BIGINT"/>
+		<attribute name="VOICE_THROUGHPUT_LAST_CHANGE_DATE" type="TIMESTAMP"/>
+		<attribute name="COSBE_PROFILE" />
+		<attribute name="IS_MESHING" type="BOOLEAN" />
+		<attribute name="giniName" />
+		<attribute name="isHybridConnection" type="BOOLEAN" default="false" />
+		<attribute name="hasReports_Using_Bwd" type="BOOLEAN" default="true" />
+		<attribute name="hasReports_No_Bwd" type="BOOLEAN" default="false" />
+		<attribute name="hasCosUpdateDate" type="TIMESTAMP" default="2017-03-28"/>
+		<attribute name="cloudPartnerType" />
+		<attribute name="cloudService" />
+		<attribute name="cloudGateway" />
+		<attribute name="orchestre_label" />
+		<attribute name="USE_CIAL_BANDWIDTH" type="BOOLEAN" default="false"/>
+		<link name="PHYSICALCONNECTION" type="parent"/>
+		<link name="VPN" type="single"/>
+		<filter name="ATM"/>
+		<filter name="ATMXDSL"/>
+		<filter name="CONNECTIVITY"/>
+		<filter name="DIMCVP"/>
+		<filter name="LOGICALCONNECT"/>
+		<filter name="LOGICALCONNECTION_CLOUD"/>
+		<filter name="NCONNECT"/>
+		<filter name="VLAN"/>
+		<filter name="WIFI"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="PHONEENTITY">
+		<attribute name="domain" />
+		<attribute name="type" />
+		<link name="IPBXZONE" type="single"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="VPN">
+		<attribute name="hasStatData" type="BOOLEAN" />
+		<attribute name="backbone" type="BOOLEAN" />
+		<attribute name="backbone_internet" type="BOOLEAN" />
+		<attribute name="capacity_management_IP_bandwidth_in_threshold" default="75" type="INTEGER"/>
+		<attribute name="capacity_management_IP_bandwidth_out_threshold" default="75" type="INTEGER"/>
+		<attribute name="capacity_management_CPU_threshold" default="70" type="INTEGER"/>
+		<attribute name="capacity_management_min_nb_of_samples_exceeding_in_or_out_IP_bandwidth_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_min_nb_of_samples_exceeding_CPU_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_min_nb_of_samples_exceeding_dropped_threshold" default="1" type="INTEGER"/>
+		<attribute name="capacity_management_global_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_D1_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_D2_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_D3_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_RtVi_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_RtVo_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="capacity_management_Internet_dropped_threshold" default="3" type="INTEGER"/>
+		<attribute name="NCONNECT_T1" type="INTEGER" default="5"/>
+		<attribute name="NCONNECT_T2" type="INTEGER" default="75"/>
+		
+		<filter name="DATA_VPN"/>
+		<link name="VPN" target="PATH" type="complex">
+			<linkAttribute name="AVAILABILITY_FORMULA"/>
+			<linkAttribute name="AVAILABILITY_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="AVAILABILITY_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="SRV_IPER_PATH_AVAIL" type="BOOLEAN" />
+			<linkAttribute name="SRV_IPER_PATH_AVAIL_SLA" type="BOOLEAN" />
+		</link>		
+		<link name="VPN" target="MEASURE" type="complex">
+			<linkAttribute name="RTD_FORMULA"/>
+			<linkAttribute name="RTD_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="RTD_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="JITTERSD_FORMULA"/>
+			<linkAttribute name="JITTERSD_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="JITTERSD_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="JITTERDS_FORMULA"/>
+			<linkAttribute name="JITTERDS_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="JITTERDS_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="PLRSD_FORMULA"/>
+			<linkAttribute name="PLRSD_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="PLRSD_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="PLRDS_FORMULA"/>
+			<linkAttribute name="PLRDS_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="PLRDS_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="SRV_IPER_PATH_PERF"/>
+			<linkAttribute name="SRV_IPER_PATH_PERF_SLA"/>
+			<linkAttribute name="LIST_ORIGIN_PE_RPE"/>
+			<linkAttribute name="LIST_EXTREMITY_PE_RPE"/>
+		</link>
+		<link name="VPN" target="TOPO_SITE" type="complex">
+			<linkAttribute name="SRV_IPER_SITE_AVAIL" type="BOOLEAN"/>
+			<linkAttribute name="SRV_IPER_SITE_AVAIL_SLA" type="BOOLEAN"/>
+			<linkAttribute name="AVAILABILITY_FORMULA"/>
+			<linkAttribute name="AVAILABILITY_COMMITTEDTARGET" type="DOUBLE"/>
+			<linkAttribute name="AVAILABILITY_COMMITTEDPERCENTAGE" type="DOUBLE"/>
+			<linkAttribute name="CITY_NAME_FIRST_ROUTER"/>
+			<linkAttribute name="CITY_CODE_FIRST_ROUTER"/>
+		</link>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="GKVPN">
+		<attribute name="customerCode"/>
+		<attribute name="it_key" />
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="SITE">
+		<attribute name="domain" />
+		<attribute name="hasStatData" type="BOOLEAN" default="false"/>
+		<attribute name="siteName"/>
+		<attribute name="type" />
+		<attribute name="hasStatDataUpdateDate" type="TIMESTAMP" default="2018-04-06"/>
+		<filter name="VIDEO_SITE"/>
+		<filter name="DATA_SITE"/>
+		<filter name="DATA_SITE_CLOUD"/>
+		<link name="CITY" type="single"/>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="GKSITE">
+		<attribute name="domain" />
+		<attribute name="siteGlobalCallLimiter" />
+		<attribute name="ndi" />
+		<attribute name="configured_channel" />
+		<attribute name="siteName"/>
+		<attribute name="country"/>
+		<attribute name="type" />
+		<attribute name="site_it_key" />
+		<link name="GKSHAREDCALLLIMITER" target="GKSHAREDCALLLIMITER" type="single"/>
+		<link name="CITY" type="single"/>
+		<link name="GKVPN" type="parent" />
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="SHADOW_SITE">
+		<attribute name="code" />
+		<link name="SHADOW_SITE" target="PATH" type="complex"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="POP_SITE">
+	</reportingEntityTable>
+	<reportingEntityTable type="TOPO_SITE">
+		<attribute name="topologicalSiteType" />
+		<attribute name="businessHour" />
+		<attribute name="useBusinessHour" type="BOOLEAN" />
+		<attribute name="useBusinessHourForIPBW" type="BOOLEAN" />
+		<attribute name="useBusinessHourForCapacityManagement" type="BOOLEAN" />
+		<attribute name="useBusinessHourForSiteAvailSLA" type="BOOLEAN" />
+		<attribute name="siteName"/>
+		<link name="TOPO_SITE" target="PATH" type="complex"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="ZONE">
+		<attribute name="domain" />
+		<attribute name="hasStatData" type="BOOLEAN" default="false"/>
+		<attribute name="hasStatDataUpdateDate" type="TIMESTAMP" default="2018-04-06"/>
+		<filter name="DATA_ZONE"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="HUBPHONE">
+		<attribute name="domain" />
+	</reportingEntityTable>
+	<reportingEntityTable type="IPBXZONE">
+		<attribute name="domain" />
+		<attribute name="hasStatData" type="BOOLEAN" default="false"/>
+		<attribute name="hasStatDataUpdateDate" type="TIMESTAMP" default="2018-04-06"/>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="GKSAN">
+		<attribute name="domain" />
+		<attribute name="singleCallLimiter" />
+		<attribute name="pub-ndi" />
+		<attribute name="sanGroupLabel" />
+		<attribute name="sanType"/>
+		<attribute name="contactCenterType"/>
+		<link name="GKVPN" type="parent" />
+		<link name="GKSHAREDCALLLIMITER" target="GKSHAREDCALLLIMITER" type="single"/>
+		<filter name="CALL_CENTER_NB"/>
+		<filter name="UNIQUE_NB"/>
+		<filter name="RECEPTION_NB"/>
+		<filter name="CONTINUITY_NB"/>
+		<filter name="SVAIP"/>
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="GKTRUNK">
+		<attribute name="domain" />
+		<attribute name="physicalCallLimiter" />
+		<link name="GKVPN" type="parent" />
+		<link name="GKSHAREDCALLLIMITER" target="GKSHAREDCALLLIMITER" type="single"/>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="GKSHAREDCALLLIMITER">
+		<attribute name="areaCallLimiter" />
+		<attribute name="domain" />
+		<link name="GKVPN" type="parent" />
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="GKRECEPTIONNUMBER">
+		<attribute name="public_number" />
+		<attribute name="domain" />
+		<link name="GKVPN" type="parent" />
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="MEASURE">
+		<attribute name="mnemonic" />
+		<attribute name="protocol" />
+		<attribute name="correlationType" />
+		<attribute name="SLAClass" />
+		<attribute name="COS" />
+		<attribute name="RTDValue" type="DOUBLE"/>
+		<attribute name="RTDThresholdB" />
+		<attribute name="RTDThresholdT3" />
+		<attribute name="JITTERDSValue" type="DOUBLE"/>
+		<attribute name="JITTERDSThresholdB" />
+		<attribute name="JITTERDSThresholdT3" />
+		<attribute name="JITTERSDValue" type="DOUBLE"/>
+		<attribute name="JITTERSDThresholdB" />
+		<attribute name="JITTERSDThresholdT3" />
+		<attribute name="PLRSDValue" type="DOUBLE"/>
+		<attribute name="PLRSDThresholdB" />
+		<attribute name="PLRSDThresholdT3" />
+		<attribute name="PLRDSValue" type="DOUBLE"/>
+		<attribute name="PLRDSThresholdB" />
+		<attribute name="PLRDSThresholdT3" />
+		<attribute name="PLRValue" type="DOUBLE"/>
+		<attribute name="PLRThresholdB" />
+		<attribute name="PLRThresholdT3" />
+		<attribute name="backbone" type="BOOLEAN" />
+		<attribute name="CLOUD_PARTNER" />
+		<attribute name="giniName" />
+		<attribute name="originActivation" />
+		<attribute name="customerCode" />
+		<attribute name="commercialReference" />
+		<link name="MEASURE" target="EQUIPMENT" type="complex" />
+		<link name="MEASURE" target="PHYSICALCONNECTION" type="complex" />
+		<link name="MEASURE" target="LOGICALCONNECTION" type="complex" />
+		<link name="PATH" type="single" />
+		<filter name="LIEN_RNIS"/>
+		<filter name="LIEN_RTC"/>
+		<filter name="LIEN_UMTS"/>
+		<filter name="LIRT"/>
+		<filter name="LIRT_GALRE"/>
+		<filter name="LIRT_GALSU"/>
+		<filter name="LIRT_STAT"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="COS">
+		<attribute name="domain" />
+		<attribute name="bandwidth_COS_IN" type="BIGINT"/>
+		<attribute name="bandwidth_COS_OUT" type="BIGINT"/>
+		<attribute name="subtype" />
+		<link name="PHYSICALCONNECTION" type="parent"/>
+		<link name="LOGICALCONNECTION" type="parent"/>
+		<filter name="COSTYPE0"/>
+		<filter name="COSTYPE1"/>
+		<filter name="COSTYPE2"/>
+		<filter name="COSTYPE3"/>
+		<filter name="COSTYPE4"/>
+		<filter name="COSNUM1"/>
+		<filter name="COSNUM2"/>
+		<filter name="COSNUM3"/>
+		<filter name="COSNUM4"/>
+		<filter name="COSNUM5"/>
+		<filter name="COSNUM6"/>
+		<filter name="COSNUM7"/>
+		<filter name="COSNUM9"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="PATH">
+		<attribute name="backbone" type="BOOLEAN" />
+		<attribute name="businessHour"/>
+		<attribute name="useBusinessHour" type="BOOLEAN"/>
+		<attribute name="customerCode" />
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="COUNTRY" />
+	<reportingEntityTable type="CITY">
+		<link name="COUNTRY" type="single"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="TERMINAL">
+		<attribute name="alias" />
+		<attribute name="latitude" />
+		<attribute name="longitude" />
+		<attribute name="community" />
+		<attribute name="entity_name" />
+		<attribute name="offer" />
+		<attribute name="type" />
+		<link name="SITE" type="single"/>
+		<link name="VIDEO_ENTITY" target="TERMINAL" type="complex"/>
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="MANAGED_OBJECT">
+		<attribute name="customerReference"/>
+		<attribute name="customerCode"/>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="VIRTUALROOM">
+		<attribute name="roomNumber"/>
+		<attribute name="eid"/>
+		<attribute name="type"/>
+		<attribute name="connectionSize"/>
+		<attribute name="userName"/>
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="VIDEO_ENTITY">			
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="GKSBC">
+	</reportingEntityTable>
+	
+	<reportingEntityTable type="COUNTRY_ALPHA3">
+		<attribute name="domain" />
+		<attribute name="hasStatData" type="BOOLEAN" default="false"/>
+		<attribute name="hasStatDataUpdateDate" type="TIMESTAMP" default="2018-04-06"/>
+	</reportingEntityTable>
+
+	<reportingEntityTable type="CLOUD_SERVICE">
+		<attribute name='CIAL_BANDWIDTH' type="INTEGER" default="0"/>
+		<attribute name='USID'/>
+		<attribute name='TYPE'/>
+		<link name="CLOUD_SERVICE" target="PHYSICALCONNECTION" type="complex" />
+		<link name="CLOUD_SERVICE" target="LOGICALCONNECTION" type="complex" />
+		<link name="CLOUD_SERVICE" target="EQUIPMENT" type="complex" />
+	</reportingEntityTable>
+	<reportingEntityTable type="GRP_CLOUD_SERVICES">
+		<attribute name='CIAL_BANDWIDTH' type="INTEGER" default="0"/>
+		<link name="GRP_CLOUD_SERVICES" target="GRP_CLOUD_ACCESS" type="complex" />
+	</reportingEntityTable>
+	<reportingEntityTable type="GRP_CLOUD_ACCESS">
+		<attribute name='CIAL_BANDWIDTH' type="INTEGER" default="0"/>
+		<link name="GRP_CLOUD_ACCESS" target="LOGICALCONNECTION" type="complex" />
+	</reportingEntityTable> 
+	
+	<reportingEntityTable type="SIP_SITE">
+		<attribute name="site_it_key"/>
+<!-- 		<attribute name="source"/> -->
+<!-- 		<attribute name="creation_date"/> -->
+<!-- 		<attribute name="modify_date"/> -->
+<!-- 		<attribute name="update_date"/> -->
+	</reportingEntityTable>	
+</inventoryTables>

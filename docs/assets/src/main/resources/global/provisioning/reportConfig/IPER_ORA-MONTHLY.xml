@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIGCONFIG_958_ORA_INT_IPBU" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_958_ORA_INT_IPBU" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/IPBU_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_958_ORA_INT_IPBU.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIGCONFIG_863_ORA_INT_RPR" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_863_ORA_INT_RPR" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/RPR_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_863_ORA_INT_RPR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     <reportConfig alias="REPORTCONFIG_899_ORA_INT_SPR" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_899_ORA_INT_SPR" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_899_ORA_INT_SPR.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_923_ORA_INT_SPR_PORTS_LOAD_IN" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_923_ORA_INT_SPR_PORTS_LOAD_IN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Ports_Load_IN_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923_ORA_INT_SPR_PORTS_AND_VLANS_LOAD_IN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="STAT_933_ORA_INT_SPR_PORTS_LOAD_OUT" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_933_ORA_INT_SPR_PORTS_LOAD_OUT" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Ports_Load_OUT_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_933_ORA_INT_SPR_PORTS_AND_VLANS_LOAD_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_928_ORA_INT_SPR_PORTS_ERRORS_IN" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_928_ORA_INT_SPR_PORTS_ERRORS_IN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Ports_Errors_IN_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_928_ORA_INT_SPR_PORTS_AND_VLANS_ERRORS_IN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_927_ORA_INT_SPR_PORTS_ERRORS_OUT" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_927_ORA_INT_SPR_PORTS_ERRORS_OUT" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Ports_Errors_OUT_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_927_ORA_INT_SPR_PORTS_AND_VLANS_ERRORS_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_929_ORA_INT_SPR_PORTS_STATUS" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_929_ORA_INT_SPR_PORTS_STATUS" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Ports_Status_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_929_ORA_INT_SPR_PORTS_AND_VLANS_STATUS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>    
+    <reportConfig alias="REPORTCONFIG_923_ORA_INT_SPR_VLANS_LOAD_IN" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_923_ORA_INT_SPR_VLANS_LOAD_IN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Vlans_Load_IN_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_923_ORA_INT_SPR_PORTS_AND_VLANS_LOAD_IN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="STAT_933_ORA_INT_SPR_VLANS_LOAD_OUT" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_933_ORA_INT_SPR_VLANS_LOAD_OUT" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Vlans_Load_OUT_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_933_ORA_INT_SPR_PORTS_AND_VLANS_LOAD_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_928_ORA_INT_SPR_VLANS_ERRORS_IN" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_928_ORA_INT_SPR_VLANS_ERRORS_IN" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Vlans_Errors_IN_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_928_ORA_INT_SPR_PORTS_AND_VLANS_ERRORS_IN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_927_ORA_INT_SPR_VLANS_ERRORS_OUT" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_927_ORA_INT_SPR_VLANS_ERRORS_OUT" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Vlans_Errors_OUT_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_927_ORA_INT_SPR_PORTS_AND_VLANS_ERRORS_OUT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_929_ORA_INT_SPR_VLANS_STATUS" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_929_ORA_INT_SPR_VLANS_STATUS" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/SPR_Vlans_Status_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_929_ORA_INT_SPR_PORTS_AND_VLANS_STATUS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>    
+    <reportConfig alias="REPORTCONFIG_947_ORA_INT_PATH_PERF_SLA" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_947_ORA_INT_PATH_PERF_SLA" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/PathPerfSLA_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_947_ORA_INT_PATH_PERF_SLA.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_852_ORA_INT_BACKBONE_PATH_PERF_SLA" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_852_ORA_INT_BACKBONE_PATH_PERF_SLA" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/BackbonePathPerfSLA_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_852_ORA_INT_BACKBONE_PATH_PERF_SLA.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_853_ORA_INT_BACKBONE_PATH_AVAIL_SLA" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_853_ORA_INT_BACKBONE_PATH_AVAIL_SLA" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/iper/ora/BackbonePathAvailSLA_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_853_ORA_INT_BACKBONE_PATH_AVAIL_SLA.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>     
+</listReportConfig>

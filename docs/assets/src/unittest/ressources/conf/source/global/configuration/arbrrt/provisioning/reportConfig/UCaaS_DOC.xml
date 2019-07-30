@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_1_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_1.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_2_1_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_2" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_2.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_3_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_3" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_3.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_3.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_4_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_4" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_4.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_4.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_5_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_5" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_5.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_5.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_6_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_6" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_6.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_6.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_7_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_7" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_7.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_7.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_8_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_8" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_8.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_8.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_9_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_9" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_9.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_9.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_10_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_10" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_10.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_10.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_11_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_11" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_11.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_11.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_12_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_12" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_12.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_12.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_13_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_13" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_13.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_13.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_14_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_14" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_14.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_14.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_15_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_15" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_15.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_15.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_16_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_16" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_16.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_16.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_17_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_17" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_17.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_17.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_18_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_18" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_18.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_18.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_19_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_19" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_19.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_19.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_20_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_20" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_20.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_20.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_21_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_21" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_21.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_21.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_22_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_22" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_22.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_22.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_23_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_23" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_23.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_23.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_24_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_24" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_24.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_24.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_25_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_25" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_25.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_25.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_26_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_26" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_26.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_26.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_27_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_27" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_27.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_27.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_28_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_28" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_28.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_28.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_29_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_29" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_29.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_29.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_30_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_30" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_30.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_30.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_31_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_31" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_31.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_31.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_32_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_32" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_32.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_32.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_33_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_33" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_33.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_33.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_34_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_34" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_34.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_34.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_35_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_35" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_35.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_35.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_36_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_36" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_36.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_36.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_37_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_37" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_37.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_37.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_38_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_38" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_38.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_38.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_39_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_39" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_39.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_39.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_40_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_40" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_40.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_40.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_41_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_41" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_41.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_41.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_42_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_42" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_42.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_42.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_43_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_43" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_43.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_43.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_44_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_44" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_44.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_44.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_45_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_45" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_45.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_45.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_46_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_46" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_46.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_46.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_47_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_47" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_47.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_47.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_48_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_48" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_48.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_48.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_49_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_49" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_49.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_49.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_50_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_50" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_50.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_50.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_51_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_51" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_51.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_51.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_52_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_52" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_52.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_52.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_53_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_53" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_53.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_53.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_54_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_54" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_54.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_54.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_55_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_55" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_55.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_55.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_56_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_46" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_46.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_46.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_57_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_47" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_47.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_47.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_58_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_48" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_48.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_48.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_59_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_49" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_49.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_49.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_60_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_50" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_50.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_50.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_61_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_51" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_51.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_51.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_62_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_52" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_52.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_52.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_63_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_53" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_53.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_53.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_64_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_54" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_54.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_54.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_65_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_55" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_55.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_55.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_66_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_56" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_56.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_56.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_67_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_57" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_57.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_57.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_68_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_58" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_58.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_58.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_69_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_59" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_59.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_59.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_70_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_60" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_60.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_60.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_71_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_61" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_61.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_61.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_72_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_62" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_62.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_62.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_73_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_63" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_63.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_63.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_74_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_64" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_64.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_64.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_75_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_65" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_65.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_65.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_76_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_66" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_66.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_66.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_77_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_67" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_67.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_67.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_78_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_68" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_68.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_68.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_79_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_69" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_69.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_69.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_80_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_70" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_70.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_70.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_81_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_71" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_71.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_71.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_82_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_72" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_72.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_72.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_83_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_73" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_73.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_73.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_84_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_74" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_74.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_74.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_85_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_75" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_75.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_75.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_86_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_76" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_76.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_76.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_87_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_77" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_77.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_77.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_88_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_78" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_78.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_78.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_89_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_79" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_79.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_79.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_90_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_80" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_80.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_80.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_91_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_81" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_81.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_81.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_92_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_82" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_82.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_82.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_93_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_83" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_83.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_83.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_94_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_84" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_84.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_84.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_95_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_85" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_85.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_85.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_96_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_86" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_86.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_86.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_97_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_87" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_87.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_87.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_98_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_88" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_88.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_88.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_99_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_89" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_89.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_89.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_100_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_90" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_90.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_90.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_101_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_91" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_91.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_91.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_102_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_92" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_92.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_92.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_103_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_93" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHONEENTITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_93.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_93.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_104_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_94" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_94.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_94.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_105_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_95" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_95.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_95.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_106_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_96" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_96.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_96.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_107_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_97" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_97.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_97.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_108_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_98" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_98.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_98.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_109_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_99" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_99.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_99.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_110_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_100" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_100.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_100.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_111_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_101" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_101.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_101.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_112_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_102" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_102.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_102.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_113_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_103" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_103.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_103.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_114_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_104" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_104.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_104.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_115_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_105" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_105.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_105.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_116_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_106" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_106.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_106.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_117_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_107" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_107.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_107.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_118_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_108" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_108.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_108.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_119_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_109" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_109.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_109.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_120_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_110" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_110.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_110.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_121_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_111" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_111.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_111.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_122_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_112" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_112.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_112.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_123_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_113" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_113.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_113.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_124_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_114" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_114.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_114.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_125_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_115" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_115.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_115.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_126_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CSM_116" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_CSM_116.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CSM_116.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_127_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_117" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_117.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_117.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_129_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_118" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_118.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_118.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_131_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_119" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DEVCTI|IPT-SERVER"/>
+            <paramType alias="DEVGW|IPT-SERVER"/>
+            <paramType alias="DEVH323|IPT-SERVER"/>
+            <paramType alias="DEVIPPH|IPT-SERVER"/>
+            <paramType alias="DEVMD|IPT-SERVER"/>
+            <paramType alias="DEVVM|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_119.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_119.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_132_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_120" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPTSERV|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_120.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_120.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_133_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_121" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPTSERV|APPLI-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_121.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_121.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_134_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_122" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DEVGW|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_122.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_122.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_135_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_123" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DEVMD|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_123.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_123.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_136_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_124" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DEVH323|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_124.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_124.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_137_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_125" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DEVVM|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_125.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_125.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_138_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_126" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPTHWCNF|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_126.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_126.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_139_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_127" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPTHWCNF|APPLI-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_127.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_127.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_140_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_128" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DSP|ROUTER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_128.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_128.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_141_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_129" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_129.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_129.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_142_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_130" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEDIA-GATEWAY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_130.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_130.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_143_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_131" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="CMG|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_131.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_131.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_144_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_132" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="CMS|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_132.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_132.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_145_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_133" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="TRUNK|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_133.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_133.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_146_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_134" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_134.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_134.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_147_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_135" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ANALOG-GATEWAY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_135.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_135.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_148_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_136" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_136.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_136.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_149_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_137" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_137.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_137.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_150_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_138" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEDIA-GATEWAY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_138.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_138.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_151_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_139" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_139.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_139.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_152_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_140" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_140.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_140.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_153_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_141" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION|ANALOG-GATEWAY"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_141.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_141.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_154_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_142" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION|ROUTER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_142.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_142.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_155_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_143" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_BT IPBX_ALL_OUTPUT_REPORT_143.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_143.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_500" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_450" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Traffic_By_Hour.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_450.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_503" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_451" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Traffic_Duration_By_Hour.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_453.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_504" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_454" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Voicemail_BusyDay.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_454.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_507" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_455" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Gateway_BusyDay.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_455.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_509" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_456" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Top_Incoming_Outgoing_Calls.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_456.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_510" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_460" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_TOP20_outgoing_calls.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_460.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_513" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_461" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Top20_duration_of_outgoing_calls.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_461.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_515" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_462" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_Voice_mail_hour_repartition.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_462.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_517" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_463" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_VoiceMail_Statistics.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_463.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_519" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_464" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION|IPT-SERVER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/{START_YYMM}_B2GaaS_IPPhone_connection.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_464.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

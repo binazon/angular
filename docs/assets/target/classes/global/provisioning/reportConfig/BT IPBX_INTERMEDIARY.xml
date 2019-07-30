@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_100" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_155" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="APPLI-SERVER-AC"/>
+            <paramType alias="ANALOG-GATEWAY"/>
+            <paramType alias="IPT-SERVER"/>
+            <paramType alias="MEDIA-GATEWAY"/>
+            <paramType alias="VOICE-GATEWAY"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>VOICE_EQUIPMENT_CPU_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_155.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_101" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_156" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="APPLI-SERVER-AC"/>
+            <paramType alias="ANALOG-GATEWAY"/>
+            <paramType alias="IPT-SERVER"/>
+            <paramType alias="MEDIA-GATEWAY"/>
+            <paramType alias="VOICE-GATEWAY"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>VOICE_EQUIPMENT_MEM_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_156.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_102" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_157" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ANALOG-GATEWAY"/>
+            <paramType alias="IPT-SERVER"/>
+            <paramType alias="VOICE-GATEWAY"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>VOICE_EQUIPMENT_DISK_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_157.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_154" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_154" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_VOICE"/>
+            <paramType alias="INTERFACE_VOICE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_VOICE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_154.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_159" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_159" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="DSP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_DSP</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_159.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_160_GW" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_158_GW"
+                  computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER-AC"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_VOICE_GW_HOURLY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_GW.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_160_SBC" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_158_SBC"
+                  computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER-AC"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_VOICE_SBC_HOURLY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_SBC.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_160_TK" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_158_TK"
+                  computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACTRUNK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_VOICE_TK_HOURLY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_TK.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <!-- ##### 1- INTERMEDIARY STAT_CMG ##### -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_CMG" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="CMG"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_CMG</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_CMG.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+   	</reportConfig>
+   	
+   	<!-- ##### 2- INTERMEDIARY STAT_CMS ##### -->    
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_CMS" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="CMS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_CMS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_CMS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- ##### 3- INTERMEDIARY STAT_HWCNF ##### -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_HWCNF" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="IPTHWCNF"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_HWCNF</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_HWCNF.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- ##### 4- INTERMEDIARY STAT_IPTSERV = STAT_IPCCM + STAT_IPWIN ##### -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_IPTSERV" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="IPTSERV"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_IPTSERV</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_IPTSERV.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <!-- ##### 5- INTERMEDIARY STAT_IPPH ##### -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_IPPH" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="IPPHONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_IPPH</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_IPPH.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- ##### 6- INTERMEDIARY STAT_TRUNK ##### -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_TRUNK" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="TRUNK"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_TRUNK</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_TRUNK.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- ##### 7- INTERMEDIARY STAT_MODMG ##### -->
+    <reportConfig alias="REPORTCONFIG_161" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_161_MODMG" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_MODMG</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_161_MODMG.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- ##### 8- INTERMEDIARY STAT_MODMS ##### -->
+    <reportConfig alias="REPORTCONFIG_161" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_161_MODMS" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_MODMS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_161_MODMS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>    
+    
+    <!--     to compute availability durations for IPT-SERVER Equipments -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_IPT-SERVER_INTERFACE_ACCESS_AVAIL" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="IPT-SERVER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>AVAILABILITY_PHYSICALCONNECTION_VOICE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_IPT_SERVER_AVAIL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+<!--     ACCESS_LOADRATE_VOICE -->
+    <reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_IPT-SERVER_ACCESS_LOADRATE_VOICE" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <!-- Physical connections (ACCESS) linked to IPT-SERVER Equipments -->
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>ACCESS_LOADRATE_VOICE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_LOADRATE_VOICE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <!-- INTERFACE_LOADRATE_VOICE -->
+	<reportConfig alias="REPORTCONFIG_160" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_160_IPT-SERVER_INTERFACE_LOADRATE_VOICE" computeScope="PARTITION" optional="false">
+        <listParamType>
+			<!-- Physical connections (INTERFACE) linked to IPT-SERVER Equipments -->
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>INTERFACE_LOADRATE_VOICE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_160_LOADRATE_VOICE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+</listReportConfig>

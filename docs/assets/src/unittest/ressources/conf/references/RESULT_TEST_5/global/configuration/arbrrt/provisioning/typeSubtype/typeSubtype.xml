@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listTypeSubtype>
+    <typeAndSubtype type="*">
+        <subtype value="*" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="COS">
+        <subtype value="*" comment=""/>
+        <subtype value="COSNUM1" comment=""/>
+        <subtype value="COSNUM2" comment=""/>
+        <subtype value="COSNUM3" comment=""/>
+        <subtype value="COSNUM4" comment=""/>
+        <subtype value="COSNUM5" comment=""/>
+        <subtype value="COSNUM6" comment=""/>
+        <subtype value="COSTYPE0" comment=""/>
+        <subtype value="COSTYPE1" comment=""/>
+        <subtype value="COSTYPE2" comment=""/>
+        <subtype value="COSTYPE3" comment=""/>
+        <subtype value="COSTYPE4" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="EQUIPMENT">
+        <subtype value="*" comment=""/>
+        <subtype value="ANALOG-GATEWAY" comment=""/>
+        <subtype value="APPLI-SERVER" comment=""/>
+        <subtype value="EQUIPMENT_CLOUD" comment=""/>
+        <subtype value="IPT-SERVER" comment=""/>
+        <subtype value="MEDIA-GATEWAY" comment=""/>
+        <subtype value="ROUTER" comment=""/>
+        <subtype value="SWITCH" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="IPBXZONE">
+        <subtype value="*" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="LOGICALCONNECTION">
+        <subtype value="*" comment=""/>
+        <subtype value="ATM" comment=""/>
+        <subtype value="ATMXDSL" comment=""/>
+        <subtype value="CONNECTIVITY" comment=""/>
+        <subtype value="DIMCVP" comment=""/>
+        <subtype value="LOGICALCONNECT" comment=""/>
+        <subtype value="LOGICALCONNECTION_CLOUD" comment=""/>
+        <subtype value="NCONNECT" comment=""/>
+        <subtype value="VLAN" comment=""/>
+        <subtype value="WIFI" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="MEASURE">
+        <subtype value="*" comment=""/>
+        <subtype value="LIEN_RNIS" comment=""/>
+        <subtype value="LIEN_RTC" comment=""/>
+        <subtype value="LIEN_UMTS" comment=""/>
+        <subtype value="LIRT" comment=""/>
+        <subtype value="LIRT_GALRE" comment=""/>
+        <subtype value="LIRT_GALSU" comment=""/>
+        <subtype value="LIRT_STAT" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="PHONEENTITY">
+        <subtype value="*" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="PHYSICALCONNECTION">
+        <subtype value="*" comment=""/>
+        <subtype value="ACCESS" comment=""/>
+        <subtype value="ACCESS_CLOUD" comment=""/>
+        <subtype value="CMG" comment=""/>
+        <subtype value="CMS" comment=""/>
+        <subtype value="DEVCTI" comment=""/>
+        <subtype value="DEVGW" comment=""/>
+        <subtype value="DEVH323" comment=""/>
+        <subtype value="DEVIPPH" comment=""/>
+        <subtype value="DEVMD" comment=""/>
+        <subtype value="DEVVM" comment=""/>
+        <subtype value="DSP" comment=""/>
+        <subtype value="GRPCON" comment=""/>
+        <subtype value="INTERFACE" comment=""/>
+        <subtype value="IPTHWCNF" comment=""/>
+        <subtype value="IPTSERV" comment=""/>
+        <subtype value="RADIO" comment=""/>
+        <subtype value="RADIO_LAP" comment=""/>
+        <subtype value="SWITCH_PORT" comment=""/>
+        <subtype value="SWITCH_VLAN" comment=""/>
+        <subtype value="TRUNK" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="SAN">
+        <subtype value="*" comment=""/>
+        <subtype value="GKSAN" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="SBC">
+        <subtype value="*" comment=""/>
+        <subtype value="GKSBC" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="SITE">
+        <subtype value="*" comment=""/>
+        <subtype value="DATA_SITE" comment=""/>
+        <subtype value="DATA_SITE_CLOUD" comment=""/>
+        <subtype value="GKSITE" comment=""/>
+        <subtype value="H323" comment=""/>
+        <subtype value="SIP" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="VPN">
+        <subtype value="*" comment=""/>
+        <subtype value="GKVPN" comment=""/>
+    </typeAndSubtype>
+    <typeAndSubtype type="ZONE">
+        <subtype value="*" comment=""/>
+        <subtype value="DATA_ZONE" comment=""/>
+    </typeAndSubtype>
+</listTypeSubtype>

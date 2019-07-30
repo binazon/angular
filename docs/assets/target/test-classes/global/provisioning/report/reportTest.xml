@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReport>
+    <report>
+        <refId>TEST_202</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan load rate</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_274.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_203</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan status</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_284.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_259</refId>
+        <label>Data-re - h2 intermediary file for COS type 3</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_304.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_260</refId>
+        <label>Data-re - h2 intermediary file for CPU equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_235.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_261</refId>
+        <label>Data-re - h2 intermediary file for MEM equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_236.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_262</refId>
+        <label>Data-re - h2 intermediary file for DISK USAGE equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_237.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_263</refId>
+        <label>Data-re - h2 intermediary file for TRAFFIC equipments</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_238.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_265_1</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_265_2</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_265_3</refId>
+        <label>Data-re - h2 intermediary file for radio traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_265_4</refId>
+        <label>Data-re - h2 intermediary file for radio_lap traffic physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_250.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_266_1</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_252.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_266_2</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_252.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_267</refId>
+        <label>Data-re - h2 intermediary file for access/interfaces errors physical connection</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_251.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_268</refId>
+        <label>Data-re - h2 intermediary file for logical connection: FLOW</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_265.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_269</refId>
+        <label>Data-re - h2 intermediary file for logical connection: TRAFFIC</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_266.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_271</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan observed flow</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_275.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_272</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_276.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_272_1</refId>
+        <label>Data-re - h2 intermediary file for ports/vlan error</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_277.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_275</refId>
+        <label>Data-re - h2 intermediary file for global traffic</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_287.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_277</refId>
+        <label>Data-re - h2 intermediary file for COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_294.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_278</refId>
+        <label>Data-re - h2 intermediary file for COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_295.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_289</refId>
+        <label>Data-re - h2 intermediary file for COS type 3 (thresholds)</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_305.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_294</refId>
+        <label>Data-re - h2 intermediary file for cosbe</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_289.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_299</refId>
+        <label>Data-re - h2 intermediary file for Correlation computation on measures</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_302.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_300</refId>
+        <label>Data-re - h2 intermediary file for RTD, Jitter, PLR on measures with SLA</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_303.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_306</refId>
+        <label>Data-re - h2 intermediary file for SITE COS type 0</label>
+        <computeUri>global/configuration/arbopr/computation/V1_0/TEST_317.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>DAILY</granularity>
+        <listIndicator/>
+    </report>
+    <report>
+        <refId>TEST_310</refId>
+        <label>Data-re - h2 intermediary file for Measures (without SLA)</label>
+        <computeUri>global/configuration/arbopr/computation/{version}/TEST_320.xml</computeUri>
+        <reportTimeUnit>DAY</reportTimeUnit>
+        <granularity>HOURLY</granularity>
+        <listIndicator/>
+    </report>
+</listReport>

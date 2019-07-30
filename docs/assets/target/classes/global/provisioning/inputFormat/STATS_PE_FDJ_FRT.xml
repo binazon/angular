@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>heure</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[...]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>GrpAnnonce</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[   ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>GrpDiffusion</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>GrpAmigo</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[..]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>Pe</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ ]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

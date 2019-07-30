@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <!-- DEB ZSI ***Ajout des rapports -SYNTHESE & TERMINAL-***  -->
+    <reportConfig alias="REPORTCONFIG_674" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_675" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_675" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_SCHEDULER"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_675.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_676" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_676" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_MEETINGLIST"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_676.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+      <reportConfig alias="REPORTCONFIG_677" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_677" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_SCHEDULEDVSUNSCHEDULED_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_677.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_678" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_678" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_INVENTORY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_678.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+     <reportConfig alias="REPORTCONFIG_679" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_674_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW_TERMINAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_TERMINAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_TERMINAL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+
+    <reportConfig alias="REPORTCONF_674_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_ENTITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW_ENTITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_ENTITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_UGLOBAL_ENTITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_ENTITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_UGLOBAL_ENTITY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <!--****************************COUNTRY******************************  -->
+
+     <reportConfig alias="REPORTCONF_674_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COUNTRY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONF_679_6" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COUNTRY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_7" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_7" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COUNTRY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+        <!--****************************CITY******************************  -->
+     <reportConfig alias="REPORTCONF_674_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONF_679_8" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_8" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_9" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_9" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CITY"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+
+     <!--****************************SITE******************************  -->
+
+     <reportConfig alias="REPORTCONF_674_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_674_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_CUCMNOSHOW"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_674.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONF_679_10" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_10" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONF_679_11" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_679_11" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIDEO_SITE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVPMA_ROOMUSAGE_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_679.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+  <!-- FIN ZSI ***Ajout des rapports -SYNTHESE & TERMINAL,ENTITY,COUNTRY-***  -->
+
+</listReportConfig>

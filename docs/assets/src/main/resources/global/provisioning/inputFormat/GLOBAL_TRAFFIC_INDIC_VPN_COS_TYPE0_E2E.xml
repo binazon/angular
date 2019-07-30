@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_bytes_reception1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception1
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_bytes_emission1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission1
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_bytes_reception2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception2
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_bytes_emission2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission2
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_bytes_reception3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception3
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_bytes_emission3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission3
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_bytes_reception4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception4
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>sum_bytes_emission4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission4
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>sum_bytes_reception5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception5
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>sum_bytes_emission5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission5
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>sum_bytes_reception9</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception9
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>sum_bytes_emission9</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission9
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

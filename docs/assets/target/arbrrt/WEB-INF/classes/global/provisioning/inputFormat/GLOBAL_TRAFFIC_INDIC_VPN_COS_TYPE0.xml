@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>vlan_sum_bytes_reception1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception1 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>vlan_sum_bytes_emission1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission1 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>vlan_sum_bytes_reception2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception2 for VLAN logical connections
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>vlan_sum_bytes_emission2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission2 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>vlan_sum_bytes_reception3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception3 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>vlan_sum_bytes_emission3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission3 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>vlan_sum_bytes_reception4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception4 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>vlan_sum_bytes_emission4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission4 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>vlan_sum_bytes_reception5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception5 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>vlan_sum_bytes_emission5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission5 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>vlan_sum_bytes_reception6</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception6 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>vlan_sum_bytes_emission6</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission6 for VLAN logical connections
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>other_sum_bytes_reception1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception1 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>other_sum_bytes_emission1</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission1 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>other_sum_bytes_reception2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception2 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>other_sum_bytes_emission2</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission2 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>other_sum_bytes_reception3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception3 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>other_sum_bytes_emission3</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission3 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>other_sum_bytes_reception4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception4 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>other_sum_bytes_emission4</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission4 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>other_sum_bytes_reception5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception5 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>other_sum_bytes_emission5</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission5 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>other_sum_bytes_reception6</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception6 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>other_sum_bytes_emission6</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission6 for logical connections different from VLAN
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

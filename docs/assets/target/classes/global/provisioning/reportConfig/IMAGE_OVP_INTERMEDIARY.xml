@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_645" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_645" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_MEETING</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_645.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_646" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_654" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_MEETINGPARTICIPANT</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_646.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_647" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_655" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_P2P_MP_USAGE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_647.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_648" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_656" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_HOURLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_SCHED_NOSHOW_USAGE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_648.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_649" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_657" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_FEES_DAILY</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_649.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_650" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_658" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_TERMINAL_CONNECTIONS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_650.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_651" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_659" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_TERMINAL_BOOKING_CONNECTIONS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_651.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_658" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_658_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="TERMINAL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_MEETING_OPTIONS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_658.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_671" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_660" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>OVP_CONFERENCE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_655.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

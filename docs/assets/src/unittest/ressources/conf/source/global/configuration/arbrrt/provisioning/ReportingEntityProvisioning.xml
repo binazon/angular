@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportingEntityTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<reportingEntityType filename="EQUIPMENTS" type="EQUIPMENT" header="y">
+		<!-- name is the name of the attribute used in RefReport -->
+		<!-- colName is the name of the column defined in the IGOR file header -->
+		<statAttribut name="fdn" colName="FDN" isParam="false" />
+		<statAttribut name="sareType" colName="OBJECT_TYPE" isParam="true" />
+		<statAttribut name="domain" colName="DOMAIN" isParam="true" />
+		<statAttribut name="zone" colName="ZONE" isParam="false" />
+		<statAttribut name="site" colName="SITE" isParam="false" />
+		<statAttribut name="mnemonic" colName="MNEMO" isParam="false" />
+		<statAttribut name="type" colName="NETWORK_ROLE" isParam="true" />
+		<statAttribut name="release" colName="SOFTWARE_RELEASE" isParam="true" />
+		<statAttribut name="voice_role" colName="VOICE_ROLE" isParam="true" />
+		<statAttribut name="ipbx_zone" colName="IPPBX_ZONE" isParam="false" />
+		<statAttribut name="isShared" colName="IS_SHARED" isParam="true" />
+		<statAttribut name="manufacturer" colName="MANUFACTURER" isParam="true" />	
+		<statAttribut name="subtype" colName="MACRO_TYPE" isParam="false" />
+		<statAttribut name="srv_tech_reference" colName="SRV_TECH_REFERENCE" isParam="true" />
+		<statAttribut name="srv_cial_reference" colName="SRV_CIAL_REFERENCE" isParam="true" />
+		<statAttribut name="hasStatData" colName="SRV_STAT_DATA" isParam="true" />
+		<statAttribut name="adminAddress" colName="ADMIN_ADDRESS" isParam="true" />	
+		<statAttribut name="accessAddress" colName="ACCESS_ADDRESS" isParam="true" />
+		<statAttribut name="CIAL_SERVICE_TYPE" colName="SRV_TECH_TYPE" isParam="false" />
+		<statAttributList name="addresses" filename="EQUIPMENTS-ADDRESSES" hasHeader="y" separator=",">
+			<column name="entity_Id" colName="DEVICE_FDN"/>
+			<column name="type" colName="TYPE"/>
+			<column name="value" colName="ADDRESS"/>
+		</statAttributList>
+		<!-- Other entity types to create  from this file -->		
+		<otherEntityType name="SITE" />	
+		<otherEntityType name="IPBXZONE" />
+		<otherEntityType name="ZONE" />
+	</reportingEntityType>
+	<reportingEntityType filename="INTERFACES" type="PHYSICALCONNECTION" header="y">
+		<!-- name is the name of the attribute used in RefReport -->
+		<!-- colName is the name of the column defined in the IGOR file header -->
+		<statAttribut name="domain" colName="DOMAIN" isParam="true" />
+		<statAttribut name="fdn" colName="FDN" isParam="false" />		
+		<statAttribut name="sareType" colName="OBJECT_TYPE" isParam="true" />
+		<statAttribut name="fdnEquipment" colName="EQT_FDN" isParam="false" />
+		<statAttribut name="name" colName="NAME" isParam="false" />
+		<statAttribut name="mnemonic" colName="MNEMO" isParam="false" />	
+		<statAttribut name="comment" colName="COMMENTARY" isParam="true" />
+		<statAttribut name="listIPaddress" colName="IP_ADDRESS" isParam="true" />	
+		<statAttribut name="srv_tech_reference" colName="SRV_TECH_REFERENCE" isParam="true" />
+		<statAttribut name="srv_cial_reference" colName="SRV_CIAL_REFERENCE" isParam="true" />
+		<statAttribut name="hasStatData" colName="SRV_STAT_DATA" isParam="true" />	
+		<statAttribut name="site" colName="SITE" isParam="false" />
+		<statAttribut name="zone" colName="ZONE" isParam="false" />
+		<statAttribut name="CIAL_TAIL_CIRCUIT_BANDWIDTH_UP" colName="CIAL_TAIL_CIRCUIT_BWD_UP" isParam="true" />
+		<statAttribut name="CIAL_TAIL_CIRCUIT_BANDWIDTH_DOWN" colName="CIAL_TAIL_CIRCUIT_BWD_DOWN" isParam="true" />	
+		<statAttribut name="CIAL_SERVICE_TYPE" colName="SRV_TECH_TYPE" isParam="true" />
+		<!-- Other entity types to create  from this file -->		
+		<otherEntityType name="SITE" />	
+		<otherEntityType name="ZONE" />	
+	</reportingEntityType>
+	<reportingEntityType filename="CONNECTIONS" type="LOGICALCONNECTION" header="y">
+		<!-- name is the name of the attribute used in RefReport -->
+		<!-- colName is the name of the column defined in the IGOR file header -->
+		<statAttribut name="domain" colName="DOMAIN" isParam="true" />
+		<statAttribut name="fdn" colName="FDN" isParam="false" />
+		<statAttribut name="mnemonic" colName="MNEMO" isParam="false" />
+		<statAttribut name="fdnPhysicalConnection" colName="ITF_FDN" isParam="false" />
+		<statAttribut name="sareType" colName="OBJECT_TYPE" isParam="true" />
+		<statAttribut name="ACCESS_DSL_TYPE" colName="ACCESS_DSL_TYPE" isParam="true" />
+		<statAttribut name="CIAL_IP_BANDWIDTH_UP" colName="CIAL_TAIL_CIRCUIT_BWD_UP" isParam="true" />
+		<statAttribut name="CIAL_IP_BANDWIDTH_DOWN" colName="CIAL_TAIL_CIRCUIT_BWD_DOWN" isParam="true" />	
+		<statAttribut name="AVG_BWD_IN" colName="AVG_BWD_IN" isParam="true" />
+		<statAttribut name="MAX_BWD_IN" colName="MAX_BWD_IN" isParam="true" />
+		<statAttribut name="AVG_BWD_OUT" colName="AVG_BWD_OUT" isParam="true" />
+		<statAttribut name="MAX_BWD_OUT" colName="MAX_BWD_OUT" isParam="true" />				
+		<statAttribut name="serviceTypeDlci" colName="SRV_SENSOR_TYPE" isParam="false" />
+		<statAttribut name="serviceTypeVl" colName="SRV_SENSOR_PARAM_SERVICE" isParam="false" />
+		<statAttribut name="CIAL_SERVICE_TYPE" colName="SRV_TECH_TYPE" isParam="true" />
+		<statAttribut name="CIAL_INTRANET_BWD" colName="CIAL_INTRANET_BWD" isParam="true" />
+		<statAttribut name="connectionNumber" colName="NAME" isParam="true" />
+		<statAttribut name="serviceLabel" colName="SRV_TECH_NAME" isParam="true" />
+		<statAttribut name="X121Address" colName="ITF_IP_ADDRESS" isParam="true" />		
+		<statAttribut name="deviceRole" colName="DEVICE_ROLE" isParam="true" />		
+		<statAttribut name="srv_tech_reference" colName="SRV_TECH_REFERENCE" isParam="true" />
+		<statAttribut name="srv_cial_reference" colName="SRV_CIAL_REFERENCE" isParam="true" />
+		<statAttribut name="site" colName="SITE" isParam="false" />
+		<statAttribut name="zone" colName="ZONE" isParam="false" />
+		<!-- Other entity types to create  from this file -->		
+		<otherEntityType name="SITE" />	
+		<otherEntityType name="ZONE" />	
+	</reportingEntityType>
+	<reportingEntityType filename="AFDB-TOIP-PHONE-ENTITIES" type="PHONEENTITY">
+		<statAttribut name="domain" col="0" isParam="true" />
+		<statAttribut name="phoneEntityName" col="1" isParam="false" />
+		<statAttribut name="type" col="2" isParam="true" />
+		<statAttribut name="ipbx_zone" col="3" isParam="false" />
+		<otherEntityType name="IPBXZONE" />
+	</reportingEntityType>
+	<reportingEntityType filename="SI" type="SITE">
+		<statAttribut name="domain" col="1" isParam="true" />
+		<statAttribut name="site" col="2" isParam="false" />
+	</reportingEntityType>
+	<reportingEntityType filename="USERSBTIPBX" type="HUBPHONE" separator="|">
+		<statAttribut name="domain" col="0" isParam="true" />
+		<statAttribut name="customerId" col="1" isParam="true" />
+		<statAttribut name="hubName" col="13" isParam="false" />
+	</reportingEntityType>
+	<reportingEntityType filename="GK_SITES" type="GKSITE">
+		<statAttribut name="siteId" col="0" isParam="false" />
+		<statAttribut name="siteName" col="1" isParam="false" />
+		<statAttribut name="customerCode" col="2" isParam="false" />
+		<statAttribut name="opmName" col="5" isParam="true" />
+		<statAttribut name="siteGlobalCallLimiter" col="7" isParam="true" />
+		<statAttribut name="vpnCode" col="8" isParam="false" />
+		<statAttribut name="vpnName" col="9" isParam="false" />
+		<statAttribut name="ndi" col="11" isParam="true" />
+		<statAttribut name="defaultAccessType" col="12" isParam="true" />
+		<statAttribut name="areaWithCallLimitation" col="13" isParam="true" />
+		<statAttribut name="sbc" col="14" isParam="false"/>
+		<otherEntityType name="VPN" />
+		<otherEntityType name="SBC" />
+	</reportingEntityType>
+	<reportingEntityType filename="GK_CONTACT_CENTERS" type="GKSAN">
+		<statAttribut name="dialNumber" col="0" isParam="false" />
+		<statAttribut name="idSan" col="1" isParam="false" />
+		<statAttribut name="technicalNumber" col="2" isParam="false" />
+		<statAttribut name="CClabel" col="3" isParam="true" />
+		<statAttribut name="customerCode" col="4" isParam="false" />
+		<statAttribut name="vpnCode" col="5" isParam="false" />
+	</reportingEntityType>
+	<reportingEntityType filename="PROBES" type="MEASURE" header="y">
+		<!-- name is the name of the attribute used in RefReport -->
+		<!-- colName is the name of the column defined in the IGOR file header -->
+		<statAttribut name="fdn" colName="FDN" isParam="false" />
+		<statAttribut name="subtype" colName="SUBTYPE" isParam="false" />
+		<statAttribut name="domain" colName="DOMAIN" isParam="true" />
+		<statAttribut name="mnemonic" colName="MNEMONIC" isParam="false" />
+		<statAttribut name="indicator" colName="INDICATOR" isParam="true" />
+		<statAttribut name="indicatorValue" colName="COMMITMENTVALUE" isParam="true" />
+		<statAttribut name="indicatorThresholdB" colName="INDICATORTHRESHOLDB" isParam="true" />
+		<statAttribut name="indicatorThresholdT3" colName="INDICATORTHRESHOLDT3" isParam="true" />
+		<statAttribut name="measureProtocol" colName="MEASUREPROTOCOL" isParam="false" />
+		<statAttribut name="originFDN" colName="ORIGINFDN" isParam="false" />
+		<statAttribut name="originAddress" colName="ORIGINIP" isParam="false" />		
+		<statAttribut name="endFDN" colName="ENDFDN" isParam="false" />
+		<statAttribut name="endAddress" colName="TARGETIP" isParam="false" />
+		<statAttribut name="correlationType" colName="CORRELATIONBACKUPTYPE" isParam="true" />
+		<statAttribut name="idCOS" colName="COS" isParam="false" />		
+	</reportingEntityType>		
+	<reportingEntityType filename="RICOS" type="COS" source="REFO">
+		<statAttribut name="family" col="0" isParam="false" />
+		<statAttribut name="reference" col="1" isParam="false" />
+		<statAttribut name="domain" col="3" isParam="true" />
+		<statAttribut name="bandwidth_COS1_IN" col="10" isParam="true" />
+		<statAttribut name="bandwidth_COS1_OUT" col="11" isParam="true" />
+		<statAttribut name="bandwidth_COS2_IN" col="12" isParam="true" />
+		<statAttribut name="bandwidth_COS2_OUT" col="13" isParam="true" />
+		<statAttribut name="bandwidth_COS3_IN" col="14" isParam="true" />
+		<statAttribut name="bandwidth_COS3_OUT" col="15" isParam="true" />
+		<statAttribut name="bandwidth_COS4_IN" col="16" isParam="true" />
+		<statAttribut name="bandwidth_COS4_OUT" col="17" isParam="true" />
+		<statAttribut name="bandwidth_COS5_IN" col="18" isParam="true" />
+		<statAttribut name="bandwidth_COS5_OUT" col="19" isParam="true" />
+		<statAttribut name="subtype" col="22" isParam="false" />
+	</reportingEntityType>
+	<reportingEntityType filename="MSCOS" type="COS" source="POLLER">
+		<statAttribut name="family" col="0" isParam="false" />
+		<statAttribut name="reference" col="1" isParam="false" />
+		<statAttribut name="domain" col="3" isParam="true" />
+		<statAttribut name="subtype" col="4" isParam="false" />
+	</reportingEntityType>
+</reportingEntityTypes>

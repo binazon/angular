@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, [0..23] for daily and [1..31] for Monthly
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DurOfAllPollPrd</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration of all polling periods, In seconds
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>IPPhnRegis</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IP phone registered, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>IPPhnUregis</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IP phone unregistered, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>IPPhnRejct</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				IP phone rejected, Last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

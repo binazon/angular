@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+			http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee
+			http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/javaee/beans_1_1.xsd"
+       bean-discovery-mode="all">
+    
+    <interceptors>
+		<class>com.orange.srs.statcommon.technical.interceptor.PerformanceInterceptor</class>
+	</interceptors>
+</beans>

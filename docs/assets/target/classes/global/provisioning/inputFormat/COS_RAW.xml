@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		EntityId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		ParentId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+		DATE
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>DurationSamplingPeriod</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Real time of the significant samples
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>DOWNSPEED</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				CPU load rate
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>UPSPEED</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Memory load rate
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>INOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Equipment traffic - load in package/s
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>OUTOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Equipment traffic - Failure in Buffer allocations 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>DROPOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Equipment traffic - Non-routed IP frames 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>COLOUREDOCTETS</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				Number of ports having their ifOperStatus to up
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

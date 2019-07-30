@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>0</columnName>
+		<alias>SENDERIP</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Router sender IP]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>1</columnName>
+		<alias>STARTPOLLING</alias>
+		<dataFormat>TIMESTAMP</dataFormat>
+		<comments><![CDATA[Timestamp polling start]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>2</columnName>
+		<alias>ENDPOLLING</alias>
+		<dataFormat>TIMESTAMP</dataFormat>
+		<comments><![CDATA[Timestamp polling end]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>3</columnName>
+		<alias>IPADDRESSSOURCE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		IP address source
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>4</columnName>
+		<alias>IPADDRESSDESTINATION</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		IP address destination
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>5</columnName>
+		<alias>PACKETSNUMBERDURINGPOLLING</alias>
+		<dataFormat>BIGINT</dataFormat>
+		<comments><![CDATA[
+		Packets number during the polling			
+				]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>6</columnName>
+		<alias>BYTENUMBERDURINGPOLLING</alias>
+		<dataFormat>BIGINT</dataFormat>
+		<comments><![CDATA[
+		Bytes number during the polling	
+				]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>7</columnName>
+		<alias>PACKETSLOSTDURINGPOLLING</alias>
+		<dataFormat>BIGINT</dataFormat>
+		<comments><![CDATA[Packets lost during the polling (device level)]]></comments>
+		<type>H2</type>
+	</inputColumn>
+</listInputColumn>

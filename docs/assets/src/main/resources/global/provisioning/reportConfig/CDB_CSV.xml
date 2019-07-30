@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/equipment{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/phyConnexion{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_3" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/logConnexion{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/cos{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_5" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/measure{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_CDB_6" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CDB_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/cdb</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/equipmentQuality{END_YYMMDD}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CDB1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

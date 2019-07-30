@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		EntityId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+		DATE
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DURATIONSAMPLINGPERIOD_VALUES</alias>
+        <dataFormat>VARCHAR(8000)</dataFormat>
+        <comments><![CDATA[
+		Duration sampling period values
+		]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>LOADRATEIN_VALUES</alias>
+        <dataFormat>VARCHAR(8000)</dataFormat>
+        <comments><![CDATA[
+				Load rate values for inflow
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>LOADRATEOUT_VALUES</alias>
+        <dataFormat>VARCHAR(8000)</dataFormat>
+        <comments><![CDATA[
+				Load rate values for outflow
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

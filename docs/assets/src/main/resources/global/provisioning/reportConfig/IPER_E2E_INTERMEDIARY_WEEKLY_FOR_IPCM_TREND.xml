@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_972" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_972" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>CPU_IPCM_WEEKLY_BREACHES_E2E_EQUIPMENT</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_972.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_973_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_973_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPBW_IPCM_WEEKLY_BREACHES_E2E_LOGICALCONNECTION</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_973.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_973_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_973_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPBW_IPCM_WEEKLY_BREACHES_E2E_ACCESS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_973.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_973_3" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_973_3" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPBW_IPCM_WEEKLY_BREACHES_E2E_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_973.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_974" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_974" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>DROPPED_IPCM_WEEKLY_BREACHES_E2E_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_974.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_975_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_975_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>DROPPED_IPCM_WEEKLY_BREACHES_E2E_GLOBAL_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_975.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_975_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_975_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>DROPPED_IPCM_WEEKLY_BREACHES_E2E_GLOBAL_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_975.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_IPER_IPCM_SITE_CAPACITY_INTER" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_IPER_IPCM_SITE_CAPACITY_INTER"
+                  computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>MONTH_DAILY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPBW_IPCM_LOADRATE_E2E_SITE</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_IPER_IPCM_SITE_CAPACITY_INTER.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_980_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_980_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_ACCESS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_980_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_980_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_LOGICALCONNECTION</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_980_3" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_980_3" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		EntityId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+		ParentId
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+		DATE
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>DurationSamplingPeriod</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+		Real time of the significant samples
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>lat_average</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		latence average
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>lat_min</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		latence minimum
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>lat_max</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		latence maximum
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>jitter_average</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Jitter average
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>jitter_min</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Jitter minimum
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>jitter_max</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+		Jitter maximum
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>packetloss</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+		Packet loss ratio
+		
+		]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

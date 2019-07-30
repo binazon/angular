@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listCCASPSource>
+    <CCASPSource>
+        <source name="CCASP" class="CCASPSource" origin="EQUANT" pollingPeriod="1800"/>
+        <retentionTime>230</retentionTime>
+        <authority userName="xxxx" userPassword="" host="partnersftp.webex.com" port="22"/>
+        <sourceDirectory>…</sourceDirectory>
+        <pattern>Annuity_CCA_SP_Peak_Port_Usage_Customer_Daily_ (.*).csv|(.*)_Annuity_CCA_SP_Telephony_CDR_Daily_(.*).csv</pattern>
+        <publicKey>/data/flf/arbpcx/conf/keys/KeyPrxCol01.pub</publicKey>
+        <privateKey>/data/flf/arbpcx/conf/keys/KeyPrxCol01</privateKey>
+        <passPhrase></passPhrase>
+    </CCASPSource>
+</listCCASPSource>

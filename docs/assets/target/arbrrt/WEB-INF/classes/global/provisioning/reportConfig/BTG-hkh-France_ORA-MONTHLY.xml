@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_490_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_490_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btip/vpn_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_490_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>        
+    
+    <reportConfig alias="REPORTCONFIG_491_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_491_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btip/sites_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_491_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_492_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_492_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>            
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btip/talkers_{STATGROUP_LOCATION}_{END_YYMM}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_492_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    <!-- IP 2217 fichier  -->
+    <!-- sites_naccueil -->
+    <reportConfig alias="REPORTCONFIG_493_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_493_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>            
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btip/sites_{STATGROUP_LOCATION}_naccueil_{END_YYMM}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_493_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <!-- sites_nunique -->
+    <reportConfig alias="REPORTCONFIG_493_4" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_493_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKSAN"/>            
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btip/sites_{STATGROUP_LOCATION}_nunique_{END_YYMM}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_493_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    
+    
+    
+    
+</listReportConfig>

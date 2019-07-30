@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listProxy>
+<!--     <proxy version="V0"> -->
+<!--         <uri>http://www.google.com</uri> -->
+<!--         <name>EXAMPLE</name> -->
+<!--         <isSsl>false</isSsl> -->
+<!--     </proxy> -->
+<!--     <proxy version="V1"> -->
+<!--         <uri>http://www.google.fr</uri> -->
+<!--         <name>EXAMPLE2</name> -->
+<!--         <isSsl>false</isSsl> -->
+<!--     </proxy> -->
+<!--     <proxy version="V2"> -->
+<!--         <uri>https://www.yahoo.com</uri> -->
+<!--         <name>EXAMPLE3</name> -->
+<!--         <isSsl>true</isSsl> -->
+<!--     </proxy> -->
+<!--     <proxy version="V3"> -->
+<!--         <uri>https://www.yahoo.fr</uri> -->
+<!--         <name>EXAMPLE4</name> -->
+<!--         <isSsl>true</isSsl> -->
+<!--     </proxy> -->
+</listProxy>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="TEMPLATE" reportVersion="V1_0" reportRefId="CDR_DOWNLOAD" computeScope="ENTITY" optional="false">
+         <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>cdrdownload/VPN_{REF_ID_END}_{START_YYMMDDHHMMSS}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/V1_0/REPORT_CDR_DOWNLOAD.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

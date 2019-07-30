@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_156" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_144" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btip_network_executive_summary_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_144.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_157" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_145" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btip_site_executive_summary_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_145.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_158" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_146" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btip_talkers_per_site_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_146.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

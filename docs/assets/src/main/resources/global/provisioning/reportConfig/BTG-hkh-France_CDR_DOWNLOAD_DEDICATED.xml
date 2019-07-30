@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="TEMPLATE" reportVersion="V1_0" reportRefId="CDR_DOWNLOAD_DEDICATED" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>HOUR_FILES_TEMPLATE</type>
+            <format>csv</format>
+            <compression>zip</compression>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/btip/cdr/{STATGROUP_LOCATION}/openstat_btip_cdr_{STATGROUP_LOCATION}_{START_YYMMDDTHH}_{CURRENT_YYMMDDTHHMMSS}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/V1_0/REPORT_CDR_DOWNLOAD_DEDICATED.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

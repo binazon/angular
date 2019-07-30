@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="EXTENDED_PAI" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>/pai/openstat_sce_pai_{START_YYMMDD}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/V1_0/REPORT_PAI.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

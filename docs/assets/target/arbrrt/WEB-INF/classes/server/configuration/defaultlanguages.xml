@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<languages>
+	<language value="fr_FR">
+		<binding source="DEFAULT" origin="SCE"/>
+		<binding source="72xarg" value="French"/>
+	</language>
+	<language value="en_US">
+		<binding source="DEFAULT" origin="EQUANT"/>
+		<binding source="DEFAULT" origin="ALL"/>
+		<binding source="72xarg" value="English"/>
+	</language>
+</languages>

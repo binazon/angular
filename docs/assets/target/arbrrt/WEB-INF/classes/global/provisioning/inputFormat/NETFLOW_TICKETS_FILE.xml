@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>Timestamp</columnName>
+		<alias>TimestampReceptionDatagramme</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Date de réception du datagramme (timestamp unix)
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>Sender</columnName>
+		<alias>ROUTERIP</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Adresse IP émetteur en hexa
+		]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>Version</columnName>
+		<alias>Version</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Version du protocole NetFlow 5 ou 9 				
+				]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>SequenceNum</columnName>
+		<alias>SequenceNum</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Numéro de séquence			
+				]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>UnixSecs</columnName>
+		<alias>UnixSecs</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+		Date routeur de création du datagramme (timestamp unix)
+				]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C8</columnName>
+		<alias>IPV4SourceAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPV4SourceAddress]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C12</columnName>
+		<alias>IPv4DestinationAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv4DestinationAddress]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C10</columnName>
+		<alias>SNMPInterfaceIndexInputInterface</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[SNMP interface index of input interface ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C7</columnName>
+		<alias>TransportSourcePort</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Transport source port ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C11</columnName>
+		<alias>TransportDestinationPort</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Transport destination port ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C5</columnName>
+		<alias>IPTOS</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IP TOS ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C9</columnName>
+		<alias>IPv4SourceMask</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv4 source mask ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C13</columnName>
+		<alias>IPv4DestinationMask</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv4 destination mask ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C4</columnName>
+		<alias>IPProtocol</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IP protocol]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C6</columnName>
+		<alias>CumulativeTCPFlags</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Cumulative TCP flags ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C15</columnName>
+		<alias>IPv4NextHopAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv4 next hop address ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C1</columnName>
+		<alias>ByteCount</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Byte count]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C2</columnName>
+		<alias>PacketCount</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Packet Count]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C22</columnName>
+		<alias>TimestampFlowFirstlySwitched</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Timestamp the flow is firstly switched ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C21</columnName>
+		<alias>TimestampFlowLastSwitched</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Timestamp the flow is lastly switched ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C14</columnName>
+		<alias>SNMPInterfaceIndexOutputInterface</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[SNMP interface index of output interface ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C27</columnName>
+		<alias>IPv6SourceAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 source address ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C28</columnName>
+		<alias>IPv6DestinationAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 destination address ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C29</columnName>
+		<alias>IPv6SourceMask</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 source mask ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C30</columnName>
+		<alias>IPv6DestinationMask</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 destination mask ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C31</columnName>
+		<alias>IPv6FlowLabel</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 flow label ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C62</columnName>
+		<alias>IPv6NextHopAddress</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[IPv6 next hop address ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C95</columnName>
+		<alias>ApplicationID</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Application ID  ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C96</columnName>
+		<alias>ApplicationName</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Application name]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C94</columnName>
+		<alias>ApplicationDescription</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[Application description]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C236</columnName>
+		<alias>VRFName</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[VVRF name ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>C234</columnName>
+		<alias>VRFIDInput</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[VRF ID input ]]></comments>
+		<type>H2</type>
+	</inputColumn>
+</listInputColumn>

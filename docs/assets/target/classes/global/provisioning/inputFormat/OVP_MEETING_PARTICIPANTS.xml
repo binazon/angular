@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>confid</columnName>
+        <alias>confid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityId</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>day</columnName>
+        <alias>day</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>offer</columnName>
+        <alias>offer</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

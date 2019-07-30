@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipment>
+	<listSwitchTypes>
+		<type>SWCAT</type>
+		<type>SWWIFI</type>
+		<type>SWNORTEL</type>
+		<type>SWSNMP</type>
+		<type>SWMSFC</type>
+		<type>SWSAN</type>
+		<type>WLCCIS</type>
+	</listSwitchTypes>
+	<listMsfcTypes>
+		<type>SWMSFC</type>
+	</listMsfcTypes>	
+	<listAironetTypes>
+		<type>SWWIFI</type>
+		<type>WLCCIS</type>
+	</listAironetTypes>	
+	<listAPAironetTypes>
+		<type>WLCCIS</type>
+	</listAPAironetTypes>		
+	<listManagedSubTypes>
+		<subtype>ROUTER</subtype>
+		<subtype>SWITCH</subtype>
+		<subtype>IPT-SERVER</subtype>
+		<subtype>APPLI-SERVER</subtype>
+		<subtype>MEDIA-GATEWAY</subtype>
+		<subtype>ANALOG-GATEWAY</subtype>
+		<subtype>EQUIPMENT_CLOUD</subtype>
+	</listManagedSubTypes>	
+</equipment>

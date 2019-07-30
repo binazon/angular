@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>element</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Identifier of element (source for the files "*Conv*").
+-	SARE reference if the element is a device (IPBX, "voice gateway", "media gateway", "third party server".
+-	Name of group of phones (eg: a "telephony site", a "telephony zone", ...)
+-	TAC if the element is a trunk Avaya
+-	Phone number.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>destination</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Identifier of destination element (for the files "*Conv*") or else field empty.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>subset</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Traffic sub-set.  The possible values of this field are :  
+-	total	 	 (total traffic, always provided if there are measurements in the period)
+-	onNet	 ("on-net" traffic)
+-	onNetIn	 (incoming "on-net" traffic)
+-	onNetOut	 (outgoing "on-net" traffic)
+-	intOnNetIn	 (incoming "internal on-net" traffic)
+-	intOnNetOut	 (outgoing "internal on-net" traffic)
+-	extOnNetIn	 (incoming "external on-net" traffic)
+-	extOnNetOut	 (outgoing "external on-net" traffic)
+-	offNet	 ("off-net" traffic)
+-	offNetIn	 (incoming "off-net" traffic)
+-	offNetOut	 (outgoing "off-net" traffic)
+Remark : 
+Other values could be defined in later versions. In order to limit the constraints on the order of software updates, an application that uses this field should ignore the values that it does not know (an unknown value should not trigger any error).
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias></alias>
+        <dataFormat>void</dataFormat>
+        <comments><![CDATA[
+				reserved field (empty)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>reliability</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Reliability of the aggregations. This is also the completeness ratio of the measurements.
+The value of this field is a real number between 0 and 100.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>numberOfCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>durationOfCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Duration of phone calls
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>numberOfSuccessfulCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls that resulted in communication between the caller and the called party.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>numberOfAcceptedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls said to be "accepted" (called party busy, called party does not answer, ...)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>numberOfRejectedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of rejected phone calls.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>numberOfFailedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of phone calls that have failed.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>numberOfBlockedCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Number of blocked calls either due to insufficient resources (eg: insufficient number of lines to the PSTN), or a deliberate blocking of calls to some destinations.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

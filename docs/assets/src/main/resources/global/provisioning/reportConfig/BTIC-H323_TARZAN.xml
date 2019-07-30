@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_570" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_510" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btic-h323_network_executive_summary_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_500.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_571" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_511" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btic-h323_site_executive_summary_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_501.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_572" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_512" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btic-h323_talkers_per_site_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_502.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_573" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_513" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btic-h323_gu_executive_summary_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_503.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

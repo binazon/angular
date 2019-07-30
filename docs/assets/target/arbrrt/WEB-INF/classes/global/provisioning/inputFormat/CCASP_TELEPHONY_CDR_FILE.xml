@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+	<inputColumn>
+		<columnName>0</columnName>
+		<alias>PARTNERACCOUNTNO</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			CCA SP Port Subscription account id
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>1</columnName>
+		<alias>PARTNERNAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Name of CCA SP Partner
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>2</columnName>
+		<alias>CUSTOMERACCOUNTNO</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Account id of the end customer
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>3</columnName>
+		<alias>CUSTOMERACCOUNTNAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Name of the end customer
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>4</columnName>
+		<alias>SELL_THRU_CUSTOMER_SUBREF_ID</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: Sub103034
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>5</columnName>
+		<alias>SITENAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: orangeccasp
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>6</columnName>
+		<alias>SITEURL</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: orangeccasp.webex.com
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>7</columnName>
+		<alias>WEBEXSITEID</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: 500004939
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>8</columnName>
+		<alias>CONFID</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: 2980803743
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>9</columnName>
+		<alias>CONFKEY</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: 647338340
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>10</columnName>
+		<alias>MEETING_NAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: AVERY support
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>11</columnName>
+		<alias>MEETINGTYPE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: PRO
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>12</columnName>
+		<alias>HOSTNAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: Guillaume Moukeka
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>13</columnName>
+		<alias>HOSTID</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: guillaume.moukeka
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>14</columnName>
+		<alias>HOST_TIMEZONE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: (GMT -05:00) EASTERN TIME  USA & CANADA
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>15</columnName>
+		<alias>USER_NAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Dialer/Attendee Name. Ex: 167834634630
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>16</columnName>
+		<alias>MTGSTARTDATE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Date in GMT. Ex: 11-18-2016 03:01:15 PM
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>17</columnName>
+		<alias>MTGENDDATE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Date in GMT. Ex: 11-18-2016 03:01:15 PM
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>18</columnName>
+		<alias>MTGDURATION</alias>
+		<dataFormat>INTEGER</dataFormat>
+		<comments><![CDATA[
+			Duration in minutes Ex: 50
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>19</columnName>
+		<alias>DIAL_STARTTIME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Time stamp (in GMT) when the attendee joins the meeting. Ex: 11-18-2016 03:01:15 PM
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>20</columnName>
+		<alias>DIAL_ENDTIME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Time stamp when the attendee leaves the meeting. Ex: 11-18-2016 03:01:15 PM
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>21</columnName>
+		<alias>DURATION</alias>
+		<dataFormat>INTEGER</dataFormat>
+		<comments><![CDATA[
+			Attendee duration in minutes Ex: 19 
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>22</columnName>
+		<alias>SERVICE_IDENTIFIER</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Mechanism through which user (host or attendee) joins a meeting Ex: CALLBACK
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>23</columnName>
+		<alias>SESSION_TYPE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: CCA Hybrid Audio
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>24</columnName>
+		<alias>COUNTRYCODE</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Dial Code of Country Ex: 1
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>25</columnName>
+		<alias>COUNTRY</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Name of the country based on Country Code Ex: United States
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>26</columnName>
+		<alias>PHONENUM</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: 1-6783463463
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>27</columnName>
+		<alias>DIALNAME</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>28</columnName>
+		<alias>DIVISION</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>29</columnName>
+		<alias>DEPT</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>30</columnName>
+		<alias>PROJECT</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>31</columnName>
+		<alias>OTHER</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>32</columnName>
+		<alias>DNIS</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments></comments>
+		<type>DATA</type>
+	</inputColumn>
+	<inputColumn>
+		<columnName>33</columnName>
+		<alias>ANI</alias>
+		<dataFormat>VARCHAR(255)</dataFormat>
+		<comments><![CDATA[
+			Ex: 19292704098
+			]]></comments>
+		<type>DATA</type>
+	</inputColumn>
+
+</listInputColumn>

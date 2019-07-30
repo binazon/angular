@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS</columnName>
+        <alias>ACCEPTED_CALLS</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CALLED_NUMBER</columnName>
+        <alias>CALLED_NUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[called number]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION</columnName>
+        <alias>CUMULATIVE_CALL_DURATION</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[Date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ENTITYID]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS</columnName>
+        <alias>FAILED_CALLS</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>REJECTED_CALLS</columnName>
+        <alias>REJECTED_CALLS</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ROUTING_FEATURE</columnName>
+        <alias>ROUTING_FEATURE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[routing feature]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS</columnName>
+        <alias>SUCCESSFUL_CALLS</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>TECH_TYPE</columnName>
+        <alias>TECH_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Technical type]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+</listInputColumn>

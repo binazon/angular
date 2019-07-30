@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_956" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_956" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK1_{START_YYMM}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_956.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_957" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_957" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK3_CPU_{START_YYMM}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_957.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_958" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_958" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK2_BANDWIDTH_{START_YYMM}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_958.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_893" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_959" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK4_DROPPED_{START_YYMM}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_959.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_IPER_IPCM_SITE_CAPACITY_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_IPER_IPCM_SITE_CAPACITY_1"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK5_CAPACITY_{START_YYMM}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_IPER_IPCM_SITE_CAPACITY.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_956_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_956_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK1_WEEKLY_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_956.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_957_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_957_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK3_CPU_WEEKLY_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_957.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_958_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_958_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK2_BANDWIDTH_WEEKLY_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_958.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_893_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_959_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK4_DROPPED_WEEKLY_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_959.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_IPER_IPCM_SITE_CAPACITY_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_IPER_IPCM_SITE_CAPACITY_2"
+                  computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>xml</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_IPCM_BLOCK5_CAPACITY_WEEKLY_{START_YYMMDD}.xml</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_IPER_IPCM_SITE_CAPACITY.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

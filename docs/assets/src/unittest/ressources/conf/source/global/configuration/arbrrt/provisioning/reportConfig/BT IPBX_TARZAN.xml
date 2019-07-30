@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_128" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_117" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_technical_summary_on_customer_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_117.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_130" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_118" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_technical_summary_by_ipbx_zone_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_118.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_162" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_147" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_traffic_on_customer_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_147.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_163" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_148" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_traffic_per_ipbx_zone_and_shared_device_by_day_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_148.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_164" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_149" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_simultaneous_calls_per_ipbx_zone_by_day_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_149.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_165" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_150" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_outgoing_calls_per_destination_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_150.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_166" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_151" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_incoming_calls_per_hours_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_151.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_167" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_56" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_simultaneous_calls_per_ipbx_zone_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_56.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_168" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_152" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_network_qos_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_152.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_169" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_153" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="IPBXZONE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_btipbx_traffic_per_ipbx_zone_and_shared_device_1.0_usa_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_153.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

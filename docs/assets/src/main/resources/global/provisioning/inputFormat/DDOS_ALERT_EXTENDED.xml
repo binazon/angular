@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of managed object concerned by alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>start_time</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[start time of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>alert_id</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[id of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>peakflow_source_name</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[peakflow source name that generate the alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[type of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>level</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[severity of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>alert_status_ongoing</alias>
+        <dataFormat>boolean</dataFormat>
+        <comments><![CDATA[status of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>stop_time</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[stop time of alert, empty if alert is ongoing]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[length of alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>threshold</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[sentence indicating the overload of the threshold]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>address</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ip address of resource concerned by alert]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>affected_managed_object</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[managed object name concerned by alert, it's a unique name used as a unique id]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>impact_bps_points</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points in bits per second]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>impact_pps_points</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points in packets per second]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>impact_recorded</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points time reference]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

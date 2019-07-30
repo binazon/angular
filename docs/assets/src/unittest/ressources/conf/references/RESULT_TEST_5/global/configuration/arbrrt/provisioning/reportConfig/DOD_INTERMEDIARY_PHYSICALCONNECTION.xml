@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_171" type="DB" reportVersion="V1_0" reportRefId="REPORT_155" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>DB</type>
+            <format>h2</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_dodIntermediaryPhysicalConnection.h2.db</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_155.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

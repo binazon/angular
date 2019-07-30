@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_453" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_403" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/ConcurrentCallsBySitesMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_402.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_465" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_416" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKVPN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/ConcurrentCallsByVpnsMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_405.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_477" type="BATCH" reportVersion="V1_0" reportRefId="REPORT_419" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="GKSAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MULTI</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}/ConcurrentCallsBySansMetrics_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_408.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

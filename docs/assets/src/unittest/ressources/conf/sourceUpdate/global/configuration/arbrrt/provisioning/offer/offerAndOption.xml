@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listOffer>
+    <offer commercialName="BIV-SIP Internet" alias="BIV-SIP-DATA">
+        <option label="BIV-SIP Internet" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary" cpltAlias="INTERMEDIARY"/>
+    </offer>
+    <offer commercialName="Dashboard Of Dashboard" alias="DOD">
+        <option label="Dashboard Of Dashboard" cpltAlias="INTERACTIVE"/>
+        <option label="Intermediary computation for COS" cpltAlias="INTERMEDIARY_COS"/>
+        <option label="Intermediary computation for Equipment" cpltAlias="INTERMEDIARY_EQUIPMENT"/>
+        <option label="Intermediary computation for Logical Connection" cpltAlias="INTERMEDIARY_LOGICALCONNECTION"/>
+        <option label="Intermediary computation for Measure" cpltAlias="INTERMEDIARY_MEASURE"/>
+        <option label="Intermediary computation for Physical Connection" cpltAlias="INTERMEDIARY_PHYSICALCONNECTION"/>
+    </offer>
+</listOffer>

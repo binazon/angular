@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_1_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_1_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_1_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_1_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_1_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_1_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_CLOUD_SERVICE_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_2_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_2_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_2_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_2_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_2_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_2_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_VOLUMETRY_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_1_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_1_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_CURVE_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_1_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_1_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_CURVE_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_2_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_2_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_2_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_2_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_3_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_3_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_3_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_3_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_4_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_4_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_3_4_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_3_4_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_1_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_1_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_2_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_2_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_2_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_2_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_3_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_3_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_3_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_3_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_4_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_4_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_4_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_4_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_4_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_4_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E"/>
+            <indicator id="VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_4.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_5_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_5_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_6_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_6_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_6" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_5.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_7_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_7_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_7_2_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_7_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_7" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_7" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_8_1_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_8_1_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_ACCESS"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_8_GRP" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_8_GRP" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GRP_CLOUD_SERVICES"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_GROUP_CLOUD_SERVICES_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_GALLERY_8" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_8" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="CLOUD_SERVICE"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_E2E_GALLERY_7.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

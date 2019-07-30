@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="TESTCONFIG_200" type="SQL" reportVersion="V1_0" reportRefId="TEST_260" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_202" type="SQL" reportVersion="V1_0" reportRefId="TEST_202" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_203" type="SQL" reportVersion="V1_0" reportRefId="TEST_203" computeScope="PARENT">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+			<locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_205" type="SQL" reportVersion="V1_0" reportRefId="TEST_268" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_261" type="SQL" reportVersion="V1_0" reportRefId="TEST_259" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="CONNECTIVITY"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_263" type="SQL" reportVersion="V1_0" reportRefId="TEST_261" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_264" type="SQL" reportVersion="V1_0" reportRefId="TEST_262" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_265_1" type="SQL" reportVersion="V1_0" reportRefId="TEST_265_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_265_2" type="SQL" reportVersion="V1_0" reportRefId="TEST_265_2" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_265_3" type="SQL" reportVersion="V1_0" reportRefId="TEST_265_3" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_265_4" type="SQL" reportVersion="V1_0" reportRefId="TEST_265_4" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_265" type="SQL" reportVersion="V1_0" reportRefId="TEST_263" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_266_1" type="SQL" reportVersion="V1_0" reportRefId="TEST_266_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_266_2" type="SQL" reportVersion="V1_0" reportRefId="TEST_266_2" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_267" type="SQL" reportVersion="V1_0" reportRefId="TEST_267" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO"/>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_269" type="SQL" reportVersion="V1_0" reportRefId="TEST_269" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="ATMXDSL"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="DIMCVP"/>
+            <paramType alias="LOGICALCONNECT"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_271" type="SQL" reportVersion="V1_0" reportRefId="TEST_271" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_272" type="SQL" reportVersion="V1_0" reportRefId="TEST_272" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_273" type="SQL" reportVersion="V1_0" reportRefId="TEST_272_1" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_275" type="SQL" reportVersion="V1_0" reportRefId="TEST_275" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_290" type="SQL" reportVersion="V1_0" reportRefId="TEST_277" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_291" type="SQL" reportVersion="V1_0" reportRefId="TEST_278" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_304" type="SQL" reportVersion="V1_0" reportRefId="TEST_289" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_309" type="SQL" reportVersion="V1_0" reportRefId="TEST_294" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE2"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_314" type="SQL" reportVersion="V1_0" reportRefId="TEST_299" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_315" type="SQL" reportVersion="V1_0" reportRefId="TEST_300" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_321" type="SQL" reportVersion="V1_0" reportRefId="TEST_306" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="TESTCONFIG_325" type="SQL" reportVersion="V1_0" reportRefId="TEST_310" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>SQL</type>
+            <format></format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri></uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

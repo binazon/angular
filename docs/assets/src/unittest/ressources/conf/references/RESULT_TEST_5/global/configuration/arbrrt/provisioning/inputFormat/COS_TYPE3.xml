@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>threshold_type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Type of threshold (low / high)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>threshold_value</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Value of the threshold 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sumDurationPeriodFlowReception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the period durations in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>number_period_reception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples for which the flow in reception overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_flow_squared_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared flows for which the flow in reception overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_flow_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the flows for which the flow in reception overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>flow_crossing_start_reception</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the begin of the hour 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>flow_crossing_nb_reception</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				The number of threshold crossing in reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>flow_crossing_end_reception</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the end of the hour 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>sumDurationPeriodFlowEmission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the period durations in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>number_period_emission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Number of samples for which the flow in emission overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>sum_flow_squared_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the squared flows for which the flow in emission overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>sum_flow_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				Sum of the flows for which the flow in emission overreaches the threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>flow_crossing_start_emission</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the begin of the hour 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>flow_crossing_nb_emission</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				The number of threshold crossing in emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>flow_crossing_end_emission</alias>
+        <dataFormat>BOOLEAN</dataFormat>
+        <comments><![CDATA[
+				Boolean that indicates if the threshold was crossed at the end of the hour 
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

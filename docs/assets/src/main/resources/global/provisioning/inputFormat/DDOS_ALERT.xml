@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/@id</columnName>
+        <alias>ALERT_ID</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[id of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/@type</columnName>
+        <alias>TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[type of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/duration/@length</columnName>
+        <alias>DURATION</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[length of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/duration/@ongoing</columnName>
+        <alias>ALERT_STATUS_ONGOING</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[status of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/duration/@start</columnName>
+        <alias>START_TIME</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[start time of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/duration/@stop</columnName>
+        <alias>STOP_TIME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[stop time of alert, empty if alert is ongoing]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/importance/@level</columnName>
+        <alias>LEVEL</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[severity of alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/resource/ip</columnName>
+        <alias>AFFECTED_IP_ADDRESS</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ip address of resource concerned by alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/resource/managed_object/@name</columnName>
+        <alias>AFFECTED_MANAGED_OBJECT</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[managed object name concerned by alert, it's a unique name used as a unique id]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/severity/@pct</columnName>
+        <alias>SEVERITY_PCT</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[percentage of overload over the threshold]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/severity/@threshold</columnName>
+        <alias>SEVERITY_THRESHOLD</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[threshold value]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/severity/@unit</columnName>
+        <alias>SEVERITY_UNIT</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[unit of threshold]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/impact_bps_points</columnName>
+        <alias>IMPACT_BPS_POINTS</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points in bits per second]]></comments>
+        <type></type>
+    </inputColumn>  
+    <inputColumn>
+        <columnName>/collected_alert/alert/impact_pps_points</columnName>
+        <alias>IMPACT_PPS_POINTS</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points in packets per second]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/alert/impact_recorded</columnName>
+        <alias>IMPACT_RECORDED</alias>
+        <dataFormat>VARCHAR(2000)</dataFormat>
+        <comments><![CDATA[traffic points time reference]]></comments>
+        <type></type>
+    </inputColumn>            
+    <inputColumn>
+        <columnName>/collected_alert/sourceName</columnName>
+        <alias>PEAKFLOW_SOURCE_NAME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[peakflow source name that generate the alert]]></comments>
+        <type></type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/collected_alert/timestamp</columnName>
+        <alias>UPDATE_TIME</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[update time of alert]]></comments>
+        <type></type>
+    </inputColumn>    
+</listInputColumn>

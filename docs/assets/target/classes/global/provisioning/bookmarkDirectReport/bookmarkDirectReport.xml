@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listBookmarkDirectReport>
+    <!-- START BB REPORTS -->
+    <bookmarkDirectReport label="BBPATHAVAIL_QOS">
+        <indicatorId>GLOBAL_PATH_AVAIL_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_QOS_INTERNET">
+        <indicatorId>GLOBAL_PATH_AVAIL_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_SLA">
+        <indicatorId>GLOBAL_PATH_AVAIL_SLA_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_SLA_INTERNET">
+        <indicatorId>GLOBAL_PATH_AVAIL_SLA_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_QOS">
+        <indicatorId>GLOBAL_PATH_PERF_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_QOS_INTERNET">
+        <indicatorId>GLOBAL_PATH_PERF_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_SLA">
+        <indicatorId>GLOBAL_PATH_PERF_SLA_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_SLA_INTERNET">
+        <indicatorId>GLOBAL_PATH_PERF_SLA_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <!-- END BB REPORTS -->
+	<!-- START BB HPROBE REPORTS -->
+	<!--
+     <bookmarkDirectReport label="BBPATHAVAIL_QOS">
+        <indicatorId>GLOBAL_PATH_AVAIL_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_QOS_INTERNET">
+        <indicatorId>GLOBAL_PATH_AVAIL_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_SLA">
+        <indicatorId>GLOBAL_PATH_AVAIL_SLA_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHAVAIL_SLA_INTERNET">
+        <indicatorId>GLOBAL_PATH_AVAIL_SLA_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_QOS">
+        <indicatorId>GLOBAL_PATH_PERF_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_QOS_INTERNET">
+        <indicatorId>GLOBAL_PATH_PERF_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_SLA">
+        <indicatorId>GLOBAL_PATH_PERF_SLA_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BBPATHPERF_SLA_INTERNET">
+        <indicatorId>GLOBAL_PATH_PERF_SLA_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERNET_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SHADOW_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>SHADOW_SITE</min>
+            <max>SHADOW_SITE</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    -->
+	<!-- END BB HPROBE REPORTS -->
+    <bookmarkDirectReport label="DEVICEAVAIL_QOS">
+        <indicatorId>DEVICE_AVAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="DEVICEAVAIL_QOS">
+        <indicatorId>DEVICE_AVAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_AP</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="TUNNELPERF_QOS">
+        <indicatorId>AVAILABILITY_PHYSICALCONNECTION</indicatorId>
+        <offerOptionAlias>IPER_E2E_TUNNEL_PERF_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>PHYSICALCONNECTION</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH">
+        <indicatorId>LOADRATE_IP_BW_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSTYPE0</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH">
+        <indicatorId>LOADRATE_IP_BW_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>INTERFACE</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSTYPE0</max>
+        </hierarchy>
+    </bookmarkDirectReport>    
+    <bookmarkDirectReport label="IP_BANDWIDTH">
+        <indicatorId>LOADRATE_IP_BW_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSTYPE0</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSTYPE0</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSTYPE0</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM1</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM1</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM2</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM2</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM3</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM3</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM4</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM4</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM5</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM5</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>COSNUM9</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSNUM9</max>
+        </hierarchy>
+    </bookmarkDirectReport>  
+    <bookmarkDirectReport label="IP_BANDWIDTH_COS">
+        <indicatorId>COSTYPE0_DETAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COSTYPE0</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="IP_BANDWIDTH_IBR">
+        <indicatorId>GLOBAL_SUMMARY_IBR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>                          
+    <bookmarkDirectReport label="PATHAVAIL_QOS">
+        <indicatorId>DETAIL_PATH_AVAIL_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>PATH</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="PATHAVAIL_SLA">
+        <indicatorId>GLOBAL_PATH_AVAIL_SLA_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+        <additionalParamTypeAlias></additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="PATHPERF_QOS">
+        <indicatorId>RTD_JITTER_PLR_LIRT_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="PATHPERF_SLA">
+        <indicatorId>GLOBAL_PATH_PERF_SLA_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+        <additionalParamTypeAlias></additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="ROUTERPERF_QOS">
+        <indicatorId>CPU_MEMORY_DEVICE_AVAILABLE_COMBO_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_ROUTER_PERF_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ROUTER</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="SITEAVAIL_QOS">
+        <indicatorId>DETAIL_SITE_AVAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>TOPO_SITE</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="SITEAVAIL_SLA">
+        <indicatorId>GLOBAL_SITE_AVAIL_SLA_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+        <additionalParamTypeAlias></additionalParamTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="STARGATE_QOS">
+        <indicatorId>CURRENT_CONTROLLER_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_AP</paramTypeAlias>
+        <hierarchy>
+            <min>SWITCH_AP</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="STARGATE_QOS">
+        <indicatorId>CPU_MEMORY_DEVICE_AVAILABLE_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH</paramTypeAlias>
+        <hierarchy>
+                <min>SWITCH</min>
+                <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="DATA-RE_SITE">
+        <indicatorId>GLOBAL_VOLUMETRY_PER_SITE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>DATA_SITE</paramTypeAlias>
+        <hierarchy>
+            <min>DATA_SITE</min>
+            <max>COS</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="GALLERY">
+        <indicatorId>GLOBAL_SUMMARY_CLOUD_SERVICE_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="DATA-RE_PROBE">
+        <indicatorId>RTD_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+	<bookmarkDirectReport label="DATA-RE_PROBE">
+        <indicatorId>RTD_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT_GALRE</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="DATA-RE_DEVICE">
+        <indicatorId>CPU</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ROUTER</paramTypeAlias>
+        <hierarchy>
+            <min>ROUTER</min>
+            <max>COS</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="DATA-RE_DEVICE">
+        <indicatorId>CPU</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH</paramTypeAlias>
+        <hierarchy>
+            <min>SWITCH</min>
+            <max>COS</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+	<bookmarkDirectReport label="DATA-RE_DEVICE">
+        <indicatorId>GLOBAL_SUMMARY_CLOUD_SERVICE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT_CLOUD</paramTypeAlias>
+        <hierarchy>
+            <min></min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>APPLI-SERVER</paramTypeAlias>
+        <hierarchy>
+            <min>APPLI-SERVER</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>APPLI-SERVER-AC</paramTypeAlias>
+        <hierarchy>
+            <min>APPLI-SERVER-AC</min>
+            <max>COS</max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>IPT-SERVER</paramTypeAlias>
+        <hierarchy>
+            <min>IPT-SERVER</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ANALOG-GATEWAY</paramTypeAlias>
+        <hierarchy>
+            <min>ANALOG-GATEWAY</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEDIA-GATEWAY</paramTypeAlias>
+        <hierarchy>
+            <min>MEDIA-GATEWAY</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+    <bookmarkDirectReport label="BT IPBX_DEVICE">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>VOICE-GATEWAY</paramTypeAlias>
+        <hierarchy>
+            <min>VOICE-GATEWAY</min>
+            <max></max>
+        </hierarchy>
+    </bookmarkDirectReport>
+</listBookmarkDirectReport>

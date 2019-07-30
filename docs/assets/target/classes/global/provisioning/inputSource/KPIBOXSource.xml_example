@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listKPIBOXSource>
+<KPIBOXSource>
+    <source name="PKI1" class="KPIBOXSource" pollingPeriod="3600" timeZone="GMT"/>
+    <retentionTime>7</retentionTime>
+    <authority host="10.238.22.187"/>
+</KPIBOXSource>
+</listKPIBOXSource>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="COS__A" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA_PCSNMP_COS</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/COS_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="COS__L" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA_PCSNMP_COS</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/COS_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MAQ_v1.0_E" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_QUALITY_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_QUALITY_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MCD_v3.0_L" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/MEASURE_RAW_MCD_V3.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MCD_v4.0_L" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/MEASURE_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MDD_v1.0_A" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>LOGICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/LOGICALCONNECTION_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MDD_v1.0_F" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>LOGICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/LOGICALCONNECTION_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MED_v4.0_E" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MED_v4.0_P" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MED_v4.0_S" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SLOT_CPU_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/SLOT_CPU_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="MED_v4.0_U" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="RAD__A" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RADIO_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_RADIO_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="RAD__P" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RADIO_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_RADIO_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_APLNK_v1.0_H" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>AP_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/AP_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_MED_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_DSP_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_DSP_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_VOICE_v1.0_H" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_VOICE_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_VOICE.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_VOIP_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_DSP_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_VOIP_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_VOICE_GW_v1.0_H" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_VOICE_GW_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_VOICE_GW_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_VOICE_SBC_v1.0_H" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_VOICE_SBC_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_VOICE_SBC_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_VOICE_TK_v1.0_H" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_VOICE_TK_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_VOICE_TK_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <!-- ##### B2G ##### -->
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_CMG_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_CMG_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_CMG_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_CMS_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_CMS_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_CMS_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_HWCNF_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_HWCNF_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_HWCNF_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_IPCCM_v2.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_IPTSERV_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_IPTSERV_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_IPWIN_v2.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_IPTSERV_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_IPTSERV_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_IPPH_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_IPPH_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_IPPH_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_TRUNK_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_TRUNK_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/PHYSICALCONNECTION_TRUNK_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_MODMG_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_MODMG_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_MODMG_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG" type="BATCH" reportVersion="V1_0" reportRefId="STAT_MODMS_v1.0_G" computeScope="ENTITY" optional="false">
+        <listParamType/>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_MODMS_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/collect/extended/output/EQUIPMENT_MODMS_RAW.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+</listReportConfig>

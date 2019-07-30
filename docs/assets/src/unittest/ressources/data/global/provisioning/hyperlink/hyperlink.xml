@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listHyperlink>
+    <hyperlink label="CPU_AS_HYPERLINK">
+        <indicatorId>CPU</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM1_AS_HYPERLINK">
+        <indicatorId>MEMORY</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM2_AS_HYPERLINK">
+        <indicatorId>MEMORY</indicatorId>
+        <offerOptionAlias>BIV-SIP-DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_BY_SITE_AS_HYPERLINK">
+        <indicatorId>GLOBAL_VOLUMETRY_PER_SITE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>DATA_SITE</paramTypeAlias>
+    </hyperlink>
+</listHyperlink>

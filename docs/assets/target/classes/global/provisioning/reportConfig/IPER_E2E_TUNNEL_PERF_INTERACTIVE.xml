@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_854_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_854" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="AVAILABILITY_PHYSICALCONNECTION"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_854.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_857_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_857" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="AVAILABILITY_PHYSICALCONNECTION"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_854.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

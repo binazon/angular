@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>options</columnName>
+        <alias>options</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Options list]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>meetingkey</columnName>
+        <alias>meetingkey</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[meeting key]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Date, [0..23] for daily and [1..31] for Monthly
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>EntityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>HEADER1</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>TempsTotalCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				CPU toltal time
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>ChargeTotaleCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				CPU load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>MinChargeCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Minimum CPU load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>THMinChargeCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of minimum CPU load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>MaxChargeCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Maximum CPU load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>THMaxChargeCPU</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of maximum CPU load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>TempsTotalMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				MEM toltal time
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c39</columnName>
+        <alias>ChargeTotaleMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				MEM load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c50</columnName>
+        <alias>MinChargeMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Minimum MEM load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c51</columnName>
+        <alias>THMinChargeMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of minimum MEM load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c52</columnName>
+        <alias>MaxChargeMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Maximum MEM load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c53</columnName>
+        <alias>THMaxChargeMEM</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of maximum MEM load
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c96</columnName>
+        <alias>DiskUsage</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Disk Usage, last value of the period
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c101</columnName>
+        <alias>MinDiskUsage</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Minimum Disk Usage
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c102</columnName>
+        <alias>THMinDiskUsage</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of minimum Disk Usage
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c103</columnName>
+        <alias>MaxDiskUsage</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Maximum Disk Usage
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c104</columnName>
+        <alias>THMaxDiskUsage</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Time slot of maximum Disk Usage
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

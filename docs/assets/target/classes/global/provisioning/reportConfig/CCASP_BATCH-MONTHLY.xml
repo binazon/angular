@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_1317" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1317" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CCASP_CUSTOMER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_ccasp_peak_port_usage_customer_{END_YYMM}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1156.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_1318" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1318" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CCASP_CUSTOMER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_ccasp_telephony_cdr_{END_YYMM}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1157.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	
+	<reportConfig alias="REPORTCONFIG_CCASP_USAGE_PEAK_PORTS" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_CCASP_USAGE_PEAK_PORTS" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="CCASP_CUSTOMER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+			<locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix> <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_ccasp_peak_port_usage_customer_{END_YYMM}.doc</locationPatternSuffix>            <uri>global/configuration/arbopr/output/{version}/REPORT_CCASP_USAGE_PEAK_PORTS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+
+    
+</listReportConfig>

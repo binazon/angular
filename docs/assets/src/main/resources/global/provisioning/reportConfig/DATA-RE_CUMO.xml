@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_269_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_377_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyvpn_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_269_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_270_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_382_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyvpnbycos_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_270_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_276" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_276_6" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+            <paramType alias="DATA_SITE_CLOUD"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebysite_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_288_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_293_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_283_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyzone_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_293_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_318_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_307_6" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebysitebycos_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_318_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_330_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_307_8" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyzonebycos_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_330_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_331_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_375_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebycos_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_331_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_341_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_344_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolume_{END_YYMM}_{FILTER_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_341_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_394" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_392" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_switch_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_264_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_395" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_logicalconnect_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_395" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_393" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_switchvlan_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_392.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_396" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_391_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_interface_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_391_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_396" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_394" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+            <paramType alias="DATA_SITE_CLOUD"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebysite_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_297_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_397" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_391" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_access_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_391.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_397" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_395" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyzone_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_298_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_398" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_atmxdsl_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_398" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_396" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolume_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_299_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_399_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_nconnect_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_399" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_atmvlan_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_399" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_397" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebyaccess_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_261_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_400" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_257" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_router_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_263_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_400" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_398" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="RADIO"/>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_radio_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_394.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_402" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_388" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_cos_{START_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_396.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_402_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_388_COSBE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE2"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_cosbe_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_CUMO_COSBE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_403" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_389" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_switchport_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_393.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_404" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_399" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_chrono_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_395.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_405" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_308_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebycos_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_319_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_406" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_288_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebyaccessbycos_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_312_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_407" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_350" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyzonebycos_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_397.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_408" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_351" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebysitebycos_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_398.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_409" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_352" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyvpnbycos_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_399.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_410" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_353" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebyvpn_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_389.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_411" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_354" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_rtd_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_388.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1200" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1200" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebyatmvlan_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1200.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1302" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1302" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebycosbe_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1302.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1303" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1303" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_ZONE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebycosbebyzone_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1303.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1304" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1304" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_volumebycosbebysite_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1304.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1305" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1305" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_globalvolumebycosbebyextremity_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1305.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_1306" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_4" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_dimcvp_{END_YYMM}_{FILTER_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_4_CUMO_DIMCVP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

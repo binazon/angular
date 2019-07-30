@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  When a new logicalConnectionType is defined, add this subtype in the file -->
+<!--  TypeSubtypeConfiguration in the part LOGICALCONNECT -->
+<logicalConnections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <logicalConnection cialServiceType="SOD*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECTION_CLOUD</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="MANETHERNET" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>CONNECTIVITY</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="CORPORATE" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="BIA*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="VPO*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="VPP*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="BIE*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="BAA*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="BAB*" serviceType="*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>LOGICALCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="D" objectType="*" accessDSLType="*">
+    <logicalConnectionType>DIMCVP</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="A" objectType="*" accessDSLType="*">
+    <logicalConnectionType>DIMCVP</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="V" objectType="*" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="VL" objectType="*" accessDSLType="*">
+    <logicalConnectionType>VLAN</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="S*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>ATMXDSL</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="B*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="BA" objectType="*" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="BE" objectType="*" accessDSLType="*">
+    <logicalConnectionType>VLAN</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="BF" objectType="*" accessDSLType="*">
+    <logicalConnectionType>DIMCVP</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="F*" objectType="*" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="VRADIO" accessDSLType="*">
+    <logicalConnectionType>WIFI</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="NVRADIO" accessDSLType="*">
+    <logicalConnectionType>WIFI</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="NCONNECT" accessDSLType="*">
+    <logicalConnectionType>NCONNECT</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="DLCI" accessDSLType="*">
+    <logicalConnectionType>DIMCVP</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="DLCI_CPE" accessDSLType="*">
+    <logicalConnectionType>DIMCVP</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="VCL" accessDSLType="*DSL*">
+    <logicalConnectionType>ATMXDSL</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="VCL" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="VPIVCI" accessDSLType="*DSL*">
+    <logicalConnectionType>ATMXDSL</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="VPIVCI" accessDSLType="*">
+    <logicalConnectionType>ATM</logicalConnectionType>
+  </logicalConnection>
+  <logicalConnection cialServiceType="*" serviceType="ZZ" objectType="*" accessDSLType="*">
+    <logicalConnectionType>VLAN</logicalConnectionType>
+  </logicalConnection>
+</logicalConnections>

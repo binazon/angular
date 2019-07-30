@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_818" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_818" computeScope="PARTITION" optional="false">
+        <listParamType>
+        	<paramType alias="PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PATH_AVAIL_END_TO_END_SLA_TARGET_MONTHLY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_818.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_911" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_911" computeScope="PARTITION" optional="false">
+        <listParamType>
+        	<paramType alias="TOPO_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>SITE_AVAIL_END_TO_END_SLA_TARGET_MONTHLY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_911.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_916" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_899" computeScope="PARTITION" optional="false">
+        <listParamType>
+        	<paramType alias="LIRT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_END_TO_END_SLA_TARGET_MONTHLY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_916.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

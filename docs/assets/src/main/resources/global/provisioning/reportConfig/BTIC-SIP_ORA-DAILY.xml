@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+  <!--   <reportConfig alias="REPORTCONFIG_554_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_504_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SIP_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btic-sip/network_{STATGROUP_LOCATION}_{END_YYMMDD}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_504_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>  -->
+    
+    <reportConfig alias="REPORTCONFIG_555_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_505_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SIP_SITE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btic-sip/sites_{STATGROUP_LOCATION}_{END_YYMMDD}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_505_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>       
+        
+    <reportConfig alias="REPORTCONFIG_556_2" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_506_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SIP_SITE"/>            
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/btic-sip/talkers_{STATGROUP_LOCATION}_{END_YYMMDD}.csv</locationPatternPrefix>            
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_506_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+</listReportConfig>

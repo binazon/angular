@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_COS_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_COS_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_COS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_EQUIPMENT_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_EQUIPMENT_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_EQT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_EQUIPMENT_QUALITY_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_EQUIPMENT_QUALITY_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>EQUIPMENT_QUALITY_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_EQUIPMENT_QUALITY.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_LOGICALCONNECTION_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_LOGICALCONNECTION_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>LOGICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_LOGICALCONNECTION.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_MEASURE_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_MEASURE_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>MEASURE_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_MEASURE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_PHYSICALCONNECTION_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_PHYSICALCONNECTION_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_PHYSICALCONNECTION.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_RADIO_EQUANT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_RADIO_EQUANT" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>DAY_RAW</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>PHYSICALCONNECTION_RADIO_RAW</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_RADIO.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

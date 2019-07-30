@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_661_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_661_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_CUSTOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_656.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_661_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_661_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_CUSTOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_656.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_661" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_661" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_CUSTOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_656.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_662_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_662_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_VIRTUAL_ROOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_657.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_662_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_662_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_VIRTUAL_ROOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_657.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_662" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_662" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="VIRTUALROOM"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="OVP_READY_VIRTUAL_ROOM_LEVEL"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_657.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

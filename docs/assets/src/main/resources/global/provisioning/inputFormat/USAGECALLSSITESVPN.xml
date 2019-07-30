@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_OFFNET_IN</columnName>
+        <alias>ACCEPTED_CALLS_OFFNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS OFFNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_OFFNET_OUT</columnName>
+        <alias>ACCEPTED_CALLS_OFFNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS OFFNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_ONNET_IN</columnName>
+        <alias>ACCEPTED_CALLS_ONNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS ONNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_ONNET_OUT</columnName>
+        <alias>ACCEPTED_CALLS_ONNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS ONNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_OFFNET_IN</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_OFFNET_IN</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION OFFNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_OFFNET_OUT</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_OFFNET_OUT</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION OFFNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_ONNET_IN</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_ONNET_IN</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION ONNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_ONNET_OUT</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_ONNET_OUT</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION ONNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[Date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ENTITYID]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+
+     <inputColumn>
+        <columnName>NUMBER</columnName>
+        <alias>NUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[NUMBER]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SITE</columnName>
+        <alias>SITE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[SITE]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DIRECTION</columnName>
+        <alias>DIRECTION</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[DIRECTION]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>NETWORK_CALL_TYPE</columnName>
+        <alias>NETWORK_CALL_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[NETWORK_CALL_TYPE]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    
+    <inputColumn suppress="true">
+        <columnName>NUMBER</columnName>
+        <alias>NUMBER</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[NUMBER]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>SITE</columnName>
+        <alias>SITE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[SITE]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>DIRECTION</columnName>
+        <alias>DIRECTION</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[DIRECTION]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn suppress="true">
+        <columnName>NETWORK_CALL_TYPE</columnName>
+        <alias>NETWORK_CALL_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[NETWORK_CALL_TYPE]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    
+    <inputColumn>
+        <columnName>FAILED_CALLS_OFFNET_IN</columnName>
+        <alias>FAILED_CALLS_OFFNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS OFFNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS_OFFNET_OUT</columnName>
+        <alias>FAILED_CALLS_OFFNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS OFFNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS_ONNET_IN</columnName>
+        <alias>FAILED_CALLS_ONNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS ONNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS_ONNET_OUT</columnName>
+        <alias>FAILED_CALLS_ONNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS ONNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>REJECTED_CALLS_OFFNET_IN</columnName>
+        <alias>REJECTED_CALLS_OFFNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS OFFNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>REJECTED_CALLS_OFFNET_OUT</columnName>
+        <alias>REJECTED_CALLS_OFFNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS OFFNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>REJECTED_CALLS_ONNET_IN</columnName>
+        <alias>REJECTED_CALLS_ONNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS ONNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+
+    <inputColumn>
+        <columnName>REJECTED_CALLS_ONNET_OUT</columnName>
+        <alias>REJECTED_CALLS_ONNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS ONNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ROUTING_FEATURE</columnName>
+        <alias>ROUTING_FEATURE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Routing Feature (dto-von-oct)]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_OFFNET_IN</columnName>
+        <alias>SUCCESSFUL_CALLS_OFFNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS OFFNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_OFFNET_OUT</columnName>
+        <alias>SUCCESSFUL_CALLS_OFFNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS OFFNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_ONNET_IN</columnName>
+        <alias>SUCCESSFUL_CALLS_ONNET_IN</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS ONNET IN]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_ONNET_OUT</columnName>
+        <alias>SUCCESSFUL_CALLS_ONNET_OUT</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS ONNET OUT]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>TECH_TYPE</columnName>
+        <alias>TECH_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Technical type]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+	<inputColumn>
+        <columnName>DTOAPPLIED</columnName>
+        <alias>DTOAPPLIED</alias>
+        <dataFormat>Boolean</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+</listInputColumn>

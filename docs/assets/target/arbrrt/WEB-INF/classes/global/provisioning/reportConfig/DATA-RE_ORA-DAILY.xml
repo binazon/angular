@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_390_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_427_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/router_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_427.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_391_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_428_1" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/access_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_428.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_392_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_429_2" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/chrono_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_429.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_393_1" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_429_3" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LIRT"/>
+            <paramType alias="LIRT_GALRE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/rtd_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_429_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+	<!--     logical connections reports -->
+    <reportConfig alias="REPORTCONFIG_394" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/atmvlan_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_ORA_ATMVLAN.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_395" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_1_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/atmxdsl_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_1_ORA_ATMXDSL.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_396" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_2_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/logicalconnect_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_2_ORA_LOGICALCONNECT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_397" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_3_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="NCONNECT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/nconnect_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_3_ORA_NCONNECT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    
+    <reportConfig alias="REPORTCONFIG_398" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_4_DAY" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/dimcvp_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_4_ORA_DIMCVP.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_399" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_ORA_DAY_COS" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/cos_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_ORA_COS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_399" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_390_ORA_DAY_COSBE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="COSNUM1"/>
+            <paramType alias="COSNUM2"/>
+            <paramType alias="COSNUM3"/>
+            <paramType alias="COSNUM4"/>
+            <paramType alias="COSNUM5"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/oranda/{STATGROUP_DATA_FOLDER}/cosbe_{STATGROUP_LOCATION}_{END_YYMMDD}_{EXTERNAL_FILTER_ID}.csv</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_390_ORA_COSBE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

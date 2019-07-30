@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_817_HPROBE" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_817_HPROBE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="H_MEASURE"/>
+            <paramType alias="H_PATH"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_H_SMART_BB_INTERMEDIARY_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_817.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_850_HPROBE" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_850_HPROBE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_H_XNMS_BBR_RTD_INTERMEDIARY_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_850.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_851_HPROBE" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_851_HPROBE" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="H_MEASURE"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>txt</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_H_XNMS_BBR_PLR_JITTER_INTERMEDIARY_{START_YYMM}.txt</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_851.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

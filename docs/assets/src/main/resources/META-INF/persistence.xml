@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+    version="2.0">
+    
+    <!--
+    <persistence-unit name="persitenceUnit2" transaction-type="JTA">
+    	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>dataSourceRefReport</jta-data-source>
+        <properties>
+			<property name="eclipselink.logging.level" value="OFF"/>
+			<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+			<property name="eclipselink.ddl-generation.output-mode" value="database"/>
+			
+			 custom SessionLog implementation to use apache commons logging 1.1 API (so log4J) 
+            <property name="eclipselink.logging.logger" value="org.eclipse.persistence.logging.CommonsLoggingSessionLog"/>
+            
+		</properties>
+    </persistence-unit>
+   -->
+   
+    <persistence-unit name="persitenceUnit" transaction-type="JTA">
+    	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <jta-data-source>dataSourceRefReport</jta-data-source>
+        <properties>
+        		<property name="hibernate.transaction.jta.platform" value="org.hibernate.service.jta.platform.internal.SunOneJtaPlatform" />
+		        <property name="hibernate.archive.autodetection" value="class" />
+				<property name="hibernate.hbm2ddl.auto" value="update"/>
+				<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+				<property name="hibernate.jdbc.batch_size" value="10"/>
+				<!-- GLASSFISH SPECIFIC: The following property is necessary for
+				      deployment within Glassfish.  Note that each application
+				      server vendor has its own unique value. -->
+				<property name="hibernate.transaction.manager_lookup_class" value="org.hibernate.transaction.SunONETransactionManagerLookup" />
+				
+				<!--  
+				<property name="hibernate.transaction.manager_lookup_class" value="org.hibernate.transaction.SunONETransactionManagerLookup"/>
+		    	<property name="hibernate.transaction.factory_class" value="org.hibernate.transaction.JTATransactionFactory"/>
+				-->
+				<property name="hibernate.show_sql" value="false"/>
+				<property name="hibernate.format_sql" value="false"/>
+				<property name="hibernate.use_sql_comments" value="false"/>
+				<property name="hibernate.generate_statistics" value="false"/>
+				<!-- <prop key="hibernate.hbm2ddl.auto">create-drop</prop> -->
+				<!-- Optimization Hibernate -->
+				<property name="hibernate.jdbc.use_streams_for_binary" value="true"/>
+				<property name="hibernate.jdbc.batch_versioned_data" value="true"/>
+				<property name="hibernate.default_batch_fetch_size" value="8"/>
+				<property name="hibernate.cache.use_query_cache" value="false"/>
+				<property name="hibernate.max_fetch_depth" value="2"/>
+				<property name="hibernate.cache.use_second_level_cache" value="false"/>
+				<property name="jdbc.fetch_size" value="48"/>
+				<property name="jdbc.batch_size" value="24"/>
+				<property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider"/>
+				<property name="hibernate.bytecode.use_reflection_optimizer" value="true"/>
+				<property name="hibernate.order_updates" value="false"/>
+				<property name="hibernate.transaction.flush_before_completion" value="true"/>
+				<property name="hibernate.transaction.auto_close_session" value="false"/>
+				<property name="hibernate.connection.release_mode" value="auto"/>
+        </properties>
+    </persistence-unit>
+</persistence>

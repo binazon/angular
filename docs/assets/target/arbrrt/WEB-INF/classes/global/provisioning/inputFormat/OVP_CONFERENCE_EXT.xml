@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>../../../../../Scheduling-Data/Conference/Basic-Information/Conference-ID/@value</columnName>
+        <alias>CONFERENCE_ID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[id of conference]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../../../../Scheduling-Data/Conference/Basic-Information/Virtual-Conference-ID/@value</columnName>
+        <alias>VIRTUAL_CONFERENCE_ID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[id of conference]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../../../../Scheduling-Data/Resources/Conference-Service/MCU-Service-Prefix/@value</columnName>
+        <alias>MCU_SERVICE_PREFIX</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Desktop-Client/@value</columnName>
+        <alias>DESKTOP_CLIENT</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[String for dialing]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Dial-String/@value</columnName>
+        <alias>DIAL_STRING</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[String for dialing]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Failing-Attempts/@value</columnName>
+        <alias>FAILING_ATTEMPT</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[attempt failed]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../IP-ISDN-SIP/@value</columnName>
+        <alias>IP_ISDN_SIP</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[String for dialing]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Last-Failure-Cause/@value</columnName>
+        <alias>LAST_FAILURE_CAUSE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[attempt failed]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Name/@value</columnName>
+        <alias>NAME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ze name]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Party-Id/@value</columnName>
+        <alias>PARTY_ID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[party id]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>../../Terminal-Id/@value</columnName>
+        <alias>TERMINAL_ID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[attempt failed]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>/conferences/ConferenceData/Completed-Conference-Data/Actual-External-Terminals/Actual-External-Terminal</columnName>
+        <alias>xpath2</alias>
+        <dataFormat>XPATH</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>root</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>@Call-Type</columnName>
+        <alias>CALL_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Call-Type YYYY-MM-DDT22:31:42Z]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>@ConnectionTime</columnName>
+        <alias>CONNECTION_TIME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ConnectionTime YYYY-MM-DDT22:31:42Z]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>@Disconnection-Time</columnName>
+        <alias>DISCONNECTION_TIME</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[DisonnectionTime YYYY-MM-DDT22:31:42Z]]></comments>
+        <type>xpath3</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>List-of-Connection-Records/Connection</columnName>
+        <alias>xpath3</alias>
+        <dataFormat>XPATH</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>xpath2</type>
+    </inputColumn>
+</listInputColumn>

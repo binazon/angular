@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_CALLED</columnName>
+        <alias>ACCEPTED_CALLS_CALLED</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS CALLED]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ACCEPTED_CALLS_CALLING</columnName>
+        <alias>ACCEPTED_CALLS_CALLING</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[ACCEPTED CALLS CALLING]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_CALLED</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_CALLED</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION CALLED]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>CUMULATIVE_CALL_DURATION_CALLING</columnName>
+        <alias>CUMULATIVE_CALL_DURATION_CALLING</alias>
+        <dataFormat>BigInt</dataFormat>
+        <comments><![CDATA[CUMULATIVE CALL DURATION CALLING]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[Date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[ENTITYID]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS_CALLED</columnName>
+        <alias>FAILED_CALLS_CALLED</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS CALLED]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>FAILED_CALLS_CALLING</columnName>
+        <alias>FAILED_CALLS_CALLING</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[FAILED CALLS CALLING]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>OTHER_EXTREMITY_SITE</columnName>
+        <alias>OTHER_EXTREMITY_SITE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Other extremity Site]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>OTHER_EXTREMITY_TECH_TYPE</columnName>
+        <alias>OTHER_EXTREMITY_TECH_TYPE</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Other extremity Site]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>    
+    <inputColumn>
+        <columnName>REJECTED_CALLS_CALLED</columnName>
+        <alias>REJECTED_CALLS_CALLED</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS CALLED]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>REJECTED_CALLS_CALLING</columnName>
+        <alias>REJECTED_CALLS_CALLING</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[REJECTED CALLS CALLING]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_CALLED</columnName>
+        <alias>SUCCESSFUL_CALLS_CALLED</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS CALLED]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>SUCCESSFUL_CALLS_CALLING</columnName>
+        <alias>SUCCESSFUL_CALLS_CALLING</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[SUCCESSFUL CALLS CALLING]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+</listInputColumn>

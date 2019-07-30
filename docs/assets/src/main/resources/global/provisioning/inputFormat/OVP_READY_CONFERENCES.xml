@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>EntityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>Date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>MeetingKey</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				meeting key
+				
+				]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>Duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				conference duration
+				
+				]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>ACTUALPREDEFTERMINALS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of actual predefined terminals
+				
+				]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>ACTUALEXTERNTERMINALS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of actual external terminals
+				
+				]]></comments>
+        <type>GROUPED_DATA</type>
+    </inputColumn>
+</listInputColumn>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>multi_duration</columnName>
+        <alias>multi_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative duration of multipoint video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>multi_nb</columnName>
+        <alias>multi_nb</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative number of multipoint video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>p2p_duration</columnName>
+        <alias>p2p_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative duration of p2p video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>p2p_nb</columnName>
+        <alias>p2p_nb</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative number of p2p video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>total_duration</columnName>
+        <alias>total_duration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative duration of video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>total_nb</columnName>
+        <alias>total_nb</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[cumulative number of video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

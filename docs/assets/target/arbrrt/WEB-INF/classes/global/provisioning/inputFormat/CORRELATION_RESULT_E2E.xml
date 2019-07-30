@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId of the Measure
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>ParentId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				ParentId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				DATE
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>SLACLASS</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Class SLA of the measure (VOICE or DATA)
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>origin_equipment_Id</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				FDN of the origin Equipment
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>origin_equipment_CPU_max_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on CPU for origin equipment
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>origin_physicalConnection_Id</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				FDN of the origin physical connection			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>origin_physicalConnection_loadrate_out_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on loadrate OUT for origin physical connection
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>origin_physicalConnection_loadrate_in_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on loadrate IN for origin physical connection
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>end_equipment_Id</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				FDN of the end Equipment
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>end_equipment_CPU_max_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on CPU for end equipment
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>end_physicalConnection_Id</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				FDN of the end physical connection			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>end_physicalConnection_loadrate_out_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on loadrate OUT for end physical connection
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>end_physicalConnection_loadrate_in_threshold</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Threshold on loadrate IN for end physical connection
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>correlation_result</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Resulting correlation for the measure: NONE, BOTH, END_ONLY, ORIG_ONLY
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

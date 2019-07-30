@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+	<reportConfig alias="REPORTCONFIG_988_BB_INTERNET_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_988_BB_INTERNET_1"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_PERF_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_988.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_988_BB_INTERNET_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_988_BB_INTERNET_2"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_PERF_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_988.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_989_BB_INTERNET_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_989_BB_INTERNET_1"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_AVAIL_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_989.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_989_BB_INTERNET_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_989_BB_INTERNET_2"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_AVAIL_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_989.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_990_BB_INTERNET" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_990_BB_INTERNET"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_AVAIL_SLA_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_990.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_991_BB_INTERNET" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_991_BB_INTERNET"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="SHADOW_SITE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="GLOBAL_PATH_PERF_SLA_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_991.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_1"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="RTD_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_2"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="RTD_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_3" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_3"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="RTD_EXPERT_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_3.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_4"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="RTD_EXPERT_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_3.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_5"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="JITTER_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_5.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_6" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_6"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="JITTER_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_5.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_7" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_7"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="PLR_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_7.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_993_BB_INTERNET_8" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_993_8"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="ONE_WAY_H_MEASURE" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="PLR_MEASURE_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_993_7.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_995_BB_INTERNET_1" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_995_1"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="H_PATH" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="DETAIL_PATH_AVAIL_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_995.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+	<reportConfig alias="REPORTCONFIG_995_BB_INTERNET_2" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_995_2"
+		computeScope="ENTITY" optional="false">
+		<listParamType>
+			<paramType alias="H_PATH" />
+		</listParamType>
+		<listIndicator>
+			<indicator id="DETAIL_PATH_AVAIL_BACKBONE_H_PROBE" />
+		</listIndicator>
+		<reportOutput>
+			<type>INTERACTIVE</type>
+			<format>STATIC</format>
+			<locationPatternPrefix></locationPatternPrefix>
+			<locationPatternSuffix></locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/{version}/INTERACTIVE_995.xml</uri>
+		</reportOutput>
+		<criteria type="reportingGroup" value="REPORTINGGROUPREF" />
+	</reportConfig>
+</listReportConfig>

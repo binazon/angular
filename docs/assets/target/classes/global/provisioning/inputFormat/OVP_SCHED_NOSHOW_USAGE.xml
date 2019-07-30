@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>date</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>entityid</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_booking</columnName>
+        <alias>nb_booking</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[total number of booking]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_completed</columnName>
+        <alias>nb_completed</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of completed booking]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_noshow</columnName>
+        <alias>nb_noshow</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of noshow booking]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_sched</columnName>
+        <alias>nb_sched</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of scheduled video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_session</columnName>
+        <alias>nb_session</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[total number of video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nb_unsched</columnName>
+        <alias>nb_unsched</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[number of unscheduled video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

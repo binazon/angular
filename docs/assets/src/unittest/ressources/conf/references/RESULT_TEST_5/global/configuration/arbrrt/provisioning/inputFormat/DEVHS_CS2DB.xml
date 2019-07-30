@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>EqtFDN</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Equipment FDN, 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>DurOfThePrdOfPoll</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration of the period of polling, In seconds (ie 86400 for day)
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>SvcState</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Service State, 1 means "in service"
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>DurOfAllThePollPrd</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Duration of all the polling periods, In seconds
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

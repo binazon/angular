@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listNETFLOWSource>
+    <NETFLOWSource>
+        <source name="FLOWD1" class="NETFLOWSource" pollingPeriod="900"/>
+        <retentionTime>6</retentionTime>
+        <authority host="10.238.63.60"/>
+        <scheme>https</scheme>
+        <sslCertFile>/data/flf/arbpcx/collect/conf/client1.crt</sslCertFile>
+        <sslKeyFile>/data/flf/arbpcx/collect/conf/client1.key</sslKeyFile>
+    </NETFLOWSource>
+</listNETFLOWSource>

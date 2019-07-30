@@ -1,0 +1,20 @@
+#############
+#  Methods  #
+#############
+
+glassfish_status(){
+	APPLI_STATE=`%{productShellPath}/glassfish.sh supervision`
+	if [ $APPLI_STATE == "KO" ];  then
+		%{productShellPath}/glassfish.sh start
+	else
+		echo "Glassfish is already running"
+	fi
+}
+
+###############
+#  Execution  #
+###############
+
+# UnDeploy war 
+glassfish_status
+%{productShellPath}/glassfish.sh undeploy %{PlatonID}:%{delivery}

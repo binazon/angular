@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>call_source</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call_source
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>call_destination</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call_destination
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>call_subset_traffic</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call_subset_traffic
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>call_direction</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call_direction
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>start_time</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				start_time
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>call_duration</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				call_duration
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>mos</alias>
+        <dataFormat>Decimal</dataFormat>
+        <comments><![CDATA[
+				mos
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>pdd</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				pdd
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>rtd</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				rtd
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>termination_cause</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				termination_cause
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>termination_stage</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				termination_stage
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>network_position</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				network_position (Nominal or Backup)
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+</listInputColumn>

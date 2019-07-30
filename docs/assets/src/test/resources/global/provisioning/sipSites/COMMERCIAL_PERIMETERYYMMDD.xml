@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><groupsAndOffers>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>AAGCL</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>AAGCL</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>AAGCL</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>SCW0259779</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>SCW0259779</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>SCW0259779</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>BACARA</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>AGCALLIA</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>AGCALLIA</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BVPN-GALERIE">
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_5</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>AGCALLIA</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>EE</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>EE</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>EE</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>ORANGINA_SCHW</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>EE</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>ORANGINA</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>ORANGINA_SCHW</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>AAEA</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>AAEA</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>AAEA SCR</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>40-30</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>40-30</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>40-30</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>ALTEAD</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>ALTEAD</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2457764</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+					<option name="BTIC-SIP_ORA-DAILY">
+					</option>
+					<option name="BTIC-SIP_ORA-MONTHLY">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_5</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>ALTEAD</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>SYNERGIE</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>SYNERGIE</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2546429</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+					<option name="BTIC-SIP_ORA-DAILY">
+					</option>
+					<option name="BTIC-SIP_ORA-MONTHLY">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_2</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>SYNERGIE</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>UNILABS</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>UNILABS</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2456779</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+					<option name="BTIC-SIP_ORA-DAILY">
+					</option>
+					<option name="BTIC-SIP_ORA-MONTHLY">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_3</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>UNILABS</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>VILOGIA</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>VILOGIA</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2515848</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+					<option name="BTIC-SIP_ORA-DAILY">
+					</option>
+					<option name="BTIC-SIP_ORA-MONTHLY">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>VILOGIA SCR</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>METROLOGIE</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>METROLOGIE</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2655626</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+					<option name="BTIC-SIP_ORA-DAILY">
+					</option>
+					<option name="BTIC-SIP_ORA-MONTHLY">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>A+METROLOGIE SCR</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+	<group>
+		<origin>SCE</origin>
+		<reportingGroupRef>DOMVILLE</reportingGroupRef>
+		<perimeter>
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>DOMVILLE</groupingValue>
+			</rule>
+
+			<rule>
+				<groupingCriteria>domains</groupingCriteria>
+				<groupingValue>xsip2433545</groupingValue>
+			</rule>
+		</perimeter>
+		<offers>
+			<offer name="BTIC-SIP">
+				<options>
+					<option name="BTIC-SIP_DOC">
+					</option>
+					<option name="BTIC-SIP_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATA-RE">
+
+				<filterId>FILTER_ID_1</filterId>
+				<options>
+					<option name="DATA-RE_CUMO">
+					</option>
+					<option name="DATA-RE_INTERACTIVE">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_0">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MOCKUP">
+					</option>
+					<option name="DATA-RE_INTERMEDIARY_MONTHLY">
+					</option>
+					<option name="DATA-RE_TARZAN">
+					</option>
+				</options>
+			</offer>
+			<offer name="DATARE_NASCABAN">
+			</offer>
+		</offers>
+		<infos>
+			<label>DOM''''VILLE SERVICES</label>
+			<language>fr_FR</language>
+			<timezone>CET</timezone>
+			<source>PAPYRUS</source>
+		</infos>
+	</group>
+
+
+</groupsAndOffers>

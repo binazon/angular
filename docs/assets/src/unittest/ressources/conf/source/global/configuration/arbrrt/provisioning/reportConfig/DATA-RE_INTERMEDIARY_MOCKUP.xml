@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_COS" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_COS" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/COS_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_COS.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_EQUIPMENT" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_EQUIPMENT" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/EQUIPMENT_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_EQT.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_LOGICALCONNECTION" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_LOGICALCONNECTION" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/LOGICALCONNECTION_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_LOGICALCONNECTION.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_MEASURE" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_MEASURE" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/MEASURE_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_MEASURE.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_PHYSICALCONNECTION" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_PHYSICALCONNECTION" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/PHYSICALCONNECTION_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_PHYSICALCONNECTION.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_MOCKUP_RADIO" type="DBH2" reportVersion="V1_0" reportRefId="REPORT_MOCKUP_RADIO" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="PHYSICALCONNECTION"/>
+        </listParamType>
+        <reportOutput>
+            <type>DBH2</type>
+            <format>MONO</format>
+            <locationPatternPrefix>{ROOT}/{ENTITY_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{START_YYMM}/{START_DD}/RADIO_RAW_{FORMAT}_{PARTITION_NUMBER}.h2.db</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/MOCKUP_REPORT_RADIO.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

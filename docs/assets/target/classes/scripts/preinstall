@@ -1,0 +1,59 @@
+# Plateform
+
+TMP_PLATEFORM_VALUE="PROD"
+if [ -n "${PLATEFORM:+x}" ]; then
+	TMP_PLATEFORM_VALUE=$PLATEFORM
+fi
+
+# Create the Platon group
+if [ "$(grep -i "^%{groupname}:" '/etc/group')" ]; then
+    echo "Group %{groupname} already exist, no add required"
+else
+	if [ "$(grep -i "^[^:]*:x:%{groupSystemID}:" '/etc/group')" ]; then
+		echo "Group ID %{groupSystemID} already used, please check it before restarting rpm install"
+		exit 2
+	else
+    	groupadd -g %{groupSystemID} %{groupname} > /dev/null 2>&1
+    fi
+fi
+
+# Create the Platon user and configure it
+if [ "$(grep -i "^%{username}:" '/etc/passwd')" ]; then
+    echo "User %{username} already exist, no add required"
+else
+	if [ "$(grep -i "^[^:]*:x:%{userSystemID}:" '/etc/passwd')" ]; then
+		echo "User ID %{userSystemID} already used, please check it before restarting rpm install"
+		exit 2
+	else
+	    useradd -g %{groupname} -m -u %{userSystemID} -d /users/%{username} -s /bin/bash -c "User for %{username}" -p `perl -e "print crypt('%{password}','pwdsalt')"` %{username} > /dev/null 2>&1
+		
+		if [ "$TMP_PLATEFORM_VALUE" = "PROD" ]; then
+			chage -E -1 -I -1 -m 7 -M 365 -W 30 %{username}
+		else
+			# Add to admin group for easier root access
+			usermod -a -G staff,sysadmin_wheel %{username}
+			
+			# Deactivate password expiration date
+	    	chage -E -1 -I -1 -m 0 -M -1 %{username}
+		fi
+	    
+	    # Increase the number of thread allowed for user %{username}
+	    fileNameConfLimit=/etc/security/limits.d/%{username}.conf
+	    if [ ! -f $fileNameConfLimit ]; then
+	        echo -e "%{username}\tsoft\tnproc\t30000" > $fileNameConfLimit
+	        echo -e "%{username}\thard\tnproc\t30000" >> $fileNameConfLimit
+	    fi
+    fi
+	    
+fi
+
+add_path_to_bash_profile(){
+	# Add %{shellPath}/opsh directory in default PATH
+	if [ -z "$(grep -i "# opsh %{shellPath} directory in default PATH" "$1/.bash_profile")" ]; then
+		echo "# opsh %{shellPath} directory in default PATH" >> $1/.bash_profile
+		echo "export PATH=\$PATH:%{execPath}/opsh/" >> $1/.bash_profile
+	fi
+}
+
+add_path_to_bash_profile "/users/%{username}"
+add_path_to_bash_profile "/root"

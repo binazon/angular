@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listSNMPSource>
+    <SNMPSource>
+        <source name="POL1" class="SNMPSource" pollingPeriod="9900"/>
+        <retentionTime>6</retentionTime>
+        <authority host="10.238.35.83" port="161"/>
+        <community>AsGeN</community>
+        <version>2</version>
+        <script>system</script>
+    </SNMPSource>
+    <SNMPSource>
+        <source name="POL2" class="SNMPSource" pollingPeriod="945"/>
+        <retentionTime>6</retentionTime>
+        <authority host="172.22.54.128" port="161"/>
+        <community>sitalanro</community>
+        <version>2</version>
+        <script>ipAcCisco</script>
+    </SNMPSource>
+    <SNMPSource>
+        <source name="POL3" class="SNMPSource" pollingPeriod="9900"/>
+        <retentionTime>6</retentionTime>
+        <authority host="10.238.35.83" port="161"/>
+        <community>AsGeN</community>
+        <version>2</version>
+        <script>system</script>
+    </SNMPSource>
+    <SNMPSource>
+        <source name="POL4" class="SNMPSource" pollingPeriod="3600"/>
+        <retentionTime>6</retentionTime>
+        <authority host="10.238.38.175" port="161"/>
+        <community>Read-Community</community>
+        <version>2</version>
+        <script>ipAcOneAcc</script>
+    </SNMPSource>
+</listSNMPSource>

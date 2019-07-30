@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>ENTITYID</columnName>
+        <alias>entityid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[entityid of terminal]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>DATE</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[date]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>nbSessions</columnName>
+        <alias>nbSessions</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[total number of video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>totalDuration</columnName>
+        <alias>totalDuration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[total duration of video sessions]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>rgLabel</columnName>
+        <alias>rgLabel</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[Name of the reporting group]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

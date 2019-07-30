@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventoryTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<inventoryVersion>1</inventoryVersion>
+	<openStatVersion>G03R00C00</openStatVersion>
+	<reportingGroupTable>
+		<attribute name="EQUIPMENT_CPU_T1"/>
+		<attribute name="EQUIPMENT_CPU_T2"/>
+		<attribute name="EQUIPMENT_MEMORY_T1"/>
+		<attribute name="EQUIPMENT_MEMORY_T2"/>
+		<attribute name="PHYSICAL_CONNECTION_WAN_T1"/>
+		<attribute name="PHYSICAL_CONNECTION_WAN_T2"/>
+		<attribute name="PHYSICAL_CONNECTION_LAN_T1"/>
+		<attribute name="PHYSICAL_CONNECTION_LAN_T2"/>
+		<attribute name="ATMXDSL_T1"/>
+		<attribute name="ATMXDSL_T2"/>
+		<attribute name="ATMVLAN_T1"/>
+		<attribute name="ATMVLAN_T2"/>
+		<attribute name="DIMCVP_T1"/>
+		<attribute name="DIMCVP_T2"/>
+		<attribute name="LOGICALCONNECT_T1"/>
+		<attribute name="LOGICALCONNECT_T2"/>
+		<attribute name="COS1_T1"/>
+		<attribute name="COS1_T2"/>
+		<attribute name="COS2_T1"/>
+		<attribute name="COS2_T2"/>
+		<attribute name="COS3_T1"/>
+		<attribute name="COS3_T2"/>
+		<attribute name="COS4_T1"/>
+		<attribute name="COS4_T2"/>
+		<attribute name="COS5_T1"/>
+		<attribute name="COS5_T2"/>
+		<attribute name="COS6_T1"/>
+		<attribute name="COS6_T2"/>
+		<attribute name="OriginAccessLoadRateHighThreshold"/>
+		<attribute name="OriginAccessLoadRateLowThreshold"/>
+		<attribute name="DestAccessLoadRateHighThreshold"/>
+		<attribute name="DestAccessLoadRateLowThreshold"/>
+		<attribute name="VoiceRTDDest"/>
+		<attribute name="VoiceRTDOrig"/>
+		<attribute name="Global_Volumetry_Choice"/>
+		<attribute name="TimeSlotStartMeeting"/>
+		<attribute name="TimeZoneCTSman"/>
+		<attribute name="VersionCTSman"/>
+	</reportingGroupTable>
+	<reportingEntityTable type="EQUIPMENT">
+		<attribute name="domain" />
+		<attribute name="manufacturer" />
+		<attribute name="voice_role" />
+		<attribute name="release" />
+		<attribute name="type" />
+		<attribute name="isShared" />
+		<attribute name="sareType" />
+		<attribute name="address" />
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<attribute name="hasStatData" />
+		<attribute name="cosType" />
+		<listAttribute name="addresses">
+			<parameter name="type"/>
+			<parameter name="value"/>
+		</listAttribute>
+		<link name="IPBXZONE" type="single"/>
+		<link name="ASSOCIATED_DEVICE"  target="EQUIPMENT"  type="complex" />
+		<link name="SITE" type="single"/>
+		<link name="ZONE" type="single"/>
+		<filter name="ANALOG-GATEWAY"/>
+		<filter name="APPLI-SERVER"/>
+		<filter name="EQUIPMENT_CLOUD"/>
+		<filter name="IPT-SERVER"/>
+		<filter name="MEDIA-GATEWAY"/>
+		<filter name="ROUTER"/>
+		<filter name="SWITCH"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="PHYSICALCONNECTION">
+		<attribute name="domain" />
+		<attribute name="sareType" />
+		<attribute name="way" />
+		<attribute name="comment"/>
+		<attribute name="listIPaddress"/>			
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<attribute name="hasStatData" />
+		<attribute name="cosType" />
+		<attribute name="USE_CIAL_BANDWIDTH" />
+		<attribute name="CIAL_TAIL_CIRCUIT_BANDWIDTH_UP" />
+		<attribute name="CIAL_TAIL_CIRCUIT_BANDWIDTH_DOWN" />	
+		<link name="EQUIPMENT" type="parent"/>
+		<filter name="ACCESS"/>
+		<filter name="ACCESS_CLOUD"/>
+		<filter name="GRPCON"/>
+		<filter name="INTERFACE"/>
+		<filter name="RADIO"/>
+		<filter name="RADIO_LAP"/>
+		<filter name="SWITCH_PORT"/>
+		<filter name="SWITCH_VLAN"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="LOGICALCONNECTION">
+		<attribute name="domain" />
+		<attribute name="serviceType" />
+		<attribute name="sareType" />
+		<attribute name="ACCESS_DSL_TYPE" />
+		<attribute name="CIAL_SERVICE_TYPE" />
+		<attribute name="AVG_BWD_IN" />
+		<attribute name="MAX_BWD_IN" />
+		<attribute name="AVG_BWD_OUT" />
+		<attribute name="MAX_BWD_OUT" />
+		<attribute name="CIAL_IP_BANDWIDTH_UP" />
+		<attribute name="CIAL_IP_BANDWIDTH_DOWN" />
+		<attribute name="CIAL_INTRANET_BWD" />
+		<attribute name="connectionNumber" />
+		<attribute name="serviceLabel" />
+		<attribute name="X121Address" />
+		<attribute name="cosType" />
+		<attribute name="deviceRole" />
+		<attribute name="srv_tech_reference" />
+		<attribute name="srv_cial_reference" />
+		<link name="PHYSICALCONNECTION" type="parent"/>
+		<filter name="ATM"/>
+		<filter name="ATMXDSL"/>
+		<filter name="CONNECTIVITY"/>
+		<filter name="DIMCVP"/>
+		<filter name="LOGICALCONNECT"/>
+		<filter name="LOGICALCONNECTION_CLOUD"/>
+		<filter name="NCONNECT"/>
+		<filter name="VLAN"/>
+		<filter name="WIFI"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="PHONEENTITY">
+		<attribute name="domain" />
+		<attribute name="type" />
+		<link name="IPBXZONE" type="single"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="VPN">
+		<filter name="GKVPN"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="SITE">
+		<attribute name="domain" />
+		<attribute name="opmName" />
+		<attribute name="siteGlobalCallLimiter" />
+		<attribute name="ndi" />
+		<attribute name="defaultAccessType" />
+		<attribute name="areaWithCallLimitation" />
+		<attribute name="SBC1" />
+		<attribute name="SBC2" />
+		<attribute name="hasStatData" />
+		<link name="VPN" type="parent" />
+		<link name="SBC" target="SBC" type="complex"/>
+		<filter name="DATA_SITE"/>
+		<filter name="DATA_SITE_CLOUD"/>
+		<filter name="GKSITE"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="ZONE">
+		<attribute name="domain" />
+		<attribute name="hasStatData" />
+		<filter name="DATA_ZONE"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="HUBPHONE">
+		<attribute name="domain" />
+	</reportingEntityTable>
+	<reportingEntityTable type="IPBXZONE">
+	</reportingEntityTable>
+	<reportingEntityTable type="SAN">
+		<attribute name="domain" />
+		<attribute name="CClabel" />
+		<link name="VPN" type="parent" />
+		<filter name="GKSAN"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="SBC">
+		<filter name="GKSBC"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="MEASURE">
+		<attribute name="domain" />
+		<attribute name="protocol" />
+		<attribute name="correlationType" />
+		<attribute name="SLAClass" />
+		<attribute name="COS" />
+		<attribute name="RTD" />
+		<attribute name="RTDValue" />
+		<attribute name="RTDThresholdB" />
+		<attribute name="RTDThresholdT3" />
+		<attribute name="JITTERDS" />
+		<attribute name="JITTERDSValue" />
+		<attribute name="JITTERDSThresholdB" />
+		<attribute name="JITTERDSThresholdT3" />
+		<attribute name="JITTERSD" />
+		<attribute name="JITTERSDValue" />
+		<attribute name="JITTERSDThresholdB" />
+		<attribute name="JITTERSDThresholdT3" />
+		<attribute name="PLRSD" />
+		<attribute name="PLRSDValue" />
+		<attribute name="PLRSDThresholdB" />
+		<attribute name="PLRSDThresholdT3" />
+		<attribute name="PLRDS" />
+		<attribute name="PLRDSValue" />
+		<attribute name="PLRDSThresholdB" />
+		<attribute name="PLRDSThresholdT3" />
+		<attribute name="PLR" />
+		<attribute name="PLRValue" />
+		<attribute name="PLRThresholdB" />
+		<attribute name="PLRThresholdT3" />
+		<link name="MEASURE" target="EQUIPMENT" type="complex" />
+		<link name="MEASURE" target="PHYSICALCONNECTION" type="complex" />
+		<link name="MEASURE" target="LOGICALCONNECTION" type="complex" />
+		<filter name="LIEN_RNIS"/>
+		<filter name="LIEN_RTC"/>
+		<filter name="LIEN_UMTS"/>
+		<filter name="LIRT"/>
+		<filter name="LIRT_GALRE"/>
+		<filter name="LIRT_GALSU"/>
+		<filter name="LIRT_STAT"/>
+	</reportingEntityTable>
+	<reportingEntityTable type="COS">
+		<attribute name="domain" />
+		<attribute name="NUM_COS" />
+		<attribute name="bandwidth_COS_IN" />
+		<attribute name="bandwidth_COS_OUT" />
+		<attribute name="subtype" />
+		<link name="PHYSICALCONNECTION" type="parent"/>
+		<link name="LOGICALCONNECTION" type="parent"/>
+		<filter name="COSTYPE0"/>
+		<filter name="COSTYPE1"/>
+		<filter name="COSTYPE2"/>
+		<filter name="COSTYPE3"/>
+		<filter name="COSTYPE4"/>
+	</reportingEntityTable>
+</inventoryTables>

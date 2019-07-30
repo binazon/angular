@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listGKSMPSource>
+<!--     <GKSMPSource> -->
+<!--         <source name="sourceName" class="GKSMPSource" pollingPeriod=3600" origin="ALL" timeZone="GMT"/> -->
+<!--         <publicKey></publicKey> -->
+<!--         <privateKey></privateKey> -->
+<!--         <passPhrase></passPhrase> -->
+<!--         <authority userName="Exmaple UserName" userPassword="12345" host="localhost" port="5454"/> -->
+<!--         <sourceDirectory>directory</sourceDirectory> -->
+<!--         <retentionTime>7</retentionTime> -->
+<!--     </GKSMPSource> -->
+</listGKSMPSource>

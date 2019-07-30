@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>ENTITYID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>PARENTID</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>DATE</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				Day
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_total_duration_sampling_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration for all samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_retained_duration_sampling_period</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the polling duration for not overloaded samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_nb_samples</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of samples
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_RTT</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the RTT
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_number_of_RTT</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the number of the RTT
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>sum_jitter_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the jitter SD
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>sum_jitter_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the jitter DS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>sum_number_of_RTT_minus_N</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the number of RTT minus N
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c11</columnName>
+        <alias>sum_packet_loss_SD</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the packet loss SD
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>sum_packet_loss_DS</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the packet loss DS
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>sum_packet_total</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				Sum of the total packets
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>sum_sample_nb_RTD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of samples where RTD is over SLA			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>sum_sample_nb_jitter_SD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of samples where jitter SD is over SLA			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>sum_sample_nb_jitter_DS_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of samples where jitter DS is over SLA				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>sum_sample_nb_PLR_SD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of samples where PLR SD is over SLA				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>sum_sample_nb_PLR_DS_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of samples where PLR DS is over SLA
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>sum_hours_nb_RTD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of hours where average RTD is over SLA			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>sum_hours_nb_jitter_SD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of hours where average jitter SD is over SLA			
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>sum_hours_nb_jitter_DS_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of hours where average jitter DS is over SLA				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>sum_hours_nb_PLR_SD_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of hours where average PLR SD is over SLA				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>sum_hours_nb_PLR_DS_over_SLA</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				nb of hours where average PLR DS is over SLA
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c24</columnName>
+        <alias>sum_hours_nb</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				total number of retained of hours
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>list_raw_values_RTD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				RTD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c26</columnName>
+        <alias>list_raw_values_jitter_SD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>list_raw_values_jitter_DS</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c28</columnName>
+        <alias>list_raw_values_PLR_SD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_SD values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>list_raw_values_PLR_DS</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_DS values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c30</columnName>
+        <alias>list_hourly_values_RTD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				RTD hourly values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>list_hourly_values_jitter_SD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_SD hourly values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c32</columnName>
+        <alias>list_hourly_values_jitter_DS</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				Jitter_DS hourly values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c33</columnName>
+        <alias>list_hourly_values_PLR_SD</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_SD hourly values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c34</columnName>
+        <alias>list_hourly_values_PLR_DS</alias>
+        <dataFormat>VARCHAR(1500)</dataFormat>
+        <comments><![CDATA[
+				PLR_DS hourly values
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

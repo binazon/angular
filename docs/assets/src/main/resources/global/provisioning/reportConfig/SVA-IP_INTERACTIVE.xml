@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+ <!-- Dummy, just to display offer Option in arbodb -->
+    <reportConfig alias="REPORTCONFIG_430" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_430_1" computeScope="REPORTING_GROUP" optional="false" suppress="true">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_LOAD_SAN"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_421.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_001" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_480" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_ROUTES_SVAIP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_470.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- ZSI DEB -->
+    <reportConfig alias="REPORTCONFIG_002" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_480_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_DAILY_SVAIP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_470_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_002" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_480_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SYNTHES_CALLS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_470_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <reportConfig alias="REPORTCONFIG_003" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_480_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_HOURLY_CALLS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_470_3.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <!-- Start Statistiques Fidélité IP 2322 -->
+    <reportConfig alias="REPORTCONFIG_474_4" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_474_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DISTRIBUTION_FIXE_MOBILE_CALLS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_4.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_474_5" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_474_5" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="REITERATION_CALLS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_5.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_474_6" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_474_6" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="NEW_CALLINGS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_6.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- End Statistiques Fidélité IP 2322 -->
+
+    <reportConfig alias="REPORTCONFIG_004" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_480_4" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="TOP_DEPARTEMENT_SVAIP"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_470_4.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+
+    <!-- ZSI FIN -->
+    <reportConfig alias="REPORTCONFIG_005" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_482" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_SUMMARY_ROUTING"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_472.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_006" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_482_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="HOURLY_SUMMARY_ROUTING"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_472_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_007" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_482_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="DAILY_SUMMARY_ROUTING"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_472_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+   <reportConfig alias="REPORTCONFIG_008" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_484" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="GLOBAL_REROUTING_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_009" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_484_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="REROUTING_SYNTHESIS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_010" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_484_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="REROUTING_DETAILS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- IP02266 -->
+    <reportConfig alias="REPORTCONFIG_015" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_484_3" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="SVAIP"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="REROUTING_ORIGIN_DETAILS"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_474_3.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <!-- Fin IP02266 -->
+    <reportConfig alias="REPORTCONFIG_011" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_486" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="GKRECEPTIONNUMBER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SUMMARY_ROUTING_ALL_NR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_476.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_012" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_487" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKRECEPTIONNUMBER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SUMMARY_ROUTING_ONE_NR"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_477.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_013" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_487_1" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKRECEPTIONNUMBER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SUMMARY_ROUTING_ONE_NR_DAILY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_477_1.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig> 
+    <reportConfig alias="REPORTCONFIG_014" type="INTERACTIVE" reportVersion="V1_0" reportRefId="REPORT_487_2" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="GKRECEPTIONNUMBER"/>
+        </listParamType>
+        <listIndicator>
+            <indicator id="SUMMARY_ROUTING_ONE_NR_HOURLY"/>
+        </listIndicator>
+        <reportOutput>
+            <type>INTERACTIVE</type>
+            <format>STATIC</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/INTERACTIVE_477_2.xml</uri>
+        </reportOutput>
+        <criteria type="default" value="DI"/>
+    </reportConfig>        
+</listReportConfig>

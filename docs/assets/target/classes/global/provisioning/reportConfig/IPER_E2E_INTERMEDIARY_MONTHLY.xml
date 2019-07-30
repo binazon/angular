@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_911" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_932" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_VPN_COS_TYPE0_E2E</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_941.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_914" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_935" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="VPN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_VPN_E2E</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_946.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_915" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_10_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS_CLOUD"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_ACCESS_TRAFFIC_GALLERY_E2E</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_E2E_GALLERY_10_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_915" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_E2E_GALLERY_10" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION_CLOUD"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_LOGICALCONNECTION_TRAFFIC_GALLERY_E2E</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_E2E_GALLERY_10.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_979_1" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_979_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_ACCESS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_1.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_979_2" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_979_2" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="LOGICALCONNECTION"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_LOGICALCONNECTION</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_2.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_979_3" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_979_3" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>IPCM_REQUIRED_IPBW_E2E_COS</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_979_3.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

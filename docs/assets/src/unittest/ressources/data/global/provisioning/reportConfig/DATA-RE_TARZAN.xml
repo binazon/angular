@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_207" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_207" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="APPLI-SERVER"/>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_router_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_242.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_208" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_208" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="INTERFACE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_interface_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_256.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_209" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_209" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_access_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_257.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_210" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_210" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_switch_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_243.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_211" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_211" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_portforswitch_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_282.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_212" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_212" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="SWITCH_VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_vlanforswitch_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_283.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_213" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_213" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_site_01_1.0_usa_m{END_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_297.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_214" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_214" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_globalvolume_01_1.0_usa_m{END_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_299.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_215" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_215" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_globalvolumebyaccess_01_1.0_usa_m{END_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_261.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_216" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_216" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_zone_01_1.0_usa_m{END_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_298.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_218" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_218" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="RADIO"/>
+            <paramType alias="RADIO_LAP"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_radio_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_260.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_219" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_219" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATMXDSL"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_atmxdsl_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_267.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_220" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_220" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DIMCVP"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_dimcvp_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_268.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_221" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_221" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="CONNECTIVITY"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_atmvlancnx_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_269.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_222" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_222" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LOGICALCONNECT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_logicalconnection_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_270.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_260" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_258" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE0|ACCESS"/>
+            <paramType alias="COSTYPE0|ATM"/>
+            <paramType alias="COSTYPE0|ATMXDSL"/>
+            <paramType alias="COSTYPE0|DIMCVP"/>
+            <paramType alias="COSTYPE0|LOGICALCONNECT"/>
+            <paramType alias="COSTYPE0|VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_dataloadrate_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_234.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_262" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_264" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE3"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cosmanethernet_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_306.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_303" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_288" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE0|ACCESS"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_globalvolumebyaccessbycos_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_312.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_310" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_295" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE2"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_cosbe_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_290.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_316" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_301" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="LIRT"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_rtd_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_307.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_323" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_308" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="DATA_SITE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_globalvolumebycos_01_1.0_fra_m{END_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_319.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_326" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_311" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="MEASURE"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_chrono_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_321.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_333" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_318" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="COSTYPE0|ACCESS"/>
+            <paramType alias="COSTYPE0|ATM"/>
+            <paramType alias="COSTYPE0|ATMXDSL"/>
+            <paramType alias="COSTYPE0|DIMCVP"/>
+            <paramType alias="COSTYPE0|LOGICALCONNECT"/>
+            <paramType alias="COSTYPE0|VLAN"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>tarzan</format>
+            <locationPatternPrefix>{ROOT}/{MOUNT}/{SHARED_FOLDER}/tarzan/{STATGROUP_LOCATION}/{STATGROUP_DATA_FOLDER}/openstat_datare_cs_cos_01_1.0_fra_m{START_YYMM}.xml</locationPatternPrefix>
+            <locationPatternSuffix></locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_329.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

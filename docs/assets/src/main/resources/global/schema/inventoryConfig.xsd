@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="inventoryConfig" xmlns=""
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="inventoryTables" msdata:IsDataSet="true"
+		msdata:Locale="en-US">
+		<xs:complexType>
+			<xs:choice minOccurs="1" maxOccurs="unbounded">
+				<xs:element name="inventoryVersion" type="xs:integer" />
+				<xs:element name="openStatVersion" type="xs:string" />
+				<xs:element name="reportingGroupTable">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="attribute" minOccurs="1" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Attribute to export for the ReportingGroup
+										table</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>Attribute name to export</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="type" type="xs:string" use="optional"
+										default="VARCHAR(130)">
+										<xs:annotation>
+											<xs:documentation>Attribute type to export (if needed)
+											</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="default" type="xs:string" use="optional">
+										<xs:annotation>
+											<xs:documentation>Default attribute value to export (if
+												needed)</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="reportingEntityTable">
+					<xs:complexType>
+						<xs:choice maxOccurs="unbounded">
+							<xs:element name="attribute" minOccurs="1" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Attribute to export for the current entity
+										table</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>Attribute name to export</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="type" type="xs:string" use="optional"
+										default="VARCHAR(130)">
+										<xs:annotation>
+											<xs:documentation>Attribute type to export (if needed)
+											</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="default" type="xs:string" use="optional">
+										<xs:annotation>
+											<xs:documentation>Default attribute value to export (if
+												needed)</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="listAttribute" minOccurs="0"
+								maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Attribute list to export for the current
+										entity table</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="parameter" minOccurs="0"
+											maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Item in attribute list to export for the
+													current entity table</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required">
+													<xs:annotation>
+														<xs:documentation>Item name in the attribute list to
+															export for the current entity table</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>Attribute list name</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="link" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Link to export for the current entity
+									</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="linkAttribute" minOccurs="0"
+											maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Link attribute to export
+												</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="name" type="xs:string" use="required">
+													<xs:annotation>
+														<xs:documentation>Name of the link attribute to export
+														</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+												<xs:attribute name="type" type="xs:string" use="optional"
+													default="VARCHAR(130)">
+													<xs:annotation>
+														<xs:documentation>Type of the link attribute to export (if
+															needed)</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>Name of the link to export
+											</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="target" type="xs:string" use="optional">
+										<xs:annotation>
+											<xs:documentation>Target of the link to export (for complex
+												type)</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+									<xs:attribute name="type" use="required">
+										<xs:annotation>
+											<xs:documentation>Type of the link to export
+											</xs:documentation>
+										</xs:annotation>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="single" />
+												<xs:enumeration value="complex" />
+												<xs:enumeration value="parent" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="filter" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Filter (i.e subtype) to export
+									</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>Name of the filter to export
+											</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+						<xs:attribute name="type" type="xs:string" use="required">
+							<xs:annotation>
+								<xs:documentation>Type of the entity to export
+								</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

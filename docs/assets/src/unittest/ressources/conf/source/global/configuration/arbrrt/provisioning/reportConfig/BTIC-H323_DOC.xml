@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_580" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_510" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_openstat_btic-h323_network_executive_summary.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_500.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_581" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_511" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_openstat_btic-h323_site_executive_summary.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_501.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_582" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_512" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_openstat_btic-h323_talkers_per_site.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_502.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_583" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_513" computeScope="ENTITY">
+        <listParamType>
+            <paramType alias="H323"/>
+        </listParamType>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{START_YYMM}_openstat_btic-h323_gu_executive_summary.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_503.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

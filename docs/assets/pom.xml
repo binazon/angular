@@ -1,0 +1,543 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.orange.srs testtds </groupId>
+		<artifactId>openstat-parent</artifactId>
+		<version>21.4.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>arbrrt</artifactId>
+	<packaging>war</packaging>
+	<name>arbrrt</name>
+	<description>RefReport</description>
+
+	<properties>
+
+		<!-- ====================== -->
+		<!-- Commom properties vars -->
+		<!-- ====================== -->
+
+		<parentPath>${project.parent.relativePath}/..</parentPath>
+
+		<id.platon>arbrrt</id.platon>
+		<basicat.platon>PLT</basicat.platon>
+		<username>adarbsta</username>
+		<password>_egoy</password>
+		<userid>11000</userid>
+		<groupname>gparbsta</groupname>
+		<groupid>11000</groupid>
+
+		<execPath>/exec/applis/${id.platon}</execPath>
+		<productShellPath>/exec/applis/arbsta/opsh</productShellPath>
+
+		<!-- ==================== -->
+		<!-- RefReport properties -->
+		<!-- ==================== -->
+
+		<arbrrtPath>${execPath}/${arbrrt.version}</arbrrtPath>
+
+		<arbrrt.warName>${id.platon}.war</arbrrt.warName>
+		<arbrrt.warPath>${arbrrtPath}/war</arbrrt.warPath>
+
+		<arbrrt.package>${id.platon}-${arbrrt.version}</arbrrt.package>
+
+		<!-- ================ -->
+		<!-- Build properties -->
+		<!-- ================ -->
+
+		<!-- Tell to the compiler we must use 1.8 -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<maven.compiler.encoding>ISO-8859-1</maven.compiler.encoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.orange.srs</groupId>
+			<artifactId>StatCommon</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.ejb</groupId>
+			<artifactId>javax.ejb-api</artifactId>
+			<version>3.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>2.21</version>
+			<scope>provided</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.21</version>
+			<scope>provided</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-moxy</artifactId>
+			<version>2.21</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.moxy</artifactId>
+			<version>2.6.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-osgi</artifactId>
+			<version>2.2.11</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>4.3.5.Final</version>
+		    <exclusions>
+			    <exclusion>
+					<groupId>xml-apis</groupId>
+					<artifactId>xml-apis</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-entitymanager</artifactId>
+		    <version>4.3.5.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.collections</groupId>
+			<artifactId>google-collections</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j</artifactId>
+			<version>1.9.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-shell</artifactId>
+			<version>1.9.9</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.ethz.ganymed</groupId>
+			<artifactId>ganymed-ssh2</artifactId>
+			<version>263</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode</groupId>
+			<artifactId>compress-j2me</artifactId>
+			<version>0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>de.ruedigermoeller</groupId>
+			<artifactId>fst</artifactId>
+			<version>1.58</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jzlib</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>de.schlichtherle.truezip</groupId>
+			<artifactId>truezip-file</artifactId>
+			<version>7.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>de.schlichtherle.truezip</groupId>
+			<artifactId>truezip-kernel</artifactId>
+			<version>7.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>de.schlichtherle.truezip</groupId>
+			<artifactId>truezip-driver-zip</artifactId>
+			<version>7.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>de.schlichtherle.truezip</groupId>
+			<artifactId>truezip-driver-tar</artifactId>
+			<version>7.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>de.schlichtherle.truezip</groupId>
+			<artifactId>truezip-driver-file</artifactId>
+			<version>7.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>tarUtils</groupId>
+			<artifactId>tarUtils</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Dependency for Mockito -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.10.19</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-api-mockito</artifactId>
+			<version>1.7.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-junit4</artifactId>
+			<version>1.7.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.6</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.21.0-GA</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<build>
+				<finalName>${id.platon}</finalName>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.10</version>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.5.1</version>
+						<configuration>
+							<source>1.8</source>
+							<target>1.8</target>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>properties-maven-plugin</artifactId>
+						<version>1.0-alpha-2</version>
+						<executions>
+							<execution>
+								<phase>initialize</phase>
+								<goals>
+									<goal>read-project-properties</goal>
+								</goals>
+								<configuration>
+									<files>
+										<file>${parentPath}\version.properties</file>
+									</files>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+				<pluginManagement>
+					<plugins>
+						<!--This plugin's configuration is used to store Eclipse m2e settings 
+							only. It has no influence on the Maven build itself. -->
+						<plugin>
+							<groupId>org.eclipse.m2e</groupId>
+							<artifactId>lifecycle-mapping</artifactId>
+							<version>1.0.0</version>
+							<configuration>
+								<lifecycleMappingMetadata>
+									<pluginExecutions>
+										<pluginExecution>
+											<pluginExecutionFilter>
+												<groupId>
+													org.codehaus.mojo
+												</groupId>
+												<artifactId>
+													properties-maven-plugin
+												</artifactId>
+												<versionRange>
+													[1.0-alpha-2,)
+												</versionRange>
+												<goals>
+													<goal>
+														read-project-properties
+													</goal>
+												</goals>
+											</pluginExecutionFilter>
+											<action>
+												<ignore></ignore>
+											</action>
+										</pluginExecution>
+									</pluginExecutions>
+								</lifecycleMappingMetadata>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+		<profile>
+			<id>delivery</id>
+			<build>
+				<finalName>${id.platon}</finalName>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.10</version>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.5.1</version>
+						<configuration>
+							<source>1.8</source>
+							<target>1.8</target>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>properties-maven-plugin</artifactId>
+						<version>1.0-alpha-2</version>
+						<executions>
+							<execution>
+								<phase>initialize</phase>
+								<goals>
+									<goal>read-project-properties</goal>
+								</goals>
+								<configuration>
+									<files>
+										<file>${parentPath}\version.properties</file>
+									</files>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+
+					<!-- RPM -->
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>rpm-maven-plugin</artifactId>
+						<version>2.1-alpha-1</version>
+						<executions>
+							<execution>
+								<phase>package</phase>
+								<goals>
+									<goal>rpm</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<name>${arbrrt.package}</name>
+							<copyright>Commercial</copyright>
+							<distribution>${project.description}</distribution>
+							<group>obs/srs</group>
+							<packager>Orange Business Services</packager>
+							<prefix>${arbrrtPath}</prefix>
+							<autoRequires>false</autoRequires>
+							<version>${arbrrt.release}</version>
+							<release></release>
+							<provides>
+								<provide>arbrrt</provide>
+								<provide>OpenReport</provide>
+							</provides>
+							<requires>
+								<require>glassfish</require>
+							</requires>
+							<mappings>
+								<mapping>
+									<directory>${arbrrtPath}/war</directory>
+									<username>${username}</username>
+									<groupname>${groupname}</groupname>
+									<filemode>0755</filemode>
+									<sources>
+										<source>
+											<location>target</location>
+											<includes>
+												<include>${arbrrt.warName}</include>
+											</includes>
+										</source>
+									</sources>
+								</mapping>
+								<mapping>
+									<directory>${arbrrtPath}/resources</directory>
+									<username>${username}</username>
+									<groupname>${groupname}</groupname>
+									<sources>
+										<source>
+											<location>src/main/resources/server</location>
+											<filter>true</filter>
+										</source>
+									</sources>
+								</mapping>
+								<mapping>
+									<directory>${arbrrtPath}/resources/properties</directory>
+									<username>${username}</username>
+									<groupname>${groupname}</groupname>
+									<sources>
+										<source>
+											<location>src/main/resources/META-INF/log4j.properties</location>
+										</source>
+									</sources>
+								</mapping>
+								<mapping>
+									<directory>${arbrrtPath}/opsh</directory>
+									<username>${username}</username>
+									<groupname>${groupname}</groupname>
+									<filemode>0755</filemode>
+									<sources>
+										<source>
+											<location>src/main/resources/opsh</location>
+											<includes>
+												<include>*</include>
+											</includes>
+											<filter>true</filter>
+										</source>
+									</sources>
+								</mapping>
+							</mappings>
+
+							<defineStatements>
+								<defineStatement>PlatonBASICAT ${basicat.platon}</defineStatement>
+								<defineStatement>PlatonID ${id.platon}</defineStatement>
+								<defineStatement>userSystemID ${userid}</defineStatement>
+								<defineStatement>groupSystemID ${groupid}</defineStatement>
+								<defineStatement>username ${username}</defineStatement>
+								<defineStatement>groupname ${groupname}</defineStatement>
+								<defineStatement>password ${password}</defineStatement>
+								<defineStatement>ver ${arbrrt.version}</defineStatement>
+								<defineStatement>rel ${arbrrt.release}</defineStatement>
+								<defineStatement>delivery ${arbrrt.version}</defineStatement>
+								<defineStatement>warFile ${arbrrt.warPath}/${arbrrt.warName}</defineStatement>
+								<defineStatement>execPath ${execPath}</defineStatement>
+								<defineStatement>signaturePath ${execPath}/signatures</defineStatement>
+								<defineStatement>shellPath ${execPath}/opsh</defineStatement>
+								<defineStatement>productShellPath ${productShellPath}</defineStatement>
+							</defineStatements>
+
+							<preinstallScriptlet>
+								<scriptFile>src/main/resources/scripts/preinstall</scriptFile>
+								<fileEncoding>utf-8</fileEncoding>
+							</preinstallScriptlet>
+							<postinstallScriptlet>
+								<scriptFile>src/main/resources/scripts/postinstall</scriptFile>
+								<fileEncoding>utf-8</fileEncoding>
+							</postinstallScriptlet>
+							<preremoveScriptlet>
+								<scriptFile>src/main/resources/scripts/preremove</scriptFile>
+								<fileEncoding>utf-8</fileEncoding>
+							</preremoveScriptlet>
+							<postremoveScriptlet>
+								<scriptFile>src/main/resources/scripts/postremove</scriptFile>
+								<fileEncoding>utf-8</fileEncoding>
+							</postremoveScriptlet>
+							<cleanScriptlet>
+								<scriptFile>src/main/resources/scripts/clean</scriptFile>
+								<fileEncoding>utf-8</fileEncoding>
+							</cleanScriptlet>
+						</configuration>
+					</plugin>
+				</plugins>
+				<pluginManagement>
+					<plugins>
+						<!--This plugin's configuration is used to store Eclipse m2e settings 
+							only. It has no influence on the Maven build itself. -->
+						<plugin>
+							<groupId>org.eclipse.m2e</groupId>
+							<artifactId>lifecycle-mapping</artifactId>
+							<version>1.0.0</version>
+							<configuration>
+								<lifecycleMappingMetadata>
+									<pluginExecutions>
+										<pluginExecution>
+											<pluginExecutionFilter>
+												<groupId>
+													org.codehaus.mojo
+												</groupId>
+												<artifactId>
+													properties-maven-plugin
+												</artifactId>
+												<versionRange>
+													[1.0-alpha-2,)
+												</versionRange>
+												<goals>
+													<goal>
+														read-project-properties
+													</goal>
+												</goals>
+											</pluginExecutionFilter>
+											<action>
+												<ignore></ignore>
+											</action>
+										</pluginExecution>
+									</pluginExecutions>
+								</lifecycleMappingMetadata>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+	</profiles>
+
+
+</project>

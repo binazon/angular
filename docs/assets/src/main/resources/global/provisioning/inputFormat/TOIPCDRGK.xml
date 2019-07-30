@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>call_id</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				gmt start time of call
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>gmt_start_time_of_call</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				gmt start time of call
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>gmt_end_time_of_call</alias>
+        <dataFormat>Timestamp</dataFormat>
+        <comments><![CDATA[
+				gmt end time of call
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>effective_call_duration</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				effective call duration
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>calling_number</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				calling number
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>called_number</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				called number
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c13</columnName>
+        <alias>id_calling_site</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id calling site
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>id_called_site</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id called site
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c15</columnName>
+        <alias>id_calling_san</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id called san
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>id_called_san</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id called san
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c17</columnName>
+        <alias>calling_country_code</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				calling country code
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>called_country_code</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				called country code
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>origin_trunk</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				origin trunk
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>destination_trunk</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				destination trunk
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>id_calling_vpn</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id calling vpn
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>id_called_vpn</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				id called vpn
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c30</columnName>
+        <alias>cdr_call_type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				cdr call type
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>dto_applied</alias>
+        <dataFormat>Int</dataFormat>
+        <comments><![CDATA[
+				dto applied
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c32</columnName>
+        <alias>invocation_side</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				invocation side
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c33</columnName>
+        <alias>keep_vpn_site_usage</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				keep vpn site usage
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c34</columnName>
+        <alias>keep_concurrent_src_site</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				keep concurrent src site
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c35</columnName>
+        <alias>keep_concurrent_dest_site</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				keep concurrent dest site
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c36</columnName>
+        <alias>is_san_upstream</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				is san upstream
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c37</columnName>
+        <alias>is_san_downstream</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				is san downstream
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c38</columnName>
+        <alias>is_trunk_upstream</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				is trunk upstream
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c39</columnName>
+        <alias>is_trunk_downstream</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				is trunk downstream
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c40</columnName>
+        <alias>network_call_type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				network call type
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c41</columnName>
+        <alias>call_classification</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call classification
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c42</columnName>
+        <alias>call_sub_classification</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call sub classification
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c43</columnName>
+        <alias>call_classification_comment</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				call classification comment
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c44</columnName>
+        <alias>geographic_zone</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				geographic zone
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c45</columnName>
+        <alias>is_mobile</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				is mobile
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c46</columnName>
+        <alias>tech_src_type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				tech src type
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c47</columnName>
+        <alias>tech_dest_type</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				tech dest type
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c48</columnName>
+        <alias>tech_comment</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				tech comment
+				
+				]]></comments>
+        <type>PG</type>
+    </inputColumn>
+</listInputColumn>

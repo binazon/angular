@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listHyperlink>
+    <hyperlink label="CPU_AS_HYPERLINK">
+        <indicatorId>CPU</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="CPU_IPER_AS_HYPERLINK">
+        <indicatorId>CPU</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="CPU_VOICEEQT_AS_HYPERLINK">
+        <indicatorId>CPU_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="DAILY_SUMMARY_ROUTING_AS_HYPERLINK">
+        <indicatorId>DAILY_SUMMARY_ROUTING</indicatorId>
+        <offerOptionAlias>SVA-IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SVAIP</paramTypeAlias>
+        <additionalParamTypeAlias>GKRECEPTIONNUMBER</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="DDOS_ALERTS_GRAPH_AS_HYPERLINK">
+        <indicatorId>DDOS_ALERTS_GRAPH</indicatorId>
+        <offerOptionAlias>DDOS_SI_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MANAGED_OBJECT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="DETAIL_PATH_AVAIL_BACKBONE">
+        <indicatorId>DETAIL_PATH_AVAIL_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>PATH</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="DETAIL_PATH_AVAIL_BACKBONE_H_PROBE_AS_HYPERLINK">
+        <indicatorId>DETAIL_PATH_AVAIL_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>H_PATH</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="DETAIL_PATH_AVAIL_END_TO_END_AS_HYPERLINK">
+        <indicatorId>DETAIL_PATH_AVAIL_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>PATH</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="DETAIL_SITE_AVAIL_END_TO_END_AS_HYPERLINK">
+        <indicatorId>DETAIL_SITE_AVAIL_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>TOPO_SITE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="DISK_VOICEEQT_AS_HYPERLINK">
+        <indicatorId>DISK_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="EMITTED_PLR_MEASURE_AS_HYPERLINK">
+        <indicatorId>EMITTED_PLR_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="EMITTED_PLR_MEASURE_AS_HYPERLINK_IEL">
+        <indicatorId>EMITTED_PLR_MEASURE_IEL</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="EMITTED_PLR_SLA_MEASURE_AS_HYPERLINK">
+        <indicatorId>EMITTED_PLR_SLA_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_ATMXDSL_AS_HYPERLINK">
+        <indicatorId>FLOW_ATMXDSL</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ATMXDSL</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_ATMXDSL_IPER_AS_HYPERLINK">
+        <indicatorId>FLOW_ATMXDSL</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ATMXDSL</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_ATM_AS_HYPERLINK">
+        <indicatorId>FLOW_ATM</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ATM</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_ATM_IPER_AS_HYPERLINK">
+        <indicatorId>FLOW_ATM</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ATM</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_CONNECTIVITY_AS_HYPERLINK">
+        <indicatorId>FLOW_CONNECTIVITY</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CONNECTIVITY</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_DIMCVP_AS_HYPERLINK">
+        <indicatorId>FLOW_DIMCVP</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>DIMCVP</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_DIMCVP_IPER_AS_HYPERLINK">
+        <indicatorId>FLOW_DIMCVP</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>DIMCVP</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_LOGICALCONNECT_AS_HYPERLINK">
+        <indicatorId>FLOW_LOGICALCONNECT</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_SWITCH_VLAN_AS_HYPERLINK">
+        <indicatorId>FLOW_SWITCH_VLAN</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_VLAN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_SWITCH_VLAN_IPER_AS_HYPERLINK">
+        <indicatorId>FLOW_SWITCH_VLAN</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_VLAN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_VLAN_AS_HYPERLINK">
+        <indicatorId>FLOW_VLAN</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>VLAN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLOW_VLAN_IPER_AS_HYPERLINK">
+        <indicatorId>FLOW_VLAN</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>VLAN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLR_MEASURE_AS_HYPERLINK">
+        <indicatorId>FLR_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLR_MEASURE_AS_HYPERLINK_IEL">
+        <indicatorId>FLR_MEASURE_IEL</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="FLR_SLA_MEASURE_AS_HYPERLINK">
+        <indicatorId>FLR_SLA_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="GATEWAY_USAGE_VOICEEQT_AS_HYPERLINK">
+        <indicatorId>GATEWAY_USAGE_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>APPLI-SERVER-AC</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="HOURLY_SUMMARY_ROUTING_AS_HYPERLINK">
+        <indicatorId>HOURLY_SUMMARY_ROUTING</indicatorId>
+        <offerOptionAlias>SVA-IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SVAIP</paramTypeAlias>
+        <additionalParamTypeAlias>GKRECEPTIONNUMBER</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="IperLink1">
+        <indicatorId>RTD_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="IperLink2">
+        <indicatorId>PLR_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_LIRT_BACKBONE_AS_HYPERLINK">
+        <indicatorId>JITTER_LIRT_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_MEASURE_BACKBONE_H_PROBE_AS_HYPERLINK">
+        <indicatorId>JITTER_MEASURE_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ONE_WAY_H_MEASURE</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_LIRT_END_TO_END_AS_HYPERLINK">
+        <indicatorId>RTD_JITTER_PLR_LIRT_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_MEASURE_AS_HYPERLINK">
+        <indicatorId>JITTER_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_MEASURE_IPER_AS_HYPERLINK">
+        <indicatorId>JITTER_MEASURE</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_MEASURE_AS_HYPERLINK_IEL">
+        <indicatorId>JITTER_MEASURE_IEL</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="JITTER_SLA_MEASURE_AS_HYPERLINK">
+        <indicatorId>JITTER_SLA_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_ACCESS_AS_HYPERLINK">
+        <indicatorId>LOADRATE_ACCESS_INTERFACE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_ACCESS_IPER_AS_HYPERLINK">
+        <indicatorId>LOADRATE_ACCESS_INTERFACE</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_CLOUD_ACCESS_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_CLOUD_LOGICALCONNECTION_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_CLOUD_SERVICE_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CLOUD_SERVICE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_GROUP_CLOUD_SERVICES_AS_HYPERLINK">
+        <indicatorId>LOADRATE_GROUP_CLOUD_SERVICES</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_GROUP_PER_CLOUD_ACCESS_AS_HYPERLINK">
+        <indicatorId>LOADRATE_GROUP_CLOUD_SERVICES</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_INTERFACE_AS_HYPERLINK">
+        <indicatorId>LOADRATE_ACCESS_INTERFACE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>INTERFACE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_INTERFACE_IPER_AS_HYPERLINK">
+        <indicatorId>LOADRATE_ACCESS_INTERFACE</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>INTERFACE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_PORT_AS_HYPERLINK">
+        <indicatorId>LOADRATE_PORT</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_PORT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_PORT_IPER_AS_HYPERLINK">
+        <indicatorId>LOADRATE_PORT</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SWITCH_PORT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM1_AS_HYPERLINK">
+        <indicatorId>MEMORY</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM1_IPER_AS_HYPERLINK">
+        <indicatorId>MEMORY</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM2_AS_HYPERLINK">
+        <indicatorId>MEMORY</indicatorId>
+        <offerOptionAlias>BIV-SIP-DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="MEM_VOICEEQT_AS_HYPERLINK">
+        <indicatorId>MEMORY_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_LIRT_BACKBONE_AS_HYPERLINK">
+        <indicatorId>PLR_LIRT_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_LIRT_END_TO_END_AS_HYPERLINK">
+        <indicatorId>RTD_JITTER_PLR_LIRT_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_MEASURE_AS_HYPERLINK">
+        <indicatorId>PLR_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_MEASURE_IPER_AS_HYPERLINK">
+        <indicatorId>PLR_MEASURE_IPER</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_MEASURE_BACKBONE_H_PROBE_AS_HYPERLINK">
+        <indicatorId>PLR_MEASURE_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ONE_WAY_H_MEASURE</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_MEASURE_AS_HYPERLINK_IEL">
+        <indicatorId>PLR_MEASURE_IEL</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PLR_SLA_MEASURE_AS_HYPERLINK">
+        <indicatorId>PLR_SLA_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="PSTN_CALLS_AS_HYPERLINK">
+        <indicatorId>PSTN_USAGE_SUMMARY</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>PHYSICALCONNECTION</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_EXPERT_LIRT_BACKBONE_AS_HYPERLINK">
+        <indicatorId>RTD_EXPERT_LIRT_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_LIRT_BACKBONE_AS_HYPERLINK">
+        <indicatorId>RTD_LIRT_BACKBONE</indicatorId>
+        <offerOptionAlias>IPER_BB_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_LIRT_END_TO_END_AS_HYPERLINK">
+        <indicatorId>RTD_JITTER_PLR_LIRT_END_TO_END</indicatorId>
+        <offerOptionAlias>IPER_E2E_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LIRT</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_MEASURE_AS_HYPERLINK">
+        <indicatorId>RTD_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_MEASURE_IPER_AS_HYPERLINK">
+        <indicatorId>RTD_MEASURE</indicatorId>
+        <offerOptionAlias>IPER_DATA_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_MEASURE_AS_HYPERLINK_IEL">
+        <indicatorId>RTD_MEASURE_IEL</indicatorId>
+        <offerOptionAlias>IPER_E2E_MANAGED_LAN_AND_IEL_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_EXPERT_MEASURE_BACKBONE_H_PROBE_AS_HYPERLINK">
+        <indicatorId>RTD_EXPERT_MEASURE_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ONE_WAY_H_MEASURE</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_MEASURE_BACKBONE_H_PROBE_AS_HYPERLINK">
+        <indicatorId>RTD_MEASURE_BACKBONE_H_PROBE</indicatorId>
+        <offerOptionAlias>IPER_BB-H_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ONE_WAY_H_MEASURE</paramTypeAlias>
+        <additionalParamTypeAlias>DATA_VPN</additionalParamTypeAlias>
+    </hyperlink>
+    <hyperlink label="RTD_SLA_MEASURE_AS_HYPERLINK">
+        <indicatorId>RTD_SLA_MEASURE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>MEASURE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="SBC_USAGE_VOICEEQT_AS_HYPERLINK">
+        <indicatorId>SBC_USAGE_VOICEEQT</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>APPLI-SERVER-AC</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="TRUNK_USAGE_AS_HYPERLINK">
+        <indicatorId>TRUNK_USAGE</indicatorId>
+        <offerOptionAlias>BT IPBX_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACTRUNK</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_BY_SITE_AS_HYPERLINK">
+        <indicatorId>GLOBAL_VOLUMETRY_PER_SITE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>DATA_SITE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_GROUP_CLOUD_SERVICES_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>NETWORK</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_GROUP_PER_CLOUD_ACCESS_BAR_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_GROUP_CLOUD_SERVICES_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_ACCESS_BAR_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_ACCESS_CURVE_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_LOGICALCONNECTION_BAR_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_LOGICALCONNECTION_CURVE_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_CURVE</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_SERVICE_BAR_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_AND_ACCESS_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CLOUD_SERVICE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_SERVICE_CURVE_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_BAR</indicatorId>
+        <offerOptionAlias>DATA-RE_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CLOUD_SERVICE</paramTypeAlias>
+    </hyperlink>
+    
+    <!-- NOUVEAUX HYPERLINKS -->    
+    <!-- 
+    	[ BTG-hkh_INTERACTIVE ]  
+    -->
+    <!-- detailed reports / <scope> / load distribution - <scope> (LOAD_SYNTHESIS) -->
+    <hyperlink label="LOAD_SYNTHESIS_GKVPN_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSITE_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSAN_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSAN</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKTRUNK_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSHAREDCALLLIMITER_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias> 
+    </hyperlink>
+    <!-- // detailed reports / <scope> / load distribution - <scope> (LOAD_SYNTHESIS) --> 
+     
+    <!-- detailed reports / <scope> / load variation - <scope> (LOAD_VARIATION) -->
+    <hyperlink label="LOAD_VARIATION_GKVPN_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSITE_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSAN_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSAN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKTRUNK_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSHAREDCALLLIMITER_BTCC_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias>
+    </hyperlink>   
+    <!-- // detailed reports / <scope> / load variation - <scope> (LOAD_VARIATION) -->
+    
+    <!-- detailed reports / <scope> / usage summary - <scope> (SYNTHESIS_OF_USAGE) -->      
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKVPN_BTCC_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE_VPN</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>
+    </hyperlink>
+    
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSITE_BTCC_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>
+    </hyperlink>
+    
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSAN_BTCC_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE_SAN</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSAN</paramTypeAlias>
+    </hyperlink>
+    
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKTRUNK_BTCC_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>
+    </hyperlink>
+    
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSHAREDCALLLIMITER_BTCC_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias>
+    </hyperlink> 
+    <!-- //detailed reports / <scope> / usage summary - <scope> (SYNTHESIS_OF_USAGE) -->     
+    
+    
+    <!-- 
+    	[ BTG-hkh-France_INTERACTIVE ]  
+    -->
+    <!-- detailed reports / <scope> / load distribution - <scope> (LOAD_SYNTHESIS) -->
+    <hyperlink label="LOAD_SYNTHESIS_GKVPN_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>        
+    </hyperlink>
+     <hyperlink label="LOAD_SYNTHESIS_GKSITE_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSAN_CALL_CENTER_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CALL_CENTER_NB</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSAN_RECEPTION_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>RECEPTION_NB</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSAN_UNIQUE_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CALL_CENTER_NB</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSAN_CONTINUITY_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CONTINUITY_NB</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKTRUNK_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>        
+    </hyperlink>
+    <hyperlink label="LOAD_SYNTHESIS_GKSHAREDCALLLIMITER_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_SYNTHESIS</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias> 
+    </hyperlink> <!-- -->
+    <!-- // detailed reports / <scope> / load distribution - <scope> (LOAD_SYNTHESIS) --> 
+     
+    <!-- detailed reports / <scope> / load variation - <scope> (LOAD_VARIATION) -->
+    <hyperlink label="LOAD_VARIATION_GKVPN_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>
+    </hyperlink>
+     <hyperlink label="LOAD_VARIATION_GKSITE_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSAN_CALL_CENTER_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CALL_CENTER_NB</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSAN_RECEPTION_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>RECEPTION_NB</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSAN_UNIQUE_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>UNIQUE_NB</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSAN_CONTINUITY_NB_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CONTINUITY_NB</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKTRUNK_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOAD_VARIATION_GKSHAREDCALLLIMITER_BTIP_AS_HYPERLINK">
+        <indicatorId>LOAD_VARIATION</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias>
+    </hyperlink> <!-- -->    
+    <!-- // detailed reports / <scope> / load variation - <scope> (LOAD_VARIATION) -->
+    
+    <!-- detailed reports / <scope> / usage summary - <scope> (SYNTHESIS_OF_USAGE) -->      
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKVPN_BTIP_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE_VPN</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKVPN_BTIP_FR_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE_BTIP_VPN</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKVPN</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSITE_BTIP_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSITE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSAN_BTIP_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE_SAN</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CALL_CENTER_NB</paramTypeAlias>
+    </hyperlink>       
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKTRUNK_BTIP_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKTRUNK</paramTypeAlias>
+    </hyperlink>    
+    <hyperlink label="SYNTHESIS_OF_USAGE_GKSHAREDCALLLIMITER_BTIP_AS_HYPERLINK">
+        <indicatorId>SYNTHESIS_OF_USAGE</indicatorId>
+        <offerOptionAlias>BTG-hkh-France_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKSHAREDCALLLIMITER</paramTypeAlias>
+    </hyperlink> <!-- -->
+    <!-- //detailed reports / <scope> / usage summary - <scope> (SYNTHESIS_OF_USAGE) -->     
+        
+    
+    <!-- 
+    	[ SVA-IP_INTERACTIVE ]  
+    -->
+    <!-- detailed reports / contact number / routings summary - contact number (SYNTHES_CALLS) -->     
+    <hyperlink label="GLOBAL_SUMMARY_ROUTING_AS_HYPERLINK">
+        <indicatorId>GLOBAL_SUMMARY_ROUTING</indicatorId>
+        <offerOptionAlias>SVA-IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SVAIP</paramTypeAlias> 
+    </hyperlink> <!-- -->
+    <!-- //detailed reports / contact number / routings summary - contact number (SYNTHES_CALLS) --> 
+    
+    <!-- detailed reports / contact number / reroutings summary - contact number (REROUTING_SYNTHESIS) -->     
+    <hyperlink label="REROUTING_DETAILS_AS_HYPERLINK">
+        <indicatorId>REROUTING_DETAILS</indicatorId>
+        <offerOptionAlias>SVA-IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>SVAIP</paramTypeAlias> 
+    </hyperlink>
+    <!-- //detailed reports / contact number / routings summary - contact number (REROUTING_SYNTHESIS) -->    
+    
+    <!-- detailed reports / reception number / synthesis calls - reception number -->
+    <hyperlink label="SUMMARY_ROUTING_ONE_NR_AS_HYPERLINK">
+        <indicatorId>SUMMARY_ROUTING_ONE_NR</indicatorId>
+        <offerOptionAlias>SVA-IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GKRECEPTIONNUMBER</paramTypeAlias> 
+    </hyperlink>
+     <!-- //detailed reports / reception number / synthesis calls - reception number --> 
+
+    <hyperlink label="LOADRATE_CLOUD_ACCESS_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_CLOUD_LOGICALCONNECTION_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_CLOUD_SERVICE_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_CLOUD_SERVICE_AND_ACCESS_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CLOUD_SERVICE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_GROUP_CLOUD_SERVICES_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_GROUP_CLOUD_SERVICES_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GRP_CLOUD_SERVICES</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_GROUP_PER_CLOUD_ACCESS_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_GROUP_CLOUD_SERVICES_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GRP_CLOUD_ACCESS</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GRP_CLOUD_SERVICES</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_GROUP_PER_CLOUD_ACCESS_BAR_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_GROUP_CLOUD_SERVICES_BAR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>GRP_CLOUD_ACCESS</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_ACCESS_CURVE_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_ACCESS_CURVE_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_LOGICALCONNECTION_BAR_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_ACCESS_BAR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_LOGICALCONNECTION_CURVE_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_ACCESS_CURVE_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION_CLOUD</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E_AS_HYPERLINK">
+        <indicatorId>VOLUMETRY_PER_CLOUD_SERVICE_BAR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_GALLERY_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>CLOUD_SERVICE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_ACCESS_IBR_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_IBR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>ACCESS</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_INTERFACE_IBR_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_IBR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>INTERFACE</paramTypeAlias>
+    </hyperlink>
+    <hyperlink label="LOADRATE_LOGICAL_IBR_E2E_AS_HYPERLINK">
+        <indicatorId>LOADRATE_IBR_E2E</indicatorId>
+        <offerOptionAlias>IPER_E2E_IP_BANDWIDTH_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>LOGICALCONNECTION</paramTypeAlias>
+    </hyperlink>        
+    <hyperlink label="OSM_FDJ_PE_STAT_DDC_HYPERLINK">
+        <indicatorId>OSM_FDJ_PE_STAT_DDC</indicatorId>
+        <offerOptionAlias>OSM_FDJ_IP_INTERACTIVE</offerOptionAlias>
+        <paramTypeAlias>EQUIPMENT</paramTypeAlias>
+    </hyperlink>
+</listHyperlink>

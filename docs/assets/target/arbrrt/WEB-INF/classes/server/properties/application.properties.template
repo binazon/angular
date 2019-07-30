@@ -1,0 +1,22 @@
+HELP_URL=http://10.238.35.83/wiki-customer/index.php/HELP:OpenDashboard:
+WATCH_PROVISIONING_FILES_PERIOD=300
+
+# Enable/Disable hash mode (hash data directory)
+HASH=${common_hash}
+
+# GRAPH CACH POLICY : 
+# NO - for no graph object in memory
+# NORMAL - graph objects are regulary garbage
+# IN_MEMORY - graph is entirely cached at creation
+GRAPH_CACHE_POLICY=NO;
+
+# H2 options used to connect on h2 database
+H2_FILE_OPTIONS=;MAX_COMPACT_TIME=1000;LOCK_TIMEOUT=10000;CACHE_SIZE=65526;QUERY_CACHE_SIZE=16;CACHE_TYPE=TQ;EARLY_FILTER=1;MAX_LOG_SIZE=32
+H2_MEMORY_OPTIONS=;CACHE_SIZE=65526;QUERY_CACHE_SIZE=16;CACHE_TYPE=TQ;EARLY_FILTER=1
+
+JDBC_PROVISIONING_FETCH_SIZE=1000
+
+# Number of thread used to calculate group partitions status (one thread by reporting group to get data from Mysql). 
+GROUP_PARTITIONS_STATUS_THREADS_NUMBER=10
+# Number of insert to send batched when calculating group partitions status
+GROUP_PARTITIONS_STATUS_BATCH_SIZE=1000

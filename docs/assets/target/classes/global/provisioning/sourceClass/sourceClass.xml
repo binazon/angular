@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listSourceClass>
+    <sourceClass sourceClass="CTXCDRSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="CTXMTGSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="GKSMPSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="NETFLOWSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="OVPSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="PCSNMPSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="PKFALESource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="RadcomSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="SNMPSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="KPIBOXSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="VIDEOSFTPSource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="WADESource">
+        <listReportInput/>
+    </sourceClass>
+    <sourceClass sourceClass="CCASPSource">
+        <listReportInput/>
+    </sourceClass>
+</listSourceClass>

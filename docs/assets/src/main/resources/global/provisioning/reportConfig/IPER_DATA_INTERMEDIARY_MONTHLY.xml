@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_217_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_217" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_ACCESS_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_246.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_227_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_217_1" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="SWITCH_PORT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_SWITCH_PORT_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_227.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_275_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_275" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_EQUIPMENT_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_286.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_321_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_306" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_EQUIPMENT_COS_TYPE0_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_317.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_345_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_345" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ACCESS"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_ACCESS_COS_TYPE0_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_340.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1201_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_1201" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="ATM"/>
+            <paramType alias="VLAN"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>GLOBAL_TRAFFIC_INDIC_ATMVLAN_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1201.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1316_IPDT" type="CASSANDRA" reportVersion="V1_0" reportRefId="REPORT_1316" computeScope="PARTITION" optional="false">
+        <listParamType>
+            <paramType alias="COSTYPE0"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>CASSANDRA</type>
+            <format>YEAR_MONTHLY</format>
+            <locationPatternPrefix></locationPatternPrefix>
+            <locationPatternSuffix>COS_TYPE0_MONTHLY_{STATGROUP_LOCATION}_{MOUNT}</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1316.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

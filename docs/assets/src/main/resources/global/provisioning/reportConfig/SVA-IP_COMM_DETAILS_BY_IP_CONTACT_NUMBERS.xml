@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+	<reportConfig alias="REPORTCONFIG_488" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_488" computeScope="ENTITY" optional="false">
+		 <listParamType>
+			<paramType alias="GKSAN"/>
+		</listParamType>
+		<listIndicator/>
+		<reportOutput>
+			<type>TEMPLATE</type>
+			<format>csv</format>
+			<locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+			<locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_{MOUNT}_IP_Contact_Numbers_Communication_Details_{START_YYMMDD}.csv</locationPatternSuffix>
+			<uri>global/configuration/arbopr/output/V1_0/REPORT_488.xml</uri>
+		</reportOutput>
+		<criteria type="default" value="DI"/>
+	</reportConfig>
+</listReportConfig>

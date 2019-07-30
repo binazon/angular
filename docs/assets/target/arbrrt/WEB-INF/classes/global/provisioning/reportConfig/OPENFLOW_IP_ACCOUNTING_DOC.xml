@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+	<reportConfig alias="REPORTCONFIG_1154" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1154" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/disclaimer_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1154.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+	<reportConfig alias="REPORTCONFIG_1100" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1100" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_campaign_summary_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1100.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1101" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1101" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_LAN_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1101.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1102" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1102" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_sources_bytes_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1102.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1103" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1103" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_sources_packets_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1103.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1104" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1104" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_LAN_sources_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1104.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1105" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1105" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_WAN_sources_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1105.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1106" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1106" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_destination_bytes_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1106.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1107" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1107" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_destination_packets_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1107.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1108" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1108" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_WAN_destinations_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1108.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1109" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1109" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_couples_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1109.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1110" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1110" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_couples_bytes_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1110.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1111" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1111" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_couples_packets_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1111.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1112" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1112" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_top_10_LAN_destination_bytes_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1112.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1113" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1113" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_monologues_table_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1113.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1114" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1114" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_global_volume_chart_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1114.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1115" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1115" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>doc</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/IP_accounting_repeatability_on_flows_{CAMPAIGN_ID}.doc</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1115.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+    <reportConfig alias="REPORTCONFIG_1116" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_1116" computeScope="ENTITY" optional="false">
+        <listParamType>
+            <paramType alias="ROUTER"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>TEMPLATE</type>
+            <format>csv</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/raw_data_{CAMPAIGN_ID}.csv</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_1116.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>

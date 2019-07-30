@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>0</columnName>
+        <alias>COL0</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>1</columnName>
+        <alias>COL1</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>2</columnName>
+        <alias>COL2</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     DURATIONSAMPLINGPERIOD -->
+    <inputColumn>
+        <columnName>3</columnName>
+        <alias>COL3</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     MODULETABLESIZE -->
+    <inputColumn>
+        <columnName>4</columnName>
+        <alias>COL4</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     BOARDNUMLIST / identifier -->
+    <inputColumn>
+        <columnName>5</columnName>
+        <alias>COL5</alias>
+        <dataFormat>VARCHAR</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     BOARDCODELIST / code that defined the type of board -->
+    <inputColumn>
+        <columnName>6</columnName>
+        <alias>COL6</alias>
+        <dataFormat>VARCHAR</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>7</columnName>
+        <alias>COL7</alias>
+        <dataFormat>VARCHAR</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     VINTAGELIST / Vintage of the board -->
+    <inputColumn>
+        <columnName>8</columnName>
+        <alias>COL8</alias>
+        <dataFormat>VARCHAR</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+<!--     BOARDTYPELIST / description of the type of board -->
+    <inputColumn>
+        <columnName>9</columnName>
+        <alias>COL9</alias>
+        <dataFormat>VARCHAR</dataFormat>
+        <comments><![CDATA[]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

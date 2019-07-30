@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>periodNumber</alias>
+        <dataFormat>int</dataFormat>
+        <comments><![CDATA[
+				Number of elementary period in the day. This number starts from 0.
+For example, if the duration of elementary period specified in the name of the file is 1800 seconds, then the elementary period number is in the interval [0, 47].
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>averageNumberOfConcurrentCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Average number of simultaneous conversations during the elementary period. Simultaneity is evaluated per second. Conversations taken into account are those that started during the day.
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>maxNumberOfConcurrentCalls</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Maximum number of simultaneous conversations during the elementary period. 
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>dateOfMax</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Date of the first peak of simultaneous conversations. 
+The format of this date is : YYYY-MM-DD hh:mm:ss
+Example: "2006-10-02 10:18:05"
+				
+				]]></comments>
+        <type>DATA</type>
+    </inputColumn>
+</listInputColumn>

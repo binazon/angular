@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listInputColumn>
+    <inputColumn>
+        <columnName>c0</columnName>
+        <alias>entityId</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				EntityId
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c1</columnName>
+        <alias>parentid</alias>
+        <dataFormat>VARCHAR(255)</dataFormat>
+        <comments><![CDATA[
+				Parent
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c2</columnName>
+        <alias>date</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				Date
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c3</columnName>
+        <alias>sum_duration_period_total</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sumDurationPeriodTotal
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c4</columnName>
+        <alias>sum_bytes_dropped_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_dropped_emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c5</columnName>
+        <alias>sum_bytes_dropped_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_dropped_reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c6</columnName>
+        <alias>sum_flow_reception</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum_flow_reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c7</columnName>
+        <alias>sum_bytes_reception</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_reception
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c8</columnName>
+        <alias>flow_reception_max</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				flow_reception_max
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c9</columnName>
+        <alias>flow_reception_maxDuration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				flow_reception_maxDuration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c10</columnName>
+        <alias>flow_reception_maxTimestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				flow_reception_maxTimestamp
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+   <inputColumn>
+        <columnName>c11</columnName>
+        <alias>flow_reception_sum_low</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the flows for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c12</columnName>
+        <alias>flow_reception_numberPeriod_low</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of periods for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>c13</columnName>
+        <alias>flow_reception_sumDuration_low</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sum of the durations for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c14</columnName>
+        <alias>flow_reception_sumSquared_low</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				 sum of the squared flows for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+   <inputColumn>
+        <columnName>c15</columnName>
+        <alias>flow_reception_sum_high</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the flows for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c16</columnName>
+        <alias>flow_reception_numberPeriod_high</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of periods for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>c17</columnName>
+        <alias>flow_reception_sumDuration_high</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sum of the durations for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c18</columnName>
+        <alias>flow_reception_sumSquared_high</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				 sum of the squared flows for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c19</columnName>
+        <alias>sum_flow_emission</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum_flow_emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c20</columnName>
+        <alias>sum_bytes_emission</alias>
+        <dataFormat>BIGINT</dataFormat>
+        <comments><![CDATA[
+				sum_bytes_emission
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c21</columnName>
+        <alias>flow_emission_max</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				flow_emission_max
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c22</columnName>
+        <alias>flow_emission_maxDuration</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				flow_emission_maxDuration
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c23</columnName>
+        <alias>flow_emission_maxTimestamp</alias>
+        <dataFormat>TIMESTAMP</dataFormat>
+        <comments><![CDATA[
+				flow_emission_maxTimestamp
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+   <inputColumn>
+        <columnName>c24</columnName>
+        <alias>flow_emission_sum_low</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the flows for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c25</columnName>
+        <alias>flow_emission_numberPeriod_low</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of periods for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>c26</columnName>
+        <alias>flow_emission_sumDuration_low</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sum of the durations for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c27</columnName>
+        <alias>flow_emission_sumSquared_low</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				 sum of the squared flows for which the flow has overreached the low threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+   <inputColumn>
+        <columnName>c28</columnName>
+        <alias>flow_emission_sum_high</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				sum of the flows for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c29</columnName>
+        <alias>flow_emission_numberPeriod_high</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				number of periods for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+     <inputColumn>
+        <columnName>c30</columnName>
+        <alias>flow_emission_sumDuration_high</alias>
+        <dataFormat>INT</dataFormat>
+        <comments><![CDATA[
+				sum of the durations for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+    <inputColumn>
+        <columnName>c31</columnName>
+        <alias>flow_emission_sumSquared_high</alias>
+        <dataFormat>DOUBLE</dataFormat>
+        <comments><![CDATA[
+				 sum of the squared flows for which the flow has overreached the high threshold
+				
+				]]></comments>
+        <type>H2</type>
+    </inputColumn>
+</listInputColumn>

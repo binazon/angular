@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exportEntities>
+	<entity type="EQUIPMENT" />
+    <entity type="PHYSICALCONNECTION" />
+    <entity type="LOGICALCONNECTION" />
+    <entity type="SITE" origin="SCE" />
+    <entity type="SITE" subtype="VIDEO_SITE"/>
+    <entity type="ZONE" />
+    <entity type="MEASURE" />
+    <entity type="COS" />
+    <entity type="PATH" />
+    <entity type="VPN" />
+    <entity type="TERMINAL" />
+    <entity type="VIRTUALROOM" />
+    <entity type="COUNTRY" />
+    <entity type="CITY" />
+    <entity type="VIDEO_ENTITY" />
+</exportEntities>

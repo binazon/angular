@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listReportConfig>
+    <reportConfig alias="REPORTCONFIG_E2E_BATCH_IPBW" type="TEMPLATE" reportVersion="V1_0" reportRefId="REPORT_MULTI_E2E_BATCH_IPBW" computeScope="REPORTING_GROUP" optional="false">
+        <listParamType>
+            <paramType alias="EQUIPMENT"/>
+        </listParamType>
+        <listIndicator/>
+        <reportOutput>
+            <type>SPLIT_TEMPLATE</type>
+            <format>xlsx</format>
+            <locationPatternPrefix>{ROOT}/{STATGROUP_FOLDER}</locationPatternPrefix>
+            <locationPatternSuffix>{STATGROUP_LOCATION}_{MOUNT}/{STATGROUP_DATA_FOLDER}/{STATGROUP_LOCATION}_*_IPBW_Utilization_{START_YYMM}.xlsx</locationPatternSuffix>
+            <uri>global/configuration/arbopr/output/{version}/REPORT_MULTI_E2E_BATCH_IPBW.xml</uri>
+        </reportOutput>
+        <criteria type="reportingGroup" value="REPORTINGGROUPREF"/>
+    </reportConfig>
+</listReportConfig>
